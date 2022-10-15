@@ -1,11 +1,9 @@
-# Hello bookdown 
+# Definitions
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+Here I'm going to include some discussion of the definitions that I use in this poster.
 
-## A section
+## Serial Verb Construction
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+## Intonation Unit
 
-### An unnumbered section {-}
-
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+## "One Intonation Unit" constraint

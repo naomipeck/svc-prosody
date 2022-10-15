@@ -1,12 +1,49 @@
-# Parts
+# Data
 
-You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file. 
 
-Add a numbered part: `# (PART) Act one {-}` (followed by `# A chapter`)
 
-Add an unnumbered part: `# (PART\*) Act one {-}` (followed by `# A chapter`)
+Here I'm going to include an overview of what data this poster is based on, including information about my coding.
 
-Add an appendix as a special kind of un-numbered part: `# (APPENDIX) Other stuff {-}` (followed by `# A chapter`). Chapters in an appendix are prepended with letters instead of numbers.
+## Aimele
+### Details
+Glottocode: aime1238 <br> 
+Family: Aimele <br>
+Macroarea: Papunesia
 
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> "A complex predicate prototypically has a single argument structure, a single intonational contour, and a single value of polarity, tense, aspect, mood, modality, and evidentiality for the entire complex predicate construction." 
+@aiton2016, 199
+
+(@aimele1) Aiton 2016:200, example 27
+<!-- # ```{r, echo=FALSE} -->
+<!-- # gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!-- #               glosses = "downward NAME-DAT shout say-PST", -->
+<!-- #               free_translation = "I shouted it down to Solo:bu.") -->
+<!-- # ``` -->
+
+> "Neither of the constituent verbs in the SVC in (27) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicatemarkers such as tense, aspect, mood, modality, and evidentiality."
+p.201
+
+(@aimele2) Aiton 2016:201, example 30
+<!-- # ```{r, echo=FALSE} -->
+<!-- #  -->
+<!-- # gloss_example(transliteration = "nE: ti:PHE: o:ga: E-ja: o:gE: di a:nE:", -->
+<!-- #               glosses = "1:SG afterwards pandanus seedling-ABS carry_in_bilum take go:PST", -->
+<!-- #               free_translation = "I went after him, taking the pandanus seeds in a bilum.") -->
+<!-- # ``` -->
+
+(@aimele3) Aiton 2016:201, example 31
+<!-- # ```{r, echo=FALSE} -->
+<!-- # gloss_example(transliteration = "sugu:lu: Ena: hEna: do:ga: dijE:=bi: kEi", -->
+<!-- #               glosses = "school that:ABS go house:ABS build=DEL.IMP ASSER", -->
+<!-- #               free_translation = "Go build that building for the school!") -->
+<!-- # ``` -->
+
+> "However, if a non-initial component verb which has a direct object which is not shared by a preceding intransitive verb, the object precedes the transitive verb rather than preceding the entire serial verb construction, as seen in (@aimele3)."
+@aiton2016, 201
 
 
