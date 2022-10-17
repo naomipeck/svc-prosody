@@ -28,7 +28,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 <!-- #               free_translation = "I shouted it down to Solo:bu.") -->
 <!-- # ``` -->
 
-> "Neither of the constituent verbs in the SVC in (27) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicatemarkers such as tense, aspect, mood, modality, and evidentiality."
+> "Neither of the constituent verbs in the SVC in (27) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality."
 p.201
 
 (@aimele2) Aiton 2016:201, example 30

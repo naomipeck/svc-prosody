@@ -1,4 +1,4 @@
-# Rationale
+# Background
 
 Here I'm going to write something about why I'm doing this study.
 

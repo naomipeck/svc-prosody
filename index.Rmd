@@ -28,7 +28,6 @@ Initial evidence suggests that we cannot claim that all SVCs are IU-bounded. Him
 
 It has been recognised for a while that the label of serial verb construction is used as an umbrella term for many different constructional subtypes (Foley 2010). My empirical investigation of the prosody of serial verb constructions shows similarly that the “single IU constraint” is not one-size-fits-all. 
 
-## References {-}
 Foley, William A. 2010. Events and serial verb constructions. In Mengistu Amberber, Brett Baker & Mark Harvey (eds.), Complex Predicates, 79–109. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9780511712234.005.
 
 Givón, Talmy. 1991. Some substantive issues concerning verb serialization: grammatical vs. cognitive packaging. In Claire Lefebvre (ed.), Serial Verbs: Grammatical, Comparative and Cognitive Approaches, 137–184. Amsterdam: John Benjamins.
