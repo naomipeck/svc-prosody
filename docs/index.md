@@ -1,9 +1,12 @@
 --- 
 title: "Is there a \"One Intonation Unit\" constraint for serial verb constructions?"
 author: "Naomi Peck"
-date: "2022-10-17"
+date: "2022-10-25"
 site: bookdown::bookdown_site
 documentclass: book
+output:
+  bookdown::gitbook:
+    split_bib: false
 bibliography: [book.bib, packages.bib, references.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
