@@ -17,29 +17,46 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 > Citation [@kamil2015]
 
-(@afar1) Aiton 2016:200, example 27
+(@afar1) @kamil2015, 291, example 907
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _taamiit_ </td>
+   <td style="text-align:left;"> _-íyye_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> work.<span style="font-variant:small-caps;">dim</span> </td>
+   <td style="text-align:left;"> say.<span style="font-variant:small-caps;">3m</span>.<span style="font-variant:small-caps;">pfv</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'He worked a little.'</td></tr></tfoot>
 </table>
 
+(@afar2) @kamil2015, 292, example 909
 
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
 
-
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _boddiná_ </td>
+   <td style="text-align:left;"> _muku&lt;U+0256&gt;_ </td>
+   <td style="text-align:left;"> _-ítta_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tooth </td>
+   <td style="text-align:left;"> wobble </td>
+   <td style="text-align:left;"> say.<span style="font-variant:small-caps;">3f</span>.<span style="font-variant:small-caps;">ipfv</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The tooth moves.'</td></tr></tfoot>
+</table>
 
 ## Aimele
 ### Details
@@ -50,85 +67,132 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+> Neither of the constituent verbs in the SVC in (@aimele1) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality. 
+[@aiton2016, 201]
+
 ### Examples
 
-> "A complex predicate prototypically has a single argument structure, a single intonational contour, and a single value of polarity, tense, aspect, mood, modality, and evidentiality for the entire complex predicate construction." 
-@aiton2016, 199
+(@aimele1) @aiton2016, 200, example 27
 
-(@aimele1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
 
-> "Neither of the constituent verbs in the SVC in (27) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality."
-p.201
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _koodulu_ </td>
+##    <td style="text-align:left;"> _suloobo_ </td>
+##    <td style="text-align:left;"> _-moo_ </td>
+##    <td style="text-align:left;"> _w&lt;U+025B&gt;l&lt;U+025B&gt;_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> downward </td>
+##    <td style="text-align:left;"> NAME </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">dat</span> </td>
+##    <td style="text-align:left;"> shout </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _s&lt;U+025B&gt;&lt;U+025B&gt;_ </td>
+##    <td style="text-align:left;"> _-jaa_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> say </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">pst</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'I shouted it down to Soloobu.'</td></tr></tfoot>
+## </table>
+```
 
-(@aimele2) Aiton 2016:201, example 30
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _nE:_ </td>
-   <td style="text-align:left;"> _ti:PHE:_ </td>
-   <td style="text-align:left;"> _o:ga:_ </td>
-   <td style="text-align:left;"> _E-ja:_ </td>
-   <td style="text-align:left;"> _o:gE:_ </td>
-   <td style="text-align:left;"> _di_ </td>
-   <td style="text-align:left;"> _a:nE:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>:<span style="font-variant:small-caps;">sg</span> </td>
-   <td style="text-align:left;"> afterwards </td>
-   <td style="text-align:left;"> pandanus </td>
-   <td style="text-align:left;"> seedling-<span style="font-variant:small-caps;">abs</span> </td>
-   <td style="text-align:left;"> carry_in_bilum </td>
-   <td style="text-align:left;"> take </td>
-   <td style="text-align:left;"> go:<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I went after him, taking the pandanus seeds in a bilum.'</td></tr></tfoot>
-</table>
+(@aimele2) @aiton2016, 201, example 30
 
-(@aimele3) Aiton 2016:201, example 31
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _sugu:lu:_ </td>
-   <td style="text-align:left;"> _Ena:_ </td>
-   <td style="text-align:left;"> _hEna:_ </td>
-   <td style="text-align:left;"> _do:ga:_ </td>
-   <td style="text-align:left;"> _dijE:=bi:_ </td>
-   <td style="text-align:left;"> _kEi_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> school </td>
-   <td style="text-align:left;"> that:<span style="font-variant:small-caps;">abs</span> </td>
-   <td style="text-align:left;"> go </td>
-   <td style="text-align:left;"> house:<span style="font-variant:small-caps;">abs</span> </td>
-   <td style="text-align:left;"> build=<span style="font-variant:small-caps;">del</span>.<span style="font-variant:small-caps;">imp</span> </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">asser</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'Go build that building for the school!'</td></tr></tfoot>
-</table>
-> "However, if a non-initial component verb which has a direct object which is not shared by a preceding intransitive verb, the object precedes the transitive verb rather than preceding the entire serial verb construction, as seen in (@aimele3)."
-@aiton2016, 201
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _n&lt;U+025B&gt;:_ </td>
+##    <td style="text-align:left;"> _ti:&lt;U+0278&gt;&lt;U+025B&gt;:_ </td>
+##    <td style="text-align:left;"> _o:ga:_ </td>
+##    <td style="text-align:left;"> _&lt;U+025B&gt;ja:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>:<span style="font-variant:small-caps;">sg</span> </td>
+##    <td style="text-align:left;"> afterwards </td>
+##    <td style="text-align:left;"> pandanus </td>
+##    <td style="text-align:left;"> seedling:<span style="font-variant:small-caps;">abs</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _o:g&lt;U+025B&gt;:_ </td>
+##    <td style="text-align:left;"> _di_ </td>
+##    <td style="text-align:left;"> _a:n&lt;U+025B&gt;:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> carry_in_bilum </td>
+##    <td style="text-align:left;"> take </td>
+##    <td style="text-align:left;"> go:<span style="font-variant:small-caps;">pst</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'I went after him, taking the pandanus seeds in a bilum.'</td></tr></tfoot>
+## </table>
+```
+
+(@aimele3) @aiton2016, 201, example 31
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _sugu:lu:_ </td>
+##    <td style="text-align:left;"> _&lt;U+025B&gt;na:_ </td>
+##    <td style="text-align:left;"> _h&lt;U+025B&gt;na:_ </td>
+##    <td style="text-align:left;"> _do:ga:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> school </td>
+##    <td style="text-align:left;"> that:<span style="font-variant:small-caps;">abs</span> </td>
+##    <td style="text-align:left;"> go </td>
+##    <td style="text-align:left;"> house:<span style="font-variant:small-caps;">abs</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _dij&lt;U+025B&gt;:=bi:_ </td>
+##    <td style="text-align:left;"> _k&lt;U+025B&gt;i_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> build=<span style="font-variant:small-caps;">imp</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">asser</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'Go build that building for the school!'</td></tr></tfoot>
+## </table>
+```
 
 ## Ami
 ### Details
@@ -139,32 +203,47 @@ Macroarea: Australia
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
+> Phonological liaison occurs between the two verbs... There are grounds here for proposing that each serial construction constitutes a single phonological conglomerate. There is no pause between the VPs and the single intonation contour points to their constituting a single clause. [@ford1998, 316]
+
 ### Examples
 
-> Citation [@ford1998, 315-328]
-
-(@ami1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+(@ami1) @ford1998, 316, example 8-54
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _gama_ </td>
+   <td style="text-align:left;"> _vulhut_ </td>
+   <td style="text-align:left;"> _gama_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>.<span style="font-variant:small-caps;">s</span>.<span style="font-variant:small-caps;">r</span>.stand </td>
+   <td style="text-align:left;"> beeswax </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>.<span style="font-variant:small-caps;">s</span>.<span style="font-variant:small-caps;">r</span>.stand </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> ['kama&lt;U+0278&gt;`&lt;U+028A&gt;l&lt;U+032A&gt;&lt;U+028A&gt;kàma]</td></tr></tfoot>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The beeswax is standing up.'</td></tr></tfoot>
 </table>
 
-
-
+(@ami2) @ford1998, 316, example 8-55
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _guman-pitji_ </td>
+   <td style="text-align:left;"> _gaya_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>.<span style="font-variant:small-caps;">a</span>.<span style="font-variant:small-caps;">r</span>.poke-roll </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>.<span style="font-variant:small-caps;">s</span>.<span style="font-variant:small-caps;">r</span>.lie </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> ['k&lt;U+028A&gt;manp`&lt;U+026A&gt;c&lt;U+026A&gt;&lt;U+0263&gt;àja]</td></tr></tfoot>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He is still making fire.'</td></tr></tfoot>
+</table>
 
 
 ## Ashéninka Perené
@@ -176,31 +255,75 @@ Macroarea: South American
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
+> Serialized predicates do not have more than two verbs in a verb sequence which are fully inflected grammatical and phonological words, capable of being integrated into discourse. There is no pause separating the verbs from each other... the serialized verbs are independent phonological words, each inflected for person, aspect, realis status, and mode. [@mihas2015, 163]
+
 ### Examples
 
 > Citation [@mihas2015, 159, 163-172]
 
-(@asheninka1) Aiton 2016:200, example 27
+(@asheninka1) @mihas2015, 165, example 6.13.b
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _o-_ </td>
+   <td style="text-align:left;"> _ja_ </td>
+   <td style="text-align:left;"> _-t_ </td>
+   <td style="text-align:left;"> _-atz_ </td>
+   <td style="text-align:left;"> _-i_ </td>
+   <td style="text-align:left;"> _o-_ </td>
+   <td style="text-align:left;"> _shimaa_ </td>
+   <td style="text-align:left;"> _-t_ </td>
+   <td style="text-align:left;"> _-a_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3nm</span>.<span style="font-variant:small-caps;">s</span> </td>
+   <td style="text-align:left;"> go </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">ep</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prog</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">real</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3nm</span>.<span style="font-variant:small-caps;">s</span> </td>
+   <td style="text-align:left;"> fish </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">ep</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">real</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'She went to fish.'</td></tr></tfoot>
 </table>
 
-
+(@asheninka2) @mihas2015, 168, example 6.19.b
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _p-_ </td>
+   <td style="text-align:left;"> _aako_ </td>
+   <td style="text-align:left;"> _-t_ </td>
+   <td style="text-align:left;"> _-ashi_ </td>
+   <td style="text-align:left;"> _-t_ </td>
+   <td style="text-align:left;"> _-a_ </td>
+   <td style="text-align:left;"> _pi-_ </td>
+   <td style="text-align:left;"> _ma_ </td>
+   <td style="text-align:left;"> _-atz_ </td>
+   <td style="text-align:left;"> _-i_ </td>
+   <td style="text-align:left;"> _-tsi_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2s</span> </td>
+   <td style="text-align:left;"> overtake </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">ep</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">apl</span>.<span style="font-variant:small-caps;">int</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">ep</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">real</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2s</span> </td>
+   <td style="text-align:left;"> sleep </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prog</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">real</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">neg</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Don't stay asleep.'</td></tr></tfoot>
+</table>
 
 
 
@@ -213,28 +336,28 @@ Macroarea: South America
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
+> Finite verbs with possible person cross-reference on the verb, as in Baure, may also occur in serial verb constructions. ... The coordination of predicates is identical with the coordination of clauses without connector. Serial verb constructions, on the other hand, are a number of verbs that are uttered in one clause. In Baure the two categories seem pretty well distinguishable... [@danielsen2007, 427]
+
 ### Examples
 
-> Citation [@danielsen2007, 415, 427ff.]
-
-(@baure1) Aiton 2016:200, example 27
+(@baure1) @danielsen2007, 428, example 144
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> *rokacpow* </td>
+   <td style="text-align:left;"> *ropinop* </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> _ro=kac-po-wo_ </td>
+   <td style="text-align:left;"> _ro=pino-po_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">m</span>=go-<span style="font-variant:small-caps;">prflx</span>-<span style="font-variant:small-caps;">cop</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">m</span>=flee-<span style="font-variant:small-caps;">prflx</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'he (went away and) fled'</td></tr></tfoot>
 </table>
 
 
@@ -250,32 +373,72 @@ Macroarea: Australia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1?
 
+> [Serial verbs] occur in a single intonation contour (although there are also examples with breaks, and examples where intonation units and syntactic units are not isomorphic). 
+[@bowern2013, 663-664]
+
+> A further piece of evidence shows that these clauses are joined in a single higher structure rather than chained without embedding. It is possible to extract constituents from a lower clause into a higher clause. If the clauses are conjoined, this should not be possible, since conjunction is a strong barrier to extraction...
+[@bowern2013, 664-665]
+
 ### Examples
 
-> Citation [@bowern2013, 663-665]
-
-(@bardi1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+(@bardi1) @bowern2013, 663, example 16.64
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> Ginyinggon </td>
+   <td style="text-align:left;"> roowil </td>
+   <td style="text-align:left;"> innyana </td>
+   <td style="text-align:left;"> Ngarrigoonbooroo </td>
+   <td style="text-align:left;"> baalingan </td>
+   <td style="text-align:left;"> darr </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> _Ginyinggon_ </td>
+   <td style="text-align:left;"> _roowil_ </td>
+   <td style="text-align:left;"> _i-n-nya-na_ </td>
+   <td style="text-align:left;"> _Ngarrigoonbooroo_ </td>
+   <td style="text-align:left;"> _baali-ngan_ </td>
+   <td style="text-align:left;"> _darr_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> then </td>
+   <td style="text-align:left;"> walk </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>-<span style="font-variant:small-caps;">tr</span>-catch-<span style="font-variant:small-caps;">rem</span>.<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> NAME </td>
+   <td style="text-align:left;"> shade-<span style="font-variant:small-caps;">all</span> </td>
+   <td style="text-align:left;"> come </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> inarnajirri </td>
+   <td style="text-align:left;"> niimana </td>
+   <td style="text-align:left;"> aamba </td>
+   <td style="text-align:left;"> agal </td>
+   <td style="text-align:left;"> ambooriny </td>
+   <td style="text-align:left;"> Ngoolbirndi. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> _i-n-ar-na=jirri_ </td>
+   <td style="text-align:left;"> _niimana_ </td>
+   <td style="text-align:left;"> _aamba_ </td>
+   <td style="text-align:left;"> _agal_ </td>
+   <td style="text-align:left;"> _ambooriny_ </td>
+   <td style="text-align:left;"> _Ngoolbirndi._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>-<span style="font-variant:small-caps;">tr</span>-spear-<span style="font-variant:small-caps;">rem</span>.<span style="font-variant:small-caps;">pst</span>=<span style="font-variant:small-caps;">3aug</span>.<span style="font-variant:small-caps;">io</span> </td>
+   <td style="text-align:left;"> many </td>
+   <td style="text-align:left;"> men </td>
+   <td style="text-align:left;"> and </td>
+   <td style="text-align:left;"> people </td>
+   <td style="text-align:left;"> NAME </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'Then Ngarrigoonbooroo walked to her camp and came across many people at Ngoolbirndi.'</td></tr></tfoot>
 </table>
-
-
-
 
 
 ## Burmese
@@ -287,31 +450,112 @@ Macroarea: Eurasian
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
+> The sentence in (@burmese1) contains two verbs that are separated by the object of the second one, i.e. ‘hand’ [lɛʔ]. As suggested by the translation, we have here two clauses that are chained and not subordinated as in the previous example, while example (@burmese2) illustrated a SVC. Actually, in this sentence, the object of the second verb, i.e. ‘words’ [zəKa3], precedes the string of verbs, which suggests that the two verbs are closely associated syntactically. [@vittrant2012, 106]
+
+> Vittrant (2006: 309): “Une construction de verbes en série (CVS) est une séquence de verbes qui ne sont syntaxiquement ni coordonnés ni subordonnés. Elle a d’autre part, la forme de surface d’un syntagme verbal unique.” [@vittrant2012, 106 footnote 9]
+
+Translation: A serial verb construction is a sequence of verbes which are neither coordinated nor subordinated syntactically. It has, on the other hand, the surface form of a single verb phrase.
+
+
 ### Examples
 
-> Citation [@vittrant2012]
 
-(@burmese1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
+(@burmese1) @vittrant2012, 107, example 5
 
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
 
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _p&lt;U+0259&gt;Kan^3^_ </td>
+##    <td style="text-align:left;"> _th&lt;U+025B&gt;^3^_ </td>
+##    <td style="text-align:left;"> _ye^2^_ </td>
+##    <td style="text-align:left;"> _th&lt;U+025B&gt;^1^_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> plate </td>
+##    <td style="text-align:left;"> inside </td>
+##    <td style="text-align:left;"> water </td>
+##    <td style="text-align:left;"> put </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _l&lt;U+025B&gt;&lt;U+0294&gt;_ </td>
+##    <td style="text-align:left;"> _she^2^=Pi^3^_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> hand </td>
+##    <td style="text-align:left;"> wash=<span style="font-variant:small-caps;">sub</span>.<span style="font-variant:small-caps;">tps</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> '... after having poured water into the plate and having washed his hands...'</td></tr></tfoot>
+## </table>
+```
+
+(@burmese2) @vittrant2012, 107, example 6
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _&lt;U+03B8&gt;iN^2^b&lt;U+0254&gt;^1^_ </td>
+##    <td style="text-align:left;"> _p&lt;U+0254&gt;^2^_ </td>
+##    <td style="text-align:left;"> _=Ma^2^_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> boat </td>
+##    <td style="text-align:left;"> on </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">loc</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _&lt;U+03B8&gt;iN^2^b&lt;U+0254&gt;^1^_ </td>
+##    <td style="text-align:left;"> _p&lt;U+0254&gt;^2^_ </td>
+##    <td style="text-align:left;"> _=Ma^2^_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> boat </td>
+##    <td style="text-align:left;"> on </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">loc</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _z&lt;U+0259&gt;Ka^3^_ </td>
+##    <td style="text-align:left;"> _la^2^_ </td>
+##    <td style="text-align:left;"> _py&lt;U+0254&gt;^3^_ </td>
+##    <td style="text-align:left;"> _=T&lt;U+025B&gt;^2^_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> word </td>
+##    <td style="text-align:left;"> come </td>
+##    <td style="text-align:left;"> say </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">real</span>.<span style="font-variant:small-caps;">ass</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> Lit. ...she came to tell me some words.</td></tr></tfoot>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'On the boat, on the boat, (she) came to me to talk.'</td></tr></tfoot>
+## </table>
+```
 
 
 
@@ -319,34 +563,88 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Details
 Glottocode: bulo1242 <br> 
 Family: Austroasiatic <br>
-Macroarea:Eurasia
+Macroarea: Eurasia
 
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
+> Parmi ces critères [pour les CVS] - variables d'une langue à l'autre - les suivants ont été retenus pour être appliqués au stieng:
+- le critère prosodique permettant de distinguer une CVS d'une concaténation de propositions... [@bon2014, 503]
+
+Translation: Amongst the criteria [for SVCs] - which vary from language to language - the following have been retained for application to Stieng:
+- the prosodic criterion which allows us to distinguish a SVC from a concatenation of clauses...
+
 ### Examples
 
-> Citation [@bon2014, 503-506]
+> Dans l'example suivant (@bulo1), la séquence [sədiaŋ-dʔuar ɡɔk lot-kətaːŋ ʔuː rənaːp-rəsɨː] constitue un premier groupe de soufle, avec une prosodie montante. La séquence [ɓɑt joːh-ndiaŋ] constitue quant à elle un second groupe de souffle avec une intonation descendante. Ainsi, il est possible d'identifier les verbs *ɡɔk* 'ê.assis' *lot-kətaːŋ* 'ê.assis.à.genoux' comme faisant partie d'une série verbale au sein d'une même proposition; et *ɓɑt* 'plier' comme tête de la proposition suivant.
+[@bon2014, 504-505]
 
-(@bulo1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
+Translation: In the following example (@bulo1), the sequence [sədiaŋ-dʔuar ɡɔk lot-kətaːŋ ʔuː rənaːp-rəsɨː] constitutes the first breath group with a rising contour. The sequence [ɓɑt joːh-ndiaŋ] in turn constitutes a second breath group with a falling intonation. Thus, it is possible to identify the verbs *ɡɔk* 'sit' *lot-kətaːŋ* 'kneel' as forming a serial verb construction within a single clause, and *ɓɑt* 'fold' as the head of the following clause.
+
+(@bulo1) @bon2014, 505, example 839
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _s&lt;U+0259&gt;dia&lt;U+014B&gt;d&lt;U+0294&gt;uar_ </td>
+##    <td style="text-align:left;"> _g&lt;U+0254&gt;k_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> woman </td>
+##    <td style="text-align:left;"> sit </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _lotk&lt;U+0259&gt;ta&lt;U+02D0&gt;&lt;U+014B&gt;_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> kneel </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _&lt;U+0294&gt;u&lt;U+02D0&gt;_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> on </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _r&lt;U+0259&gt;na&lt;U+02D0&gt;pr&lt;U+0259&gt;s&lt;U+0268&gt;&lt;U+02D0&gt;_ </td>
+##    <td style="text-align:left;"> _(pause)_ </td>
+##    <td style="text-align:left;"> _&lt;U+0253&gt;&lt;U+0251&gt;t_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> bamboo.mat </td>
+##    <td style="text-align:left;"> (pause) </td>
+##    <td style="text-align:left;"> fold </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _jo&lt;U+02D0&gt;hndia&lt;U+014B&gt;_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> shirt </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'The woman is kneeling on a bamboo mat and folding a shirt.'</td></tr></tfoot>
+## </table>
+```
 
 
 
@@ -1248,26 +1546,30 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@brainardbehrens2002, 194-195]
-
-(@language1) Aiton 2016:200, example 27
+(@yakan1) @brainardbeerens2002, 195, example 881
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> Pitu </td>
+   <td style="text-align:left;"> ku </td>
+   <td style="text-align:left;"> ngakahan </td>
+   <td style="text-align:left;"> ka'u. </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> _pitu_ </td>
+   <td style="text-align:left;"> _ku_ </td>
+   <td style="text-align:left;"> _N-aka-an_ </td>
+   <td style="text-align:left;"> _ka'u_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> come </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">abs</span>.<span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">intr</span>-tell-<span style="font-variant:small-caps;">val</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">obl</span>.<span style="font-variant:small-caps;">2sg</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'I have come to tell you.'</td></tr></tfoot>
 </table>
 
 
@@ -1283,28 +1585,85 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
+> Most concatenations of verbs in Na fall into one of the following categories: verb phrases which belong to separate clauses but appear adjacently because their nominal arguments are not overt; a complement taking predicate with an adjacent infinitive-like verb; a verb with an aspect marker which has grammaticalized from a verb and thus has an isomorphic verb counterpart; or a resultative/cause-and-effect SVC. ... Symmetrical serial verb constructions tend to match Aktionsart marking on each verb. [@lidz2010, 396]
+
 ### Examples
 
-> Citation [@lidz2010, 396-406]
+(@yongningna1) @lidz2010, 397, example 566
 
-(@yongningna1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _t&lt;U+02B0&gt;i13_ </td>
+   <td style="text-align:left;"> _l&lt;U+0259&gt;33-_ </td>
+   <td style="text-align:left;"> _wæ33_ </td>
+   <td style="text-align:left;"> _z&lt;U+0254&gt;33_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> so </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">accomp</span>- </td>
+   <td style="text-align:left;"> call </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">csm</span> </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _t&lt;U+02B0&gt;&lt;U+026F&gt;33_ </td>
+   <td style="text-align:left;"> _&lt;U+0290&gt;&lt;U+026F&gt;33mi33_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> this </td>
+   <td style="text-align:left;"> hearth.room </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _t&lt;U+02B0&gt;&lt;U+026F&gt;33_ </td>
+   <td style="text-align:left;"> _l&lt;U+026F&gt;33_ </td>
+   <td style="text-align:left;"> _l&lt;U+0259&gt;33-_ </td>
+   <td style="text-align:left;"> _w&lt;U+0254&gt;13_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> this </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cls</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">accomp</span>- </td>
+   <td style="text-align:left;"> return </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _l&lt;U+0259&gt;33-_ </td>
+   <td style="text-align:left;"> _s&lt;U+0269&gt;31_ </td>
+   <td style="text-align:left;"> _l&lt;U+0259&gt;33-_ </td>
+   <td style="text-align:left;"> _y&lt;U+0254&gt;33_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">accomp</span>- </td>
+   <td style="text-align:left;"> live </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">accomp</span>- </td>
+   <td style="text-align:left;"> come </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _h&lt;U+026F&gt;33_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">fut</span>.<span style="font-variant:small-caps;">rem</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'Having called it, the hearth room will come back to life.'</td></tr></tfoot>
 </table>
 
 
@@ -1320,33 +1679,112 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+> ... there are a number of tests that prove the difference between cordination and the morphosyntactically more coherent SVC. One of them is extraction. While it is possible to move *ìwé* 'book' to the clausal-initial position in an SVC (@yoruba2), this is ungrammatical with coordination (@yoruba4).
+[@bisang2009, 796]
+
 ### Examples
 
-> Citation [@stahlke1970, 78-79]
-
-(@yoruba1) Aiton 2016:200, example 27
+(@yoruba1) @stahlke1970, 61, example 1
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _Mo_ </td>
+   <td style="text-align:left;"> _mú_ </td>
+   <td style="text-align:left;"> _ìwé_ </td>
+   <td style="text-align:left;"> _wá_ </td>
+   <td style="text-align:left;"> _ilé._ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> take </td>
+   <td style="text-align:left;"> book </td>
+   <td style="text-align:left;"> come </td>
+   <td style="text-align:left;"> house </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'I brought a book home.'</td></tr></tfoot>
 </table>
 
+(@yoruba2) @bisang2009, 796, example 3'
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Ìwé_ </td>
+   <td style="text-align:left;"> _ni_ </td>
+   <td style="text-align:left;"> _mo_ </td>
+   <td style="text-align:left;"> _mú_ </td>
+   <td style="text-align:left;"> _wá_ </td>
+   <td style="text-align:left;"> _ilé._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> book </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">foc</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> take </td>
+   <td style="text-align:left;"> come </td>
+   <td style="text-align:left;"> house </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'It was a book I brought home.'</td></tr></tfoot>
+</table>
 
+(@yoruba3) @stahlke1970, 78, example 50
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Mo_ </td>
+   <td style="text-align:left;"> _mú_ </td>
+   <td style="text-align:left;"> _ìwé,_ </td>
+   <td style="text-align:left;"> _mo_ </td>
+   <td style="text-align:left;"> _sì_ </td>
+   <td style="text-align:left;"> _wá_ </td>
+   <td style="text-align:left;"> _ilé._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> take </td>
+   <td style="text-align:left;"> book </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> and </td>
+   <td style="text-align:left;"> come </td>
+   <td style="text-align:left;"> home </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I picked up a book and came home.'</td></tr></tfoot>
+</table>
 
-
+(@yoruba4) @stahlke1970, 79, example 57
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> ＊ </td>
+   <td style="text-align:left;"> _Ìwé_ </td>
+   <td style="text-align:left;"> _ni_ </td>
+   <td style="text-align:left;"> _mo_ </td>
+   <td style="text-align:left;"> _mú,_ </td>
+   <td style="text-align:left;"> _mo_ </td>
+   <td style="text-align:left;"> _sì_ </td>
+   <td style="text-align:left;"> _wá_ </td>
+   <td style="text-align:left;"> _ilé._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> book </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">foc</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> take </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> and </td>
+   <td style="text-align:left;"> come </td>
+   <td style="text-align:left;"> house </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'It was a book I took and I came home.'</td></tr></tfoot>
+</table>
 
 ## Language
 ### Details

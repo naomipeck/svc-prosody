@@ -20,16 +20,19 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 > Citation [@kamil2015]
 
-(@afar1) Aiton 2016:200, example 27
+(@afar1) @kamil2015, 291, example 907
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "taamiit -íyye",
+             glosses = "work.DIM say.3M.PFV",
+             free_translation = "He worked a little.")
 ```
 
-
-
-
+(@afar2) @kamil2015, 292, example 909
+```{r, echo=FALSE}
+gloss_example(transliteration = "boddiná mukuɖ -ítta",
+             glosses = "tooth wobble say.3F.IPFV",
+             free_translation = "The tooth moves.")
+```
 
 ## Aimele
 ### Details
@@ -40,36 +43,31 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+> Neither of the constituent verbs in the SVC in (@aimele1) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality. 
+[@aiton2016, 201]
+
 ### Examples
 
-> "A complex predicate prototypically has a single argument structure, a single intonational contour, and a single value of polarity, tense, aspect, mood, modality, and evidentiality for the entire complex predicate construction." 
-@aiton2016, 199
-
-(@aimele1) Aiton 2016:200, example 27
+(@aimele1) @aiton2016, 200, example 27
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example("koodulu suloobo -moo wɛlɛ sɛɛ -jaa",
+             "downward {NAME} DAT shout say PST",
+             "I shouted it down to Soloobu.")
 ```
 
-> "Neither of the constituent verbs in the SVC in (27) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality."
-p.201
-
-(@aimele2) Aiton 2016:201, example 30
+(@aimele2) @aiton2016, 201, example 30
 ```{r, echo=FALSE}
-gloss_example(transliteration = "nE: ti:PHE: o:ga: E-ja: o:gE: di a:nE:",
-              glosses = "1:SG afterwards pandanus seedling-ABS carry_in_bilum take go:PST",
+gloss_example(transliteration = "nɛ: ti:ɸɛ: o:ga: ɛja: o:gɛ: di a:nɛ:",
+              glosses = "1:SG afterwards pandanus seedling:ABS carry_in_bilum take go:PST",
               free_translation = "I went after him, taking the pandanus seeds in a bilum.")
 ```
 
-(@aimele3) Aiton 2016:201, example 31
+(@aimele3) @aiton2016, 201, example 31
 ```{r, echo=FALSE}
-gloss_example(transliteration = "sugu:lu: Ena: hEna: do:ga: dijE:=bi: kEi",
-               glosses = "school that:ABS go house:ABS build=DEL.IMP ASSER",
+gloss_example(transliteration = "sugu:lu: ɛna: hɛna: do:ga: dijɛ:=bi: kɛi",
+               glosses = "school that:ABS go house:ABS build=IMP ASSER",
                free_translation = "Go build that building for the school!")
 ```
-> "However, if a non-initial component verb which has a direct object which is not shared by a preceding intransitive verb, the object precedes the transitive verb rather than preceding the entire serial verb construction, as seen in (@aimele3)."
-@aiton2016, 201
 
 ## Ami
 ### Details
@@ -80,19 +78,25 @@ Macroarea: Australia
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
+> Phonological liaison occurs between the two verbs... There are grounds here for proposing that each serial construction constitutes a single phonological conglomerate. There is no pause between the VPs and the single intonation contour points to their constituting a single clause. [@ford1998, 316]
+
 ### Examples
 
-> Citation [@ford1998, 315-328]
-
-(@ami1) Aiton 2016:200, example 27
+(@ami1) @ford1998, 316, example 8-54
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "gama vulhut gama",
+             glosses = "3MIN.S.R.stand beeswax 3MIN.S.R.stand",
+             free_translation = "The beeswax is standing up.",
+             comment = "['kamaɸ̀ʊl̪ʊkàma]")
 ```
 
-
-
+(@ami2) @ford1998, 316, example 8-55
+```{r, echo=FALSE}
+gloss_example(transliteration = "guman-pitji gaya",
+             glosses = "3MIN.A.R.poke-roll 3MIN.S.R.lie",
+             free_translation = "He is still making fire.",
+             comment = "['kʊmanp̀ɪcɪɣàja]")
+```
 
 
 ## Ashéninka Perené
@@ -104,18 +108,25 @@ Macroarea: South American
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
+> Serialized predicates do not have more than two verbs in a verb sequence which are fully inflected grammatical and phonological words, capable of being integrated into discourse. There is no pause separating the verbs from each other... the serialized verbs are independent phonological words, each inflected for person, aspect, realis status, and mode. [@mihas2015, 163]
+
 ### Examples
 
 > Citation [@mihas2015, 159, 163-172]
 
-(@asheninka1) Aiton 2016:200, example 27
+(@asheninka1) @mihas2015, 165, example 6.13.b
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "o- ja -t -atz -i o- shimaa -t -a",
+             glosses = "3NM.S go EP PROG REAL 3NM.S fish EP REAL",
+             free_translation = "She went to fish.")
 ```
 
-
+(@asheninka2) @mihas2015, 168, example 6.19.b
+```{r, echo=FALSE}
+gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
+             glosses = "2S overtake EP APL.INT EP REAL 2S sleep PROG REAL NEG",
+             free_translation = "Don't stay asleep.")
+```
 
 
 
@@ -128,15 +139,16 @@ Macroarea: South America
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
+> Finite verbs with possible person cross-reference on the verb, as in Baure, may also occur in serial verb constructions. ... The coordination of predicates is identical with the coordination of clauses without connector. Serial verb constructions, on the other hand, are a number of verbs that are uttered in one clause. In Baure the two categories seem pretty well distinguishable... [@danielsen2007, 427]
+
 ### Examples
 
-> Citation [@danielsen2007, 415, 427ff.]
-
-(@baure1) Aiton 2016:200, example 27
+(@baure1) @danielsen2007, 428, example 144
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ro=kač-po-wo ro=pino-po",
+             glosses = "3SG.M=go-PRFLX-COP 3SG.M=flee-PRFLX",
+             annotation = "*rokačpow* *ropinop*",
+             free_translation = "he (went away and) fled")
 ```
 
 
@@ -152,19 +164,21 @@ Macroarea: Australia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1?
 
+> [Serial verbs] occur in a single intonation contour (although there are also examples with breaks, and examples where intonation units and syntactic units are not isomorphic). 
+[@bowern2013, 663-664]
+
+> A further piece of evidence shows that these clauses are joined in a single higher structure rather than chained without embedding. It is possible to extract constituents from a lower clause into a higher clause. If the clauses are conjoined, this should not be possible, since conjunction is a strong barrier to extraction...
+[@bowern2013, 664-665]
+
 ### Examples
 
-> Citation [@bowern2013, 663-665]
-
-(@bardi1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@bardi1) @bowern2013, 663, example 16.64
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "Ginyinggon roowil i-n-nya-na Ngarrigoonbooroo baali-ngan darr i-n-ar-na=jirri niimana aamba agal ambooriny Ngoolbirndi.",
+             glosses = "then walk 3-TR-catch-REM.PST {NAME} shade-ALL come 3-TR-spear-REM.PST=3AUG.IO many men and people {NAME}",
+             free_translation = "Then Ngarrigoonbooroo walked to her camp and came across many people at Ngoolbirndi.",
+             annotation = "Ginyinggon roowil innyana Ngarrigoonbooroo baalingan darr inarnajirri niimana aamba agal ambooriny Ngoolbirndi.")
 ```
-
-
-
 
 
 ## Burmese
@@ -176,18 +190,30 @@ Macroarea: Eurasian
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
+> The sentence in (@burmese1) contains two verbs that are separated by the object of the second one, i.e. ‘hand’ [lɛʔ]. As suggested by the translation, we have here two clauses that are chained and not subordinated as in the previous example, while example (@burmese2) illustrated a SVC. Actually, in this sentence, the object of the second verb, i.e. ‘words’ [zəKa3], precedes the string of verbs, which suggests that the two verbs are closely associated syntactically. [@vittrant2012, 106]
+
+> Vittrant (2006: 309): “Une construction de verbes en série (CVS) est une séquence de verbes qui ne sont syntaxiquement ni coordonnés ni subordonnés. Elle a d’autre part, la forme de surface d’un syntagme verbal unique.” [@vittrant2012, 106 footnote 9]
+
+Translation: A serial verb construction is a sequence of verbes which are neither coordinated nor subordinated syntactically. It has, on the other hand, the surface form of a single verb phrase.
+
+
 ### Examples
 
-> Citation [@vittrant2012]
 
-(@burmese1) Aiton 2016:200, example 27
+(@burmese1) @vittrant2012, 107, example 5
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "pəKan^3^ thɛ^3^ ye^2^ thɛ^1^ lɛʔ she^2^=Pi^3^",
+             glosses = "plate inside water put hand wash=SUB.TPS",
+             free_translation = "... after having poured water into the plate and having washed his hands...")
 ```
 
-
+(@burmese2) @vittrant2012, 107, example 6
+```{r, echo=FALSE}
+gloss_example(transliteration = "θiN^2^bɔ^1^ pɔ^2^ =Ma^2^ θiN^2^bɔ^1^ pɔ^2^ =Ma^2^ zəKa^3^ la^2^ pyɔ^3^ =Tɛ^2^",
+             glosses = "boat on LOC boat on LOC word come say REAL.ASS",
+             free_translation = "On the boat, on the boat, (she) came to me to talk.",
+             comment = "Lit. ...she came to tell me some words.")
+```
 
 
 
@@ -195,20 +221,29 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ### Details
 Glottocode: bulo1242 <br> 
 Family: Austroasiatic <br>
-Macroarea:Eurasia
+Macroarea: Eurasia
 
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
+> Parmi ces critères [pour les CVS] - variables d'une langue à l'autre - les suivants ont été retenus pour être appliqués au stieng:
+- le critère prosodique permettant de distinguer une CVS d'une concaténation de propositions... [@bon2014, 503]
+
+Translation: Amongst the criteria [for SVCs] - which vary from language to language - the following have been retained for application to Stieng:
+- the prosodic criterion which allows us to distinguish a SVC from a concatenation of clauses...
+
 ### Examples
 
-> Citation [@bon2014, 503-506]
+> Dans l'example suivant (@bulo1), la séquence [sədiaŋ-dʔuar ɡɔk lot-kətaːŋ ʔuː rənaːp-rəsɨː] constitue un premier groupe de soufle, avec une prosodie montante. La séquence [ɓɑt joːh-ndiaŋ] constitue quant à elle un second groupe de souffle avec une intonation descendante. Ainsi, il est possible d'identifier les verbs *ɡɔk* 'ê.assis' *lot-kətaːŋ* 'ê.assis.à.genoux' comme faisant partie d'une série verbale au sein d'une même proposition; et *ɓɑt* 'plier' comme tête de la proposition suivant.
+[@bon2014, 504-505]
 
-(@bulo1) Aiton 2016:200, example 27
+Translation: In the following example (@bulo1), the sequence [sədiaŋ-dʔuar ɡɔk lot-kətaːŋ ʔuː rənaːp-rəsɨː] constitutes the first breath group with a rising contour. The sequence [ɓɑt joːh-ndiaŋ] in turn constitutes a second breath group with a falling intonation. Thus, it is possible to identify the verbs *ɡɔk* 'sit' *lot-kətaːŋ* 'kneel' as forming a serial verb construction within a single clause, and *ɓɑt* 'fold' as the head of the following clause.
+
+(@bulo1) @bon2014, 505, example 839
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "sədiaŋdʔuar ɡɔk lotkətaːŋ ʔuː rənaːprəsɨː (pause) ɓɑt joːhndiaŋ",
+             glosses = "woman sit kneel on bamboo.mat (pause) fold shirt",
+             free_translation = "The woman is kneeling on a bamboo mat and folding a shirt.")
 ```
 
 
@@ -785,13 +820,12 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@brainardbehrens2002, 194-195]
-
-(@language1) Aiton 2016:200, example 27
+(@yakan1) @brainardbeerens2002, 195, example 881
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "pitu ku N-aka-an ka'u",
+             glosses = "come ABS.1SG INTR-tell-VAL OBL.2SG",
+             free_translation = "I have come to tell you.",
+             annotation = "Pitu ku ngakahan ka'u.")
 ```
 
 
@@ -807,15 +841,15 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
+> Most concatenations of verbs in Na fall into one of the following categories: verb phrases which belong to separate clauses but appear adjacently because their nominal arguments are not overt; a complement taking predicate with an adjacent infinitive-like verb; a verb with an aspect marker which has grammaticalized from a verb and thus has an isomorphic verb counterpart; or a resultative/cause-and-effect SVC. ... Symmetrical serial verb constructions tend to match Aktionsart marking on each verb. [@lidz2010, 396]
+
 ### Examples
 
-> Citation [@lidz2010, 396-406]
-
-(@yongningna1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@yongningna1) @lidz2010, 397, example 566
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "tʰi13 lə33- wæ33 zɔ33 tʰɯ33 ʐɯ33mi33 tʰɯ33 lɯ33 lə33- wɔ13 lə33- sɩ31 lə33- yɔ33 hɯ33",
+             glosses = "so ACCOMP- call CSM this hearth.room this CLS ACCOMP- return ACCOMP- live ACCOMP- come FUT.REM",
+             free_translation = "Having called it, the hearth room will come back to life.")
 ```
 
 
@@ -831,20 +865,39 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+> ... there are a number of tests that prove the difference between cordination and the morphosyntactically more coherent SVC. One of them is extraction. While it is possible to move *ìwé* 'book' to the clausal-initial position in an SVC (@yoruba2), this is ungrammatical with coordination (@yoruba4).
+[@bisang2009, 796]
+
 ### Examples
 
-> Citation [@stahlke1970, 78-79]
-
-(@yoruba1) Aiton 2016:200, example 27
+(@yoruba1) @stahlke1970, 61, example 1
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Mo mú ìwé wá ilé.",
+             glosses = "1SG take book come house",
+             free_translation = "I brought a book home.")
 ```
 
+(@yoruba2) @bisang2009, 796, example 3'
+```{r, echo=FALSE}
+gloss_example(transliteration = "Ìwé ni mo mú wá ilé.",
+             glosses = "book FOC 1SG take come house",
+             free_translation = "It was a book I brought home.")
+```
 
+(@yoruba3) @stahlke1970, 78, example 50
+```{r, echo=FALSE}
+gloss_example(transliteration = "Mo mú ìwé, mo sì wá ilé.",
+             glosses = "1SG take book 1SG and come home",
+             free_translation = "I picked up a book and came home.")
+```
 
-
+(@yoruba4) @stahlke1970, 79, example 57
+```{r, echo=FALSE}
+gloss_example(transliteration = "Ìwé ni mo mú, mo sì wá ilé.",
+             glosses = "book FOC 1SG take 1SG and come house",
+             free_translation = "It was a book I took and I came home.",
+             grammaticality = "*")
+```
 
 ## Language
 ### Details
