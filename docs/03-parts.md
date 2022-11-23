@@ -4,6 +4,43 @@
 
 Here I'm going to include an overview of what data this poster is based on, including information about my coding.
 
+## Language
+### Details
+Glottocode: <br> 
+Family:  <br>
+Macroarea: 
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@source2001]
+
+(@language1) @source2001, pg, example 27
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ko:dulu_ </td>
+   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
+   <td style="text-align:left;"> _wElE_ </td>
+   <td style="text-align:left;"> _sE:-ja:_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> downward </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
+   <td style="text-align:left;"> shout </td>
+   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+</table>
+
+
+
+
+
 ## Afar
 ### Details
 Glottocode: afar1241 <br> 
@@ -14,8 +51,6 @@ Macroarea: Africa
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
-
-> Citation [@kamil2015]
 
 (@afar1) @kamil2015, 291, example 907
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
@@ -246,6 +281,121 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 
+## Apinayé
+### Details
+Glottocode: apin1244 <br> 
+Family: Nuclear-Macro-Je <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Serialization requires the nonfinite form of verbs when the (causative or instrumental morpheme) verb *ɔ* ‘do’ is involved. Otherwise, it is just the bare form of verbs that occur in a sequence; in this case, the verbs involved are usually from the class of intransitives (i.e. they take no inflection in their finite form). In Apinajé, serialization always involves either a movement verb or a position verb. Not all verbs belonging to each category are eligible for serial constructions expressing aspectual meanings, but only a selected few. When verbs from outside this inventory are used, the resulting overall meaning of the construction is more literal than grammatical, sometimes yielding awkward or jocose meanings. [@cunhadeoliveira2005, 275]
+
+> From the prosodic point of view, the elements of each complex construction belong within a single sentential intonation contour. Morphologically, there is only one mode marker for the whole construction, such that all elements fall under its scope. In regard to syntax, boundary indices and the internally cohesive distribution of elements in the sentence are indicative of the internal coherence of serialization... [@cunhadeoliveira2005, 276]
+
+### Examples
+
+(@apinaye2) @cunhadeoliveira2005, 162, example 106d
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Pa_ </td>
+   <td style="text-align:left;"> _t&lt;U+1EBD&gt;_ </td>
+   <td style="text-align:left;"> _t&lt;U+1EBD&gt;m._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">rl</span> </td>
+   <td style="text-align:left;"> go </td>
+   <td style="text-align:left;"> fall </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I fell.'</td></tr></tfoot>
+</table>
+
+(@apinaye3) @cunhadeoliveira2005, 161, example 106a
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _K&lt;U+0254&gt;t_ </td>
+   <td style="text-align:left;"> _paj_ </td>
+   <td style="text-align:left;"> _ari~_ </td>
+   <td style="text-align:left;"> _ic-kri~_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">irr</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>.<span style="font-variant:small-caps;">irr</span> </td>
+   <td style="text-align:left;"> stay </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>-sit </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I'll remain seated.'</td></tr></tfoot>
+</table>
+
+(@apinaye1) @cunhadeoliveira2005, 295, example 24a
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _na_ </td>
+##    <td style="text-align:left;"> _pa_ </td>
+##    <td style="text-align:left;"> _k&lt;U+0254&gt;t=m~&lt;U+0259&gt;_ </td>
+##    <td style="text-align:left;"> _i-&lt;U+0272&gt;-õ_ </td>
+##    <td style="text-align:left;"> _pi~_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">rl</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span> </td>
+##    <td style="text-align:left;"> still </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>-<span style="font-variant:small-caps;">rp</span>-<span style="font-variant:small-caps;">gen</span> </td>
+##    <td style="text-align:left;"> wood </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _katpr&lt;U+025B&gt;_ </td>
+##    <td style="text-align:left;"> _&lt;U+0254&gt;_ </td>
+##    <td style="text-align:left;"> _te~_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> fasten </td>
+##    <td style="text-align:left;"> do </td>
+##    <td style="text-align:left;"> go </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'I'm still walking and fastening my wood.'</td></tr></tfoot>
+## </table>
+```
+
+
+
+
+
 ## Ashéninka Perené
 ### Details
 Glottocode: ashe1272 <br> 
@@ -258,8 +408,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 > Serialized predicates do not have more than two verbs in a verb sequence which are fully inflected grammatical and phonological words, capable of being integrated into discourse. There is no pause separating the verbs from each other... the serialized verbs are independent phonological words, each inflected for person, aspect, realis status, and mode. [@mihas2015, 163]
 
 ### Examples
-
-> Citation [@mihas2015, 159, 163-172]
 
 (@asheninka1) @mihas2015, 165, example 6.13.b
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
@@ -327,6 +475,113 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 
 
+## Avatime!
+### Details
+Glottocode: avat1244 <br> 
+Family: Ka-Togo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@defina2016; @defina2016b; @vanputten2017]
+
+(@avatime! 1) Aiton 2016:200, example 27
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ko:dulu_ </td>
+   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
+   <td style="text-align:left;"> _wElE_ </td>
+   <td style="text-align:left;"> _sE:-ja:_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> downward </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
+   <td style="text-align:left;"> shout </td>
+   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+</table>
+
+
+
+
+
+## Awa-Cuaiquer
+### Details
+Glottocode: awac1239 <br> 
+Family: Barbacoan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> The Awa Pit Serial Verb construction thus consists of two active verbs with identical subcategorization frames, which are obligatorily adjacent and occur in a temporally iconic order. The normal range of morphological and syntactic possibilities is open to the clause, with any inflection occurring on the second verb stem. The first verb stem is either bare (if consonant-final) or suffixed with *t* (if vowel-final). Any modification, such as negation, applies semantically to both verbs, but is indicated formally on the second verb.
+[@curnow1997, 305]
+
+### Examples
+
+(@awa1) @curnow1997, 303, example 766
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _gato=na_ </td>
+   <td style="text-align:left;"> _tunya_ </td>
+   <td style="text-align:left;"> _pizh_ </td>
+   <td style="text-align:left;"> _ku-mtu_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> cat=<span style="font-variant:small-caps;">top</span> </td>
+   <td style="text-align:left;"> rat </td>
+   <td style="text-align:left;"> grab </td>
+   <td style="text-align:left;"> eat-<span style="font-variant:small-caps;">ipfv</span>.<span style="font-variant:small-caps;">part</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The cat is grabbing and eating the rat.'</td></tr></tfoot>
+</table>
+
+(@awa2) @curnow1997, 306, example 776
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _pa_ </td>
+   <td style="text-align:left;"> _azh_ </td>
+   <td style="text-align:left;"> _kway-zi_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sun </td>
+   <td style="text-align:left;"> shine </td>
+   <td style="text-align:left;"> drop-<span style="font-variant:small-caps;">nonlocut</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The sun shone out.'</td></tr></tfoot>
+</table>
+
+(@awa3) @curnow1997, 306, example 775
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Demetrio=na_ </td>
+   <td style="text-align:left;"> _I-t_ </td>
+   <td style="text-align:left;"> _kway-zi_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Demetrio=<span style="font-variant:small-caps;">top</span> </td>
+   <td style="text-align:left;"> go-<span style="font-variant:small-caps;">sv</span> </td>
+   <td style="text-align:left;"> drop-<span style="font-variant:small-caps;">nonlocut</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Demetrio left.'</td></tr></tfoot>
+</table>
+
 ## Baure
 ### Details
 Glottocode: baur1253 <br> 
@@ -360,10 +615,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 <sup></sup> 'he (went away and) fled'</td></tr></tfoot>
 </table>
 
-
-
-
-
 ## Bardi
 ### Details
 Glottocode: bard1255 <br> 
@@ -371,7 +622,7 @@ Family: Nyulnyulan <br>
 Macroarea: Australia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1?
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 > [Serial verbs] occur in a single intonation contour (although there are also examples with breaks, and examples where intonation units and syntactic units are not isomorphic). 
 [@bowern2013, 663-664]
@@ -440,7 +691,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1?
 <sup></sup> 'Then Ngarrigoonbooroo walked to her camp and came across many people at Ngoolbirndi.'</td></tr></tfoot>
 </table>
 
-
 ## Burmese
 ### Details
 Glottocode: nucl1310 <br> 
@@ -452,13 +702,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 > The sentence in (@burmese1) contains two verbs that are separated by the object of the second one, i.e. ‘hand’ [lɛʔ]. As suggested by the translation, we have here two clauses that are chained and not subordinated as in the previous example, while example (@burmese2) illustrated a SVC. Actually, in this sentence, the object of the second verb, i.e. ‘words’ [zəKa3], precedes the string of verbs, which suggests that the two verbs are closely associated syntactically. [@vittrant2012, 106]
 
+<br>
+
 > Vittrant (2006: 309): “Une construction de verbes en série (CVS) est une séquence de verbes qui ne sont syntaxiquement ni coordonnés ni subordonnés. Elle a d’autre part, la forme de surface d’un syntagme verbal unique.” [@vittrant2012, 106 footnote 9]
 
 Translation: A serial verb construction is a sequence of verbes which are neither coordinated nor subordinated syntactically. It has, on the other hand, the surface form of a single verb phrase.
 
-
 ### Examples
-
 
 (@burmese1) @vittrant2012, 107, example 5
 
@@ -648,7 +898,74 @@ Translation: In the following example (@bulo1), the sequence [sədiaŋ-dʔuar ɡ
 
 
 
-## Central Khmer
+## Burarra
+### Details
+Glottocode: bura1267 <br> 
+Family: Maningrida <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+Note that glosses have been adapted for a general audience.
+
+(@burarra2) @green1987, 79, example 5(lxxxii)
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Nginyi-pa_ </td>
+   <td style="text-align:left;"> _gornabola_ </td>
+   <td style="text-align:left;"> _ø-gana-ø_ </td>
+   <td style="text-align:left;"> _ø-bamba-ø_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2min</span>-<span style="font-variant:small-caps;">dir</span> </td>
+   <td style="text-align:left;"> wallaby </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2min</span>.<span style="font-variant:small-caps;">imp</span>-watch-<span style="font-variant:small-caps;">irr</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2min</span>.<span style="font-variant:small-caps;">imp</span>-go_along-<span style="font-variant:small-caps;">irr</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'You go along watching for wallabies.'</td></tr></tfoot>
+</table>
+
+(@burarra3) @green1987, 80, example 5(lxxxix)
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ngu-durtchi-nga_ </td>
+   <td style="text-align:left;"> _ngu-bo-na_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1min</span>-be_full-<span style="font-variant:small-caps;">rl</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1min</span>-go-<span style="font-variant:small-caps;">ant</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I'm full.'</td></tr></tfoot>
+</table>
+
+(@burarra1) Green 1987:77, example 5(lxxviii)
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _m-ba-nga_ </td>
+   <td style="text-align:left;"> _a-rrik-nga_ </td>
+   <td style="text-align:left;"> _gorrngunya_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>&gt;<span style="font-variant:small-caps;">3min</span>.mun-eat-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3min</span>.an-crawl-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> grass&gt; </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He crawled along eating grass.'</td></tr></tfoot>
+</table>
+
+## Central Khmer!
 ### Details
 Glottocode: cent1989 <br> 
 Family: Austroasiatic <br>
@@ -681,7 +998,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Daakaka
+## Daakaka!
 ### Details
 Glottocode: daka1243 <br> 
 Family: Austronesian <br>
@@ -714,7 +1031,7 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Duhumbi
+## Duhumbi!
 ### Details
 Glottocode: chug1252 <br> 
 Family: Trans-Himalayan <br>
@@ -751,7 +1068,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 
 
-## Dzongkha
+## Dzongkha!
 ### Details
 Glottocode: dzon1239 <br> 
 Family: Trans-Himalayan <br>
@@ -788,7 +1105,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 
 
-## Eastern Arrernte
+## Eastern Arrernte!
 ### Details
 Glottocode: east2379 <br> 
 Family: Pama-Nyungan <br>
@@ -862,7 +1179,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 
 
-## Haida
+## Haida!
 ### Details
 Glottocode: nort2938 <br> 
 Family: Isolate <br>
@@ -899,7 +1216,46 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 
 
-## Highland Populuca
+## Hakhun Tangsa!
+### Details
+Glottocode: noct1238 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+There is a clear morphosyntactic template for verbs. 
+
+### Examples
+
+> Citation [@boro2017]
+
+(@hakhun1) Aiton 2016:200, example 27
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ko:dulu_ </td>
+   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
+   <td style="text-align:left;"> _wElE_ </td>
+   <td style="text-align:left;"> _sE:-ja:_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> downward </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
+   <td style="text-align:left;"> shout </td>
+   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+</table>
+
+
+
+
+
+## Highland Populuca!
 ### Details
 Glottocode: high1276 <br> 
 Family: Mixe-Zoque <br>
@@ -936,7 +1292,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 
 
-## Karbi
+## Karbi!
 ### Details
 Glottocode: karb1241 <br> 
 Family: Trans-Himalayan <br>
@@ -973,7 +1329,82 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 
 
-## Khroskyabs
+## Kayardild
+### Details
+Glottocode: kaya1319 <br> 
+Family: Tangkic <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> In (@kayardild2) the verbs belong to different clauses, as shown by the independent intonation contours (indicated here by a comma); a literal meaning is forced. ... In (@kayardild3) ... *thaatha* is a clausemate and follows the main verb, giving the 'go and return' meaning. [@evans1995, 308]
+
+### Examples
+
+(@kayardild1) @evans1995, 306-307, example 8-40
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _nyingka_ </td>
+   <td style="text-align:left;"> _dathin-ki_ </td>
+   <td style="text-align:left;"> _dulk-i_ </td>
+   <td style="text-align:left;"> _ngadi-ja_ </td>
+   <td style="text-align:left;"> _kuluu-j,_ </td>
+   <td style="text-align:left;"> _nyingka_ </td>
+   <td style="text-align:left;"> _kalka-th_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">nom</span> </td>
+   <td style="text-align:left;"> that-<span style="font-variant:small-caps;">mloc</span> </td>
+   <td style="text-align:left;"> place-<span style="font-variant:small-caps;">mloc</span> </td>
+   <td style="text-align:left;"> wound-<span style="font-variant:small-caps;">act</span> </td>
+   <td style="text-align:left;"> scratch-<span style="font-variant:small-caps;">act</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">nom</span> </td>
+   <td style="text-align:left;"> sicken-<span style="font-variant:small-caps;">act</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'You have despoiled that place by digging there, and you have fallen ill.'</td></tr></tfoot>
+</table>
+
+(@kayardild2) @evans1995, 308, example 8-45
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _niya_ </td>
+   <td style="text-align:left;"> _kuujuu-j,_ </td>
+   <td style="text-align:left;"> _thaa-th_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">nom</span> </td>
+   <td style="text-align:left;"> swim-<span style="font-variant:small-caps;">act</span> </td>
+   <td style="text-align:left;"> return-<span style="font-variant:small-caps;">act</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He had a swim, and came back.'</td></tr></tfoot>
+</table>
+
+(@kayardild3) @evans1995, 308, example 8-47
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _niya_ </td>
+   <td style="text-align:left;"> _kuujuu-ja_ </td>
+   <td style="text-align:left;"> _thaa-th_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">nom</span> </td>
+   <td style="text-align:left;"> swim-<span style="font-variant:small-caps;">act</span> </td>
+   <td style="text-align:left;"> return-<span style="font-variant:small-caps;">act</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He's gone for a swim (and will come back).'</td></tr></tfoot>
+</table>
+
+## Khroskyabs!
 ### Details
 Glottocode: guan1266 <br> 
 Family: Trans-Himalayan <br>
@@ -1010,7 +1441,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 
 
-## Lamkang
+## Lamkang!
 ### Details
 Glottocode: lamk1238 <br> 
 Family: Trans-Himalayan <br>
@@ -1045,7 +1476,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 
 
-## Ma'anyan
+## Ma'anyan!
 ### Details
 Glottocode: maan1238 <br> 
 Family: Austronesian <br>
@@ -1078,7 +1509,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Mapudungun
+## Mapudungun!
 ### Details
 Glottocode: mapu1245 <br> 
 Family: Araucanian <br>
@@ -1115,7 +1546,91 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 
 
-## Menya
+## Mawng
+### Details
+Glottocode: maun1240 <br> 
+Family: Iwaidjan <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+Although there is some evidence for the serial verb construction forming a grammatical unit [@singer2006, 132], there is no grammatical marking involved which could potentially signal the continuation of a syntactic unit across a pause.
+
+### Examples
+
+(@mawng1) @singer2006, 131, example 4-85
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Waka-pa_ </td>
+   <td style="text-align:left;"> _k-i-wani-ø_ </td>
+   <td style="text-align:left;"> _k-ani-mirlaju-n_ </td>
+   <td style="text-align:left;"> _ja_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">dist</span>.<span style="font-variant:small-caps;">land</span>-<span style="font-variant:small-caps;">emph</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prs</span>-<span style="font-variant:small-caps;">3masc</span>-sit-<span style="font-variant:small-caps;">npst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prs</span>-<span style="font-variant:small-caps;">3masc/3land</span>-wait_for-<span style="font-variant:small-caps;">npst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">masc</span> </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _y-ara_ </td>
+   <td style="text-align:left;"> _ja_ </td>
+   <td style="text-align:left;"> _single._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">masc</span>-other </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">masc</span> </td>
+   <td style="text-align:left;"> single_man </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'During that time he keeps on waiting (for a wife), the single man.'</td></tr></tfoot>
+</table>
+
+(@mawng2) @singer2006, 131, example 4-86
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _K-a-wani-ø_ </td>
+   <td style="text-align:left;"> _apu-la-ngung_ </td>
+   <td style="text-align:left;"> _walij_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prs</span>-<span style="font-variant:small-caps;">3pl</span>-sit-<span style="font-variant:small-caps;">npst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3pl/3edib</span>-eat-<span style="font-variant:small-caps;">pst</span>.<span style="font-variant:small-caps;">cont</span> </td>
+   <td style="text-align:left;"> food </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'They were eating food.'</td></tr></tfoot>
+</table>
+
+(@mawng3) @singer2006, 132, example 4-87
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Nuka_ </td>
+   <td style="text-align:left;"> _ja_ </td>
+   <td style="text-align:left;"> _k-i-wani-ø_ </td>
+   <td style="text-align:left;"> _k-ani-wurru-n._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prox</span>.<span style="font-variant:small-caps;">masc</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">masc</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prs</span>-<span style="font-variant:small-caps;">3masc</span>-sit-<span style="font-variant:small-caps;">npst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">prs</span>-<span style="font-variant:small-caps;">3masc/3land</span>-know-<span style="font-variant:small-caps;">npst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He's the one who knows.'</td></tr></tfoot>
+</table>
+
+## Menya!
 ### Details
 Glottocode: meny1245 <br> 
 Family: Angan <br>
@@ -1148,7 +1663,78 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## N|uuki
+## Murrinhpatha
+### Details
+Glottocode: murr1258 <br> 
+Family: Southern Daly <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+### Examples
+
+(@murrinhpatha2) @blythe2009, 364, On the Flat line 103
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ngunu-murrk-nu=ngi_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">s</span>.7go.<span style="font-variant:small-caps;">fut</span>-eat-<span style="font-variant:small-caps;">fut</span>=<span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">s</span>.1sit.<span style="font-variant:small-caps;">fut</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I want to eat some.'</td></tr></tfoot>
+</table>
+
+(@murrinhpatha3) @blythe2009, 378, Ningbingi line 13
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _me-nge-dha=pirri_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">s</span>.say.<span style="font-variant:small-caps;">pstimp</span>-<span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">io</span>-<span style="font-variant:small-caps;">pst</span>=<span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">s</span>.3stand.<span style="font-variant:small-caps;">pstimp</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He was saying to her...'</td></tr></tfoot>
+</table>
+
+(@murrinhpatha1) @blythe2009, 364, On the Flat line 87
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ku_ </td>
+   <td style="text-align:left;"> _panda_ </td>
+   <td style="text-align:left;"> _thanggugu_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> animate </td>
+   <td style="text-align:left;"> that.you.know </td>
+   <td style="text-align:left;"> what_animate?animate </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _thurdana-ngintha-yitj-tha=tjini_ </td>
+   <td style="text-align:left;"> _ha_ </td>
+   <td style="text-align:left;"> _ha_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">s</span>.<span style="font-variant:small-caps;">30</span>.<span style="font-variant:small-caps;">pstimp</span>-<span style="font-variant:small-caps;">du</span>.<span style="font-variant:small-caps;">f</span>.<span style="font-variant:small-caps;">nsib</span>-tell_story-<span style="font-variant:small-caps;">pst</span>=<span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">s</span>.1sit.<span style="font-variant:small-caps;">pstimp</span> </td>
+   <td style="text-align:left;"> ha </td>
+   <td style="text-align:left;"> ha </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'That thing of the 'ku' class, whatitsname. You two were telling that story. '</td></tr></tfoot>
+</table>
+
+
+## N|uuki!
 ### Details
 Glottocode: nuuu1241 <br> 
 Family: Tuu <br>
@@ -1182,7 +1768,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 </table>
 
 
-## Ndebele
+## Ndebele!
 ### Details
 Glottocode: nort2795 <br> 
 Family: Nguni (Bantu) <br>
@@ -1215,7 +1801,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Nupe
+## Nupe!
 ### Details
 Glottocode: nupe1254 <br> 
 Family: Volta-Congo <br>
@@ -1249,7 +1835,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 </table>
 
 
-## Olo
+## Olo!
 ### Details
 Glottocode: oloo1241 <br> 
 Family: Nuclear Torricelli <br>
@@ -1286,7 +1872,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 
 
-## Polish
+## Polish!
 ### Details
 Glottocode: poli1269 <br> 
 Family: Indo-European <br>
@@ -1319,7 +1905,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Sheko
+## Sheko!
 ### Details
 Glottocode: shek1245 <br> 
 Family: Dizoid <br>
@@ -1356,7 +1942,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 
 
-## Tahitian
+## Tahitian!
 ### Details
 Glottocode: tahi1242 <br> 
 Family: Austronesian <br>
@@ -1393,7 +1979,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 
 
-## Tariana
+## Tariana!
 ### Details
 Glottocode: tari1256 <br> 
 Family: Arawakan <br>
@@ -1426,7 +2012,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Waima'a
+## Waima'a!
 ### Details
 Glottocode: waim1251 <br> 
 Family: Austronesian <br>
@@ -1461,7 +2047,7 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
 
 
-## Wambayan
+## Wambayan!
 ### Details
 Glottocode: wamb1258 <br> 
 Family: Mirndi <br>
@@ -1498,7 +2084,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 
 
-## Western Magar
+## Western Magar!
 ### Details
 Glottocode: west218 <br> 
 Family: Trans-Himalayan  <br>
@@ -1785,40 +2371,3 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 <tfoot><tr><td style="padding: 0; " colspan="100%">
 <sup></sup> 'It was a book I took and I came home.'</td></tr></tfoot>
 </table>
-
-## Language
-### Details
-Glottocode: <br> 
-Family:  <br>
-Macroarea: 
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-### Examples
-
-> Citation [@source2001]
-
-(@language1) Aiton 2016:200, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
-
-
-
-

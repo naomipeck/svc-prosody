@@ -1,19 +1,20 @@
 --- 
 title: "Is there a \"One Intonation Unit\" constraint for serial verb constructions?"
 author: "Naomi Peck"
-date: "2022-10-27"
+date: "2022-11-23"
 site: bookdown::bookdown_site
 documentclass: book
+mainfont: arial
 output:
   bookdown::gitbook:
     split_bib: false
 bibliography: [book.bib, packages.bib, references.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
-description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+#description: |
+#  This is a minimal example of using the bookdown package to write a book.
+#  The HTML output format for this example is bookdown::gitbook,
+#  set in the _output.yml file.
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---

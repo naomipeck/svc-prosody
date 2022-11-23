@@ -7,6 +7,30 @@ library(lingglosses)
 
 Here I'm going to include an overview of what data this poster is based on, including information about my coding.
 
+## Language
+### Details
+Glottocode: <br> 
+Family:  <br>
+Macroarea: 
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@source2001]
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
 ## Afar
 ### Details
 Glottocode: afar1241 <br> 
@@ -17,8 +41,6 @@ Macroarea: Africa
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
-
-> Citation [@kamil2015]
 
 (@afar1) @kamil2015, 291, example 907
 ```{r, echo=FALSE}
@@ -99,6 +121,46 @@ gloss_example(transliteration = "guman-pitji gaya",
 ```
 
 
+## Apinayé
+### Details
+Glottocode: apin1244 <br> 
+Family: Nuclear-Macro-Je <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Serialization requires the nonfinite form of verbs when the (causative or instrumental morpheme) verb *ɔ* ‘do’ is involved. Otherwise, it is just the bare form of verbs that occur in a sequence; in this case, the verbs involved are usually from the class of intransitives (i.e. they take no inflection in their finite form). In Apinajé, serialization always involves either a movement verb or a position verb. Not all verbs belonging to each category are eligible for serial constructions expressing aspectual meanings, but only a selected few. When verbs from outside this inventory are used, the resulting overall meaning of the construction is more literal than grammatical, sometimes yielding awkward or jocose meanings. [@cunhadeoliveira2005, 275]
+
+> From the prosodic point of view, the elements of each complex construction belong within a single sentential intonation contour. Morphologically, there is only one mode marker for the whole construction, such that all elements fall under its scope. In regard to syntax, boundary indices and the internally cohesive distribution of elements in the sentence are indicative of the internal coherence of serialization... [@cunhadeoliveira2005, 276]
+
+### Examples
+
+(@apinaye2) @cunhadeoliveira2005, 162, example 106d
+```{r, echo=FALSE}
+gloss_example(transliteration = "Pa tẽ tẽm.",
+             glosses = "RL go fall",
+             free_translation = "I fell.")
+```
+
+(@apinaye3) @cunhadeoliveira2005, 161, example 106a
+```{r, echo=FALSE}
+gloss_example(transliteration = "Kɔt paj arĩ ic-krĩ",
+             glosses = "IRR 1.IRR stay 1-sit",
+             free_translation = "I'll remain seated.")
+```
+
+(@apinaye1) @cunhadeoliveira2005, 295, example 24a
+```{r, echo=FALSE}
+gloss_example(transliteration = "na pa kɔt=m̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ",
+             glosses = "RL 1 still 1-RP-GEN wood fasten do go",
+             free_translation = "I'm still walking and fastening my wood.")
+```
+
+
+
+
+
 ## Ashéninka Perené
 ### Details
 Glottocode: ashe1272 <br> 
@@ -111,8 +173,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 > Serialized predicates do not have more than two verbs in a verb sequence which are fully inflected grammatical and phonological words, capable of being integrated into discourse. There is no pause separating the verbs from each other... the serialized verbs are independent phonological words, each inflected for person, aspect, realis status, and mode. [@mihas2015, 163]
 
 ### Examples
-
-> Citation [@mihas2015, 159, 163-172]
 
 (@asheninka1) @mihas2015, 165, example 6.13.b
 ```{r, echo=FALSE}
@@ -129,6 +189,65 @@ gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
 ```
 
 
+
+## Avatime!
+### Details
+Glottocode: avat1244 <br> 
+Family: Ka-Togo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@defina2016; @defina2016b; @vanputten2017]
+
+(@avatime! 1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
+## Awa-Cuaiquer
+### Details
+Glottocode: awac1239 <br> 
+Family: Barbacoan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> The Awa Pit Serial Verb construction thus consists of two active verbs with identical subcategorization frames, which are obligatorily adjacent and occur in a temporally iconic order. The normal range of morphological and syntactic possibilities is open to the clause, with any inflection occurring on the second verb stem. The first verb stem is either bare (if consonant-final) or suffixed with *t* (if vowel-final). Any modification, such as negation, applies semantically to both verbs, but is indicated formally on the second verb.
+[@curnow1997, 305]
+
+### Examples
+
+(@awa1) @curnow1997, 303, example 766
+```{r, echo=FALSE}
+gloss_example(transliteration = "gato=na tunya pizh ku-mtu",
+             glosses = "cat=TOP rat grab eat-IPFV.PART",
+             free_translation = "The cat is grabbing and eating the rat.")
+```
+
+(@awa2) @curnow1997, 306, example 776
+```{r, echo=FALSE}
+gloss_example(transliteration = "pa azh kway-zi",
+             glosses = "sun shine drop-NONLOCUT",
+             free_translation = "The sun shone out.")
+```
+
+(@awa3) @curnow1997, 306, example 775
+```{r, echo=FALSE}
+gloss_example(transliteration = "Demetrio=na I-t kway-zi",
+             glosses = "Demetrio=TOP go-SV drop-NONLOCUT",
+             free_translation = "Demetrio left.")
+```
 
 ## Baure
 ### Details
@@ -151,10 +270,6 @@ gloss_example(transliteration = "ro=kač-po-wo ro=pino-po",
              free_translation = "he (went away and) fled")
 ```
 
-
-
-
-
 ## Bardi
 ### Details
 Glottocode: bard1255 <br> 
@@ -162,7 +277,7 @@ Family: Nyulnyulan <br>
 Macroarea: Australia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1?
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 > [Serial verbs] occur in a single intonation contour (although there are also examples with breaks, and examples where intonation units and syntactic units are not isomorphic). 
 [@bowern2013, 663-664]
@@ -180,7 +295,6 @@ gloss_example(transliteration = "Ginyinggon roowil i-n-nya-na Ngarrigoonbooroo b
              annotation = "Ginyinggon roowil innyana Ngarrigoonbooroo baalingan darr inarnajirri niimana aamba agal ambooriny Ngoolbirndi.")
 ```
 
-
 ## Burmese
 ### Details
 Glottocode: nucl1310 <br> 
@@ -192,13 +306,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 > The sentence in (@burmese1) contains two verbs that are separated by the object of the second one, i.e. ‘hand’ [lɛʔ]. As suggested by the translation, we have here two clauses that are chained and not subordinated as in the previous example, while example (@burmese2) illustrated a SVC. Actually, in this sentence, the object of the second verb, i.e. ‘words’ [zəKa3], precedes the string of verbs, which suggests that the two verbs are closely associated syntactically. [@vittrant2012, 106]
 
+<br>
+
 > Vittrant (2006: 309): “Une construction de verbes en série (CVS) est une séquence de verbes qui ne sont syntaxiquement ni coordonnés ni subordonnés. Elle a d’autre part, la forme de surface d’un syntagme verbal unique.” [@vittrant2012, 106 footnote 9]
 
 Translation: A serial verb construction is a sequence of verbes which are neither coordinated nor subordinated syntactically. It has, on the other hand, the surface form of a single verb phrase.
 
-
 ### Examples
-
 
 (@burmese1) @vittrant2012, 107, example 5
 ```{r, echo=FALSE}
@@ -248,7 +362,41 @@ gloss_example(transliteration = "sədiaŋdʔuar ɡɔk lotkətaːŋ ʔuː rənaː
 
 
 
-## Central Khmer
+## Burarra
+### Details
+Glottocode: bura1267 <br> 
+Family: Maningrida <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+Note that glosses have been adapted for a general audience.
+
+(@burarra2) @green1987, 79, example 5(lxxxii)
+```{r, echo=FALSE}
+gloss_example(transliteration = "Nginyi-pa gornabola ø-gana-ø ø-bamba-ø",
+             glosses = "2MIN-DIR wallaby 2MIN.IMP-watch-IRR 2MIN.IMP-go_along-IRR",
+             free_translation = "You go along watching for wallabies.")
+```
+
+(@burarra3) @green1987, 80, example 5(lxxxix)
+```{r, echo=FALSE}
+gloss_example(transliteration = "ngu-durtchi-nga ngu-bo-na",
+             glosses = "1MIN-be_full-RL 1MIN-go-ANT",
+             free_translation = "I'm full.")
+```
+
+(@burarra1) Green 1987:77, example 5(lxxviii)
+```{r, echo=FALSE}
+gloss_example(transliteration = "m-ba-nga a-rrik-nga gorrngunya",
+             glosses = "3MIN>3MIN.mun-eat-PST 3MIN.an-crawl-PST grass",
+             free_translation = "He crawled along eating grass.")
+```
+
+## Central Khmer!
 ### Details
 Glottocode: cent1989 <br> 
 Family: Austroasiatic <br>
@@ -268,7 +416,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Daakaka
+## Daakaka!
 ### Details
 Glottocode: daka1243 <br> 
 Family: Austronesian <br>
@@ -288,7 +436,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Duhumbi
+## Duhumbi!
 ### Details
 Glottocode: chug1252 <br> 
 Family: Trans-Himalayan <br>
@@ -312,7 +460,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Dzongkha
+## Dzongkha!
 ### Details
 Glottocode: dzon1239 <br> 
 Family: Trans-Himalayan <br>
@@ -336,7 +484,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Eastern Arrernte
+## Eastern Arrernte!
 ### Details
 Glottocode: east2379 <br> 
 Family: Pama-Nyungan <br>
@@ -383,7 +531,7 @@ gloss_example(transliteration = "Go get me some food!",
 
 
 
-## Haida
+## Haida!
 ### Details
 Glottocode: nort2938 <br> 
 Family: Isolate <br>
@@ -407,7 +555,33 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Highland Populuca
+## Hakhun Tangsa!
+### Details
+Glottocode: noct1238 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+There is a clear morphosyntactic template for verbs. 
+
+### Examples
+
+> Citation [@boro2017]
+
+(@hakhun1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
+## Highland Populuca!
 ### Details
 Glottocode: high1276 <br> 
 Family: Mixe-Zoque <br>
@@ -431,7 +605,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Karbi
+## Karbi!
 ### Details
 Glottocode: karb1241 <br> 
 Family: Trans-Himalayan <br>
@@ -455,7 +629,41 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Khroskyabs
+## Kayardild
+### Details
+Glottocode: kaya1319 <br> 
+Family: Tangkic <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> In (@kayardild2) the verbs belong to different clauses, as shown by the independent intonation contours (indicated here by a comma); a literal meaning is forced. ... In (@kayardild3) ... *thaatha* is a clausemate and follows the main verb, giving the 'go and return' meaning. [@evans1995, 308]
+
+### Examples
+
+(@kayardild1) @evans1995, 306-307, example 8-40
+```{r, echo=FALSE}
+gloss_example(transliteration = "nyingka dathin-ki dulk-i ngadi-ja kuluu-j, nyingka kalka-th",
+             glosses = "2SG.NOM that-MLOC place-MLOC wound-ACT scratch-ACT 2SG.NOM sicken-ACT",
+             free_translation = "You have despoiled that place by digging there, and you have fallen ill.")
+```
+
+(@kayardild2) @evans1995, 308, example 8-45
+```{r, echo=FALSE}
+gloss_example(transliteration = "niya kuujuu-j, thaa-th",
+             glosses = "3SG.NOM swim-ACT return-ACT",
+             free_translation = "He had a swim, and came back.")
+```
+
+(@kayardild3) @evans1995, 308, example 8-47
+```{r, echo=FALSE}
+gloss_example(transliteration = "niya kuujuu-ja thaa-th",
+             glosses = "3SG.NOM swim-ACT return-ACT",
+             free_translation = "He's gone for a swim (and will come back).")
+```
+
+## Khroskyabs!
 ### Details
 Glottocode: guan1266 <br> 
 Family: Trans-Himalayan <br>
@@ -479,7 +687,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Lamkang
+## Lamkang!
 ### Details
 Glottocode: lamk1238 <br> 
 Family: Trans-Himalayan <br>
@@ -501,7 +709,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Ma'anyan
+## Ma'anyan!
 ### Details
 Glottocode: maan1238 <br> 
 Family: Austronesian <br>
@@ -521,7 +729,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Mapudungun
+## Mapudungun!
 ### Details
 Glottocode: mapu1245 <br> 
 Family: Araucanian <br>
@@ -545,7 +753,41 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Menya
+## Mawng
+### Details
+Glottocode: maun1240 <br> 
+Family: Iwaidjan <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+Although there is some evidence for the serial verb construction forming a grammatical unit [@singer2006, 132], there is no grammatical marking involved which could potentially signal the continuation of a syntactic unit across a pause.
+
+### Examples
+
+(@mawng1) @singer2006, 131, example 4-85
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "Waka-pa k-i-wani-ø k-ani-mirlaju-n ja y-ara ja single.",
+             glosses = "DIST.LAND-EMPH PRS-3MASC-sit-NPST PRS-3MASC/3LAND-wait_for-NPST MASC MASC-other MASC single_man",
+             free_translation = "During that time he keeps on waiting (for a wife), the single man.")
+```
+
+(@mawng2) @singer2006, 131, example 4-86
+```{r, echo=FALSE}
+gloss_example(transliteration = "K-a-wani-ø apu-la-ngung walij",
+             glosses = "PRS-3PL-sit-NPST 3PL/3EDIB-eat-PST.CONT food",
+             free_translation = "They were eating food.")
+```
+
+(@mawng3) @singer2006, 132, example 4-87
+```{r, echo=FALSE}
+gloss_example(transliteration = "Nuka ja k-i-wani-ø k-ani-wurru-n.",
+             glosses = "PROX.MASC MASC PRS-3MASC-sit-NPST PRS-3MASC/3LAND-know-NPST",
+             free_translation = "He's the one who knows.")
+```
+
+## Menya!
 ### Details
 Glottocode: meny1245 <br> 
 Family: Angan <br>
@@ -565,7 +807,40 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## N|uuki
+## Murrinhpatha
+### Details
+Glottocode: murr1258 <br> 
+Family: Southern Daly <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+### Examples
+
+(@murrinhpatha2) @blythe2009, 364, On the Flat line 103
+```{r, echo=FALSE}
+gloss_example(transliteration = "ngunu-murrk-nu=ngi",
+             glosses = "1SG.S.7go.FUT-eat-FUT=1SG.S.1sit.FUT",
+             free_translation = "I want to eat some.")
+```
+
+(@murrinhpatha3) @blythe2009, 378, Ningbingi line 13
+```{r, echo=FALSE}
+gloss_example(transliteration = "me-nge-dha=pirri",
+             glosses = "3SG.S.say.PSTIMP-3SG.IO-PST=3SG.S.3stand.PSTIMP",
+             free_translation = "He was saying to her...")
+```
+
+(@murrinhpatha1) @blythe2009, 364, On the Flat line 87
+```{r, echo=FALSE, results = 'asis'}
+gloss_example(transliteration = "ku panda thanggugu thurdana-ngintha-yitj-tha=tjini ha ha",
+             glosses = "animate that.you.know what_animate? 2SG.S.30.PSTIMP-DU.F.NSIB-tell_story-PST=2SG.S.1sit.PSTIMP ha ha",
+             free_translation = "That thing of the 'ku' class, whatitsname. You two were telling that story. ")
+```
+
+
+## N|uuki!
 ### Details
 Glottocode: nuuu1241 <br> 
 Family: Tuu <br>
@@ -586,7 +861,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Ndebele
+## Ndebele!
 ### Details
 Glottocode: nort2795 <br> 
 Family: Nguni (Bantu) <br>
@@ -606,7 +881,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Nupe
+## Nupe!
 ### Details
 Glottocode: nupe1254 <br> 
 Family: Volta-Congo <br>
@@ -627,7 +902,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Olo
+## Olo!
 ### Details
 Glottocode: oloo1241 <br> 
 Family: Nuclear Torricelli <br>
@@ -651,7 +926,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Polish
+## Polish!
 ### Details
 Glottocode: poli1269 <br> 
 Family: Indo-European <br>
@@ -671,7 +946,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Sheko
+## Sheko!
 ### Details
 Glottocode: shek1245 <br> 
 Family: Dizoid <br>
@@ -695,7 +970,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Tahitian
+## Tahitian!
 ### Details
 Glottocode: tahi1242 <br> 
 Family: Austronesian <br>
@@ -719,7 +994,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Tariana
+## Tariana!
 ### Details
 Glottocode: tari1256 <br> 
 Family: Arawakan <br>
@@ -739,7 +1014,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Waima'a
+## Waima'a!
 ### Details
 Glottocode: waim1251 <br> 
 Family: Austronesian <br>
@@ -761,7 +1036,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Wambayan
+## Wambayan!
 ### Details
 Glottocode: wamb1258 <br> 
 Family: Mirndi <br>
@@ -785,7 +1060,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Western Magar
+## Western Magar!
 ### Details
 Glottocode: west218 <br> 
 Family: Trans-Himalayan  <br>
@@ -898,27 +1173,3 @@ gloss_example(transliteration = "Ìwé ni mo mú, mo sì wá ilé.",
              free_translation = "It was a book I took and I came home.",
              grammaticality = "*")
 ```
-
-## Language
-### Details
-Glottocode: <br> 
-Family:  <br>
-Macroarea: 
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-### Examples
-
-> Citation [@source2001]
-
-(@language1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-
-
-
