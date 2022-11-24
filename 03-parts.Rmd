@@ -16,9 +16,9 @@ Macroarea:
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-### Examples
-
 > Citation [@source2001]
+
+### Examples
 
 (@language1) @source2001, pg, example 27
 ```{r, echo=FALSE}
@@ -26,9 +26,6 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
 ```
-
-
-
 
 
 ## Afar
@@ -190,7 +187,7 @@ gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
 
 
 
-## Avatime!
+## Avatime
 ### Details
 Glottocode: avat1244 <br> 
 Family: Ka-Togo <br>
@@ -199,19 +196,34 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+> Avatime SVCs are characterized by the following properties: <br>
+i. A sequence of two or more verbs in a single clause <br>
+ii. No predicate-argument relation between the verbs <br>
+iii. Only the first verb is fully inflected for subject agreement, aspect, mood, and polarity <br>
+iv. Subsequent verbs may be bare or prefixed with a reduced agreement marker <br>
+v. The recurrent aspect may be independently marked on subsequent verbs in some SVCs, all other aspects and moods may be marked only once on the first verb and scope over the whole construction. <br>
+vi. The subject must be an argument of all verbs <br>
+vii. Other arguments may also be shared by verbs within the SVC, in which case they are mentioned once only following their first verb. <br>
+viii.Individual verbs may be focused
+[@defina2016, 632]
+
+<!-- abbreviations can be found on @defina2016 651 -->
+
 ### Examples
 
-> Citation [@defina2016; @defina2016b; @vanputten2017]
-
-(@avatime! 1) Aiton 2016:200, example 27
+(@avatime1) @defina2016, 665, example 48
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "wo-trutru ò-pupu=lò dra",
+             glosses = "2SG.PFV-push C2.SG-door=DEF open",
+             free_translation = "You pushed the door open.")
 ```
 
-
-
+(@avatime1) @defina2016, 666, example 56
+```{r, echo=FALSE}
+gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
+             glosses = "then C1.SG.PFV-divide=C3.SG.OBJ SV.C1.SG.PFV-put=CM",
+             free_translation = "Then she divided it (the porridge) and put it down.")
+```
 
 
 ## Awa-Cuaiquer
@@ -436,6 +448,37 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
+## Desano! (refs and coding)
+### Details
+Glottocode: desa1247 <br> 
+Family: Tucanoan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> As in other Eastern Tukanoan languages, SVCs are a highly productive morphological process in Desano. The SVCs in Desano can be characterized as being ‘continuous’ and ‘incorporating’; showing both symmetrical and asymmetrical constructions, and having both single and concordant marking. Concordance marking is not very common. [@delimasilva2012, 235]
+
+### Examples
+
+(@desano1) @delimasilva2012, pg235-236, example 58
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "yuu-~dʉ yai—~yeko—~beda ~bibi wʉ-bida—~da i—~yo—~da",
+             glosses = "one-CLS:day heron-grandmother-COM hummingbird fly-play-3PL.ANIM.PERF do-HSAY-3PL:ANIM.PERF",
+             free_translation = "One day, the tuiuiu bird and the hummingbird were flying and playing.",
+             annotation = "yuhunʉ̃ yahiyẽhkõmẽɾã mĩmĩ wʉbiɾaɾã iyõɾã")
+```
+
+(@desano2) @delimasilva2012, pg236, example 60
+```{r, echo=FALSE}
+gloss_example(transliteration = "pe-bʉ kudi-bʉ yʉʉ—~sa",
+             glosses = "listen-NON3.PERF walk-NON3.PERF 1SG-ADD",
+             free_translation = "I also listened and walked.",
+             annotation = "peebʉ kuɾibʉ yʉ’ʉsã.")
+```
+
+
+
 ## Duhumbi!
 ### Details
 Glottocode: chug1252 <br> 
@@ -508,7 +551,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## English
+## English!
 ### Details
 Glottocode: stan1293 <br> 
 Family: Indo-European <br>
@@ -605,6 +648,30 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
+## Hup!
+### Details
+Glottocode: hupd1244 <br> 
+Family: Naduhup <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 
+
+### Examples
+
+> Citation [@epps2008]
+
+(@hup1) @epps2008, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
 ## Karbi!
 ### Details
 Glottocode: karb1241 <br> 
@@ -626,6 +693,28 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
+
+
+
+## Karitiâna!
+### Details
+Glottocode: kari1311 <br> 
+Family: Tupian <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@everett2007; @storto1999]
+
+(@karitiana1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
 
 
 
@@ -946,6 +1035,65 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
+## Sabanê! (coding refs)
+### Details
+Glottocode: saba1268 <br> 
+Family: Nambiquaran <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> When an identical agent/subject is involved in two actions in coordinated sentences, the verbs can be concatenated in which case only the last one receives all verbal suffixes. ... However, if tense or arguments are distinct, each sentence has its own TAM structure. In this case, sentences are just concatenated. [@dearaujo2004, 189-190]
+
+### Examples
+
+(@sabane1) @dearaujo2004, 129, example 8
+```{r, echo=FALSE}
+gloss_example(transliteration = "ip-a-ntal-i a-san-i-ntal-i",
+             glosses = "see-VS-PRET-ASSR 3OBJ-catch-VS-PRET-ASSR",
+             free_translation = "S/he saw it and caught it.")
+```
+
+(@sabane2) @dearaujo2004, 152, example 122
+```{r, echo=FALSE}
+gloss_example(transliteration = "sa-n-n t-osa-n-n",
+             glosses = "catch-VS-IMP 1OBJ-give-VS-IMP",
+             free_translation = "Catch (it) and give it to me.",
+             comment = "[ˌsãˑtoˈsãː]")
+```
+
+(@sabane3) @dearaujo2004, 190, example 118
+```{r, echo=FALSE}
+gloss_example(transliteration = "towali wola ilul-i iney-i-dana",
+             glosses = "1SBJ a_lot eat-VS drink-VS-PRS.EVID",
+             free_translation = "I eat and drink a lot.")
+```
+
+## Saramaccan!
+### Details
+Glottocode: sara1340 <br> 
+Family: Indo-European <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+> Citation [@mcwhortergood2012]
+
+(@saramaccan1) @mcwhortergood2012, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
 ## Sheko!
 ### Details
 Glottocode: shek1245 <br> 
@@ -1013,6 +1161,28 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
 ```
+
+## Urarina!
+### Details
+Glottocode: urar1246 <br> 
+Family: Isolate <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping:  <br> Grammatical: 
+
+### Examples
+
+> Citation [@olawsky2006]
+
+(@urarina1) @olawsky2006, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
 
 ## Waima'a!
 ### Details
