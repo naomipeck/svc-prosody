@@ -1,0 +1,491 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+## Abun
+### Details
+Glottocode: abun1252 <br> 
+Family: Isolate <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> The other modifying component of Abun verb phrases is *verbal particles*. These particles are attached to certain verbs like 'up' in the English, 'He *looked up* the words', which may, in English, also be in the form, 'He *looked* the words *up*'. ...
+In English the verbal particules 'up', 'down', and so on, may be continuous or discontinuous with the verb. In Abun, however, the particle is discontinuous when there is a direct object ...
+None of the Abun verbal particles appear to have been derived from adpositions. Instead, most of the verbal particles are derived from verbs such as *mu* 'go', *ma* 'come' and *kwop* 'die'.
+[@berryberry2000, 67]
+
+> In *simple juxtapositino*, there are no markers of conjunction. ... This strategy is permitted at all levels from sentence to noun phrase, as well as in verb phrases (verb phrases, incidentally, only allow this type of strategy to give what appear to be serial verb formations). [@berryberry2000, 94]
+
+### Examples
+
+(@abun1) @berry1995, 40, example 59
+```{r, echo=FALSE}
+gloss_example(transliteration = "Prisila ma sap Barbarina o ya",
+             glosses = "Prisila come cut Barbarina again POSSIB",
+             free_translation = "Prisila might come and cut Barbarina again.")
+```
+
+(@abun2) @berryberry2000, 67, example 5.6.a
+```{r, echo=FALSE}
+gloss_example(transliteration = "An gwat buku ma mo nu.",
+             glosses = "3SG carry book come LOC house",
+             free_translation = "He brought the book to the house.")
+```
+
+(@abun3) @berryberry2000, 95, example 5.166
+```{r, echo=FALSE}
+gloss_example(transliteration = "An kas mu sem mo nden.",
+             glosses = "3SG run go sleep LOC bush",
+             free_translation = "He ran and went and slept in the bush.")
+```
+
+
+## Afar
+### Details
+Glottocode: afar1241 <br> 
+Family: Afro-Asiatic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+(@afar1) @kamil2015, 291, example 907
+```{r, echo=FALSE}
+gloss_example(transliteration = "taamiit -íyye",
+             glosses = "work.DIM say.3M.PFV",
+             free_translation = "He worked a little.")
+```
+
+(@afar2) @kamil2015, 292, example 909
+```{r, echo=FALSE}
+gloss_example(transliteration = "boddiná mukuɖ -ítta",
+             glosses = "tooth wobble say.3F.IPFV",
+             free_translation = "The tooth moves.")
+```
+
+## Ahamb
+### Details
+Glottocode: axam1237 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> In Ahamb, there is a small closed class of nonprototypical verbs that appear in nuclear serialisation-like constructions. Such lexemes are referred to here as coverbs and the constructions that they form – as coverbal SVCs. ... Ahamb does not have prototypical same-subject SVCs, but has both switch-function and ambient SVCs. [@rangelov2020, 331]
+
+> [Coverbal constructions] function prosodically as one unit with the preceding verb stem and any affixes. Some phonological processes have been attested in more commonly used coverbal constructions. [@rangelov2020, 338]
+
+> The sequential event subject indexes, characterised by the vowel /e/ (and less commonly /ø/), are used exclusively to mark the second and subsequent verb in SECs as in (@ahamb3). The subject index on the first verb of SECs is usually a neutral subject index. [@rangelov2020, 370]
+
+### Examples
+
+(@ahamb1) @rangelov2020, 333, example 11.2a
+```{r, echo=FALSE}
+gloss_example(transliteration = "Nga-ro-kar husür-i.",
+             glosses = "3SG-IPFV-say follow-OBJ",
+             free_translation = "He talks about it.")
+```
+
+(@ahamb2) @rangelov2020, 344, example 11.14b
+```{r, echo=FALSE}
+gloss_example(transliteration = "Ange nga-tams bbën hana na-r-maj.",
+             glosses = "3SG 3SG-hit eliminate 1SG 1SG-SBQT-die",
+             free_translation = "He beat me to death.")
+```
+
+(@ahamb3) @rangelov2020, 370, example 13.19a
+```{r, echo=FALSE}
+gloss_example(transliteration = "Ta-gmay te-prag gasin.",
+             glosses = "3PL-come 3PL.SEQ-do work",
+             free_translation = "They come, they do the work.")
+```
+## Aimele
+### Details
+Glottocode: aime1238 <br> 
+Family: Aimele <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Neither of the constituent verbs in the SVC in (@aimele1) is morphologically-marked as subordinate to a final verb. Instead, each verb is uninflected, except for the final verb, which bears predicate markers such as tense, aspect, mood, modality, and evidentiality. 
+[@aiton2016, 201]
+
+### Examples
+
+(@aimele1) @aiton2016, 200, example 27
+```{r, echo=FALSE}
+gloss_example("koodulu suloobo -moo wɛlɛ sɛɛ -jaa",
+             "downward {NAME} DAT shout say PST",
+             "I shouted it down to Soloobu.")
+```
+
+(@aimele2) @aiton2016, 201, example 30
+```{r, echo=FALSE}
+gloss_example(transliteration = "nɛ: ti:ɸɛ: o:ga: ɛja: o:gɛ: di a:nɛ:",
+              glosses = "1:SG afterwards pandanus seedling:ABS carry_in_bilum take go:PST",
+              free_translation = "I went after him, taking the pandanus seeds in a bilum.")
+```
+
+(@aimele3) @aiton2016, 201, example 31
+```{r, echo=FALSE}
+gloss_example(transliteration = "sugu:lu: ɛna: hɛna: do:ga: dijɛ:=bi: kɛi",
+               glosses = "school that:ABS go house:ABS build=IMP ASSER",
+               free_translation = "Go build that building for the school!")
+```
+
+## Alamblak
+### Details
+Glottocode: alam1246 <br> 
+Family: Sepik <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> Structurally the complex-verb stem is-a serialisation of roots (verb, noun, adjective, time word and adverb). Serialised constructions range from stemlike derived and compound stems, to constructions resembling predicates of merged clauses accompanied by strict constraints on possible combinations of clause participants. Others are phrase-like constructions with head plus modifying constituents. [@bruce1984, 152]
+
+### Examples
+
+(@alamblak1) @bruce1984, 160, example 233c
+```{r, echo=FALSE}
+gloss_example(transliteration = "këfrat tu-hay-më-r-r",
+             glosses = "spear throw-give-R.PST-3SG.MASC-3SG.MASC",
+             free_translation = "He threw the spear to him for him.")
+```
+
+(@alamblak2) @bruce1984, 163, example 238b
+```{r, echo=FALSE}
+gloss_example(transliteration = "hohra-t kak-yirona-më-t-t",
+             glosses = "thorn-3SG.FEM get-feel_pain-R.PST-3SG.FEM-3SG.FEM",
+             free_translation = "She got/held the thorn and felt pain.")
+```
+
+(@alamblak3) @bruce1984, 165, example 243
+```{r, echo=FALSE}
+gloss_example(transliteration = "grha-nur-më-m",
+             glosses = "dance-cry-R.PST-3PL",
+             free_translation = "They danced and cried.")
+```
+
+## Ami
+### Details
+Glottocode: ammi1238 <br> 
+Family: Western Daly <br>
+Macroarea: Australia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Phonological liaison occurs between the two verbs... There are grounds here for proposing that each serial construction constitutes a single phonological conglomerate. There is no pause between the VPs and the single intonation contour points to their constituting a single clause. [@ford1998, 316]
+
+### Examples
+
+(@ami1) @ford1998, 316, example 8-54
+```{r, echo=FALSE}
+gloss_example(transliteration = "gama vulhut gama",
+             glosses = "3MIN.S.R.stand beeswax 3MIN.S.R.stand",
+             free_translation = "The beeswax is standing up.",
+             comment = "['kamaɸ̀ʊl̪ʊkàma]")
+```
+
+(@ami2) @ford1998, 316, example 8-55
+```{r, echo=FALSE}
+gloss_example(transliteration = "guman-pitji gaya",
+             glosses = "3MIN.A.R.poke-roll 3MIN.S.R.lie",
+             free_translation = "He is still making fire.",
+             comment = "['kʊmanp̀ɪcɪɣàja]")
+```
+
+
+## Amkoe
+### Details
+Glottocode: hoaa1235 <br> 
+Family: Kxa <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> A serial verb construction (SVC) is where one verb immediately follows the other without any intervening adverbs, negation, tense/aspect markers, passive prefix, or conjunctions. Such a construction is also referred to as a verbal compound. Serial verbs are used in ǂHȍȁ to express a wide range of semantic relations, including directions, results, sequences of ac­ tions and benefactives. Many concepts expressed by prepositions in other languages are ex­ pressed by serial verbs in ǂHȍã. [@collinsgruber2014, 167]
+
+### Examples
+
+(@amkoe1) @collinsgruber2014, 167, example 2a
+```{r, echo=FALSE}
+gloss_example(transliteration = "ma ’a ǁhù ǀ’o ǰȍ kì kx’ù na",
+             glosses = "1SG PROG pour put_in water LK pot in",
+             free_translation = "I am pouring water into the pot.")
+```
+
+(@amkoe2) @collinsgruber2014, 172, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ma ’a kígyè'o kíni Jefo",
+             glosses = "1SG PROG call look_for Jeff",
+             free_translation = "I am calling Jeff, looking for him.")
+```
+
+## Anem
+### Details
+Glottocode: anem1249 <br> 
+Family: Isolate <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+### Examples
+
+The glosses are adapted from the original source.
+
+(@anem1) @thurston1982, 100, line 9
+```{r, echo=FALSE}
+gloss_example(transliteration = "i-pik-îl i-gêx-îl",
+             glosses = "3PL.SBJ.RL-jump-PL 3PL.SUBJ.RL-descend-PL",
+             free_translation = "The two of them jumped down.")
+```
+
+(@anem2) @thurston1982, 101, line 24
+```{r, echo=FALSE}
+gloss_example(transliteration = "i-ki-u u-sêm",
+             glosses = "3PL.SBJ.RL-hide-3SG.OBJ.MASC 3SG.MASC.SBJ.RL-lie",
+             free_translation = "He was kept hidden.")
+```
+
+## A'ou
+### Details
+Glottocode: aoua1234 <br> 
+Family: Tai-Kadai <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+### Examples
+
+(@aou1) @lietal2014, 206, example 8
+```{r, echo=FALSE}
+gloss_example(transliteration = "ve13 jɔ33 i13na33 məɯ31 ta55 ta33",
+             glosses = "3SG ask 1PL come cut tree",
+             free_translation = "They asked us to come and cut trees.")
+```
+
+(@aou2) @lietal2014, 142, example 11
+```{r, echo=FALSE}
+gloss_example(transliteration = "ve13 tai31 vlai31 səɯ31 təɯ33 vei31",
+             glosses = "3SG beat die two CLF mosquito",
+             free_translation = "He killed two mosquitos.")
+```
+
+
+## Apinayé
+### Details
+Glottocode: apin1244 <br> 
+Family: Nuclear-Macro-Je <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Serialization requires the nonfinite form of verbs when the (causative or instrumental morpheme) verb *ɔ* ‘do’ is involved. Otherwise, it is just the bare form of verbs that occur in a sequence; in this case, the verbs involved are usually from the class of intransitives (i.e. they take no inflection in their finite form). In Apinajé, serialization always involves either a movement verb or a position verb. Not all verbs belonging to each category are eligible for serial constructions expressing aspectual meanings, but only a selected few. When verbs from outside this inventory are used, the resulting overall meaning of the construction is more literal than grammatical, sometimes yielding awkward or jocose meanings. [@cunhadeoliveira2005, 275]
+
+> From the prosodic point of view, the elements of each complex construction belong within a single sentential intonation contour. Morphologically, there is only one mode marker for the whole construction, such that all elements fall under its scope. In regard to syntax, boundary indices and the internally cohesive distribution of elements in the sentence are indicative of the internal coherence of serialization... [@cunhadeoliveira2005, 276]
+
+### Examples
+
+(@apinaye2) @cunhadeoliveira2005, 162, example 106d
+```{r, echo=FALSE}
+gloss_example(transliteration = "Pa tẽ tẽm.",
+             glosses = "RL go fall",
+             free_translation = "I fell.")
+```
+
+(@apinaye3) @cunhadeoliveira2005, 161, example 106a
+```{r, echo=FALSE}
+gloss_example(transliteration = "Kɔt paj arĩ ic-krĩ",
+             glosses = "IRR 1.IRR stay 1-sit",
+             free_translation = "I'll remain seated.")
+```
+
+(@apinaye1) @cunhadeoliveira2005, 295, example 24a
+```{r, echo=FALSE}
+gloss_example(transliteration = "na pa kɔt=m̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ",
+             glosses = "RL 1 still 1-RP-GEN wood fasten do go",
+             free_translation = "I'm still walking and fastening my wood.")
+```
+
+
+
+
+
+## Arta
+### Details
+Glottocode: arta1239 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Sequential verb construction is the coordination in which the motion verbs such as (ma)ngay and (a)ngin are combined with another predicate. This construction prosodically constitutes a single intonation unit, with no intonation break between the two predicates involved. [@kimoto2017, 383]
+
+> Tight coordination is another type of clausal coordination, in which the whole constituent is pronounced in a single intonation contour and the absolutive arguments of both of the predicates should be co-referential. If the absolutive argument is realized in a full NP, it immediately follows the first predicate before the second predicate, with the second clause having no overt person index. [@kimoto2017, 384]
+
+### Examples
+
+Note that genitive marking in these examples may function as ergative marking.
+
+(@arta1) @kimoto2017, 384, example 100
+```{r, echo=FALSE}
+gloss_example(transliteration = "Angin=mi=tid pa-sdèp-èn ti bunbun=mi.",
+             glosses = "go=1PL.GEN=3PL.ABS CAUS-enter-TR SG.OBL.DEF house=1PL.GEN",
+             free_translation = "We go and bring them into our house.")
+```
+
+(@arta2) @kimoto2017, 385, example 105
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "P<in>idut=di tidi bunga na ayu=y n-i-lugun=di tamman ti baske:t=i.",
+             glosses = "<PST>pick_up=3PL.GEN PL.ABS.DEF fruit GEN.INDF tree=SPC PST-TR-container=3PL.GEN again SG.OBL.DEF basket=SPC",
+             free_translation = "They picked up the fruits and put it into the basket again.")
+```
+## Ashéninka Perené
+### Details
+Glottocode: ashe1272 <br> 
+Family: Arawakan <br>
+Macroarea: South American
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> Serialized predicates do not have more than two verbs in a verb sequence which are fully inflected grammatical and phonological words, capable of being integrated into discourse. There is no pause separating the verbs from each other... the serialized verbs are independent phonological words, each inflected for person, aspect, realis status, and mode. [@mihas2015, 163]
+
+### Examples
+
+(@asheninka1) @mihas2015, 165, example 6.13.b
+```{r, echo=FALSE}
+gloss_example(transliteration = "o- ja -t -atz -i o- shimaa -t -a",
+             glosses = "3NM.S go EP PROG REAL 3NM.S fish EP REAL",
+             free_translation = "She went to fish.")
+```
+
+(@asheninka2) @mihas2015, 168, example 6.19.b
+```{r, echo=FALSE}
+gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
+             glosses = "2S overtake EP APL.INT EP REAL 2S sleep PROG REAL NEG",
+             free_translation = "Don't stay asleep.")
+```
+
+
+
+## Atakapa
+### Details
+Glottocode: atak1252 <br> 
+Family: Isolate <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> Two, and occasionally three, verb stems are put together in the same complex so freely and in so many different ways that we find a complete gradation from stems very closely united to a purely syntactic connection. Two or three cases have already been given in which the first stem has been reduced almost to the condition of a prefix. On the other hand certain stems in the second position perform the functions of auxiliaries. Nevertheless these do not seem to be singled out for special treatment. There is nothing to differentiate them from a number of principal verb stems. The various forms of verb composition which occur may be classified as follows: (1) those in which the first stem appears to have no suffixes... [@swanton1929, 134]
+
+### Examples
+
+Note that glosses were not present in the original source and the orthography of the vowels has been altered to be closer to the IPA.
+
+(@atakapa1) @swanton1929, 134
+```{r, echo=FALSE}
+gloss_example(transliteration = "ne:ʃ po:l tsa-t ne:-t",
+             glosses = "wood float go_fast-CONT down-CONT",
+             free_translation = "The log is floating past down stream.")
+```
+
+(@atakapa2) @swanton1929, 134
+```{r, echo=FALSE}
+gloss_example(transliteration = "kõ:-hi-pa-m-u:l-et",
+             glosses = "take.SG.ABS-1SG.ABS-beat-PLURACT-3PL.ERG-PST",
+             free_translation = "They seized and beat me.")
+```
+
+## Avatime
+### Details
+Glottocode: avat1244 <br> 
+Family: Kwa Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Avatime SVCs are characterized by the following properties: <br>
+i. A sequence of two or more verbs in a single clause <br>
+ii. No predicate-argument relation between the verbs <br>
+iii. Only the first verb is fully inflected for subject agreement, aspect, mood, and polarity <br>
+iv. Subsequent verbs may be bare or prefixed with a reduced agreement marker <br>
+v. The recurrent aspect may be independently marked on subsequent verbs in some SVCs, all other aspects and moods may be marked only once on the first verb and scope over the whole construction. <br>
+vi. The subject must be an argument of all verbs <br>
+vii. Other arguments may also be shared by verbs within the SVC, in which case they are mentioned once only following their first verb. <br>
+viii.Individual verbs may be focused
+[@defina2016, 632]
+
+<!-- abbreviations can be found on @defina2016 651 -->
+
+### Examples
+
+(@avatime1) @defina2016, 665, example 48
+```{r, echo=FALSE}
+gloss_example(transliteration = "wo-trutru ò-pupu=lò dra",
+             glosses = "2SG.PFV-push C2.SG-door=DEF open",
+             free_translation = "You pushed the door open.")
+```
+
+(@avatime2) @defina2016, 666, example 56
+```{r, echo=FALSE}
+#gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
+#             glosses = "then C1SG.PFV-divide=C3.SG.OBJ SV.C1SG.PFV-put=CM",
+#             free_translation = "Then she divided it (the porridge) and put it down.")
+```
+<!-- fix example -->
+
+## Awa-Cuaiquer
+### Details
+Glottocode: awac1239 <br> 
+Family: Barbacoan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> The Awa Pit Serial Verb construction thus consists of two active verbs with identical subcategorization frames, which are obligatorily adjacent and occur in a temporally iconic order. The normal range of morphological and syntactic possibilities is open to the clause, with any inflection occurring on the second verb stem. The first verb stem is either bare (if consonant-final) or suffixed with *t* (if vowel-final). Any modification, such as negation, applies semantically to both verbs, but is indicated formally on the second verb.
+[@curnow1997, 305]
+
+### Examples
+
+(@awa1) @curnow1997, 303, example 766
+```{r, echo=FALSE}
+gloss_example(transliteration = "gato=na tunya pizh ku-mtu",
+             glosses = "cat=TOP rat grab eat-IPFV.PART",
+             free_translation = "The cat is grabbing and eating the rat.")
+```
+
+(@awa2) @curnow1997, 306, example 776
+```{r, echo=FALSE}
+gloss_example(transliteration = "pa azh kway-zi",
+             glosses = "sun shine drop-NONLOCUT",
+             free_translation = "The sun shone out.")
+```
+
+(@awa3) @curnow1997, 306, example 775
+```{r, echo=FALSE}
+gloss_example(transliteration = "Demetrio=na I-t kway-zi",
+             glosses = "Demetrio=TOP go-SV drop-NONLOCUT",
+             free_translation = "Demetrio left.")
+```
+
+

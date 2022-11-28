@@ -1,0 +1,312 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+## East Ambae
+### Details
+Glottocode: east2443 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## East Makian
+### Details
+Glottocode: east2440 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## East Uvean
+### Details
+Glottocode: wall1257 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Eastern Arrernte!
+### Details
+Glottocode: east2379 <br> 
+Family: Pama-Nyungan <br>
+Macroarea: Australian
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+> Citation [@wilkins1989, 508]
+
+(@arrernte1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
+## Eipomek
+### Details
+Glottocode: eipo1242 <br> 
+Family: Nuclear Trans-New-Guinea <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Eleme
+### Details
+Glottocode: elem1253 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## English!
+### Details
+Glottocode: stan1293 <br> 
+Family: Indo-European <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+### Examples
+
+> Citation [@huddlestonpullum2002]
+
+(@english1) personal knowledge
+```{r, echo=FALSE}
+gloss_example(transliteration = "Go get me some food!",
+             glosses = "go.IMP get.IMP 1SG.ACC some food")
+```
+
+
+
+
+
+## Ewe
+### Details
+Glottocode: ewee1241 <br> 
+Family: Kwa Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Filomeno Mata Totonac
+### Details
+Glottocode: filo1235 <br> 
+Family: Totonacan <br>
+Macroarea: North American
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> When a complementtaking verb is followed by another verb with the same subject as its complement, incomplete sharing of inflection occurs. ... In such constructions, V1 is fully inflected as normally for person agreement and TAM. Whatever the aspect of V1, V2 is in the imperfective aspect, that is, it has final stress and carries the IMPF suffix –aa where expected (whenever another suffix or enclitic attaches outside it, mostly with first plural or second subjects or objects). The imperfective stem thus seems to function here like an infinitival or participial form, in a language which otherwise makes no use of non-finite forms. Tense and person marking on V2 have some degree of optionality. [@mcfarland2009, 200]
+
+### Examples
+
+(@ftotonac1) @mcfarland2009, 201, example 252
+```{r, echo=FALSE}
+#gloss_example(transliteration = "na-k-ta-yaa-aa na-k-malakčawa-aa",
+#             glosses = "FUT-1SBJ-INC-stand-IPFV FUT-1SBJ-open-IPFV",
+#             free_translation = "I will get up to close the door.",
+#             annotation = "naktayáa nakmalakčawá")
+```
+<!-- fix example -->
+
+
+(@ftotonac2) @mcfarland2009, 202, example 257
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ša-k-laqatí-aa ša-k-'an-aa k-qaɬtawaqá-aa",
+#             glosses = "PST-1SBJ-like-IPFV PST-1SBJ-go-IPFV 1SBJ-study-IPFV",
+#             free_translation = "I used to like to go to study.",
+#             annotation = "šaklaqatí šak'an kqaɬtawaqá")
+```
+<!-- fix example -->
+## Fon
+### Details
+Glottocode: fonn1241 <br> 
+Family: Kwa Volta-Congo <br>
+Macroarea: Afroca
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Gamo
+### Details
+Glottocode: gamo1243 <br> 
+Family: Ta-Ne-Omotic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Gayo
+### Details
+Glottocode: gato1244 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Goemai
+### Details
+Glottocode: goem1240 <br> 
+Family: Afro-Asiatic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Gyeli
+### Details
+Glottocode: gyel1242 <br> 
+Family: Bantu <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+

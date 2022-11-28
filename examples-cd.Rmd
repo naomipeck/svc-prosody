@@ -1,0 +1,405 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+## Cahuilla
+### Details
+Glottocode: cahu1264 <br> 
+Family: Uto-Aztecan <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Central Kanuri
+### Details
+Glottocode: cent2050 <br> 
+Family: Saharan <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Central Khmer
+### Details
+Glottocode: cent1989 <br> 
+Family: Austroasiatic <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+### Examples
+
+> Serial verbs are different: as far as one can tell, and with one single possible exception, all serial verbs are homophonous with currently attested main verbs. There are thus virtually no dedicated serial verbs. (Or if there are, we may question whether they are in fact verbs at all.) ... Serial verbs are in many cases indistinguishable from any asyndetically following clause. [@haiman2011, 270]
+
+(@khmer1) @haiman2011, 276, example 62b
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko: bamreah cenj pi: neum",
+             glosses = "ox wriggle exit from yoke",
+             free_translation = "The ox wriggled out from under the yoke.")
+```
+
+(@khmer2) @haiman2011, 280, example 69
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "koat lu:k daj tev knong thawng.jiam haeuj daw:k luj muaj rial mau:k",
+             glosses = "3 reach hand go in knapsack finish remove money one rial DIR",
+             free_translation = "He reached into his knapsack and then removed a one-rial piece.")
+```
+
+
+## Chakali
+### Details
+Glottocode: chak1271 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Creek
+### Details
+Glottocode: cree1270 <br> 
+Family: Muskogean <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> Creek has several constructions in which an auxiliary verb is used with a main verb to express a stronger assertion, possibility, or aspect. ...the main verb is marked with durative -i: and agent person markers appear either on the auxiliary verb or on the main verb. [@martin2011, 298]
+
+### Examples
+
+(@creek1) @martin2011, 306, example 34
+```{r, echo=FALSE}
+gloss_example(transliteration = "nis-í: po:y-iphoy-í:-t ô:-s",
+             glosses = "buy-DUR finish-SPON.IMPL-DUR-SS be.FGR-IND",
+             free_translation = "They’ve bought it all.")
+```
+
+(@creek2) @martin2011, 306, example 38
+```{r, echo=FALSE}
+gloss_example(transliteration = "wana:y-í: mâ:h-ey-s",
+             glosses = "tie.LGR-DUR keep.FGR-1SG.AG-IND",
+             free_translation = "They’ve bought it all.")
+```
+
+## Daakaka!
+### Details
+Glottocode: daka1243 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: 1 <br> Grammatical: 0
+
+### Examples
+
+> Citation [@vonprince2012; @hopperdietzel2020]
+
+(@daakaka1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Dagik
+### Details
+Glottocode: dagi1241 <br> 
+Family: Narrow Talodi <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Darma
+### Details
+Glottocode: darm1243 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> When a verb functions as an auxiliary, it is found following another verb stem; the auxiliary bears the inflectional morphology of the utterance. In these cases, the two verbs form a single unit. In the following subsections I will outline the verbs found in combination. (These constructions may be better analyzed as serial verbs.) [@willis2007, 341]
+
+> A verb includes a verb stem plus inflectional morphology. The stem is the morpheme that contains the lexical information of the verb. Verbs can be inflected for person, number, tense, aspect and mood. Verb stems generally do not appear alone except when they precede an inflected verb to form a complex verb. [@willis2007, 327]
+
+### Examples
+
+(@darma1) @willis2007, 342, example 36
+```{r, echo=FALSE}
+gloss_example(transliteration = "ning gu dar’umpha wan r’a-hen",
+             glosses = "1PL POSS door.at reach come-1PL.NPST",
+             free_translation = "(We) reach our door.",
+             annotation = "ning gu dar’umpha wan r’ahen..")
+```
+
+(@darma2) @willis2007, 344, example 43
+```{r, echo=FALSE}
+gloss_example(transliteration = "hã yak to dee-nu ni-n-su",
+             glosses = "then yak buy go-NOM AUX.EQ-1PL-PST",
+             free_translation = "Then, (we) used to go buy a yak.",
+             annotation = "hã yak to deen ninsu.")
+```
+
+## Dazaga
+### Details
+Glottocode: daza1242 <br> 
+Family: Saharan <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Dera
+### Details
+Glottocode: dera1245 <br> 
+Family: Senagi <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Desano
+### Details
+Glottocode: desa1247 <br> 
+Family: Tucanoan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> As in other Eastern Tukanoan languages, SVCs are a highly productive morphological process in Desano. The SVCs in Desano can be characterized as being ‘continuous’ and ‘incorporating’; showing both symmetrical and asymmetrical constructions, and having both single and concordant marking. Concordance marking is not very common. [@delimasilva2012, 235]
+
+### Examples
+
+(@desano1) @delimasilva2012, pg235-236, example 58
+```{r, echo=FALSE, results='asis'}
+#gloss_example(transliteration = "yuu-~dʉ yai—~yeko—~beda ~bibi wʉ-bida—~da i—~yo—~da",
+#             glosses = "one-CLS:day heron-grandmother-COM hummingbird fly-play-3PL.ANIM.PERF do-HSAY-3PL:ANIM.PERF",
+#             free_translation = "One day, the tuiuiu bird and the hummingbird were flying and playing.",
+#             annotation = "yuhunʉ̃  yahiyẽhkõmẽɾã mĩmĩ wʉbiɾaɾã iyõɾã")
+```
+<!-- fix example -->
+
+(@desano2) @delimasilva2012, pg236, example 60
+```{r, echo=FALSE}
+#gloss_example(transliteration = "pe-bʉ kudi-bʉ yʉʉ—~sa",
+#             glosses = "listen-NON3.PERF walk-NON3.PERF 1SG-ADD",
+#             free_translation = "I also listened and walked.",
+#             annotation = "peebʉ kuɾibʉ yʉ'ʉsã.")
+```
+<!-- fix example -->
+
+
+## Dhao
+### Details
+Glottocode: dhao1237 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Dongwang Tibetan
+### Details
+Glottocode: kham1282 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Doromu-Koki
+### Details
+Glottocode: doro1266 <br> 
+Family: Manubaran <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Duhumbi
+### Details
+Glottocode: chug1252 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> A Duhumbi serial verb construction is defined as a minimum of two verb roots forming a predicate in any non-finite or finite context that refer to what can be construed as a single event (though with sub-events possible) and form a single phonosyntactic unit. [@bodt2020, 437]
+
+> The modifying verb roots in asymmetrical SVCs can be compared to what have been called ‘converbs’ in other languages (e.g. Coupe 2007 for Mongsen Ao; Hyslop 2017 for Kurtöp). Their omission from the string or breaking up the string by adding non-finite markers to the individual roots, changes the entire meaning of the clause. [@bodt2020, 444]
+
+### Examples
+
+(@duhumbi1) @bodt2020, 438, example 655
+```{r, echo=FALSE}
+#gloss_example(transliteration = "hentʰoŋ-kʰo pʰargiŋ kej oloʔ lek woj-ʨʰa-kʰen ose ʥu-loŋ=beʔ=oloʔ",
+#             glosses = "neck-LOC yoke place then field plough-eat-AGN like_that stay-PRF=COP.EX=then",
+#             free_translation = "(He) placed the yoke on the neck. And like that (the bull) had stayed (as) the one ploughing and eating the field.")
+```
+<!-- fix example -->
+
+(@duhumbi2) @bodt2020, 446, example 668
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ɕapa kʰonow ɲis=gi lon-le-da, ‘Kʰar-han-ɲi’ in-ba=le.",
+#             glosses = "butcher siblings two=TOP come-do-IPFV call-bring-IMP say-NOM=COP",
+ #            free_translation = "After those two butcher brothers came, (the demoness) said 'Call them over!'.")
+```
+<!-- fix example -->
+
+
+## Duna
+### Details
+Glottocode: duna1248 <br> 
+Family: Isolate <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Dzongkha
+### Details
+Glottocode: dzon1239 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> The difference between the phonological word and the grammatical word can be illustrated in the clause *d'orzü=ci tâng ta-ge* 'Let me tell you a shortened version' (S16-1). The sequence *tâng ta-ge* is an example of a serial verb construction (SVC), and it consists of two grammatical words, *tâng* 'send' and *ta-ge* 'look-ADH'. Figure 46 shows, however, that the two grammatical words are part of a single phonological word. [@watters2018, 138]
+
+### Examples
+
+(@dzongkha1) @watters2018, 261, example 111
+```{r, echo=FALSE}
+gloss_example(transliteration = "zai numo-i gari jo dö ong mâ-lê phâ",
+             glosses = "EX night-EMPH vehicle go sit PROB down=ABL over_there",
+             free_translation = "Yikes! Vehicles even travel at night, down across there (to Kalimpong).")
+```

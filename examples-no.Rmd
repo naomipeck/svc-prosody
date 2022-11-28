@@ -1,0 +1,323 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+
+## N|uuki!
+### Details
+Glottocode: nuuu1241 <br> 
+Family: Tuu <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+### Examples
+
+> Citation [@collinsnamaseb2011, 53-56]
+
+(@nuu1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Naman
+### Details
+Glottocode: litz1237 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Namuyi
+### Details
+Glottocode: namu1246 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Ncane-Mungong
+### Details
+Glottocode: ncan1245 <br> 
+Family: Bantoid <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Ndebele!
+### Details
+Glottocode: nort2795 <br> 
+Family: Bantu <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@bowernlotridge2002; @pellingpelling1974]
+
+(@ndebele1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Nese
+### Details
+Glottocode: nese1235 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Ngiti
+### Details
+Glottocode: ngit1239 <br> 
+Family: Central Sudanic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Noon
+### Details
+Glottocode: noon1242 <br> 
+Family: North-Central Atlantic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Northern Qiang
+### Details
+Glottocode: nort2722 <br> 
+Family: Trans-Himalayan <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Northern Yukian
+### Details
+Glottocode: yuki1243 <br> 
+Family: Yuki-Wappo <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Non-final verbs can be bare verb roots or can be verb roots affixed with derivational morphology, in Yuki serial verb constructions. The non-final verbs in the serial verb construction are never marked for tense or with *=mil*. The final verb in the sequence will be affixed with finite *=mil*. [@balodis2011, 665]
+
+### Examples
+
+(@yuki1) @balodis2011, 666, example 83
+```{r, echo=FALSE}
+#gloss_example(transliteration = "sąmi ki-mas-i hąša hąp šuˀ kop-wok-tl=mil tat-k-il",
+#             glosses = "and:then DST-DSTR-ANIM again sing sit feather-dance-TR=FIN fix-PNCT-MPSV",
+#             free_translation = "And then in turn these others sing, sit, and dance the feather dance and fix themselves up.",
+#             annotation = "sámi: kimáse hąšáˀ hąp šú: kopwóktlmil tá:tkí:li.")
+```
+
+(@yuki2) @balodis2011, 667, example 84
+```{r, echo=FALSE}
+#gloss_example(transliteration = "siˀi lak-t nąw-k-il=mil ki ˀipsak",
+#             glosses = "then:HSAY go.out-INTR see-PNCT-MPSV=FIN DST boy",
+#             free_translation = "Then going out, the boy looked.",
+#             annotation = "seˀéy lákti nąwkílmil kí ˀipsák")
+```
+
+## Nungon
+### Details
+Glottocode: yaum1237 <br> 
+Family: Nuclear Trans-New-Guinea <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Nupe!
+### Details
+Glottocode: nupe1254 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+### Examples
+
+> Citation [@kandybowicz2008, 54-58]
+
+(@language1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Nyam
+### Details
+Glottocode: nyam1285 <br> 
+Family: Afro-Asiatic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Oko
+### Details
+Glottocode: okoe1238 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Olo!
+### Details
+Glottocode: oloo1241 <br> 
+Family: Nuclear Torricelli <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+> Citation [@staley2007, 37-41]
+
+(@olo1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+

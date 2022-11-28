@@ -1,5 +1,26 @@
 book_filename: svc-poster
 delete_merged_file: true
+rmd_files:
+- index.Rmd
+- 01-intro.Rmd
+- 02-cross-refs.Rmd
+- 03-parts.Rmd
+- 04-citations.Rmd
+- examples-a.Rmd
+- examples-b.Rmd
+- examples-cd.Rmd
+- examples-eg.Rmd
+- examples-hj.Rmd
+- examples-kl.Rmd
+- examples-m.Rmd
+- examples-no.Rmd
+- examples-ps.Rmd
+- examples-tu.Rmd
+- examples-wz.Rmd
+- corpus-data.Rmd
+- 05-blocks.Rmd
+- 06-share.Rmd
+- 07-references.Rmd
 language:
   ui:
     chapter_name: "Chapter "

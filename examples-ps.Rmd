@@ -1,0 +1,673 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+## Pagibete
+### Details
+Glottocode: pagi1243 <br> 
+Family: Bantu <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Pagu
+### Details
+Glottocode: pagu1249 <br> 
+Family: North Halmahera <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Paluai
+### Details
+Glottocode: balu1257 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Pangwa
+### Details
+Glottocode: pang1287 <br> 
+Family: Bantu <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Pech
+### Details
+Glottocode: pech1241 <br> 
+Family: Chibchan <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> Verb + verb conjunction is accomplished by the use of serial verb-stems which include, for each verb involved, the stem and the subject-suffix (except for the 1st-person plural, for which only the stem is used for all but the last verb-stem), plus any associated object-prefixes... [@holt1999, 68]
+
+### Examples
+
+Note that glossing was not provided in the original source.
+
+(@pech1) @holt1999, 68
+```{r, echo=FALSE}
+gloss_example(transliteration = "mángoh kúh-ẽ̀ʔ-pẽ́ʔ",
+             glosses = "mango buy-eat-FUT:EMPH",
+             free_translation = "He will buy and eat a mango.")
+```
+
+(@pech2) @holt1999, 68
+```{r, echo=FALSE}
+#gloss_example(transliteration = "mikátes kúha-pèʔka-uši",
+#             glosses = "rope buy:1SG-bring:1SG-1SG.RECPST",
+#             free_translation = "I bought a rope and brought it (home).")
+```
+
+## Pnar
+### Details
+Glottocode: pnar1238 <br> 
+Family: Austroasiatic <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> SVCs in Pnar ... are composed of two verbal elements which occur together in a way that allows both verbs to affect the semantics of the verbal event. The two verbal elements generally occur side by side as a single element... 
+In the case of SVCs without a clear head, neither verb root receives affixation, whereas in SVCs with a clear head, the head verb is (or can be) affixed. When the first verb can receive affixation, there seem to be no clear restrictions on what verbs can occur as the second element. When the second verb can receive affixation the first element tends to be a ‘light’ verb or auxiliary. [@ring2015,439]
+
+### Examples
+
+(@pnar1) @ring2015, 442, example 1090
+```{r, echo=FALSE, results='asis'}
+#gloss_example(transliteration = "he=i=pɔr daŋ ja-t͡ʃɔŋ ha ka=palɔŋ kʰhian ka=palɔŋ tdut aʔ kɔ ha ka=ni ka=kd͡ʒat ɔ",
+#             glosses = "LOC=NEUT=time PROG PLURACT-sit LOC FEM=bed be_small FEM=bed break cut NOM LOC FEM=PROX FEM=leg 1SG.NOM",
+#             free_translation = "once, while we were sitting on the small bed, suddenly the bed broke, cutting my leg",
+#             annotation = "heipor dang ya-chong ha ka=palong khian ka=palong tdut ah ko ha kani ka kjat o")
+```
+
+(@pnar2) @ring2015, 445, example 1100
+```{r, echo=FALSE, results='asis'}
+#gloss_example(transliteration = "tɛ sɲiaw rɛm keʔ i ka=-t͡ʃɔŋ ka=tʰaw ŋut",
+#             glosses = "NVIS sense lose cry 1PL FEM=village FEM=place CL.HUM",
+#             free_translation = "so we felt disgraced, the people of the village",
+#             annotation = "tæ sñiaw ræm keih i ka chnong ka thaw ngut")
+```
+
+(@pnar3) @ring2015, 469, example 1171
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ne=i=tɛ jeɲ laj li-lor ɔ",
+#             glosses = "ABL=NEUT=NVIS stand go DUR-plow 1SG.NOM",
+#             free_translation = "then I would stand and continue/begin plowing again",
+#             annotation = "neitæ yeñ lai liloor o")
+```
+
+## Polish!
+### Details
+Glottocode: poli1269 <br> 
+Family: Indo-European <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+### Examples
+
+> Citation [@andrason2018]
+
+(@polish1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Punjabi
+### Details
+Glottocode: panj1256 <br> 
+Family: Indo-European <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Puyuma
+### Details
+Glottocode: puyu1239 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Riuk Bekati'
+### Details
+Glottocode: beka1241 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Rukai
+### Details
+Glottocode: ruka1240 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Sabanê!
+### Details
+Glottocode: saba1268 <br> 
+Family: Nambiquaran <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> When an identical agent/subject is involved in two actions in coordinated sentences, the verbs can be concatenated in which case only the last one receives all verbal suffixes. ... However, if tense or arguments are distinct, each sentence has its own TAM structure. In this case, sentences are just concatenated. [@dearaujo2004, 189-190]
+
+### Examples
+
+(@sabane1) @dearaujo2004, 129, example 8
+```{r, echo=FALSE}
+gloss_example(transliteration = "ip-a-ntal-i a-san-i-ntal-i",
+             glosses = "see-VS-PRET-ASSR 3OBJ-catch-VS-PRET-ASSR",
+             free_translation = "S/he saw it and caught it.")
+```
+
+(@sabane2) @dearaujo2004, 152, example 122
+```{r, echo=FALSE}
+gloss_example(transliteration = "sa-n-n t-osa-n-n",
+             glosses = "catch-VS-IMP 1OBJ-give-VS-IMP",
+             free_translation = "Catch (it) and give it to me.",
+             comment = "[ˌsãˑtoˈsãː]")
+```
+
+(@sabane3) @dearaujo2004, 190, example 118
+```{r, echo=FALSE}
+gloss_example(transliteration = "towali wola ilul-i iney-i-dana",
+             glosses = "1SBJ a_lot eat-VS drink-VS-PRS.EVID",
+             free_translation = "I eat and drink a lot.")
+```
+
+## Saisiyat
+### Details
+Glottocode: sais1237 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Samba Leko
+### Details
+Glottocode: samb1305 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Santa Mongolian
+### Details
+Glottocode: dong1285 <br> 
+Family: Mongolic-Khitan <br>
+Macroarea: Eurasian
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+> ...the primary function ... is to specify 1) that the unmarked verb and the following verb are the *same* event; and 2) that there is a temporal/semantic relationship of *integration* between the two verbs. [@field1997, 422]
+
+### Examples
+
+(@santa1) @field1997, 390, example 93
+```{r, echo=FALSE}
+gloss_example(transliteration = "bi xolu ɑndɑ irə-wo",
+             glosses = "1SG.NOM run escape come-PFV",
+             free_translation = "I ran and escaped. / I escaped by running. / I came by means of escaping by running.")
+```
+
+(@santa2) @field1997, 422, example 123
+```{r, echo=FALSE}
+#gloss_example(transliteration = "bi ɑji xolu hətʂə buɕin-dɑ-dʐiwo",
+#             glosses = "1SG.NOM afraid run tire weak-VBLZR-PROG", 
+#             free_translation = "I am running because I was afraid and I have became so tired I am weak.")
+```
+
+## Saramaccan
+### Details
+Glottocode: sara1340 <br> 
+Family: Indo-European <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Verbs in Saramaccan can occur in the same clause without markers of coordination or subordination, depicting single events that entail both actions. In this relationship, usually one of the verbs has grammaticalized or semantically drifted to some degree and modifies the other verb. However, other cases simply reveal Saramaccan as a grammar in which parataxis plays a greater role than in European languages. [@mcwhortergood2012, 137]
+
+> Second verbs in serial verb constructions (cf. Chapter 8) can be clefted and copied when their usage as a serial verb is only moderately grammaticalized, such that a lexical residue remains (@saramaccan4). [@mcwhortergood2012, 206]
+
+### Examples
+
+(@saramaccan1) @mcwhortergood2012, 137, example 1
+```{r, echo=FALSE}
+gloss_example(transliteration = "Mi tá tjá wáta gó butá a di bóto déndu.",
+             glosses = "1SG IPFV carry water go put LOC DEF boat inside",
+             free_translation = "I am carrying water into the boat.")
+```
+
+(@saramaccan2) @mcwhortergood2012, 137, example 2
+```{r, echo=FALSE}
+gloss_example(transliteration = "A tá kulé tá lṍtu.",
+             glosses = "3SG IPFV run IPFV go_round",
+             free_translation = "He is running in circles.")
+```
+
+(@saramaccan3) @mcwhortergood2012, 149, example 88
+```{r, echo=FALSE}
+gloss_example(transliteration = "A súti dí patupátu túwɛ gó kai a wáta.",
+             glosses = "3SG shoot DEF duck throw go fall LOC water",
+             free_translation = "He shot the duck and it fell into the water.")
+```
+
+(@saramaccan4) @mcwhortergood2012, 206, example 7
+```{r, echo=FALSE}
+gloss_example(transliteration = "Gó Kobí kulé gó a dí wósu.",
+             glosses = "go Kobi run go LOC DEF house",
+             free_translation = "Kobi ran *to* the house.")
+```
+
+(@saramaccan5) @mcwhortergood2012, 207, example 15
+```{r, echo=FALSE}
+gloss_example(transliteration = "Dí wósu wɛ a mbéi kabá.",
+             glosses = "DEF house FOC 3SG make finish",
+             free_translation = "He built the *house*.")
+```
+
+## Savosavo
+### Details
+Glottocode: savo1255 <br> 
+Family: Isolate <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Selaru
+### Details
+Glottocode: sela1259 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Selee
+### Details
+Glottocode: sele1249 <br> 
+Family: Kwa Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Semelai
+### Details
+Glottocode: seme1247 <br> 
+Family: Austroasiatic <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> The serial construction consists of two verbs, which combine into a single predicate in a monoclausal structure, forming a single phonological phrase. The serial unit conveys a single proposition. Syntactically, it consists not of two clauses, but of two predicates which share a single set of arguments. [@kruspe2004, 359]
+
+> The SVC has the intonation contour of a single clause construction. There is no intonational indication of a clause boundary separating the two predicates. The introduction of such would change the whole nature of the clause. [@kruspe2004, 361-362]
+
+> Clause concatenation is a string of two or more clauses, which a speaker chooses to represent as a string of events in a single unit under a single intonation contour. This construction is referred to as a sentence. Each clause within the sentence is marked off from the other clauses in the construction by a non-final pause. [@kruspe2004, 373]
+
+### Examples
+
+(@semelai1) @kruspe2004, 362, example 123
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ki=gorj paloh la=bapaʔ=hn knon=hn",
+#             glosses = "3A=take flee A=father=3POSS offspring=3POSS",
+#             free_translation = "The father fled taking his child.")
+```
+
+(@semelai2) @kruspe2004, 362, example 124
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ki=gorj la=bapaʔ=hn, paloh knon=hn",
+#             glosses = "3A=take A=father=3POSS flee offspring=3POSS",
+#             free_translation = "His father took (it) (and) (his) child fled.")
+```
+
+(@semelai1) @kruspe2004, 362, example 125
+```{r, echo=FALSE}
+#gloss_example(transliteration = "ki=gorj la=bapaʔ=hn knon=hn, paloh",
+#             glosses = "3A=take A=father=3POSS offspring=3POSS flee",
+#             free_translation = "His father took his child (and they) fled.")
+```
+
+## Shabo
+### Details
+Glottocode: shab1252 <br> 
+Family: Isolate <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Sheko!
+### Details
+Glottocode: shek1245 <br> 
+Family: Dizoid <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+> Citation [@hellenthal2010, 334-341]
+
+(@language1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Shilluk
+### Details
+Glottocode: shil1265 <br> 
+Family: Nilotic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Southeastern Tepehuan
+### Details
+Glottocode: sout2976 <br> 
+Family: Uto-Aztecan <br>
+Macroarea: North America
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> In (@tepehuan1) there are three clauses. The first two are linked without conjunction or drop in intonation, so that the pronoun referring to the subject of the second is phonologically suffixed to the subject enclitic of the first. This is the highest form of continuity possible between two events. The second two are linked only by a slight pause and drop in intonation, indicated by the period.
+[@willett1991,223]
+
+> SET has a limited number of complex verb phrases that function as a complementation strategy. They have no overt subordination or coordination markers. These constructions exhibit the following properties of serial verb constructions: i) they share the same subject and markers of tense and aspect; ii) they contain two verbs without overt markers of coordination or subordination; iii) the verbs form a single predicate; iv) serialized verbs also occur alone in non-serial constructions; v) the negation particle *cham* has scope over the two verbs; vi) the adverb has scope over the two verbs; vii) there is no lexical or grammatical material between the verbs, with the exception of the cause-effect type; and viii) these predicates are not marked by the suffix -ji, which is a productive marker expressing dependency. [@garciasalido2014, 141]
+
+> Juxtaposition is often preferred in natural conjunction--that is, when the two conjuncts usually go together and form some kind of conceptual unit. In SET the lack of an overt coordinator may allow the encoding of a construction that is called a serial verb, where the two verbs in a sequence express one single event, as illustrated in (@tepehuan2) with the verbs ‘work’ and ‘plant.’ The two verbs in this construction do not show any kind of dependency.
+[@garciasalido2014, 194]
+
+### Examples
+
+(@tepehuan3) @garciasalido2014, 223, example 86b
+```{r, echo=FALSE}
+gloss_example(transliteration = "Mi’-ñ-kiijax chu-di-dha’ gu burru",
+             glosses = "DIR-1SG.PO-kick DUR-make-APPL DET donkey",
+             free_translation = "He made the donkey kick me.")
+```
+
+(@tepehuan1) @willett1991, 223, example 658
+```{r, echo=FALSE}
+gloss_example(transliteration = "Jiñ-pahlvuidya-'-ap-añ jupsa-' dyi postis. Jai'-ñ mi-chuttu-'.",
+             glosses = "1SG-help-FUT-2SG-1SG remove-FUT ART posts others-1SG there-stand-FUT",
+             free_translation = "Please help me remove these posts. I (want to) put other ones in.")
+```
+
+(@tepehuan2) @garciasalido2014, 195, example 23
+```{r, echo=FALSE, results='asis'}
+#gloss_example(transliteration = "Tu-tur gok yuntach ja-bia’-ka tu-m-jua-da’ ti-m-ɨs-da’ gu tu-kua-da-ich gio ba’ na-gu’ tu-m-juan-da’ aserradera ji’x-na=m jiipi’ñ-ka’ na-gu’ gu alhi=p ba=r-gɜ’-ka’",
+#             glosses = "RED:PL-bull two yoke 3PL.PO-have-EST DUR-3R/M-work-CONT DUR-3R/M-plant-CONT DET DUR-food-CONT-1PL.SBJ.PFV COORD SEQ SUB-ADVR DUR-3R/M-work-CONT sawmill QUANT-SUB=3PL.SBJ rest-EST SUB-ADVR DET boy=IT CMP=COP-big-EST",
+#             free_translation = "We had two yoke of oxen, there was work, there was planting, we used to eat, and then there was work at the sawmill and when they rested...because the child was already big.")
+```
+
+
+
+
+## Sri Lanka Malay
+### Details
+Glottocode: sril1245 <br> 
+Family: Austronesian <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Suabo
+### Details
+Glottocode: suab1238 <br> 
+Family: Inanwatan <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Sundanese
+### Details
+Glottocode: sund1252 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+

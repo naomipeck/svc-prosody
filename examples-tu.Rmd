@@ -1,0 +1,495 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingglosses)
+#library(linguisticsdown)
+#linguisticsdown::writeIPA()
+```
+
+## Tahitian!
+### Details
+Glottocode: tahi1242 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
+
+### Examples
+
+> Citation [@lazardpeltzer2000, 31-33]
+
+(@tahiti1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+
+
+
+## Tajio
+### Details
+Glottocode: taji1246 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tamambo
+### Details
+Glottocode: malo1243 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tamasheq
+### Details
+Glottocode: tama1365 <br> 
+Family: Afro-Asiatic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Tariana!
+### Details
+Glottocode: tari1256 <br> 
+Family: Arawakan <br>
+Macroarea: South America
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+### Examples
+
+> Citation [@aikhenvald1999]
+
+(@language1) Aiton 2016:200, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Teop
+### Details
+Glottocode: teop1238 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Thai
+### Details
+Glottocode: thai1261 <br> 
+Family: Tai-Kadai <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
+
+> A serial verb construction refers to a grammatical structure in which two or more verbs or verb phrases appear together without a marker of coordination or subordination. ... A serial verb construction is common in isolating languages like Thai in which no verbal morphology distinguishes finite and nonfinite verb forms. The degree of integration and relationship between verbs or verb phrases in a series determines the types of serial verb construction. Three major types of serial verb construction in Thai are: the 'subordination' type, the 'coordination' type, and the 'hybrid' type. [@iwasakihorie2005, 231]
+
+### Examples
+
+(@thai1) @iwasakihorie2005, 233
+```{r, echo=FALSE}
+gloss_example(transliteration = "mɛ̂ɛ cà pǐt fay nɔɔn lɛ́ɛw ná",
+             glosses = "mother.1 CM turn_off light sleep ASP PART",
+             free_translation = "Mother will turn off the light and go to bed, okay.")
+```
+
+(@thai2) @iwasakihorie2005, 234
+```{r, echo=FALSE}
+gloss_example(transliteration = "man lóm tháp khon nay rót khâ",
+             glosses = "3 fall press person in car PART",
+             free_translation = "It (= a big gas tank) fell down on the person in the pick-up truck.")
+```
+
+(@thai3) @iwasakihorie2005, 240
+```{r, echo=FALSE}
+gloss_example(transliteration = "nók nǎaw taay",
+             glosses = "bird cold die",
+             free_translation = "The bird froze to death.")
+```
+
+## Tidore
+### Details
+Glottocode: tido1248 <br> 
+Family: North Halmahera <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tigon Mbembe
+### Details
+Glottocode: tigo1236 <br> 
+Family: Volta-Congo <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Time
+### Details
+Glottocode: timn1235 <br> 
+Family: Mel <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tira
+### Details
+Glottocode: tira1254 <br> 
+Family: Heibanic <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tommo So Dogon
+### Details
+Glottocode: tomm1242 <br> 
+Family: Dogon <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tondano
+### Details
+Glottocode: tond1251 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tonga
+### Details
+Glottocode: tong1325 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Toqabaqita
+### Details
+Glottocode: toab1237 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Ts'ixa
+### Details
+Glottocode: tsix1234 <br> 
+Family: Khoe-Kwadi <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Tukang Besi
+### Details
+Glottocode: tuka1248 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+
+## Turkish
+### Details
+Glottocode: nucl1301 <br> 
+Family: Turkic <br>
+Macroarea: Eurasia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+
+> There are verbal sequences with certain aspectual "light" verbs that yield verbal compounds, but which are restricted to occurring with the same tense / aspect suffixes on both parts of the compound. [@kornfilt1997, 478]
+
+### Examples
+
+(@turkish1) @kornfilt1997, 478, example 1719
+```{r, echo=FALSE}
+#gloss_example(transliteration = "söyle -n -ir dur -ur",
+#             glosses = "tell -REFL -AOR stay -AOR",
+#             free_translation = "She keeps on grumbling.")
+```
+
+(@turkish2) @kornfilt1997, 478, example 1720
+```{r, echo=FALSE}
+#gloss_example(transliteration = "söyle -n -di dur -di",
+#             glosses = "tell -REFL -PST stay -PST",
+#             free_translation = "She keeps on grumbling.")
+```
+
+## Tuvalu
+### Details
+Glottocode: tuva1244 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Uduk
+### Details
+Glottocode: uduk1239 <br> 
+Family: Koman <br>
+Macroarea: Africa
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Vaeakau-Taumako
+### Details
+Glottocode: pile1238 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Vatlongos
+### Details
+Glottocode: sout2859 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
+## Vera'a
+### Details
+Glottocode: vera1241 <br> 
+Family: Austronesian <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: ? <br> Grammatical: 1
+
+> Citation [@source2001]
+
+### Examples
+
+(@language1) @source2001, pg, example 27
+```{r, echo=FALSE}
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
