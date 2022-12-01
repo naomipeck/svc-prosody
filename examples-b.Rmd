@@ -89,19 +89,25 @@ Family: Koiarian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Another important difference between [tight and loose] serial verb constructions has to do with intonation. We noted earlier that both grammatical and phonological features coincide to mark the boundaries between sentences in Barai (and Papuan languages generally) and that the significant phonological feature was an overall intonation pattern superimposed over the entire clause chain. ... The relevant fact for our consideration here is that the standard serial construction requires the phrasal contour over each conjunct of its series. The more tightly knit string of juxtaposed predicates collectively takes just a single phrasal contour. [@olson1981, 176-177]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@barai1) @olson1981, 177, example 57
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "na fi fase isoe-vo",
+             glosses = "1SG sit letter write-PRS",
+             free_translation = "I am sitting and writing a letter.")
 ```
 
+(@barai2) @olson1981, 177, example 58
+```{r, echo=FALSE}
+gloss_example(transliteration = "na fase fi isoe-vo",
+             glosses = "1SG letter sit write-PRS",
+             free_translation = "I am sitting writing a letter.")
+```
 
 ## Bardi
 ### Details
@@ -135,19 +141,27 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> A favourite clause-combining strategy in Karo is serialisation, whereby two clauses are welded into one by virtue of a shared nominal element (normally the subject). [@woollams1996, 325]
+
+> It is very common in Karo for two independent clauses to be combined in a single sentence without the use of an explicit connective. This conjoining into the one sentence is signalled phonologically by a shorter than usual intersentential pause, and orthographically by a comma instead of a full stop. [@woollams1996, 344]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@karo1) @woollams1996, 327, example 8.213
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Naktak iluh Datuk Rubia Gandé megi sora kempu-na rendé.",
+             glosses = "fall tears Datuk Rubia Gande hear voice grandson-3.POSS sing",
+             free_translation = "Datuk Rubia Gande shed tears as he heard his grandson singing.")
 ```
 
+(@karo1) @woollams1996, 328, example 8.219
+```{r, echo=FALSE}
+gloss_example(transliteration = "Asuh-asuh-en-na enggo keri ben-én i-tangko kalak.",
+             glosses = "tend-RDP-PL-3.POSS already gone lost-PL PASS-steal person",
+             free_translation = "Their cattle were all gone, missing, stolen by somebody.")
+```
 
 ## Baure
 ### Details
@@ -177,19 +191,33 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> In Belep, same-subject serialization with a limited set of verbs may be used to modify the aspect or modality of the clause. In such cases, the first verb provides modal information and the second verb provides lexical information. Switch-subject SVCs, by contrast, are used as a complementation strategy; in these instances, the first verb is the main verb (see §7.2.9). Belep SVCs are distinguished from compound verbs in that each verb in a SVC can serve independently as the main verb of a clause. [@mccracken2012, 370]
+
+> The elements of the verb group always occur in a fixed order (they are an instance of templatic morphology; c.f. Bickel & Nichols 2007) and cannot undergo any syntactic operations except as a unit. Most elements in a verb group are not obligatory, but when they occur they have a conventionalized meaning and occur in an obligatory order. [@mccracken2012, 170]
+
+> Intonation breaks, pauses, and repairs during the production of the verb group are most likely to occur immediately after the preface; however, these should be considered indicators of a phonological, rather than a grammatical, word boundary (Dixon and Aikhenvald 2002:24). [@mccracken2012, 330]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+Note that the glossing has been altered in \ref(@belep1) to reflect the grammatical dependency of *a=* 'NOM'.
+
+(@belep1) @mccracken2012, 372, example 153
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "te=mo may a=cama-la",
+             glosses = "3SG.SBJ=live die NOM=father-3PL.POSS",
+             free_translation = "Their father was about to die.",
+             comment = "Te mo maac ya camala.")
 ```
 
+(@belep1) @mccracken2012, 371, example 149
+```{r, echo=FALSE}
+gloss_example(transliteration = "ava=jara bae pê",
+             glosses = "1PL.EXCL.SBJ=want bite bread",
+             free_translation = "We want to eat the bread.",
+             comment = "Ava jaar bae pê.")
+```
 
 ## Bih
 ### Details
