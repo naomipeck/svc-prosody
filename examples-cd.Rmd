@@ -123,7 +123,7 @@ gloss_example(transliteration = "wana:y-í: mâ:h-ey-s",
              free_translation = "They’ve bought it all.")
 ```
 
-## Daakaka!
+## Daakaka
 ### Details
 Glottocode: daka1243 <br> 
 Family: Austronesian <br>
@@ -134,13 +134,24 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
 ### Examples
 
-> Citation [@vonprince2012; @hopperdietzel2020]
+> One fundamental criterion according to which all serial predicate constructions can be classified into one of two groups is finite marking: Depending on the non-initial predicate, some SPCs contain only one TAM marker (single marking), while in others, each predicate is preceded by its own TAM marker (multiple marking). Subject pronouns are never allowed in a non-initial predicate, the TAM marker always takes its monosyllabic form, as with third person singular subjects (see also section 5.1). [@vonprince2012, 304]
 
-(@daakaka1) Aiton 2016:200, example 27
+> The main two functions of intonation in Daakaka are to mark phrase boundaries and to distinguish between speech acts. [@vonprince2012, 37]
+
+> Regarding multiple-marking SVCs, there is a tendency for every TMA marker to be aligned with a pitch rise: In three out of six cases, a high boundary tone was found at the position before the second tense marker (Figure 17). This is the predicted position if the two verbs in a multiple-marking SVC instantiate their own IPs. In two cases, a boundary tone was not found before the second TMA marker, and one case remains unclear. [@hopperdietzel2020, 138]
+
+(@daakaka1) @vonprince2012, 308, example 6c
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "mwe tavya te polo usili ló-ó swa vyan milye",
+             glosses = "RL get_up CONJ climb follow plant-coconut one go on_top",
+             free_translation = "she got up and climbed up a coconut palm")
+```
+
+(@daakaka2) @vonprince2012, 336, example 80a
+```{r, echo=FALSE}
+gloss_example(transliteration = "Ko=m en seaa ada mubuo mo nok?",
+             glosses = "2SG=RL eat all CL2:1DU.INCL.POSS meat RL finish",
+             free_translation = "Have you eaten all our meat?")
 ```
 
 ## Dagik
@@ -216,27 +227,6 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Dera
-### Details
-Glottocode: dera1245 <br> 
-Family: Senagi <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-
 ## Desano
 ### Details
 Glottocode: desa1247 <br> 
@@ -276,20 +266,54 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> Juxtaposition refers to coordination without an overt linker. This type of construction occurs either on word, phrase, or clause level. Since there is no overt marking, intonation is the only means to identify conjoined units (Haspelmath, 2007: 7). [@balukh2020, 230]
+
+> Paratactic constructions also appear like SVCs in terms of the consecutive occurrence of verbs. An extreme sequence of verbs is shown in \ref(@dhao2) below. It is a complement construction marked by the complementizer *na* (see §6.3.2.1). The matrix clause itself contains a SVC consisting of two verbs, *pèci* ‘to throw’ and the inflected verb *mere* ‘to take’. Furthermore, the complement clause has seven verbs that occur consecutively ... It is difficult to determine SVCs in this construction, as there are no overt syntactic markings. Contributing to this difficulty is the fact that subject and object deletion is a common pattern in natural discourse in Dhao. As such, argument sharing is difficult to identify. After looking at the construction in detail, it appears that it has two separate clauses tied together. The first clause involves V1-V3, while the second clause involves V4-V7. It is shown that they have separate subjects, even though the different subjects refer to the same referent. ... the complement clause covers only the first clause in this construction, while the second clause is a separate clause that designates another follow-up event, which is the event that takes place after another event (fetch). ... There still are two sequence of verbs, *lami madhutu* ‘go to fetch’ and *la’e tenge* ‘go to look for’. In turn, these will not be considered as SVCs either, due to their predicate-argument relation. As the result, no sequence of the seven verbs qualifies as a SVC. [@balukh2020, 259]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@dhao1) @balukh2020, 231, example 14
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "k-ore doi, la-ku hèli èi na'i mea mèdi, mai nasu hèngu ne'e, te ja'a doi aad'o nga",
+             glosses = "1SG-take money go-1SG buy water tobacco red black come boil yarn PROX.SG because 1SG money be_absent PART",
+             free_translation = "I can earn money and I go to buy red and black dye and then I come to boil these yarns, because I don't have money.")
 ```
 
+(@dhao2) @balukh2020, 259, example 116
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "pèci m-ere na mai la-mi madhutu mai hia la-'e tenge",
+             glosses = "throw 2PL-take COMP come go-2PL follow come give go-3SG look_for",
+             free_translation = "after throwing it, (you) go home and took (him), (you) come to ask (him) to find...")
+```
 
+## Dla
+### Details
+Glottocode: dera1245 <br> 
+Family: Senagi <br>
+Macroarea: Papunesia
+
+### Coding
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
+
+> Non-finite verb stems are used in non-finite chain verbs (§7.3.1) and verbal nouns (§7.3.2). Serial verb constructions in non-finite chain clauses have a string of non-finite verb stems (with no cross-reference suffix in between) plus other affixes. ... Serial verb constructions in independent, subordinate and chain clauses can consist of strings of finite verb root plus cross-reference suffix(es) and other affixes. [@desousa2006, 261]
+
+### Examples
+
+(@dla1) @desousa2006, 447, example 7-70
+```{r, echo=FALSE}
+gloss_example(transliteration = "ser-i fa-hya-a numb-a,",
+             glosses = "eat-1SG COMPL-1SG-3SG.FEM.OBJ SEQ-1SG",
+             free_translation = "I ate, and after that I...")
+```
+
+(@dla2) @desousa2006, 38, example 1-4
+```{r, echo=FALSE}
+gloss_example(transliteration = "hwama-i fa-i-hi,",
+             glosses = "hang-3SG.MASC leave-3SG.MASC-SIM",
+             free_translation = "While he hang and left him there...")
+```
 ## Dongwang Tibetan
 ### Details
 Glottocode: kham1282 <br> 
@@ -317,19 +341,27 @@ Family: Manubaran <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> While serial verb constructions do occur in Doromu-Koki, they are not nearly as productive as in other Papuan languages. In fact, they are very rare. They are limited to the verbs *afe* ‘return’, *baku* ‘find’, *bo* ‘go up’, *fere* ‘leave’, *ne* ‘go down’, *ni* ‘say’, *moi* ‘get’, *re* ‘do’, and *usi* ‘follow’, which indicates that they are usually tied to motion, combining two separate actions together into one event. [@bradshaw2012, 101-102]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+An single intonation contour is given in the original source for \ref(@doromukoki1).
+
+(@doromukoki1) @bradshaw2012, 36, example 9
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "Rei mona maka de re-yo ma yaku bura ri-yo urusa rofu.",
+             glosses = "do properly only NEG do-2/3SG.PST and DM expose make-2/3SG.PST night BEN",
+             free_translation = "He did not do it properly and so he was exposed at night.")
 ```
 
+(@doromukoki2) @bradshaw2012, 102, example 113
+```{r, echo=FALSE}
+gloss_example(transliteration = "Maruo ve-sa dada ya ferei bai-yaka.",
+             glosses = "movie see-2SG.PRS so 2 leave come-1SG.PST",
+             free_translation = "You are watching a movie, so I left you and came.")
+```
 
 ## Duhumbi
 ### Details
@@ -370,17 +402,17 @@ Family: Isolate <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
-> Citation [@source2001]
+> For Duna, I use the term ‘verb series’ (and related terms) to refer to sequences of verb roots for which the final verb in the sequence (Vlast) is inflected, bearing medial or final verb morphology, and the other verbs in the sequence (Vn) are uninflected. [@sanroque2008, 227]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@duna1) @sanroque2008, 113, example 84a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "no waya sa-ya ngo.",
+             glosses = "1SG wash take-DEP go.PFV",
+             free_translation = "I went to wash.")
 ```
 
 

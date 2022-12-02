@@ -12,19 +12,25 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Intonation is an important factor in recognising SVCs, and in distinguishing them from conjoined clauses. While in many cases the only possible reading for a particular clause requires that it be recognised as containing an SVC, in numerous other cases ambiguity could arise, if it were not for the fact that the clause boundaries were indicated by intonation. Sentences \ref(@eambae1) and \ref(@eambae2) are minimal pairs which can only be distinguished by the difference in intonation. The comma in these sentences indicates the clause boundary. As discussed in §10.6.3.1.1, *rovo* 'finish' has two different functions apart from its function as an independent verbal predicate. Sentence \ref(@eambae1) contains two clauses, the first of which is an example of aspectual serialisation (§10.6.3.1), where *rovo* indicates completive aspect. Sentence \ref(@eambae2) is not an example of an SVC, but here *rovo* has a discourse function in linking clauses, expressing the fact that 'after' the event ofthe first clause, another event occurred. [@hyslop2001, 275]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@eambae1) @hyslop2001, 275, example 3
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Mo vatu na veveo mo rovo, mo vai na hinaga...",
+             glosses = "RL weave ACC weaving RL finish RL make ACC food",
+             free_translation = "She finished weaving the weaving, and she made the food...")
 ```
 
+(@eambae1) @hyslop2001, 275, example 4
+```{r, echo=FALSE}
+gloss_example(transliteration = "Mo vatu na veveo, mo rovo, mo vai na hinaga...",
+             glosses = "RL weave ACC weaving RL finish RL make ACC food",
+             free_translation = "She did the weaving, and after that she made the food...")
+```
 
 ## East Makian
 ### Details
@@ -33,19 +39,29 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Verbs containing SVCs characteristically have the same intonational properties as do mono-verbal clauses. Taba declarative clauses generally have a falling intonation over the last elements of the clause and speakers frequently pause at their completion. This is characteristic of clauses containing SVCs just as it is of clauses containing monoverbal clauses. Contrast \ref(@taba1), showing the characteristic intonation associated with a serial verb clause with that shown in \ref(@taba2) which is an example of simple clause chaining, showing juxtaposed clauses. [@bowden2001, 303]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+Note that intonation contours for \ref(@taba1) and \ref(@taba2) are available in the original source.
+
+(@taba1) @bowden2001, 304, example 28
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "t=han t=ronda po-pe Ploili",
+             glosses = "1PL.INCL=go 1PL.INCL=stroll down-ESS Peleri",
+             free_translation = "We went strlling in Peleri.",
+             annotation = "Than tronda pope ploili.")
 ```
 
+(@taba2) @bowden2001, 304, example 29
+```{r, echo=FALSE}
+gloss_example(transliteration = "Motor n=wom n=bantu nyol manusia",
+             glosses = "motor_boat 3SG=come 3SG=help 3SG=carry people",
+             free_translation = "Boats came... they helped... they took people away.",
+             annotation = "Motor nwom... nbantu... nyol manusia.")
+```
 
 ## East Uvean
 ### Details
@@ -54,17 +70,17 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Verb serialization (in the strict V1V2 sense) is a fairly rare phenomenon in East Uvean, although it is quite grammatical and accepted as such by native speakers. It is rare, because there is a strong tendency in this language to prefer one predicate utterance followed by a nominalization, rather than twohead predications (see 2.3). In my entire text corpus (more than thirty hours of recordings), I only found some thirty occurrences of SVCs, most of them involving specialization (see 2.2, 2.4 and 2.5). [@moyse-faurie2004, 203-204]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@euvean1) @moyse-faurie2004, 205, example 9
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "Ko te tama nei 'e hopo malimali i loto mala'e o te faleako",
+             glosses = "TOP DEF child DEIC NS jump smile OBL inside yard POSS DEF school",
+             free_translation = "This child jumps smiling in the school yard.")
 ```
 
 
@@ -90,27 +106,6 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-
-
-## Eipomek
-### Details
-Glottocode: eipo1242 <br> 
-Family: Nuclear Trans-New-Guinea <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
 
 
 ## Eleme
@@ -250,16 +245,16 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Gayo
+## Gayo!
 ### Details
 Glottocode: gato1244 <br> 
 Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> There are a number of features that characterise serialisation in Gayo. Firstly, the verbs share a single subject NP, and the entire construction takes a single intonation contour. The two verbs represent two separate predicates, which can be separated by their shared subject. Unlike paratactic constructions (§16.5) the two verbs are not separated by a pause, and neither are the verbs marked by a conjunction, as is the case with subordination (§16.1). [@eades2005, 136]
 
 ### Examples
 

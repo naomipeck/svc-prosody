@@ -226,17 +226,17 @@ Family: Austronesian <br>
 Macroarea: Eurasia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> ...although there is more than one verb, Bih SVCs function as a single predicate to describe a single event. Again, each construction can only take one aspect or negation marker as a single syntactic unit even though they consist of at least two verbs or they will be ungrammatical... [@nguyen2013, 188]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@bih1) @nguyen2013, pg, example 13.22
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Ñu lŏ nao hưn hŏng palei ñu.",
+             glosses = "3 again go inform with wife 3",
+             free_translation = "He again goes to inform to his wife.")
 ```
 
 
@@ -247,17 +247,17 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Predicates or clauses expressing two or more consecutive events can be simply juxtaposed, which leads to two possibilities. They can be either clauses coordinated by juxtaposition in the same sentence or different juxtaposed sentences. In such cases, there are only prosodic clues to their status, mainly provided by pause and intonation, but the distinctions are many times blurred by the rapidity of speech and the degree of engagement of the speaker. The more predicates in a sequence, the more difficult it is to tell. In rapid speech, which is very often employed by my consultants, and/or when the speaker becomes extremely engaged in and enthusiastic about the narrative, prosodic pauses get shorter and shorter to the extent that they become irrelevant. Moreover, even in moderate velocity speech, prosodic pauses often do not coincide with breathing pauses. In rapid or very rapid speech, while one can still distinguish a sort of list intonation as the events are mentioned, a clearly distinguishable pause will occur only once the speaker is out of breath and, almost always, that does not express prosodic information. [@voica2018, 296-297]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@blablanga1) @voica2018, 299, excerpt from example 5.52
+```{r, echo=FALSE, results='asis'}
+gloss_example(transliteration = "Thoke hore=o, ghohra=ni zaho ghai Sulei. Zaho thoke Sulei...",
+             glosses = "reach canoe=DEM.NV.SG paddle=3SG.AGR go 1PL.EXCL Sulei go reach Sulei",
+             free_translation = "We reach the canoe, paddle it and go to Sulei. We go and reach Sulei....")
 ```
 
 
@@ -368,16 +368,16 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> When serial verbs form a clause with 1) core arguments occurring before (and after) the serial construction, but not between, 2) shared verbal modifiers (pre-verbal TAM markers and post-verbal auxiliaries), and 3) no pause or separating intonation dip between the verbs, they are behaving as the nucleus of a clause with a single predicate head. [@grimes1991, 208]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@buru1) @grimes1991, 208, example 15
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Da iko linga-h.",
+             glosses = "3SG go look-3SG.OBJ",
+             free_translation = "He went to look at it. / He went and looked at it.")
 ```
 
