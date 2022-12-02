@@ -1,3 +1,19 @@
 # Discussion and Results
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lingtypology)
+library(tidyverse)
+```
+
 Here I'm going to include some discussion about what I can observe from the data.
+
+```{r map, echo=FALSE}
+
+full_glottolog <- lingtypology::glottolog
+svc_prosody <- read.csv("svc-prosody.csv")
+full_info <- merge(x=svc_prosody,y=full_glottolog,by="glottocode",all.x=TRUE)
+
+map.feature(full_info$language.y)
+
+```
