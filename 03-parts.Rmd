@@ -1,13 +1,35 @@
-# Grammatical Descriptions
+# Overview of Data
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(lingglosses)
 #library(linguisticsdown)
 #linguisticsdown::writeIPA()
+library(lingtypology)
+library(tidyverse)
 ```
 
 Here I'm going to include an overview of what data this poster is based on, including information about my coding.
+
+```{r map, echo=FALSE}
+
+full_glottolog <- lingtypology::glottolog
+svc_prosody <- read.csv("svc-prosody.csv")
+full_info <- merge(x=svc_prosody,y=full_glottolog,by="glottocode",all.x=TRUE)
+
+mapping <- full_info %>%
+  subset(select = -c(countries, affiliation, subclassification, area, level, iso, macroarea, family, language.x))
+
+
+map.feature(mapping$language.y)
+
+```
+
+# Grammatical Descriptions
+
+
+
+
 
 <!-- ## Language -->
 <!-- ### Details -->

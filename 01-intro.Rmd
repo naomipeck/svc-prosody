@@ -9,10 +9,10 @@ A serial verb construction (SVC) is a grammatical unit which consists of two or 
 ## Intonation Unit
 
 An intonation unit can be defined both as a phonetic and as a phonological unit. As a phonetic unit, intonation units can be universally defined as units of speech (and potentially sign) which commence with a 'pitch reset' [@himmelmannetal2018]. These units are often bounded by other cues, such as pauses, changes in tempo (lags/rushes), changes in voice quality (creaky/breathy), as well as intonational contour cues, such as boundary tones. Intonation units are the minimal unit in conversation, i.e. turns minimally consist of a single intonation unit [@selting1996], and are hypothesised to be the minimal unit of information packaging in human language [@chafe1996].
-
 As a phonological unit, intonation units must be defined on a language-specific basis with reference to lower phonological units within a language. Typically, intonation units can be the domain for (morpho-)phonological rules, and feature a unit-level accent and boundary tones.
-
 Given the universality of phonetic intonation units, as well as the universality of functions related to intonation unit-like units in speech, I assume that all languages have a phonological unit which corresponds to the phonetic intonation unit.
+
+It is important to additionally distinguish between intonation *units* and intonation *contours*. Intonation units create chunks of language, while intonation contours encode additional information (and contribute to the ability of the intonation unit to chunk). Contours are language-specific and can extend over multiple intonation units [reference]. As such, we cannot take discussions of intonation contours to equal discussions of intonation units.
 
 ## "One Intonation Unit" constraint
 
