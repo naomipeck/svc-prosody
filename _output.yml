@@ -3,11 +3,13 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Is there a "One Intonation Unit" constraint for serial verb constructions?</a></li>
+        <li><a href="./">Are all serial verbs realised in a single intonation unit?</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
-    download: ["pdf", "epub"]
+#    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    download: false
+    sharing: null
+    info: false
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
