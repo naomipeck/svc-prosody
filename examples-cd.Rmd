@@ -82,17 +82,17 @@ Family: Volta-Congo <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> Let us start by stating that the SVC in Chakali has the following properties: (i) a SVC is a sequence of verbs which act together as a single predicate, (ii) each verb in the series could occur as a predicate on its own, (iii) no connectives surface (coordination or subordination), (iv) tense, aspect, mood, and/or polarity are marked only once, (v) a verb involved in a SVC may be formally shortened, (vi) transitivity is common to the series, so arguments are shared (one argument obligatorily), (vii) the verbs in the series are not necessarily contiguous, and (viii) the grammar does not limit the number of verbs. [@brindle2017, 309]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@chakali1) @brindle2017, 310, example 20
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "hÈmbÍÍ táwá fótò làgà dáá nÍ",
+             glosses = "nail pierce picture hang wood POSTP",
+             free_translation = "A picture hangs from a nail on a wooden pole.")
 ```
 
 
@@ -161,19 +161,25 @@ Family: Narrow Talodi <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> This section investigates verbal sequences (VS) in independent clauses. They have the following characteristics: (i) they consist of at least two verbs, (ii) aspect-mood is only marked once for the whole verbal sequence, (iii) the subject is only expressed once for the whole verbal sequence, and (iv) the verbal sequence can only be negated as a whole. These characteristics show that verbal sequences are monoclausal. The first verb of the sequence (V1) carries aspect-mood markers and agrees with the subject. The subsequent verb(s) is/are in status 2 (see section 4.7). [@vanderelst2016, 213]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@dagik1) @vanderelst2016, 214, example 69
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "a-ŋɪ b-a=nda ðɛŋg-ɔ baɽ-a",
+             glosses = "REF-1SG CL-COP=afterwards stay-FV go_out-FV",
+             free_translation = "I will go out after a little while. (lit.: I will stay [and] go out)")
 ```
 
+(@dagik2) @vanderelst2016, 216, example 83
+```{r, echo=FALSE}
+gloss_example(transliteration = "ŋ-əmasɛ ŋ-a ɾas-ɔ nag-a ð-ʊɽa",
+             glosses = "CL-child CL-COP come-FV keep-FV CL-stealing_activity",
+             free_translation = "'The child will become a thief.' (e.g. as a grown-up) (lit.: 'the child will come keep stealing')")
+```
 
 ## Darma
 ### Details
@@ -215,17 +221,35 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Citation [@source2001]
+> ...the two verbs in an SVC (as identified by various syntactic tests) are never separated by a coordinator, whereas clausal coordination is never asyndetic; the two verbs in an SVC always share at least one argument (as is typical in SVCs; cf. Kroeger 2004:229; Haspelmath 2016:309), whereas verbs in coordinate clauses need not share any arguments. [@walters2016, 216]
+
+> The test of whether only one half or part of a construction can be questioned does not distinguish SVCs from coordinate constructions in Dazaga. A single constituent can be questioned from ... SVCs, as in \ref(@dazaga1) and \ref(@dazaga2). [@walters2016, 221]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@dazaga3) @walters2016, 222, example 585
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "búrú X-lôn-X ànìSí X-dÍR-X",
+             glosses = "hole 3.OBJ-dig.IMV-2 pure_sand 3.OBJ-take_out.IMV-2",
+             free_translation = "Dig a hole to take out pure sand.",
+             annotation = "búrú lôn ànìSí dÍR")
 ```
 
+(@dazaga1) @walters2016, 221, example 579
+```{r, echo=FALSE}
+gloss_example(transliteration = "ínní ló-X-j ànìSí X-j-tíR",
+             glosses = "what dig-3.OBJ-3 pure_sand 3.OBJ-3-take_out",
+             free_translation = "What did he dig to take out pure sand?",
+             annotation = "ínní lóì ànìSí díRÙ")
+```
+
+(@dazaga2) @walters2016, 221, example 580
+```{r, echo=FALSE}
+gloss_example(transliteration = "búrú ló-X-j ínní X-j-tíR",
+             glosses = "hole dig-3.OBJ-3 what 3.OBJ-3-take_out",
+             free_translation = "What did he dig a hole to take out?",
+             annotation = "búrú lóì ínní díRÙ")
+```
 
 ## Desano
 ### Details

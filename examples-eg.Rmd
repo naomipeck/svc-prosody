@@ -105,9 +105,6 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-
-
-
 ## Eleme
 ### Details
 Glottocode: elem1253 <br> 
@@ -147,9 +144,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 gloss_example(transliteration = "Go get me some food!",
              glosses = "go.IMP get.IMP 1SG.ACC some food")
 ```
-
-
-
 
 
 ## Ewe
@@ -245,7 +239,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Gayo!
+## Gayo
 ### Details
 Glottocode: gato1244 <br> 
 Family: Austronesian <br>
@@ -258,11 +252,18 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@gayo1) @eades2005, 138, example 6-96
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Wè kunul mongot.",
+             glosses = "3 sit AV:weep",
+             free_translation = "She sat weeping. / She sat and (then) wept.")
+```
+
+(@gayo1) @eades2005, 139, example 6-102
+```{r, echo=FALSE}
+gloss_example(transliteration = "Maté wè i-tuh-i atang.",
+             glosses = "die 3 UV-fall-LOC log",
+             free_translation = "He died (after having been) fallen on by a log.")
 ```
 
 ## Goemai

@@ -68,17 +68,22 @@ Family: Isolate <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@bangime1) @hantgan2013, 370, line 1
+```{r, echo=FALSE, results = 'asis }
+gloss_example(transliteration = "bàráá-mi=ndÈ wò jàg-ú-H nààmàà=jàà=ndÉ ng kí náà-H",
+             glosses = "Baraa-people=PL go cut-PRF-3 1PL.POSS=child=PL 1/3 ADP wilderness-3",
+             free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
+```
+
+(@bangime2) @hantgan2013, 367, line 3
+```{r, echo=FALSE, results = 'asis }
+gloss_example(transliteration = "níì kóÓ n wó ng káárà-L péVÉ-rè bíé níì ng káràà-L",
+             glosses = "3PL COMPL 1/3 go TR find-3 wind-LNK NEG 3PL TR obtain-3",
+             free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
 ```
 
 
