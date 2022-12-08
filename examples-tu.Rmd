@@ -252,7 +252,7 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: 0 <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
 > The broad definition of an SVC applied here follows that of Haspelmath (ibid: 2) which states that an SVC is “a monoclausal construction consisting of multiple independent verbs with no element linking them and with no predicate-argument relation254 between the verbs”. <br>
 In addition to this overarching feature, SVCs in Tondano also have the following characteristics (these are also considered characteristics of SVCs in Durie 1997:291, Aikhenvald 2006, Dixon 2006, and Noonan 2007:65, 88): <br>
@@ -261,7 +261,7 @@ In addition to this overarching feature, SVCs in Tondano also have the following
 - Each verb in the SVC may also function independently as the sole verb in a verbal clause. <br>
 - An SVC has only one shared pivot argument. [@brickell2014, 424]
 
-> Example \ref(@tondano2) again displays two separate clauses, despite the absence of a co-ordinating conjunction.The reason this can only be an instance of parataxis is due to a number of features, these are: the pause in intonation between the two verbs, the difference in TAM marking (*<um>* is irrealis while *meN-* is realis), the separate representations of the PIV arguments, and the fact that there are two separate assertions (events) denoted by the verbal predicates.
+> Example \ref(@tondano2) again displays two separate clauses, despite the absence of a co-ordinating conjunction. The reason this can only be an instance of parataxis is due to a number of features, these are: the pause in intonation between the two verbs, the difference in TAM marking (*<um>* is irrealis while *meN-* is realis), the separate representations of the PIV arguments, and the fact that there are two separate assertions (events) denoted by the verbal predicates.
 
 ### Examples
 
