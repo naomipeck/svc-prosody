@@ -17,38 +17,22 @@ full_glottolog <- lingtypology::glottolog
 svc_prosody <- read.csv("svc-prosody.csv")
 full_info <- merge(x=svc_prosody,y=full_glottolog,by="glottocode",all.x=TRUE)
 
+
 mapping <- full_info %>%
-  subset(select = c(language, glottocode, iu, grouping, grammatical, latitude, longitude))
-
-
-map.feature(mapping$language)
+  drop_na() %>%
+  subset(select = c(language.y, glottocode, iu, grouping, grammatical, latitude, longitude)) %>%
+  mutate(coding =
+           case_when(
+             grouping == 1 ~ "prosodic grouping",
+             grammatical == 1 ~ "grammatical construction",
+             TRUE ~ "intonation-unit bounded"
+           )) 
+       
+map.feature(languages = mapping$language.y, features = mapping$coding)
 
 ```
 
 # Grammatical Descriptions
 
-
-
-
-
-<!-- ## Language -->
-<!-- ### Details -->
-<!-- Glottocode: <br>  -->
-<!-- Family:  <br> -->
-<!-- Macroarea:  -->
-
-<!-- ### Coding -->
-<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
-
-<!-- > Citation [@source2001] -->
-
-<!-- ### Examples -->
-
-<!-- (@language1) @source2001, pg, example 27 -->
-<!-- ```{r, echo=FALSE} -->
-<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
-<!--              glosses = "downward NAME-DAT shout say-PST", -->
-<!--              free_translation = "I shouted it down to Solo:bu.") -->
-<!-- ``` -->
 
 
