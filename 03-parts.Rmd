@@ -18,10 +18,10 @@ svc_prosody <- read.csv("svc-prosody.csv")
 full_info <- merge(x=svc_prosody,y=full_glottolog,by="glottocode",all.x=TRUE)
 
 mapping <- full_info %>%
-  subset(select = -c(countries, affiliation, subclassification, area, level, iso, macroarea, family, language.x))
+  subset(select = c(language, glottocode, iu, grouping, grammatical, latitude, longitude))
 
 
-map.feature(mapping$language.y)
+map.feature(mapping$language)
 
 ```
 

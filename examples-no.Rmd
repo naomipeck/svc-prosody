@@ -27,45 +27,25 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Naman
-### Details
-Glottocode: litz1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Namuyi -->
+<!-- ### Details -->
+<!-- Glottocode: namu1246 <br>  -->
+<!-- Family: Trans-Himalayan <br> -->
+<!-- Macroarea: Eurasia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Namuyi
-### Details
-Glottocode: namu1246 <br> 
-Family: Trans-Himalayan <br>
-Macroarea: Eurasia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Ncane-Mungong
 ### Details
@@ -76,15 +56,24 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Citation [@source2001]
+> Sentences with multiple verbs are common in Nchane. Those which consist of clauses of equal status could possibly be described as serial verb constructions (henceforth SVCs)... There are no morphological or syntactic markers of clausal subordination or of support clause status, nor of clausal adjunction in either example. Subject marking is usually associated with each verb of a sequence. ... the tense-marking strategy of the language [] usually establishes tense at discourse boundaries, with little or no tense marking for later sentences. [@boutwell2020, 284-285]
+
+> Prosodies represent another possible indicator to differentiate SVCs. However, prosodic elements in Nchane sentences are somewhat inconsistently realized. Clause boundaries are often marked by pauses, but this is not always the case. Example \ref(@ncane1) presents multiple verbal elements with no apparent pause, change in intensity or tonal phenomena to mark a clause boundary. However, the two verbs may not be interpreted as encoding a single complex event, but rather two separate events in sequence. Thus, I interpret this sentence as comprised of two juxtaposed, independent clauses. ... Conversely, some sentences with multiple verbs which seem to express a single event, and thus, representative of an SVC analysis, have clear pauses following the verbs. Such is the case in \ref(@ncane2), which has a distinct pause following the verb ‘go’. [@boutwell2020, 286]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@ncane1) @boutwell2020, 286, example 13.3
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "wɔ́ gɛ̄ : à màŋ-kàlà mā-nē lē, wɔ́ ɲá wù lē",
+             glosses = "2SG.FUT put in c6a-cassava.puff c6a-PROX APPL 2SG.FUT give 3SG APPL",
+             free_translation = "...you put [it] (the poison) in this cassava puff and give [it] to him.")
+```
+
+(@ncane2) @boutwell2020, 287, example 13.4
+```{r, echo=FALSE}
+gloss_example(transliteration = "mɛ́ ń-tú ŋ́-gɛ̰᷆́ : / ɲ̄ -jí bvū-lɛ̀ ̰́ : bɛ́ ɲàŋ yī shi",
+             glosses = "1SG.PRO 1SG-then 1SG-go {} 1SG-eat c14-food with c9.meat c9AM c9.chicken",
+             free_translation = "I then went and ate fufu with chicken...")
 ```
 
 
@@ -108,25 +97,25 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Nese
-### Details
-Glottocode: nese1235 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Nese -->
+<!-- ### Details -->
+<!-- Glottocode: nese1235 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Ngiti
 ### Details
@@ -137,56 +126,48 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Citation [@source2001]
+> The Perfective Present is also used in serial verb constructions. The first verb in a serial verb construction is inflected for tense/aspect. Any following verb is found in the Perfective Present and carries a subject clitic which is often (but not necessarily) identical to the subject of the initial verb. Both negative markers ... are attested with the Perfective Present when used as second or subsequent verb in a serial verb construction. [@kutschlojenga1994, 253]
+
+> This means that, when used as a consecutive, the Perfective Present does not refer to a particular time by itself, but that it indicates a continuation of the previously-set time of the narration. [@kutschlojenga1994, 254]
+
+Note that there is no suffix associated with the Perfective Present [@kutschlojenga1994, 251].
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@ngiti1) @kutschlojenga1994, 224
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ma m-òzè m-ozò kÀpÙ",
+             glosses = "1SG 1SG-want:PFV.PRS 1SG-plant:PFV.PRS bean",
+             free_translation = "I want to plant beans.")
 ```
 
-## Noon
-### Details
-Glottocode: noon1242 <br> 
-Family: North-Central Atlantic <br>
-Macroarea: Africa
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
+(@ngiti1) @kutschlojenga1994, 380
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "k`-òzè ná nd`-ÒnyÙ tsìtsì",
+             glosses = "3SG-want.PFV.PRS Q 3SG.LOG-eat:PFV.PRS banana",
+             free_translation = "Does he want to eat a banana?",
+             annotation = "kòzè ná ndÒnyÙ tsìtsì?")
 ```
 
-## Northern Qiang
-### Details
-Glottocode: nort2722 <br> 
-Family: Trans-Himalayan <br>
-Macroarea: Eurasia
+<!-- ## Northern Qiang -->
+<!-- ### Details -->
+<!-- Glottocode: nort2722 <br>  -->
+<!-- Family: Trans-Himalayan <br> -->
+<!-- Macroarea: Eurasia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Northern Yukian
@@ -218,25 +199,25 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 #             annotation = "seˀéy lákti nąwkílmil kí ˀipsák")
 ```
 
-## Nungon
-### Details
-Glottocode: yaum1237 <br> 
-Family: Nuclear Trans-New-Guinea <br>
-Macroarea: Papunesia
+<!-- ## Nungon -->
+<!-- ### Details -->
+<!-- Glottocode: yaum1237 <br>  -->
+<!-- Family: Nuclear Trans-New-Guinea <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Nupe!
@@ -260,45 +241,45 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Nyam
-### Details
-Glottocode: nyam1285 <br> 
-Family: Afro-Asiatic <br>
-Macroarea: Africa
+<!-- ## Nyam -->
+<!-- ### Details -->
+<!-- Glottocode: nyam1285 <br>  -->
+<!-- Family: Afro-Asiatic <br> -->
+<!-- Macroarea: Africa -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
-## Oko
-### Details
-Glottocode: okoe1238 <br> 
-Family: Volta-Congo <br>
-Macroarea: Africa
+<!-- ## Oko -->
+<!-- ### Details -->
+<!-- Glottocode: okoe1238 <br>  -->
+<!-- Family: Volta-Congo <br> -->
+<!-- Macroarea: Africa -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Olo!

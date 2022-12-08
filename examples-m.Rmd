@@ -25,25 +25,25 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Mafea
-### Details
-Glottocode: mafe1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Mafea -->
+<!-- ### Details -->
+<!-- Glottocode: mafe1237 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Mali
@@ -53,17 +53,28 @@ Family: Baining <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> Mali makes use of an asymmetrical SVC to encode the semantics of aspect and modality. This construction is somewhat fossilised, with only one of the particles that function as a minor verb in an asymmetrical SVC also occurring as an independent verb. [@stebbins2011, 212]
+
+> The term ‘clause chaining’ is also applicable to a specific sentence level syntactic construction in Mali in which strings of short clauses are marked with a distinctive tense pattern on the final verb. These clause chains typically refer to a series of actions that make up a larger event that can be viewed as a unified whole. <br> The final verb in the chain is always in the present tense... [@stebbins2011, 291-292]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@mali1) @stebbins2011, 213, example 13.19
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "kama me:ng-ka sa ka=pe the:n.se:=ka i mali ka nangger",
+             glosses = "ART tree-MASC.SG NEF 3MASC.SG=be_there grow_well.FUT=3MASC.SG because earlier 3MASC.SG be_bent.NI",
+             free_translation = "The three is standing up where once (lit. 'because') it was bent.",
+             annotation = "Kama me:ngga sa chave re:n.se:cha i mali cha nangger.")
+```
+
+(@mali2) @stebbins2011, 292, example 18.24
+```{r, results='asis'}
+gloss_example(transliteration = "da ta the:k.ne:=athe:vama chases-ta va ta thet ti ngim nani kama a=ru-ta",
+             glosses = "and 3H.PL send.NPRES=3H.PL.POSS spy-H.PL PURP 3H.PL go.FUT 3H.PL look.PRES for ART SPEC=person-H.PL",
+             free_translation = "And they sent their spies... to go out and look for people...",
+             annotation = "De: tha the:k.nathe:vama chasesta... va tha thet ti ngim nani chama arutha...")
 ```
 
 ## Manam
@@ -73,17 +84,21 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
-> Citation [@source2001]
+> In our discussion of Manam sentence structures in this and the preceding chapters, we have encountered several constructions that exhibit an otherwise unusual characteristic: two verbs occur in sequence, and an argument of the second verb may precede the first verb, even though it is not an argument of that verb. [@lichtenberk1983, 560]
+
+> Two facts concerning the Manam constructions under discussion should now be noted: <br>
+1. The verbs in sequence may or may not be joined by *be* 'and': *be* is used in the vigorous action construction, it is not used in the ability constructions, and it is apparently optional in pseudo-purpose sentences. <br>
+2. The intonation patterns are those characteristic of complex sentences, i.e., a slight rise in intonation at the end of the first verb. [@lichtenberk1983, 563-564]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@manam1) @lichtenberk1983, 561
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "waríge ŋe go-láʔo go-tótoʔ-i",
+             glosses = "rope this 2SG.IRR-go 2SG.IRR-cut-3SG.OBJ",
+             free_translation = "Go cut this rope!")
 ```
 
 
@@ -235,38 +250,58 @@ Family: Isolate <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
-> Citation [@source2001]
+> Sequences involving these verbs are highly similar to the coordinating constructions described in §8.1. To begin with, they may be dominated by either a single intonation contour \ref(@maybrat1), or by an intonation contour over each verb plus its arguments, with a pause between the verbs \ref(@maybrat2), without effecting a marked semantic difference. ... <br> Secondly, all the verbs in sequences ... take an obligatory person prefix (whether overt or covert)... [@dol2007, 213-214]
 
-### Examples
+> All the constructions discussed so far in this section deviate from the coordinating sequence in one important respect: to a certain extent, they allow extraction of objects, or, in other words, they violate Ross’ CSC. [@dol2007, 215-216]
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Mehek
-### Details
-Glottocode: mehe1243 <br> 
-Family: Sepik <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In other words, these constructions seem similar to two types of construction discussed before: they are similar to *coordinating constructions* from the point of view of intonation, and morphology, and they behave largely the same when placed in the interrogative mood. However, these forms violate the CSC. [@dol2007, 220]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+Note here that pauses are stylised as \</\>.
+
+(@maybrat1) @dol2007, 213, example 124a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "m-amo m-ate ayà /",
+             glosses = "3.UV-go 3.UV-go_under water {}",
+             free_translation = "She goes and bathes.")
 ```
+
+(@maybrat2) @dol2007, 213, example 124b
+```{r, echo=FALSE}
+gloss_example(transliteration = "m-amo / m-ate ayà /",
+             glosses = "3.UV-go {} 3.UV-go_under water {}",
+             free_translation = "She goes, and bathes.")
+```
+
+(@maybrat3) @dol2007, 216, example 140b
+```{r, echo=FALSE}
+gloss_example(transliteration = "aya ro m-amo m-ate m-hu e",
+             glosses = "water REL 3.UV-go 3.UV-go_under 3.UV-stay far",
+             free_translation = "The river that she goes and bathes in is far.")
+```
+
+<!-- ## Mehek -->
+<!-- ### Details -->
+<!-- Glottocode: mehe1243 <br>  -->
+<!-- Family: Sepik <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Menya!
@@ -296,17 +331,22 @@ Family: Eastern Trans-Fly <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@meriam2) @piper1989, 100, example 3.65
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "wi na-kasir weret-lare",
+             glosses = "3NSG.SBJ 3NSG.SBJ-go_along AUX.PL-NPRS.PL",
+             free_translation = "They were going along.")
+```
+
+(@meriam1) @piper1989, 96, example 3.58
+```{r, echo=FALSE}
+gloss_example(transliteration = "ma ta-bakyamu-X, ge ikedi-X",
+             glosses = "2SG.SBJ DEIX-go.SG/DU.SBJ-2/3.FUT DEIX put_down.SG/DU.OBJ-2/3.FUT",
+             free_translation = "Come, put it down here.")
 ```
 
 ## Meyah
@@ -316,38 +356,47 @@ Family: East Bird's Head <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> With motion-action sequences the first verb is the motion verb, as would be expected with the temporal sequencing of sub-events. The second verb denotes an activity. This kind of sequence differs from asyndetic coordination in the following ways: a) only the motion verb can take an optional aspect or irrealis prefix; b) the second verb is only marked for subject, but it can receive an instrument prefix if it is a transitive verb; c) a distinct pause does not occur between the verbs. [@gravelle2004, 238]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Mian
-### Details
-Glottocode: mian1256 <br> 
-Family: Nuclear Trans-New-Guinea <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In addition to the omission of conjunctions, Meyah also has a tendency to omit direct objects and prepositional phrases when they are established in the discourse. The omission of conjunctions and arguments results in juxtaposed verb constructions. A pause between verbs (indicated by a slant line) marks the clause boundary. [@gravelle2004, 236-237]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@meyah1) @gravelle2004, 238, example 238
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Rua ri-em-eja ri-agob rua ongga Morum",
+             glosses = "they 3PL-IRR-go 3PL-strike they REL Mpur",
+             free_translation = "They would go to fight those who were Mpur people.")
 ```
+
+(@meyah1) @gravelle2004, 237, example 192
+```{r, echo=FALSE}
+gloss_example(transliteration = "ri-agob / ef marfeb / eij",
+             glosses = "3PL-strike {} hang rope {} throw",
+             free_translation = "They killed (a tree kangaroo, and then) he/she tied (it with a rope and) he/she threw (it over their back).")
+```
+
+<!-- ## Mian -->
+<!-- ### Details -->
+<!-- Glottocode: mian1256 <br>  -->
+<!-- Family: Nuclear Trans-New-Guinea <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Momu-Fas
 ### Details
@@ -356,38 +405,55 @@ Family: Baibai-Fas <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Relevant diagnostic and classificatory criteria for SVCs in Momu include (1) concordant or shared subject marking and TAM marking; (2) the absence of marking of coordination or subordination, and the absence of sequence marking particles or expressions; (3) lexemic status; (4) the absence of participants (especially non-subject participants); and (5) the ordering of participants such that they precede verbs that do not license them. <br>
+Shared subject marking on the final verb indicates that the verbs or verb phrases are not coordinated. [@honeyman2016, 418]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Mon
-### Details
-Glottocode: monn1252 <br> 
-Family: Austroasiatic <br>
-Macroarea: Eurasia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In \ref(@momu1) three verbs combine in an SVC. Again, these verbs are tightly bound. The first two verbs *pwe(n)* ‘come’ and *pana(i)* ‘get one’ show a degree of predictable truncation (§2.5.3). As a further indication of the tightness of the combining verbs, the argument (*fyi* ‘water’) common to the second verb *pana(i)* ‘get one’ and third verb *kiy* ‘consume’ occurs before the first verb *pwe(n)* ‘come’. In \ref(@momu3) on the other hand, despite the shared subject, these are better considered coordinated clauses as reflected by the pause, the lack of truncation of *pi(n)* and to a lesser degree the position of the object argument adjacent to the verb that licenses it. [@honeyman2016, 420]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@momu1) @honeyman2016, 420, example 13.2a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Fyi pwe=pana=kiye!",
+             glosses = "beer |one.|comes=get.one=consume:SG:IMP",
+             free_translation = "Come drink a beer!")
 ```
+
+(@momu3) @honeyman2016, 420, example 13.2b
+```{r, echo=FALSE}
+gloss_example(transliteration = "Te pin, abe panai.",
+             glosses = "1SG one.goes|1/3SG.SBJ| axe get.one|1SG.SBJ|",
+             free_translation = "Come drink a beer!")
+```
+
+(@momu2) @honeyman2016, 474, example 14.37
+```{r, echo=FALSE}
+gloss_example(transliteration = "Na fyi=m kuw mereke-ta fey=m ta-mu.",
+             glosses = "and beer=OBL consume_3SG.SBJ soft-INCH fight=OBL do_3SG.SBJ-VOL.FUT",
+             free_translation = "And then he became drunk and (he) wanted to fight.")
+```
+
+<!-- ## Mon -->
+<!-- ### Details -->
+<!-- Glottocode: monn1252 <br>  -->
+<!-- Family: Austroasiatic <br> -->
+<!-- Macroarea: Eurasia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Mundari
 ### Details
@@ -396,17 +462,17 @@ Family: Austroasiatic <br>
 Macroarea: Eurasia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> We define the serial verb as one with a compound verb (ie., V+V) construction. ... The serial verbs in Mundari are classified into three types on the basis of their semantic functions. [@osada1992, 109]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@mundari1) @osada1992, 110, example 70
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ne saan sarima-cetaN-te-bu dondo-rakah-e-a",
+             glosses = "this firewood roof-over-to-1PL.INCL lift-go_up-it-Prd",
+             free_translation = "We will lift this firewood and take it up to the roof.")
 ```
 
 ## Mungbam
@@ -416,19 +482,30 @@ Family: Bantoid <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@mungbam1) @lovegren2013, 219, example 8.12
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
+             glosses = "CL1 hold.IPFV peel.IPFV off.IPFV exit.IPFV VENT.IPFV CL5-skin",
+             free_translation = "He is peeling off the [pig’s] skin [towards himself]...")
 ```
 
+(@mungbam2) @lovegren2013, 247, example 8.122
+```{r, echo=FALSE}
+gloss_example(transliteration = "bú mà ú-tőm m@` dzoˆ kwàha",
+             glosses = "CL2 take CL3-village then call gather",
+             free_translation = "They took the village and called and gathered [them].")
+```
+
+(@mungbam3) @lovegren2013, 350, example 11.32
+```{r, echo=FALSE}
+gloss_example(transliteration = "Nk`E w`O wū à jÉl`@ kì fa̋-NkŹOn@, wà toŹ pıŹ tˆa m`-pıŹ-n`@",
+             glosses = "as CL1.child CL1.DET EXPL.SBJ ascend.IRR IPFV CL16-compound CL1.SBJ come.IRR die.IRR only CL1.INF-die-INF",
+             free_translation = "As the child came up into the compound, he would just come and *die*.")
+```
 
 ## Murrinhpatha
 ### Details
@@ -461,24 +538,3 @@ gloss_example(transliteration = "ku panda thanggugu thurdana-ngintha-yitj-tha=tj
              glosses = "animate that.you.know what_animate? 2SG.S.30.PSTIMP-DU.F.NSIB-tell_story-PST=2SG.S.1sit.PSTIMP ha ha",
              free_translation = "That thing of the 'ku' class, whatitsname. You two were telling that story. ")
 ```
-
-## Mwotlap
-### Details
-Glottocode: motl1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-

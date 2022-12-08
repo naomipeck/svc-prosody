@@ -105,25 +105,25 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 ```
 
 
-## Eleme
-### Details
-Glottocode: elem1253 <br> 
-Family: Volta-Congo <br>
-Macroarea: Africa
+<!-- ## Eleme -->
+<!-- ### Details -->
+<!-- Glottocode: elem1253 <br>  -->
+<!-- Family: Volta-Congo <br> -->
+<!-- Macroarea: Africa -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## English!
@@ -153,19 +153,34 @@ Family: Kwa Volta-Congo <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
-> Citation [@source2001]
+> An SVC in Ewe is a sequence of two or more verb phrases (including any complements and adjuncts): <br>
+- without any marker of syntactic dependency;<br>
+- the VPs in the sequence are construed as occurring within the same temporal frame;<br>
+- the VPs share the same mood (e.g. imperative); <br>
+- the VPs can be formally marked for different aspect and modality categories; <br>
+- the individual verbs can function as independent verbs in simple clauses (in the same form);<br>
+- same syntactic subject for all VPs in the series but expressed only once before VP1;<br>
+- monoclausal construction;<br>
+- VPs cannot be formally independently negated;<br>
+- the verbs can be individually focused or questioned.[@ameka2006, 128-129]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@ewe1) @ameka2006, 130, example 8a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "é-yɔ́ ɗeví-á-wó fo fú-i",
+             glosses = "3SG-call child-DEF-PL hit bone-LK",
+             free_translation = "She called the children together.")
 ```
 
+(@ewe1) @ameka2006, 130, example 8a
+```{r, echo=FALSE}
+gloss_example(transliteration = "é-yÓ Deví-á-wó fo fú-i",
+             glosses = "3SG-call child-DEF-PL hit bone-LK",
+             free_translation = "She called the children together.")
+```
 
 ## Filomeno Mata Totonac
 ### Details
@@ -198,46 +213,46 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 #             annotation = "šaklaqatí šak'an kqaɬtawaqá")
 ```
 <!-- fix example -->
-## Fon
-### Details
-Glottocode: fonn1241 <br> 
-Family: Kwa Volta-Congo <br>
-Macroarea: Afroca
+<!-- ## Fon -->
+<!-- ### Details -->
+<!-- Glottocode: fonn1241 <br>  -->
+<!-- Family: Kwa Volta-Congo <br> -->
+<!-- Macroarea: Afroca -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
-## Gamo
-### Details
-Glottocode: gamo1243 <br> 
-Family: Ta-Ne-Omotic <br>
-Macroarea: Africa
+<!-- ## Gamo -->
+<!-- ### Details -->
+<!-- Glottocode: gamo1243 <br>  -->
+<!-- Family: Ta-Ne-Omotic <br> -->
+<!-- Macroarea: Africa -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Gayo
 ### Details
@@ -273,36 +288,47 @@ Family: Afro-Asiatic <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> SVCs are distinguished from other multiverb structures by the properties summarized in Table 1. Subtypes of SVCs are deWned on the basis of how properties (iv) to (vi) are realized; and on the basis of some additional characteristics. [@hellwig2006, 91]
 
-### Examples
+![Table 1 from Hellwig 2006:92](hellwig2006.png)
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Gyeli
-### Details
-Glottocode: gyel1242 <br> 
-Family: Bantu <br>
-Macroarea: Africa
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> As repeatedly stated in the literature, SVCs should not contain any marker of coor subordination. While this is true for Goemai, this property cannot reliably distinguish SVCs from conjoined structures (since Goemai does not employ any conjunctions and often omits recoverable subject arguments). Compare examples \ref(@goemai1) and \ref(@goemai2): the conjoined structure in \ref(@goemai2) can only be recognized by the presence of an intonation break. [@hellwig2006, 91]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@goemai1) @hellwig2006, 91, example 2a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "sai su ru n-goede gado",
+             glosses = "then run.SG enter.SG LOC-bottom bed",
+             free_translation = "Then (he) ran (and) entered under the bed.")
 ```
+
+(@goemai2) @hellwig2006, 91, example 2e
+```{r, echo=FALSE}
+gloss_example(transliteration = "mûep swo / mûep rwo n-s'et",
+             glosses = "3PL run.PL {} 3PL enter.PL LOC-bush",
+             free_translation = "They ran, (and) they entered into the bush.")
+```
+
+<!-- ## Gyeli -->
+<!-- ### Details -->
+<!-- Glottocode: gyel1242 <br>  -->
+<!-- Family: Bantu <br> -->
+<!-- Macroarea: Africa -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 

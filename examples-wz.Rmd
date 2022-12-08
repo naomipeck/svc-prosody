@@ -29,7 +29,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 ## Waima'a!
 ### Details
-Glottocode: waim1251 <br> 
+Glottocode: waim1252 <br> 
 Family: Austronesian <br>
 Macroarea: Papunesia
 
@@ -86,39 +86,47 @@ Family: Afro-Asiatic <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> The coding of directionality with non-movement verbs involves a serial verb construction consisting of the main verb followed by a verb of movement. The direction ‘to’ is marked by the verb d ‘go’, and the movement ‘from’ by the verb s ‘come from’ \ref(@wandala1). [@frajzyngier2012, 304]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-
-## West Coast Bajau
-### Details
-Glottocode: west2560 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> If the predicate is a serial verb construction, the plural subject marker occurs after the last verb \ref(@wandala2). [@frajzyngier2012, 438]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@wandala1) @frajzyngier2012, 304, example 27a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "yè vlà-nà d-á múrà",
+             glosses = "1SG send-3SG go-GO Mora",
+             free_translation = "I sent it to Mora.")
 ```
+
+(@wandala2) @frajzyngier2012, 438, example 51
+```{r, echo=FALSE}
+gloss_example(transliteration = "á ɮá dá-r kà",
+             glosses = "3SG come go-3PL NEG",
+             free_translation = "Don't let them go!")
+```
+
+<!-- ## West Coast Bajau -->
+<!-- ### Details -->
+<!-- Glottocode: west2560 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## West Subanon
@@ -128,60 +136,75 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> A serial verb construction (SVC) is a sequence of two or more verbs that express a single complex event (Aikhenvald & Dixon 2006:1; Pavey 2010:236). Serial verb constructions in Subanon consist of two \ref(@wsubanon1-@wsubanon2) or even three verbs \ref(@wsubanon3) functioning as a single predicate. Serial constructions consisting of two verbs are more common than those that are made up of three. In this description, I call the first verb in the sequence V1, the second V2, and the third V3. In some SVCs, the V1 modifies the following verbs and thus functions like an adverb in the clause, as in \ref(@wsubanon1). In other cases, the V1 and V2 are different actions expressing a single event, as in \ref(@wsubanon2). [@estioca2020, 291]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-
-## West Uvean
-### Details
-Glottocode: west2516 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> Finally, there is a phonological criterion that characterizes a serial verb construction. SVCs only have one intonation phrase (IP). ... However, if there is a coordinator *bu* ‘and’ between any of these verbs, ... the entire sentence has two IPs... [@estioca2020, 301]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@wsubanon1) @estioca2020, 291, example 1a
+```{r}
+gloss_example(transliteration = "Mig-domuk mog-dondam si kaka' Maria.",
+             glosses = "AV.RL-frown AV.RL-spread_mat PSA older_sibling Maria",
+             free_translation = "Older sibling Maria spread the sleeping mat frowning.")
 ```
 
-
-## Western Bru
-### Details
-Glottocode: west2397 <br> 
-Family: Austroasiatic <br>
-Macroarea: Eurasia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@wsubanon2) @estioca2020, 291, example 1b
+```{r}
+gloss_example(transliteration = "Dioyo og principal, mig-bantoy mok-panad dianami.",
+             glosses = "there PSA principal AV.RL-watch AV.IRR-teach 1PL.EXCL.OBL",
+             free_translation = "There is the principal, watching us while we teach.")
 ```
+
+(@wsubanon3) @estioca2020, 291, example 2
+```{r}
+gloss_example(transliteration = "Mik-tantu=u mok-podonsama' mok-talu'.",
+             glosses = "AV.RL-sincere=1SG.PSA AV.IRR-warn AV.IRR-speak",
+             free_translation = "I sincerely gave a warning.")
+```
+
+<!-- ## West Uvean -->
+<!-- ### Details -->
+<!-- Glottocode: west2516 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
+
+
+<!-- ## Western Bru -->
+<!-- ### Details -->
+<!-- Glottocode: west2397 <br>  -->
+<!-- Family: Austroasiatic <br> -->
+<!-- Macroarea: Eurasia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Western Magar
@@ -214,15 +237,15 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Citation [@source2001]
+> Modal and serial verb constructions are generally formed from the bare predicate root (although sometimes the root is nominalized) followed by an inflected verb which provides either modal information, or information about the manner of an action (which may be aspectual). ... Serial and modal constructions can be distinguished by the fact that modal constructions can be used in negative and interrogative clauses (see example 3.15 below), whereas serial verbs cannot (the simple inflectional form is used instead). [@owen-smith2015, 86]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@wtamang1) @owen-smith2015, 89, example 3.18
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "2kon-na=no 3to: 1yu-cim",
+             glosses = "nephew-PL=FOC arrive come_down-EXPER",
+             free_translation = "(Our) nephews have come down!")
 ```
 
 
@@ -253,67 +276,67 @@ gloss_example(transliteration = "Yul hnef monx jaont monx ghad dionb nzhaod lol.
              free_translation = "Next time when you go herding, lead the bird back here with you.")
 ```
 
-## Wooi
-### Details
-Glottocode: woii1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Wooi -->
+<!-- ### Details -->
+<!-- Glottocode: woii1237 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: 0 <br> Grammatical: 0
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: 0 <br> Grammatical: 0 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-
-## Yabêm
-### Details
-Glottocode: yabe1254 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Yami
-### Details
-Glottocode: yami1254 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ## Yabêm -->
+<!-- ### Details -->
+<!-- Glottocode: yabe1254 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-> Citation [@source2001]
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-### Examples
+<!-- > Citation [@source2001] -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
+
+<!-- ## Yami -->
+<!-- ### Details -->
+<!-- Glottocode: yami1254 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Yimas
@@ -323,19 +346,25 @@ Family: Lower Sepik <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> Serial verbs in Yimas fall into two structural types: those connected simply by juxtaposition, with no overt morphological links; and those connected by an overt morpheme, most commonly, *-mpi* SEQ. As would be expected, these two types contrast semantically. The former is used for coding events which are viewed as simultaneous or especially close cause-effect relations (close in both space and time). The latter is used for events which are seen to occur sequentially in the normal progression of events, but with no strong causal link between them. [@foley1991, 322]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@yimas1) @foley1999, 322, example 6-89a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "impa-n-yakal-kulanang-kanta-k",
+             glosses = "3DL.P-3SG.A-CONT-walk-follow-IRR",
+             free_translation = "He was walking following those two.")
 ```
 
+(@yimas2) @foley1999, 324, example 6-92a
+```{r, echo=FALSE}
+gloss_example(transliteration = "narm pu-tpul-kamprak-r-akn",
+             glosses = "skin(VI) 3PL.SBJ-hit-break-PERF-3SG.D",
+             free_translation = "They hit and broke his skin.")
+```
 
 ## Yongning Na
 ### Details
@@ -461,17 +490,33 @@ Family: Otomanguean <br>
 Macroarea: North America
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
-> Citation [@source2001]
+> In same-subject constructions with selected complement-taking verbs, such as can, go, begin and finish, both verbs carry TAM markers but (typically) only the complement verb is inflected for person. [@operstein2015, 105]
+
+> Coordinate clauses may be joined by simple juxtaposition. [@operstein2015, 102]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@zaniza3) @operstein2015, 105
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ja jed-m",
+             glosses = "STAT.go COMPL.come-3SG.FEM.HON",
+             free_translation = "She comes and goes.")
+```
+
+(@zaniza1) @operstein2015, 102
+```{r, echo=FALSE}
+gloss_example(transliteration = "uja-a: biɾiɲ-a:",
+             glosses = "COMPL.go-1SG COMPL.arrive-1SG",
+             free_translation = "I went and came back.")
+```
+
+(@zaniza2) @operstein2015, 102
+```{r, echo=FALSE}
+gloss_example(transliteration = "u-du-tib-j jag-gi', guʂ kwidʒ",
+             glosses = "COMP-ANTI-roll-3SG.MASC stairs COMP.break-3SG.MASC leg",
+             free_translation = "He rolled (i.e. fell) down the stairs (and) broke his leg.")
 ```
 
 ## Zayse-Zergulla
@@ -481,16 +526,18 @@ Family: Ta-Ne-Omotic <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Non-final verbs in chains of two or more VP's having a common subject (i.e., a syntactic situation where Amharic would employ the converb form) tend to appear in the short perfect form. The overall aspect / tense setting of the sentence is determined by the form of the final verb. [@hayward1990a, 317-318]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+Note that not all glossing was present in the original source.
+
+(@zayse1) @hayward1990a, 318
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "?e=?a`sí gel-í ?útt-i múud-i geháttesin",
+             glosses = "DET.MASC=man.NOM enter-PFV sit-PFV eat-PFV sleep.3SG.MASC.PFV",
+             free_translation = "The man returned home, sat down, ate, and went to sleep.")
 ```
 

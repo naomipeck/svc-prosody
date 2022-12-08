@@ -5,46 +5,46 @@ library(lingglosses)
 #linguisticsdown::writeIPA()
 ```
 
-## Cahuilla
-### Details
-Glottocode: cahu1264 <br> 
-Family: Uto-Aztecan <br>
-Macroarea: North America
+<!-- ## Cahuilla -->
+<!-- ### Details -->
+<!-- Glottocode: cahu1264 <br>  -->
+<!-- Family: Uto-Aztecan <br> -->
+<!-- Macroarea: North America -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
-## Central Kanuri
-### Details
-Glottocode: cent2050 <br> 
-Family: Saharan <br>
-Macroarea: Africa
+<!-- ## Central Kanuri -->
+<!-- ### Details -->
+<!-- Glottocode: cent2050 <br>  -->
+<!-- Family: Saharan <br> -->
+<!-- Macroarea: Africa -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Central Khmer
@@ -338,25 +338,25 @@ gloss_example(transliteration = "hwama-i fa-i-hi,",
              glosses = "hang-3SG.MASC leave-3SG.MASC-SIM",
              free_translation = "While he hang and left him there...")
 ```
-## Dongwang Tibetan
-### Details
-Glottocode: kham1282 <br> 
-Family: Trans-Himalayan <br>
-Macroarea: Eurasia
+<!-- ## Dongwang Tibetan -->
+<!-- ### Details -->
+<!-- Glottocode: kham1282 <br>  -->
+<!-- Family: Trans-Himalayan <br> -->
+<!-- Macroarea: Eurasia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Doromu-Koki
 ### Details

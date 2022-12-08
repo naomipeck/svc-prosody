@@ -29,45 +29,45 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Tajio
-### Details
-Glottocode: taji1246 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Tajio -->
+<!-- ### Details -->
+<!-- Glottocode: taji1246 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
-## Tamambo
-### Details
-Glottocode: malo1243 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Tamambo -->
+<!-- ### Details -->
+<!-- Glottocode: malo1243 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Tamasheq
 ### Details
@@ -76,19 +76,25 @@ Family: Afro-Asiatic <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> A positive clause with a Shlmpf or Imprt verb can be added to another positive clause in the future construction, without repeating Future ad. In \ref(@tamasheq1), ɑ̀d occurs once at the beginning followed by the usual Shlmpf, but a second Shlmpf clause is conjoined (without another Fut particle or other overt connective). If a direct object or dative NP occurs in both clauses, it appears in pronominal form (object or dative clitic) in the second \ref(@tamasheq2). Any clitics in the add-on clause are hosted by the verb. ... In all cases, the two clauses have separate accentuation. [@heath2005, 680]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@tamasheq1) @heath2005, 680, example 828a
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ɑ̀d n-ækš n-əsə́w",
+             glosses = "FUT 1PL.SBJ-eat.IPFV 1PL.SBJ-drink.IPFV",
+             free_translation = "We will eat and drink.")
 ```
 
+(@tamasheq2) @heath2005, 681, example 828c
+```{r, echo=FALSE}
+gloss_example(transliteration = "ɑd ə̀wət-Aɤ t-è-hæle æ̀ŋɤ-æq-\qæt",
+             glosses = "FUT hit.IPFV-1SG.SBJ FEM-SG-sheep kill.IPFV-1SG.SBJ-\3SG.FEM.OBJ",
+             free_translation = "I will hit and kill the sheep.")
+```
 
 ## Tariana!
 ### Details
@@ -110,25 +116,25 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-## Teop
-### Details
-Glottocode: teop1238 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Teop -->
+<!-- ### Details -->
+<!-- Glottocode: teop1238 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Thai
@@ -172,78 +178,50 @@ Family: North Halmahera <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> In this section it will be shown that the number of true serial verb constructions is limited indeed. In most cases, constructions that now resemble serial verb constructions are either the result of the loss of inflectional morphology, in particular the loss of the object prefix, or they are grammaticalised verbal elements that still show remnants of an erstwhile status as main predicates. Examples of the former are the expressions of manner and modality, examples of the latter are the verbal conjunctions and prepositions. Constructions with directional verbs, too, display some evidence for serialisation, but they are better characterised as simple clauses with adverbially used verbs (sections 10.14.2 and 10.14.4). Instances of ‘true serialisation’ are the constructions with aspectual verbs maleko ‘on and on’, sari ‘about to’ and jaga ‘often’, but it is noteworthy that two out of three of these verbs are Malay loan words. [@vanstaden2000, 308]
 
-### Examples
+> Paratactic constructions are characterised by a single intonation contour marking as one utterance a unit of more than one independent clause. By independent clause, I mean a finite clause with its own independent truth-values, i.e. it can be negated or modified independent of the other clause(s). The relation between the clauses is not overtly expressed. Iconicity in the relation of events in discourse and the context in which the utterance is placed suggest the relation between the clauses. [@vanstaden2000, 278]
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Tigon Mbembe
-### Details
-Glottocode: tigo1236 <br> 
-Family: Volta-Congo <br>
-Macroarea: Africa
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> The distinction between parataxis and serialisation is not always straightforward. In general the ‘tightly-knit’ paratactic constructions will be closest to serialisation. Neither parataxis nor serialisation use conjunctions, and the intonation of both is often like a single clause. In the case of parataxis, however, pauses and a non-final contour on the first clause are always possible, without significantly changing the interpretation, or the interpretation possibilities of the construction... [@vanstaden2000, 280]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@tidore1) @vanstaden2000, 278, example 40
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "yeye polu gosa isa",
+             glosses = "grandmother gather carry landwards",
+             free_translation = "grandmother gathers and carries home (stones)")
 ```
 
-## Time
-### Details
-Glottocode: timn1235 <br> 
-Family: Mel <br>
-Macroarea: Africa
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
+(@tidore1) @vanstaden2000, 309, example 169
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "una wo-maleko wo-reke",
+             glosses = "3SG.MASC 3SG.MASC.A-continually 3SG.MASC.A-cry",
+             free_translation = "He cried on and on")
 ```
 
-## Tira
-### Details
-Glottocode: tira1254 <br> 
-Family: Heibanic <br>
-Macroarea: Africa
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ## Tigon Mbembe -->
+<!-- ### Details -->
+<!-- Glottocode: tigo1236 <br>  -->
+<!-- Family: Volta-Congo <br> -->
+<!-- Macroarea: Africa -->
 
-> Citation [@source2001]
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-### Examples
+<!-- > Citation [@source2001] -->
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Tommo So Dogon
 ### Details
@@ -252,17 +230,19 @@ Family: Dogon <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Tommo So makes great use of verb chaining, in which two (or more) verbal events are strung together with no overt subordinating morpheme. The events involved often come together to form a coherent whole (i.e. the actions are related), in which case they typically involve at least one consistent argument shared by all verbs in the chain; this argument is not necessarily the subject. In other cases, the verbs involved are not as tightly bound together, and the morphology of verb chaining is simply used to conjoin or subordinate clauses. [@mcpherson2013, 441]
+
+> If the verb is a regular, conjugating verb, a serial construction tends to be used to link the two phrases. There is no separate serial verb form of quasi-verbs. [@mcpherson2013, 217]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@dogon1) @mcpherson2013, 442, example 895b
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Bíku=gɛ gòò-nd-áa ú=ɲ̀ òb-ì-m",
+             glosses = "pen=DEF go_out-FACT-PFV 2SG.PRO=OBJ give-PFV.L-1SG",
+             free_translation = "I took out the pen and gave it to you.")
 ```
 
 ## Tondano
@@ -272,38 +252,54 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
-> Citation [@source2001]
+> The broad definition of an SVC applied here follows that of Haspelmath (ibid: 2) which states that an SVC is “a monoclausal construction consisting of multiple independent verbs with no element linking them and with no predicate-argument relation254 between the verbs”. <br>
+In addition to this overarching feature, SVCs in Tondano also have the following characteristics (these are also considered characteristics of SVCs in Durie 1997:291, Aikhenvald 2006, Dixon 2006, and Noonan 2007:65, 88): <br>
+- SVCs are comprised of multiple verbs which occur together within a clause. Other elements (e.g. conjunctions, negators, NPs, or PPs) do not occur between the two verbs. <br> 
+- The multiple verbs function as the head of a single predicate, and more importantly, they refer to a situation which is viewed as a single overall event. <br>
+- Each verb in the SVC may also function independently as the sole verb in a verbal clause. <br>
+- An SVC has only one shared pivot argument. [@brickell2014, 424]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Tonga
-### Details
-Glottocode: tong1325 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> Example \ref(@tondano2) again displays two separate clauses, despite the absence of a co-ordinating conjunction.The reason this can only be an instance of parataxis is due to a number of features, these are: the pause in intonation between the two verbs, the difference in TAM marking (*<um>* is irrealis while *meN-* is realis), the separate representations of the PIV arguments, and the fact that there are two separate assertions (events) denoted by the verbal predicates.
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@tondano1) @brickell2014, 425, example 772
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ko=<um>èa s<um>iwo litir mana=mèè",
+             glosses = "2SG.PIV=<AV>go <AV>make dike there=DIR.MED",
+             free_translation = "Will you go and build dikes over there?",
+             annotation = "komèa sumiwo litir manamèè?")
 ```
+
+(@tondano2) @brickell2014, 427, example 776
+```{r, echo=FALSE}
+gloss_example(transliteration = "sèa <um>upu=mow sè=meN-CVCV-kantar",
+             glosses = "3SG <AV>pick=CPL 3PL.PIV=AV.DYN-RDP-sing",
+             free_translation = "They would pick (rice), they are singing.",
+             annotation = "sèa mupumou, èmengantangantar")
+```
+
+<!-- ## Tonga -->
+<!-- ### Details -->
+<!-- Glottocode: tong1325 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Toqabaqita
 ### Details
@@ -314,15 +310,17 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Citation [@source2001]
+> Toqabaqita has both symmetrical and asymmetrical SVCs; there can be only two constituents in an SVC but there may be nesting of an SVC within an SVC; the constituent verbs are always contiguous; and SVCs have the status of single grammatical words. [@lichtenberk2006, 257]
+
+> Finally, there is also prosodic evidence of the unitary word status of Toqabaqita SVCs: they are said under one intonation contour, and normally there is no pause between the constituents. [@lichtenberk2006, 262]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@toqabaqita1) @lichtenberk2006, 258, example 16
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "...kwa riki thaitoqoma-na maka nau...",
+             glosses = "1SG:SEQ see know-3.OBJ father 1SG",
+             free_translation = "...I recognised my father by sight...")
 ```
 
 ## Ts'ixa
@@ -332,38 +330,47 @@ Family: Khoe-Kwadi <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> Ts’ixa makes use of multiverbal predicates to refer to a particular set of states of affairs which are considered “complex” by the speakers. Verb serialisation has been identified a distinctive feature of the Kx’a and Tuu language families (Güldemann & Vossen 2000), and “lexically complex predicates” (cf. Güldemann 2006, Güldemann & Fehn, forthc.) are known to exist in all known Khoisan languages... I will not follow Kilian-Hatz (2006, 2008, 2013) and Haacke (2014) who refer to them as “serial verb constructions” (SVC). ... I will refer to them as “juncture-verb constructions” (JVC) instead. [@fehn2014, 175-176]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Tukang Besi
-### Details
-Glottocode: tuka1248 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> It may therefore be assumed that synchronically, the juncture is not an active marker in Ts’ixa, and that marking of active voice is not its function in the complex predicates under discussion. Its main function appears to lie in conveying that a verb will be followed by another verbal element – either a full verb or a suffix of verbal origin. All derivative suffixes and two of the three ANTERIOR / PAST suffixes requiring use of the juncture can be shown to have grammaticalised from a verbal source. One may therefore think of the juncture as an element putting verbs into a “construct state” (T. Güldemann, p.c.). Although this function does not coincide with an outright co- or subordination marker, more prototypical SVCs, e.g., those found in Western African languages or in the Kx’a and Tuu families, feature two or more full verbs which do not require any linking element between them. [@fehn2014, 177]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@tsixa1) @fehn2014, 181, example 243b
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "tí kò kama-nà k~ù~ù",
+             glosses = "1SG IPFV track-LK go",
+             free_translation = "I walk tracking.")
 ```
+
+(@tsixa2) @fehn2014, 185, example 253b
+```{r, echo=FALSE}
+gloss_example(transliteration = "?abá='m kòrè g||óé=sì xàè kyeé.kyeè kùè ?é.sérà ny~ú~u-a k'uì=xù.",
+             glosses = "dog=SG.MASC:I CONJ tortoise=SG.FEM:I CONJ listen IPFV 3DU.FEM sit-LK talk=NMLZ",
+             free_translation = "The dog and the tortoise are listening to them talking in a sitting position.")
+```
+
+<!-- ## Tukang Besi -->
+<!-- ### Details -->
+<!-- Glottocode: tuka1248 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Turkish
@@ -400,17 +407,19 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> The existence of verb serialization, or verb chains, is well attested among Oceanic languages other than members of the Polynesian family (e.g., Foley and Olson 1985, Harrison 1984a). In contrast, no Polynesian language has so far been described as having structures of this type, although Hooper (1993:239) suggests that they exist in Tokelauan. No Tuvaluan structure can be unequivocally identified as verb chains, but certain strings of verbs resemble verb chains. Such is the case, for example, of the verbs *fakasiga* ‘[make oneself] fall’ and *tagi* ‘cry’ in \ref(@tuvalu1). [@besnier2000, 538]
+
+> Verbs in series cannot be separated by anything, and share the same tense-aspect-mood marker. However, they need not share the same argument structure and need not agree in valency. [@besnier2000, 538]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@tuvalu1) @besnier2000, 538, example 2781
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Ne fakasiga tagi ki vae o tena maatua kee fakamaagalo ia.",
+             glosses = "PST CST+fall cry to foot of his mother SBJ forgive 3SG",
+             free_translation = "[He] fell cry[ing] to his mother's feet [for her] to forgive him.")
 ```
 
 ## Uduk
@@ -420,17 +429,24 @@ Family: Koman <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> In Uduk serial verb constructions, there are at least two verb roots in a single predicate, the first verb of the series bearing finite inflectional morphology and further verbs occurring in a non-finite form. Tonal aspectual changes and argument cross-referencing are possible only for the first verb of the construction; further verbs must stay consistent with scope and aspect. [@killian2015, 248]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@uduk1) @killian2015, 246, example 773
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "wàthíʔ dǒsh-óʼd ì yà ʼdéʼk shōʼk āràbíyāʔ",
+             glosses = "man stand:IPFV-3SG LK go lift foot vehicle",
+             free_translation = "The man is standing and goes to lift a tire.")
+```
+
+(@uduk2) @killian2015, 249, example 785
+```{r, echo=FALSE}
+gloss_example(transliteration = "gù'b rús-ù 'bár mò",
+             glosses = "house mud:PFV-IMPRS finish PART",
+             free_translation = "All of the hosue was mudded.")
 ```
 
 ## Vaeakau-Taumako
@@ -440,56 +456,69 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> ...a verb may modify another verb in a construction which may formally be classified as nuclear-layer serialization (Foley and Van Valin 1984:190): two verbs joined together to form a single complex verb-phrase nucleus, where the second verb semantically modifies the first. Such verbs share arguments and tense-aspect-mood markers, and must agree in transitivity status: if the first verb (V1) is transitive, the second verb (V2) takes the transitive suffix *-ina*. [@naesshovdhaugen2011, 374]
 
-### Examples
+> There are constructions in Vaeakau-Taumako which resemble core-layer serialization, but which are impossible in practice to distinguish reliably from juxtaposed clauses with equi-deletion of coreferential arguments \ref(@vt2). [@naesshovdhaugen2011, 378]
 
-(@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
-## Vatlongos
-### Details
-Glottocode: sout2859 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> The main criteria which may be applied to distinguish compounding from modification and verb serialization in Vaeakau-Taumako are phonology and semantics. A compound behaves like a single word phonologically, with a single main stress and a single intonation contour, whereas modification and serialization constructions involve distinct phonological words. [@naesshovdhaugen2011, 232]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@vt2) @naesshovdhaugen2011, 383, example 14
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ko-i to-a ko takoto=ake ko takoto ko-i tao-na",
+             glosses = "INCP-3SG take-TR INCP lie=go_up INCP lie INCP-3SG bake-TR",
+             free_translation = "He lay down to be baked.",
+             annotation = "Koi toa ko takorake ko takoro koi taona.")
 ```
 
-## Vera'a
-### Details
-Glottocode: vera1241 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
+(@vt2) @naesshovdhaugen2011, 378, example 7
 ```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ko hano=ange te athua la ko-i ta-pena-kina kaikai",
+             glosses = "INCP go.SG=go_along SG.SP spirit DEM INCP-3SG PREF-prepare-APPL food",
+             free_translation = "The spirit went and prepared some food.",
+             annotation = "ko nhange te tua la koi tapenakina kaikai")
 ```
+
+<!-- ## Vatlongos -->
+<!-- ### Details -->
+<!-- Glottocode: sout2859 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
+
+<!-- ## Vera'a -->
+<!-- ### Details -->
+<!-- Glottocode: vera1241 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
