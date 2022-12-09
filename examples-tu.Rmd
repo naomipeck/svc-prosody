@@ -19,14 +19,11 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Citation [@lazardpeltzer2000, 31-33]
 
 (@tahiti1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
 ```
-
-
-
 
 
 <!-- ## Tajio -->
@@ -83,16 +80,18 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@tamasheq1) @heath2005, 680, example 828a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ɑ̀d n-ækš n-əsə́w",
              glosses = "FUT 1PL.SBJ-eat.IPFV 1PL.SBJ-drink.IPFV",
              free_translation = "We will eat and drink.")
 ```
 
+Note that the orthography in \ref(@tamasheq2) has been altered slightly; please consult the original source for the correct rendering.
+
 (@tamasheq2) @heath2005, 681, example 828c
-```{r, echo=FALSE}
-gloss_example(transliteration = "ɑd ə̀wət-Aɤ t-è-hæle æ̀ŋɤ-æq-\qæt",
-             glosses = "FUT hit.IPFV-1SG.SBJ FEM-SG-sheep kill.IPFV-1SG.SBJ-\3SG.FEM.OBJ",
+```{r}
+gloss_example(transliteration = "ɑd ə̀wət-Aɤ t-è-hæle æ̀ŋɤ-æq-qæt",
+             glosses = "FUT hit.IPFV-1SG.SBJ FEM-SG-sheep kill.IPFV-1SG.SBJ-3SG.FEM.OBJ",
              free_translation = "I will hit and kill the sheep.")
 ```
 
@@ -110,7 +109,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 > Citation [@aikhenvald1999]
 
 (@language1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -151,21 +150,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@thai1) @iwasakihorie2005, 233
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "mɛ̂ɛ cà pǐt fay nɔɔn lɛ́ɛw ná",
              glosses = "mother.1 CM turn_off light sleep ASP PART",
              free_translation = "Mother will turn off the light and go to bed, okay.")
 ```
 
 (@thai2) @iwasakihorie2005, 234
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "man lóm tháp khon nay rót khâ",
              glosses = "3 fall press person in car PART",
              free_translation = "It (= a big gas tank) fell down on the person in the pick-up truck.")
 ```
 
 (@thai3) @iwasakihorie2005, 240
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "nók nǎaw taay",
              glosses = "bird cold die",
              free_translation = "The bird froze to death.")
@@ -189,14 +188,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@tidore1) @vanstaden2000, 278, example 40
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "yeye polu gosa isa",
              glosses = "grandmother gather carry landwards",
              free_translation = "grandmother gathers and carries home (stones)")
 ```
 
 (@tidore1) @vanstaden2000, 309, example 169
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "una wo-maleko wo-reke",
              glosses = "3SG.MASC 3SG.MASC.A-continually 3SG.MASC.A-cry",
              free_translation = "He cried on and on")
@@ -239,7 +238,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@dogon1) @mcpherson2013, 442, example 895b
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Bíku=gɛ gòò-nd-áa ú=ɲ̀ òb-ì-m",
              glosses = "pen=DEF go_out-FACT-PFV 2SG.PRO=OBJ give-PFV.L-1SG",
              free_translation = "I took out the pen and gave it to you.")
@@ -266,7 +265,7 @@ In addition to this overarching feature, SVCs in Tondano also have the following
 ### Examples
 
 (@tondano1) @brickell2014, 425, example 772
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko=<um>èa s<um>iwo litir mana=mèè",
              glosses = "2SG.PIV=<AV>go <AV>make dike there=DIR.MED",
              free_translation = "Will you go and build dikes over there?",
@@ -274,7 +273,7 @@ gloss_example(transliteration = "ko=<um>èa s<um>iwo litir mana=mèè",
 ```
 
 (@tondano2) @brickell2014, 427, example 776
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "sèa <um>upu=mow sè=meN-CVCV-kantar",
              glosses = "3SG <AV>pick=CPL 3PL.PIV=AV.DYN-RDP-sing",
              free_translation = "They would pick (rice), they are singing.",
@@ -317,7 +316,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@toqabaqita1) @lichtenberk2006, 258, example 16
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "...kwa riki thaitoqoma-na maka nau...",
              glosses = "1SG:SEQ see know-3.OBJ father 1SG",
              free_translation = "...I recognised my father by sight...")
@@ -338,19 +337,19 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-(@tsixa1) @fehn2014, 181, example 243b
-```{r, echo=FALSE}
-gloss_example(transliteration = "tí kò kama-nà k~ù~ù",
-             glosses = "1SG IPFV track-LK go",
-             free_translation = "I walk tracking.")
-```
+<!-- (@tsixa1) @fehn2014, 181, example 243b -->
+<!-- ```{r} -->
+<!-- gloss_example(transliteration = "tí kò kama-nà kũ̀ũ̀", -->
+<!--              glosses = "1SG IPFV track-LK go", -->
+<!--              free_translation = "I walk tracking.") -->
+<!-- ``` -->
 
-(@tsixa2) @fehn2014, 185, example 253b
-```{r, echo=FALSE}
-gloss_example(transliteration = "?abá='m kòrè g||óé=sì xàè kyeé.kyeè kùè ?é.sérà ny~ú~u-a k'uì=xù.",
-             glosses = "dog=SG.MASC:I CONJ tortoise=SG.FEM:I CONJ listen IPFV 3DU.FEM sit-LK talk=NMLZ",
-             free_translation = "The dog and the tortoise are listening to them talking in a sitting position.")
-```
+<!-- (@tsixa2) @fehn2014, 185, example 253b -->
+<!-- ```{r} -->
+<!-- gloss_example(transliteration = "ʔabá='m kòrè gǁóé=sì xàè kyeé.kyeè kùè ʔé.sérà nyũ̀u-a k'uì=xù.", -->
+<!--              glosses = "dog=SG.MASC CONJ tortoise=SG.FEM CONJ listen IPFV 3DU.FEM sit-LK talk=NMLZ", -->
+<!--              free_translation = "The dog and the tortoise are listening to them talking in a sitting position.") -->
+<!-- ``` -->
 
 <!-- ## Tukang Besi -->
 <!-- ### Details -->
@@ -387,17 +386,17 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@turkish1) @kornfilt1997, 478, example 1719
-```{r, echo=FALSE}
-#gloss_example(transliteration = "söyle -n -ir dur -ur",
-#             glosses = "tell -REFL -AOR stay -AOR",
-#             free_translation = "She keeps on grumbling.")
+```{r}
+gloss_example(transliteration = "söyle-n-ir dur-ur",
+             glosses = "tell-REFL-AOR stay-AOR",
+             free_translation = "She keeps on grumbling.")
 ```
 
 (@turkish2) @kornfilt1997, 478, example 1720
-```{r, echo=FALSE}
-#gloss_example(transliteration = "söyle -n -di dur -di",
-#             glosses = "tell -REFL -PST stay -PST",
-#             free_translation = "She keeps on grumbling.")
+```{r}
+gloss_example(transliteration = "söyle-n-di dur-di",
+             glosses = "tell-REFL-PST stay-PST",
+             free_translation = "She keeps on grumbling.")
 ```
 
 ## Tuvalu
@@ -416,7 +415,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@tuvalu1) @besnier2000, 538, example 2781
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ne fakasiga tagi ki vae o tena maatua kee fakamaagalo ia.",
              glosses = "PST CST+fall cry to foot of his mother SBJ forgive 3SG",
              free_translation = "[He] fell cry[ing] to his mother's feet [for her] to forgive him.")
@@ -436,14 +435,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@uduk1) @killian2015, 246, example 773
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "wàthíʔ dǒsh-óʼd ì yà ʼdéʼk shōʼk āràbíyāʔ",
              glosses = "man stand:IPFV-3SG LK go lift foot vehicle",
              free_translation = "The man is standing and goes to lift a tire.")
 ```
 
 (@uduk2) @killian2015, 249, example 785
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "gù'b rús-ù 'bár mò",
              glosses = "house mud:PFV-IMPRS finish PART",
              free_translation = "All of the hosue was mudded.")
@@ -467,7 +466,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@vt2) @naesshovdhaugen2011, 383, example 14
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko-i to-a ko takoto=ake ko takoto ko-i tao-na",
              glosses = "INCP-3SG take-TR INCP lie=go_up INCP lie INCP-3SG bake-TR",
              free_translation = "He lay down to be baked.",
@@ -475,7 +474,7 @@ gloss_example(transliteration = "ko-i to-a ko takoto=ake ko takoto ko-i tao-na",
 ```
 
 (@vt2) @naesshovdhaugen2011, 378, example 7
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko hano=ange te athua la ko-i ta-pena-kina kaikai",
              glosses = "INCP go.SG=go_along SG.SP spirit DEM INCP-3SG PREF-prepare-APPL food",
              free_translation = "The spirit went and prepared some food.",

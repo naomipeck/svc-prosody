@@ -20,7 +20,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@language1) @source2001, pg, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -41,7 +41,7 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 > Citation Culhane p.c.
 
 (@waimaa1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -64,14 +64,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@wambaya1) @nordlinger1998, 194, example 7-118
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Gayini g-a yarru ginkanyi nanganangali?",
              glosses = "what.I(NOM) 3SG.SBJ-PST go this_way sneak_away",
              free_translation = "Who was it that snuck off this way?")
 ```
 
 (@wambaya2) @nordlinger1998, 195, example 7-124
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Yugu-yugu-lumi gin-a irra bard-babu.",
              glosses = "cry-RDP-CAUS 3SG.MASC.A-PST 3PL.ACC run-APPL",
              free_translation = "He took them away (from their mothers) and made them cry.")
@@ -95,14 +95,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@wandala1) @frajzyngier2012, 304, example 27a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "yè vlà-nà d-á múrà",
              glosses = "1SG send-3SG go-GO Mora",
              free_translation = "I sent it to Mora.")
 ```
 
 (@wandala2) @frajzyngier2012, 438, example 51
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "á ɮá dá-r kà",
              glosses = "3SG come go-3PL NEG",
              free_translation = "Don't let them go!")
@@ -221,10 +221,10 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@wmagar1) @grunow-harsta2008, 384, example 6b
-```{r, echo=FALSE}
-#gloss_example(transliteration = "jaja-ko ŋɦet-ke ma-cip-raɦ-a",
-#             glosses = "child-PL cow-DAT squeeze-come-PST",
-#             free_translation = "The children did not come milk the cow.")
+```{r}
+gloss_example(transliteration = "jaja-ko ŋɦet-ke ma-cip-raɦ-a",
+             glosses = "child-PL cow-DAT NEG-squeeze-come-PST",
+             free_translation = "The children did not come milk the cow.")
 ```
 
 
@@ -242,7 +242,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@wtamang1) @owen-smith2015, 89, example 3.18
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "2kon-na=no 3to: 1yu-cim",
              glosses = "nephew-PL=FOC arrive come_down-EXPER",
              free_translation = "(Our) nephews have come down!")
@@ -263,14 +263,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@xong1) @sposato2015, 541, example 12.1
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Aod-ngonl naus beux daos geud giab nonx.",
              glosses = "one-CLF.ANIM bird hit die hold stir_fry eat",
              free_translation = "(I) killed the bird and cooked it (to eat).")
 ```
 
 (@xong2) @sposato2015, 566, example 12.91
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Yul hnef monx jaont monx ghad dionb nzhaod lol.",
              glosses = "again CLF.day 2SG herd 2SG then lead return come",
              free_translation = "Next time when you go herding, lead the bird back here with you.")
@@ -353,14 +353,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@yimas1) @foley1999, 322, example 6-89a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "impa-n-yakal-kulanang-kanta-k",
              glosses = "3DL.P-3SG.A-CONT-walk-follow-IRR",
              free_translation = "He was walking following those two.")
 ```
 
 (@yimas2) @foley1999, 324, example 6-92a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "narm pu-tpul-kamprak-r-akn",
              glosses = "skin(VI) 3PL.SBJ-hit-break-PERF-3SG.D",
              free_translation = "They hit and broke his skin.")
@@ -380,7 +380,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@yongningna1) @lidz2010, 397, example 566
-```{r, echo=FALSE, results='asis'}
+```{r, results='asis'}
 gloss_example(transliteration = "tʰi13 lə33- wæ33 zɔ33 tʰɯ33 ʐɯ33mi33 tʰɯ33 lɯ33 lə33- wɔ13 lə33- sɩ31 lə33- yɔ33 hɯ33",
              glosses = "so ACCOMP- call CSM this hearth.room this CLS ACCOMP- return ACCOMP- live ACCOMP- come FUT.REM",
              free_translation = "Having called it, the hearth room will come back to life.")
@@ -405,28 +405,28 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@yoruba1) @stahlke1970, 61, example 1
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Mo mú ìwé wá ilé.",
              glosses = "1SG take book come house",
              free_translation = "I brought a book home.")
 ```
 
 (@yoruba2) @bisang2009, 796, example 3'
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ìwé ni mo mú wá ilé.",
              glosses = "book FOC 1SG take come house",
              free_translation = "It was a book I brought home.")
 ```
 
 (@yoruba3) @stahlke1970, 78, example 50
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Mo mú ìwé, mo sì wá ilé.",
              glosses = "1SG take book 1SG and come home",
              free_translation = "I picked up a book and came home.")
 ```
 
 (@yoruba4) @stahlke1970, 79, example 57
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ìwé ni mo mú, mo sì wá ilé.",
              glosses = "book FOC 1SG take 1SG and come house",
              free_translation = "It was a book I took and I came home.",
@@ -451,14 +451,14 @@ Intransitive infinitives: the intransitive infinitive is formed by putting the a
 Note that the glosses were not originally provided by the authors of the text.
 
 (@ymaya1) @bollesbolles2014, 113, section 108
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Yan in hokol in caxte in uooch.",
              glosses = "have_to 1SG go_out 1SG gather 1SG ",
              free_translation = "I have to go out to gather my food.")
 ```
 
 (@ymaya2) @bollesbolles2014, 113, section 109
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Yan in hokol okot.",
              glosses = "have_to 1SG go_out dance",
              free_translation = "I have to go out to dance.")
@@ -476,10 +476,10 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@yuchi1) @linn2001, 282, example 20b
-```{r, echo=FALSE}
-#gloss_example(transliteration = "William dzothishi wenõ hõ'nẽ hõ-wethla jẽ",
-#             glosses = "William doctor CL/DET(NE) 3SG(EM).ACT-see 3SG.ACT-go PST",
-#             free_translation = "William went to see the doctor.")
+```{r}
+gloss_example(transliteration = "William dzothishi wenõ hõ-nẽ hõ-wethla jẽ",
+             glosses = "William doctor CL/DET(NE) 3SG(EM).ACT-see 3SG.ACT-go PST",
+             free_translation = "William went to see the doctor.")
 ```
 
 
@@ -499,21 +499,21 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@zaniza3) @operstein2015, 105
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ja jed-m",
              glosses = "STAT.go COMPL.come-3SG.FEM.HON",
              free_translation = "She comes and goes.")
 ```
 
 (@zaniza1) @operstein2015, 102
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "uja-a: biɾiɲ-a:",
              glosses = "COMPL.go-1SG COMPL.arrive-1SG",
              free_translation = "I went and came back.")
 ```
 
 (@zaniza2) @operstein2015, 102
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "u-du-tib-j jag-gi', guʂ kwidʒ",
              glosses = "COMP-ANTI-roll-3SG.MASC stairs COMP.break-3SG.MASC leg",
              free_translation = "He rolled (i.e. fell) down the stairs (and) broke his leg.")
@@ -535,9 +535,9 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 Note that not all glossing was present in the original source.
 
 (@zayse1) @hayward1990a, 318
-```{r, echo=FALSE}
-gloss_example(transliteration = "?e=?a`sí gel-í ?útt-i múud-i geháttesin",
+```{r}
+gloss_example(transliteration = "ʔe=ʔas̀í gel-í ʔútt-i múud-i geháttesin",
              glosses = "DET.MASC=man.NOM enter-PFV sit-PFV eat-PFV sleep.3SG.MASC.PFV",
              free_translation = "The man returned home, sat down, ate, and went to sleep.")
 ```
-
+<!-- doublecheck orthography -->

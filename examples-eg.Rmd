@@ -19,14 +19,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@eambae1) @hyslop2001, 275, example 3
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Mo vatu na veveo mo rovo, mo vai na hinaga...",
              glosses = "RL weave ACC weaving RL finish RL make ACC food",
              free_translation = "She finished weaving the weaving, and she made the food...")
 ```
 
 (@eambae1) @hyslop2001, 275, example 4
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Mo vatu na veveo, mo rovo, mo vai na hinaga...",
              glosses = "RL weave ACC weaving RL finish RL make ACC food",
              free_translation = "She did the weaving, and after that she made the food...")
@@ -48,7 +48,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 Note that intonation contours for \ref(@taba1) and \ref(@taba2) are available in the original source.
 
 (@taba1) @bowden2001, 304, example 28
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "t=han t=ronda po-pe Ploili",
              glosses = "1PL.INCL=go 1PL.INCL=stroll down-ESS Peleri",
              free_translation = "We went strlling in Peleri.",
@@ -56,8 +56,8 @@ gloss_example(transliteration = "t=han t=ronda po-pe Ploili",
 ```
 
 (@taba2) @bowden2001, 304, example 29
-```{r, echo=FALSE}
-gloss_example(transliteration = "Motor n=wom n=bantu nyol manusia",
+```{r}
+gloss_example(transliteration = "Motor n=wom n=bantu n=yol manusia",
              glosses = "motor_boat 3SG=come 3SG=help 3SG=carry people",
              free_translation = "Boats came... they helped... they took people away.",
              annotation = "Motor nwom... nbantu... nyol manusia.")
@@ -77,14 +77,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@euvean1) @moyse-faurie2004, 205, example 9
-```{r, echo=FALSE, results='asis'}
+```{r, results='asis'}
 gloss_example(transliteration = "Ko te tama nei 'e hopo malimali i loto mala'e o te faleako",
              glosses = "TOP DEF child DEIC NS jump smile OBL inside yard POSS DEF school",
              free_translation = "This child jumps smiling in the school yard.")
 ```
 
 
-## Eastern Arrernte!
+## Eastern Arrernte
 ### Details
 Glottocode: east2379 <br> 
 Family: Pama-Nyungan <br>
@@ -95,15 +95,23 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@wilkins1989, 508]
+> Verbs formed from compounding may have verbs, nominals, or adverbials as the first element of the compound and the final element is always a verb stem. The compounding of two verb stems is not very common in Mparntwe Arrernte but it does occur. [@wilkins1989, 265]
 
-(@arrernte1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+> The process of compounding two verb stems seems to have been much more prevalent in earlier stages of Arrernte. Many of the aspectual and category of associated motions inflections can be seen to derive from the compounding of verb stems. [@wilkins1989, 265, Footnote 43]
+
+(@arrernte1) @wilkins1989, 508, line 14
+```{r}
+gloss_example(transliteration = "Kele arrpenhele tyarre-kng-irtne-ke.",
+             glosses = "okay other:ERG pull_out-take-REVERS-PST.IPFV",
+             free_translation = "So the other one pulled him along after him back towards home.")
 ```
 
+(@arrernte2) @wilkins1989, 516, line 35
+```{r, results='asis'}
+gloss_example(transliteration = "Relhe mape-le ante ampe mape-le arrat-intye-me-le arrwekele-werne re-nhe, mpwepe-ke-rle tne-me-le ile-ke anteme, artange-perte-ke.",
+             glosses = "woman PL-ERG and child PL-ERG appear-DO.COMING-NPST.IPFV-SS front-ALL 3SG-ACC middle-DAT-REL stand-NPST.IPFV-SS tell-PST.PFV(REL) now cooperate-creep_up_on-PST.PFV",
+             free_translation = "The women and children came out and together they closed in on the man who was now standing in the middle talking.")
+```
 
 <!-- ## Eleme -->
 <!-- ### Details -->
@@ -126,7 +134,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 <!-- ``` -->
 
 
-## English!
+## English
 ### Details
 Glottocode: stan1293 <br> 
 Family: Indo-European <br>
@@ -137,12 +145,12 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 ### Examples
 
-> Citation [@huddlestonpullum2002]
+> A link between catenative complementation and coordination is seen with *try* and *go* ... Go occurs with *and* in coordination, as in *Go and get yourself something to eat*, *I went and got myself something to eat*, but under restrictive conditions it appears without *and*, as in \ref(@english1). Both verbs must be in the plain form and as the construction is specific to *go* it is best treated as a special case of bare infinitival complementation. [@huddlestonpullum2002, 1225]
 
-(@english1) personal knowledge
-```{r, echo=FALSE}
-gloss_example(transliteration = "Go get me some food!",
-             glosses = "go.IMP get.IMP 1SG.ACC some food")
+(@english1) @huddlestonpullum2002, 1225, 50ii
+```{r}
+gloss_example(transliteration = "Go get yourself something to eat.",
+             glosses = "go.IMP get.IMP 2SG.REFL something INF eat")
 ```
 
 
@@ -169,14 +177,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 ### Examples
 
 (@ewe1) @ameka2006, 130, example 8a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "é-yɔ́ ɗeví-á-wó fo fú-i",
              glosses = "3SG-call child-DEF-PL hit bone-LK",
              free_translation = "She called the children together.")
 ```
 
 (@ewe1) @ameka2006, 130, example 8a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "é-yÓ Deví-á-wó fo fú-i",
              glosses = "3SG-call child-DEF-PL hit bone-LK",
              free_translation = "She called the children together.")
@@ -196,21 +204,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@ftotonac1) @mcfarland2009, 201, example 252
-```{r, echo=FALSE}
-#gloss_example(transliteration = "na-k-ta-yaa-aa na-k-malakčawa-aa",
-#             glosses = "FUT-1SBJ-INC-stand-IPFV FUT-1SBJ-open-IPFV",
-#             free_translation = "I will get up to close the door.",
-#             annotation = "naktayáa nakmalakčawá")
+```{r}
+gloss_example(transliteration = "na-k-ta-yaa-aa na-k-malakčawa-aa",
+             glosses = "FUT-1SBJ-INC-stand-IPFV FUT-1SBJ-open-IPFV",
+             free_translation = "I will get up to close the door.",
+             annotation = "naktayáa nakmalakčawá")
 ```
 <!-- fix example -->
 
 
 (@ftotonac2) @mcfarland2009, 202, example 257
-```{r, echo=FALSE}
-#gloss_example(transliteration = "ša-k-laqatí-aa ša-k-'an-aa k-qaɬtawaqá-aa",
-#             glosses = "PST-1SBJ-like-IPFV PST-1SBJ-go-IPFV 1SBJ-study-IPFV",
-#             free_translation = "I used to like to go to study.",
-#             annotation = "šaklaqatí šak'an kqaɬtawaqá")
+```{r}
+gloss_example(transliteration = "ša-k-laqatí-aa ša-k-'an-aa k-qaɬtawaqá-aa",
+             glosses = "PST-1SBJ-like-IPFV PST-1SBJ-go-IPFV 1SBJ-study-IPFV",
+             free_translation = "I used to like to go to study.",
+             annotation = "šaklaqatí šak'an kqaɬtawaqá")
 ```
 <!-- fix example -->
 <!-- ## Fon -->
@@ -268,14 +276,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@gayo1) @eades2005, 138, example 6-96
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Wè kunul mongot.",
              glosses = "3 sit AV:weep",
              free_translation = "She sat weeping. / She sat and (then) wept.")
 ```
 
 (@gayo1) @eades2005, 139, example 6-102
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Maté wè i-tuh-i atang.",
              glosses = "die 3 UV-fall-LOC log",
              free_translation = "He died (after having been) fallen on by a log.")
@@ -299,14 +307,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@goemai1) @hellwig2006, 91, example 2a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "sai su ru n-goede gado",
              glosses = "then run.SG enter.SG LOC-bottom bed",
              free_translation = "Then (he) ran (and) entered under the bed.")
 ```
 
 (@goemai2) @hellwig2006, 91, example 2e
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "mûep swo / mûep rwo n-s'et",
              glosses = "3PL run.PL {} 3PL enter.PL LOC-bush",
              free_translation = "They ran, (and) they entered into the bush.")

@@ -119,13 +119,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 </table>
 
 (@afar2) @kamil2015, 292, example 909
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -230,79 +223,92 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@aimele1) @aiton2016, 200, example 27
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
-```
-## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _koodulu_ </td>
-##    <td style="text-align:left;"> _suloobo_ </td>
-##    <td style="text-align:left;"> _-moo_ </td>
-##    <td style="text-align:left;"> _w&lt;U+025B&gt;l&lt;U+025B&gt;_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> downward </td>
-##    <td style="text-align:left;"> NAME </td>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">dat</span> </td>
-##    <td style="text-align:left;"> shout </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _s&lt;U+025B&gt;&lt;U+025B&gt;_ </td>
-##    <td style="text-align:left;"> _-jaa_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> say </td>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">pst</span> </td>
-##   </tr>
-## </tbody>
-## <tfoot><tr><td style="padding: 0; " colspan="100%">
-## <sup></sup> 'I shouted it down to Soloobu.'</td></tr></tfoot>
-## </table>
-```
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ko:dulu_ </td>
+   <td style="text-align:left;"> _sulo:bo_ </td>
+   <td style="text-align:left;"> _-mo:_ </td>
+   <td style="text-align:left;"> _w&lt;U+025B&gt;l&lt;U+025B&gt;_ </td>
+   <td style="text-align:left;"> _s&lt;U+025B&gt;:_ </td>
+   <td style="text-align:left;"> _-ja:_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> downward </td>
+   <td style="text-align:left;"> NAME </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">dat</span> </td>
+   <td style="text-align:left;"> shout </td>
+   <td style="text-align:left;"> say </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">pst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+</table>
 
 (@aimele2) @aiton2016, 201, example 30
 
 ```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
-```
 ## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
 ##   <tr>
-##    <td style="text-align:left;"> _n&lt;U+025B&gt;:_ </td>
 ##    <td style="text-align:left;"> _ti:&lt;U+0278&gt;&lt;U+025B&gt;:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> afterwards </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
 ##    <td style="text-align:left;"> _o:ga:_ </td>
-##    <td style="text-align:left;"> _&lt;U+025B&gt;ja:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> pandanus </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _n&lt;U+025B&gt;:_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>:<span style="font-variant:small-caps;">sg</span> </td>
-##    <td style="text-align:left;"> afterwards </td>
-##    <td style="text-align:left;"> pandanus </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _&lt;U+025B&gt;ja:_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> seedling:<span style="font-variant:small-caps;">abs</span> </td>
 ##   </tr>
 ## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
 ##   <tr>
 ##    <td style="text-align:left;"> _o:g&lt;U+025B&gt;:_ </td>
-##    <td style="text-align:left;"> _di_ </td>
-##    <td style="text-align:left;"> _a:n&lt;U+025B&gt;:_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> carry_in_bilum </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _di_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> take </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _a:n&lt;U+025B&gt;:_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> go:<span style="font-variant:small-caps;">pst</span> </td>
 ##   </tr>
 ## </tbody>
@@ -314,35 +320,57 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 (@aimele3) @aiton2016, 201, example 31
 
 ```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
-```
 ## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
 ##   <tr>
 ##    <td style="text-align:left;"> _sugu:lu:_ </td>
-##    <td style="text-align:left;"> _&lt;U+025B&gt;na:_ </td>
-##    <td style="text-align:left;"> _h&lt;U+025B&gt;na:_ </td>
-##    <td style="text-align:left;"> _do:ga:_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> school </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _&lt;U+025B&gt;na:_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> that:<span style="font-variant:small-caps;">abs</span> </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _h&lt;U+025B&gt;na:_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> go </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _do:ga:_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> house:<span style="font-variant:small-caps;">abs</span> </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _dij&lt;U+025B&gt;:=bi:_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> build=<span style="font-variant:small-caps;">imp</span> </td>
 ##   </tr>
 ## </tbody>
 ## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 ## <tbody>
 ##   <tr>
-##    <td style="text-align:left;"> _dij&lt;U+025B&gt;:=bi:_ </td>
 ##    <td style="text-align:left;"> _k&lt;U+025B&gt;i_ </td>
 ##   </tr>
 ##   <tr>
-##    <td style="text-align:left;"> build=<span style="font-variant:small-caps;">imp</span> </td>
 ##    <td style="text-align:left;"> <span style="font-variant:small-caps;">asser</span> </td>
 ##   </tr>
 ## </tbody>
@@ -476,13 +504,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@amkoe1) @collinsgruber2014, 167, example 2a
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -589,13 +610,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@aou1) @lietal2014, 206, example 8
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -622,35 +636,57 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 (@aou2) @lietal2014, 142, example 11
 
 ```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
-```
 ## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
 ##   <tr>
 ##    <td style="text-align:left;"> _ve13_ </td>
-##    <td style="text-align:left;"> _tai31_ </td>
-##    <td style="text-align:left;"> _vlai31_ </td>
-##    <td style="text-align:left;"> _s&lt;U+0259&gt;&lt;U+026F&gt;31_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _tai31_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> beat </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _vlai31_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> die </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _s&lt;U+0259&gt;&lt;U+026F&gt;31_ </td>
+##   </tr>
+##   <tr>
 ##    <td style="text-align:left;"> two </td>
+##   </tr>
+## </tbody>
+## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _t&lt;U+0259&gt;&lt;U+026F&gt;33_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">clf</span> </td>
 ##   </tr>
 ## </tbody>
 ## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 ## <tbody>
 ##   <tr>
-##    <td style="text-align:left;"> _t&lt;U+0259&gt;&lt;U+026F&gt;33_ </td>
 ##    <td style="text-align:left;"> _vei31_ </td>
 ##   </tr>
 ##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">clf</span> </td>
 ##    <td style="text-align:left;"> mosquito </td>
 ##   </tr>
 ## </tbody>
@@ -676,13 +712,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@apinaye2) @cunhadeoliveira2005, 162, example 106d
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -701,13 +730,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 (@apinaye3) @cunhadeoliveira2005, 161, example 106a
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -727,52 +749,12 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 <sup></sup> 'I'll remain seated.'</td></tr></tfoot>
 </table>
 
-(@apinaye1) @cunhadeoliveira2005, 295, example 24a
-
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
-```
-
-```
-## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _na_ </td>
-##    <td style="text-align:left;"> _pa_ </td>
-##    <td style="text-align:left;"> _k&lt;U+0254&gt;t=m~&lt;U+0259&gt;_ </td>
-##    <td style="text-align:left;"> _i-&lt;U+0272&gt;-õ_ </td>
-##    <td style="text-align:left;"> _pi~_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">rl</span> </td>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span> </td>
-##    <td style="text-align:left;"> still </td>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">1</span>-<span style="font-variant:small-caps;">rp</span>-<span style="font-variant:small-caps;">gen</span> </td>
-##    <td style="text-align:left;"> wood </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _katpr&lt;U+025B&gt;_ </td>
-##    <td style="text-align:left;"> _&lt;U+0254&gt;_ </td>
-##    <td style="text-align:left;"> _te~_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> fasten </td>
-##    <td style="text-align:left;"> do </td>
-##    <td style="text-align:left;"> go </td>
-##   </tr>
-## </tbody>
-## <tfoot><tr><td style="padding: 0; " colspan="100%">
-## <sup></sup> 'I'm still walking and fastening my wood.'</td></tr></tfoot>
-## </table>
-```
-
-
-
+<!-- (@apinaye1) @cunhadeoliveira2005, 295, example 24a -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "na pa kɔtm̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ", -->
+<!--              glosses = "RL 1 still 1-RP-GEN wood fasten do go", -->
+<!--              free_translation = "I'm still walking and fastening my wood.") -->
+<!-- ``` -->
 
 
 ## Arta
@@ -793,6 +775,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 Note that genitive marking in these examples may function as ergative marking.
 
 (@arta1) @kimoto2017, 384, example 100
+
+```r
+gloss_example(transliteration = "Angin=mi=tid pa-sdèp-èn ti bunbun=mi.",
+             glosses = "go=1PL.GEN=3PL.ABS CAUS-enter-TR SG.OBL.DEF house=1PL.GEN",
+             free_translation = "We go and bring them into our house.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -813,6 +802,13 @@ Note that genitive marking in these examples may function as ergative marking.
 </table>
 
 (@arta2) @kimoto2017, 385, example 105
+
+```r
+gloss_example(transliteration = "P<in>idut=di tidi bunga na ayu=y n-i-lugun=di tamman ti baske:t=i.",
+             glosses = "<PST>pick_up=3PL.GEN PL.ABS.DEF fruit GEN.INDF tree=SPC PST-TR-container=3PL.GEN again SG.OBL.DEF basket=SPC",
+             free_translation = "They picked up the fruits and put it into the basket again.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -862,6 +858,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@asheninka1) @mihas2015, 165, example 6.13.b
+
+```r
+gloss_example(transliteration = "o- ja -t -atz -i o- shimaa -t -a",
+             glosses = "3NM.S go EP PROG REAL 3NM.S fish EP REAL",
+             free_translation = "She went to fish.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -892,6 +895,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 </table>
 
 (@asheninka2) @mihas2015, 168, example 6.19.b
+
+```r
+gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
+             glosses = "2S overtake EP APL.INT EP REAL 2S sleep PROG REAL NEG",
+             free_translation = "Don't stay asleep.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -944,10 +954,10 @@ Note that glosses were not present in the original source and the orthography of
 
 (@atakapa1) @swanton1929, 134
 
-```
-## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
-## unlist(strsplit(glosses, : number of items to replace is not a multiple of
-## replacement length
+```r
+gloss_example(transliteration = "ne:ʃ po:l tsa-t ne:-t",
+             glosses = "wood float go_fast-CONT down-CONT",
+             free_translation = "The log is floating past down stream.")
 ```
 
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
@@ -970,6 +980,13 @@ Note that glosses were not present in the original source and the orthography of
 </table>
 
 (@atakapa2) @swanton1929, 134
+
+```r
+gloss_example(transliteration = "kõ:-hi-pa-m-u:l-et",
+             glosses = "take.SG.ABS-1SG.ABS-beat-PLURACT-3PL.ERG-PST",
+             free_translation = "They seized and beat me.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1008,6 +1025,13 @@ viii.Individual verbs may be focused
 ### Examples
 
 (@avatime1) @defina2016, 665, example 48
+
+```r
+gloss_example(transliteration = "wo-trutru ò-pupu=lò dra",
+             glosses = "2SG.PFV-push C2.SG-door=DEF open",
+             free_translation = "You pushed the door open.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1027,7 +1051,28 @@ viii.Individual verbs may be focused
 
 (@avatime2) @defina2016, 666, example 56
 
-<!-- fix example -->
+```r
+gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
+             glosses = "then C1SG.PFV-divide=C3.SG.OBJ SV.C1SG.PFV-put=CM",
+             free_translation = "Then she divided it (the porridge) and put it down.")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _l&lt;U+025B&gt;&lt;U+030C&gt;_ </td>
+   <td style="text-align:left;"> _a-ya=l&lt;U+025B&gt;_ </td>
+   <td style="text-align:left;"> _e-dù=i_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> then </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">c1sg</span>.<span style="font-variant:small-caps;">pfv</span>-divide=<span style="font-variant:small-caps;">c3</span>.<span style="font-variant:small-caps;">sg</span>.<span style="font-variant:small-caps;">obj</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">sv</span>.<span style="font-variant:small-caps;">c1sg</span>.<span style="font-variant:small-caps;">pfv</span>-put=<span style="font-variant:small-caps;">cm</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Then she divided it (the porridge) and put it down.'</td></tr></tfoot>
+</table>
 
 ## Awa-Cuaiquer
 ### Details
@@ -1044,6 +1089,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@awa1) @curnow1997, 303, example 766
+
+```r
+gloss_example(transliteration = "gato=na tunya pizh ku-mtu",
+             glosses = "cat=TOP rat grab eat-IPFV.PART",
+             free_translation = "The cat is grabbing and eating the rat.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1064,6 +1116,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 (@awa2) @curnow1997, 306, example 776
+
+```r
+gloss_example(transliteration = "pa azh kway-zi",
+             glosses = "sun shine drop-NONLOCUT",
+             free_translation = "The sun shone out.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1082,6 +1141,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 (@awa3) @curnow1997, 306, example 775
+
+```r
+gloss_example(transliteration = "Demetrio=na I-t kway-zi",
+             glosses = "Demetrio=TOP go-SV drop-NONLOCUT",
+             free_translation = "Demetrio left.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>

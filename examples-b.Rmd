@@ -19,19 +19,19 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@bafut1) @tamanji2010, 183, example 28c
-```{r, echo=FALSE, results='asis'}
-#gloss_example(transliteration = "n-ó j-á=ɨ̀ kɨ̀ kóŋnə̂ N-ʒÎ N-lóô ǹ-dɨ̀ɨ̀ w-á",
-#             glosses = "9-snake 9-the=SM P2 silently N-come N-bite 1-witch 1-the",
-#             free_translation = "The snake silently came up and bit the witch.",
-#             annotation = "nó já kɨ̀ kòŋnɨ̀ nʒì nlóó ndɨ̀ɨ̀ wá.")
+```{r}
+gloss_example(transliteration = "n-ó j-á=ɨ̀ kɨ̀ kóŋnə̂ N-ʒÎ N-lóô ǹ-dɨ̀ɨ̀ w-á",
+             glosses = "9-snake 9-the=SM P2 silently N-come N-bite 1-witch 1-the",
+             free_translation = "The snake silently came up and bit the witch.",
+             annotation = "nó já kɨ̀ kòŋnɨ̀ nʒì nlóó ndɨ̀ɨ̀ wá.")
 ```
 
 (@bafut2) @tamanji2010, 183, example 29b
-```{r, echo=FALSE}
-#gloss_example(transliteration = "ǹ-tsìì-twúgɨ̀ w-á-à kɨ̀ bwíì n-lì'ìnə́ n-óò",
-#             glosses = "1-guard-night 1-the=SM P2 sleep N-forget 1-time",
-#             free_translation = "The snake silently came up and bit the witch.",
-#             annotation = "ǹtsììtwúgɨ̀ wá kɨ̀ bwíì nlì'ìnə́ nóò.")
+```{r}
+gloss_example(transliteration = "ǹ-tsìì-twúgɨ̀ w-á-à kɨ̀ bwíì n-lì'ìnə́ n-óò",
+             glosses = "1-guard-night 1-the=SM P2 sleep N-forget 1-time",
+             free_translation = "The snake silently came up and bit the witch.",
+             annotation = "ǹtsììtwúgɨ̀ wá kɨ̀ bwíì nlì'ìnə́ nóò.")
 ```
 
 ## Bambassi
@@ -48,14 +48,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@bambassi1) @ahland2012, 602, example 12.73
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "kí mí-in tí-hów-j-à",
              glosses = "come eat-SS.NF 1SG-go-AWAY-DECL",
              free_translation = "I came, ate, and left.")
 ```
 
 (@bambassi2) @ahland2012, 603, example 12.78
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "pàpáj kez-èt pór k'íl-kòt'-in tí-hów-kj-á",
              glosses = "papaya top-LOC forget leave-PF-SS.NF 1SG-go-TOWARD-DECL",
              free_translation = "I forgot and have left (it) up in the papaya tree and came.")
@@ -73,14 +73,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@bangime1) @hantgan2013, 370, line 1
-```{r, echo=FALSE, results = 'asis }
+```{r}
 gloss_example(transliteration = "bàráá-mi=ndÈ wò jàg-ú-H nààmàà=jàà=ndÉ ng kí náà-H",
              glosses = "Baraa-people=PL go cut-PRF-3 1PL.POSS=child=PL 1/3 ADP wilderness-3",
              free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
 ```
 
 (@bangime2) @hantgan2013, 367, line 3
-```{r, echo=FALSE, results = 'asis }
+```{r}
 gloss_example(transliteration = "níì kóÓ n wó ng káárà-L péVÉ-rè bíé níì ng káràà-L",
              glosses = "3PL COMPL 1/3 go TR find-3 wind-LNK NEG 3PL TR obtain-3",
              free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
@@ -101,14 +101,14 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 ### Examples
 
 (@barai1) @olson1981, 177, example 57
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "na fi fase isoe-vo",
              glosses = "1SG sit letter write-PRS",
              free_translation = "I am sitting and writing a letter.")
 ```
 
 (@barai2) @olson1981, 177, example 58
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "na fase fi isoe-vo",
              glosses = "1SG letter sit write-PRS",
              free_translation = "I am sitting writing a letter.")
@@ -132,7 +132,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@bardi1) @bowern2013, 663, example 16.64
-```{r, echo=FALSE, results='asis'}
+```{r, results='asis'}
 gloss_example(transliteration = "Ginyinggon roowil i-n-nya-na Ngarrigoonbooroo baali-ngan darr i-n-ar-na=jirri niimana aamba agal ambooriny Ngoolbirndi.",
              glosses = "then walk 3-TR-catch-REM.PST {NAME} shade-ALL come 3-TR-spear-REM.PST=3AUG.IO many men and people {NAME}",
              free_translation = "Then Ngarrigoonbooroo walked to her camp and came across many people at Ngoolbirndi.",
@@ -155,14 +155,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@karo1) @woollams1996, 327, example 8.213
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Naktak iluh Datuk Rubia Gandé megi sora kempu-na rendé.",
              glosses = "fall tears Datuk Rubia Gande hear voice grandson-3.POSS sing",
              free_translation = "Datuk Rubia Gande shed tears as he heard his grandson singing.")
 ```
 
 (@karo1) @woollams1996, 328, example 8.219
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Asuh-asuh-en-na enggo keri ben-én i-tangko kalak.",
              glosses = "tend-RDP-PL-3.POSS already gone lost-PL PASS-steal person",
              free_translation = "Their cattle were all gone, missing, stolen by somebody.")
@@ -182,7 +182,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@baure1) @danielsen2007, 428, example 144
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ro=kač-po-wo ro=pino-po",
              glosses = "3SG.M=go-PRFLX-COP 3SG.M=flee-PRFLX",
              annotation = "*rokačpow* *ropinop*",
@@ -209,7 +209,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 Note that the glossing has been altered in \ref(@belep1) to reflect the grammatical dependency of *a=* 'NOM'.
 
 (@belep1) @mccracken2012, 372, example 153
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "te=mo may a=cama-la",
              glosses = "3SG.SBJ=live die NOM=father-3PL.POSS",
              free_translation = "Their father was about to die.",
@@ -217,7 +217,7 @@ gloss_example(transliteration = "te=mo may a=cama-la",
 ```
 
 (@belep1) @mccracken2012, 371, example 149
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ava=jara bae pê",
              glosses = "1PL.EXCL.SBJ=want bite bread",
              free_translation = "We want to eat the bread.",
@@ -238,7 +238,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@bih1) @nguyen2013, pg, example 13.22
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ñu lŏ nao hưn hŏng palei ñu.",
              glosses = "3 again go inform with wife 3",
              free_translation = "He again goes to inform to his wife.")
@@ -259,7 +259,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@blablanga1) @voica2018, 299, excerpt from example 5.52
-```{r, echo=FALSE, results='asis'}
+```{r, results='asis'}
 gloss_example(transliteration = "Thoke hore=o, ghohra=ni zaho ghai Sulei. Zaho thoke Sulei...",
              glosses = "reach canoe=DEM.NV.SG paddle=3SG.AGR go 1PL.EXCL Sulei go reach Sulei",
              free_translation = "We reach the canoe, paddle it and go to Sulei. We go and reach Sulei....")
@@ -289,7 +289,7 @@ Translation: Amongst the criteria [for SVCs] - which vary from language to langu
 Translation: In the following example (@bulo1), the sequence [sədiaŋ-dʔuar ɡɔk lot-kətaːŋ ʔuː rənaːp-rəsɨː] constitutes the first breath group with a rising contour. The sequence [ɓɑt joːh-ndiaŋ] in turn constitutes a second breath group with a falling intonation. Thus, it is possible to identify the verbs *ɡɔk* 'sit' *lot-kətaːŋ* 'kneel' as forming a serial verb construction within a single clause, and *ɓɑt* 'fold' as the head of the following clause.
 
 (@bulo1) @bon2014, 505, example 839
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "sədiaŋdʔuar ɡɔk lotkətaːŋ ʔuː rənaːprəsɨː (pause) ɓɑt joːhndiaŋ",
              glosses = "woman sit kneel on bamboo.mat (pause) fold shirt",
              free_translation = "The woman is kneeling on a bamboo mat and folding a shirt.")
@@ -311,21 +311,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 Note that glosses have been adapted for a general audience.
 
 (@burarra2) @green1987, 79, example 5(lxxxii)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Nginyi-pa gornabola ø-gana-ø ø-bamba-ø",
              glosses = "2MIN-DIR wallaby 2MIN.IMP-watch-IRR 2MIN.IMP-go_along-IRR",
              free_translation = "You go along watching for wallabies.")
 ```
 
 (@burarra3) @green1987, 80, example 5(lxxxix)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ngu-durtchi-nga ngu-bo-na",
              glosses = "1MIN-be_full-RL 1MIN-go-ANT",
              free_translation = "I'm full.")
 ```
 
 (@burarra1) Green 1987:77, example 5(lxxviii)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "m-ba-nga a-rrik-nga gorrngunya",
              glosses = "3MIN>3MIN.mun-eat-PST 3MIN.an-crawl-PST grass",
              free_translation = "He crawled along eating grass.")
@@ -351,14 +351,14 @@ Translation: A serial verb construction is a sequence of verbes which are neithe
 ### Examples
 
 (@burmese1) @vittrant2012, 107, example 5
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "pəKan^3^ thɛ^3^ ye^2^ thɛ^1^ lɛʔ she^2^=Pi^3^",
              glosses = "plate inside water put hand wash=SUB.TPS",
              free_translation = "... after having poured water into the plate and having washed his hands...")
 ```
 
 (@burmese2) @vittrant2012, 107, example 6
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "θiN^2^bɔ^1^ pɔ^2^ =Ma^2^ θiN^2^bɔ^1^ pɔ^2^ =Ma^2^ zəKa^3^ la^2^ pyɔ^3^ =Tɛ^2^",
              glosses = "boat on LOC boat on LOC word come say REAL.ASS",
              free_translation = "On the boat, on the boat, (she) came to me to talk.",
@@ -380,7 +380,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@buru1) @grimes1991, 208, example 15
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Da iko linga-h.",
              glosses = "3SG go look-3SG.OBJ",
              free_translation = "He went to look at it. / He went and looked at it.")

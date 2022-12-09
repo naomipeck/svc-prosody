@@ -123,9 +123,9 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 (@aimele1) @aiton2016, 200, example 27
 ```{r, echo=FALSE}
-gloss_example("koodulu suloobo -moo wɛlɛ sɛɛ -jaa",
+gloss_example("ko:dulu sulo:bo -mo: wɛlɛ sɛ: -ja:",
              "downward {NAME} DAT shout say PST",
-             "I shouted it down to Soloobu.")
+             "I shouted it down to Solo:bu.")
 ```
 
 (@aimele2) @aiton2016, 201, example 30
@@ -315,15 +315,12 @@ gloss_example(transliteration = "Kɔt paj arĩ ic-krĩ",
              free_translation = "I'll remain seated.")
 ```
 
-(@apinaye1) @cunhadeoliveira2005, 295, example 24a
-```{r, echo=FALSE}
-gloss_example(transliteration = "na pa kɔt=m̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ",
-             glosses = "RL 1 still 1-RP-GEN wood fasten do go",
-             free_translation = "I'm still walking and fastening my wood.")
-```
-
-
-
+<!-- (@apinaye1) @cunhadeoliveira2005, 295, example 24a -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "na pa kɔtm̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ", -->
+<!--              glosses = "RL 1 still 1-RP-GEN wood fasten do go", -->
+<!--              free_translation = "I'm still walking and fastening my wood.") -->
+<!-- ``` -->
 
 
 ## Arta
@@ -344,14 +341,14 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 Note that genitive marking in these examples may function as ergative marking.
 
 (@arta1) @kimoto2017, 384, example 100
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Angin=mi=tid pa-sdèp-èn ti bunbun=mi.",
              glosses = "go=1PL.GEN=3PL.ABS CAUS-enter-TR SG.OBL.DEF house=1PL.GEN",
              free_translation = "We go and bring them into our house.")
 ```
 
 (@arta2) @kimoto2017, 385, example 105
-```{r, echo=FALSE, results='asis'}
+```{r, results='asis'}
 gloss_example(transliteration = "P<in>idut=di tidi bunga na ayu=y n-i-lugun=di tamman ti baske:t=i.",
              glosses = "<PST>pick_up=3PL.GEN PL.ABS.DEF fruit GEN.INDF tree=SPC PST-TR-container=3PL.GEN again SG.OBL.DEF basket=SPC",
              free_translation = "They picked up the fruits and put it into the basket again.")
@@ -370,14 +367,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@asheninka1) @mihas2015, 165, example 6.13.b
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "o- ja -t -atz -i o- shimaa -t -a",
              glosses = "3NM.S go EP PROG REAL 3NM.S fish EP REAL",
              free_translation = "She went to fish.")
 ```
 
 (@asheninka2) @mihas2015, 168, example 6.19.b
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "p- aako -t -ashi -t -a pi- ma -atz -i -tsi",
              glosses = "2S overtake EP APL.INT EP REAL 2S sleep PROG REAL NEG",
              free_translation = "Don't stay asleep.")
@@ -401,14 +398,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 Note that glosses were not present in the original source and the orthography of the vowels has been altered to be closer to the IPA.
 
 (@atakapa1) @swanton1929, 134
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ne:ʃ po:l tsa-t ne:-t",
              glosses = "wood float go_fast-CONT down-CONT",
              free_translation = "The log is floating past down stream.")
 ```
 
 (@atakapa2) @swanton1929, 134
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "kõ:-hi-pa-m-u:l-et",
              glosses = "take.SG.ABS-1SG.ABS-beat-PLURACT-3PL.ERG-PST",
              free_translation = "They seized and beat me.")
@@ -439,19 +436,18 @@ viii.Individual verbs may be focused
 ### Examples
 
 (@avatime1) @defina2016, 665, example 48
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "wo-trutru ò-pupu=lò dra",
              glosses = "2SG.PFV-push C2.SG-door=DEF open",
              free_translation = "You pushed the door open.")
 ```
 
 (@avatime2) @defina2016, 666, example 56
-```{r, echo=FALSE}
-#gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
-#             glosses = "then C1SG.PFV-divide=C3.SG.OBJ SV.C1SG.PFV-put=CM",
-#             free_translation = "Then she divided it (the porridge) and put it down.")
+```{r}
+gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
+             glosses = "then C1SG.PFV-divide=C3.SG.OBJ SV.C1SG.PFV-put=CM",
+             free_translation = "Then she divided it (the porridge) and put it down.")
 ```
-<!-- fix example -->
 
 ## Awa-Cuaiquer
 ### Details
@@ -468,21 +464,21 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@awa1) @curnow1997, 303, example 766
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "gato=na tunya pizh ku-mtu",
              glosses = "cat=TOP rat grab eat-IPFV.PART",
              free_translation = "The cat is grabbing and eating the rat.")
 ```
 
 (@awa2) @curnow1997, 306, example 776
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "pa azh kway-zi",
              glosses = "sun shine drop-NONLOCUT",
              free_translation = "The sun shone out.")
 ```
 
 (@awa3) @curnow1997, 306, example 775
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Demetrio=na I-t kway-zi",
              glosses = "Demetrio=TOP go-SV drop-NONLOCUT",
              free_translation = "Demetrio left.")

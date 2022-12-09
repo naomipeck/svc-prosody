@@ -14,6 +14,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Citation [@gudai1985, 284-286]
 
 (@maanyan1) Aiton 2016:200, example 27
+
+```r
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -33,38 +40,25 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 <sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
 </table>
 
-## Mafea
-### Details
-Glottocode: mafe1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Mafea -->
+<!-- ### Details -->
+<!-- Glottocode: mafe1237 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Mali
@@ -74,30 +68,139 @@ Family: Baining <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Citation [@source2001]
+> Mali makes use of an asymmetrical SVC to encode the semantics of aspect and modality. This construction is somewhat fossilised, with only one of the particles that function as a minor verb in an asymmetrical SVC also occurring as an independent verb. [@stebbins2011, 212]
+
+> The term ‘clause chaining’ is also applicable to a specific sentence level syntactic construction in Mali in which strings of short clauses are marked with a distinctive tense pattern on the final verb. These clause chains typically refer to a series of actions that make up a larger event that can be viewed as a unified whole. <br> The final verb in the chain is always in the present tense... [@stebbins2011, 291-292]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+(@mali1) @stebbins2011, 213, example 13.19
+
+```r
+gloss_example(transliteration = "kama me:ng-ka sa ka=pe the:n.se:=ka i mali ka nangger",
+             glosses = "ART tree-MASC.SG NEF 3MASC.SG=be_there grow_well.FUT=3MASC.SG because earlier 3MASC.SG be_bent.NI",
+             free_translation = "The three is standing up where once (lit. 'because') it was bent.",
+             annotation = "Kama me:ngga sa chave re:n.se:cha i mali cha nangger.")
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> Kama </td>
+##    <td style="text-align:left;"> me:ngga </td>
+##    <td style="text-align:left;"> sa </td>
+##    <td style="text-align:left;"> chave </td>
+##    <td style="text-align:left;"> re:n.se:cha </td>
+##    <td style="text-align:left;"> i </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> _kama_ </td>
+##    <td style="text-align:left;"> _me:ng-ka_ </td>
+##    <td style="text-align:left;"> _sa_ </td>
+##    <td style="text-align:left;"> _ka=pe_ </td>
+##    <td style="text-align:left;"> _the:n.se:=ka_ </td>
+##    <td style="text-align:left;"> _i_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">art</span> </td>
+##    <td style="text-align:left;"> tree-<span style="font-variant:small-caps;">masc</span>.<span style="font-variant:small-caps;">sg</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">nef</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">3masc</span>.<span style="font-variant:small-caps;">sg</span>=be_there </td>
+##    <td style="text-align:left;"> grow_well.<span style="font-variant:small-caps;">fut</span>=<span style="font-variant:small-caps;">3masc</span>.<span style="font-variant:small-caps;">sg</span> </td>
+##    <td style="text-align:left;"> because </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> mali </td>
+##    <td style="text-align:left;"> cha </td>
+##    <td style="text-align:left;"> nangger. </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> _mali_ </td>
+##    <td style="text-align:left;"> _ka_ </td>
+##    <td style="text-align:left;"> _nangger_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> earlier </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">3masc</span>.<span style="font-variant:small-caps;">sg</span> </td>
+##    <td style="text-align:left;"> be_bent.<span style="font-variant:small-caps;">ni</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'The three is standing up where once (lit. 'because') it was bent.'</td></tr></tfoot>
+## </table>
+```
+
+(@mali2) @stebbins2011, 292, example 18.24
+
+```r
+gloss_example(transliteration = "da ta the:k.ne:=athe:vama chases-ta va ta thet ti ngim nani kama a=ru-ta",
+             glosses = "and 3H.PL send.NPRES=3H.PL.POSS spy-H.PL PURP 3H.PL go.FUT 3H.PL look.PRES for ART SPEC=person-H.PL",
+             free_translation = "And they sent their spies... to go out and look for people...",
+             annotation = "De: tha the:k.nathe:vama chasesta... va tha thet ti ngim nani chama arutha...")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> De: </td>
+   <td style="text-align:left;"> tha </td>
+   <td style="text-align:left;"> the:k.nathe:vama </td>
+   <td style="text-align:left;"> chasesta... </td>
+   <td style="text-align:left;"> va </td>
+   <td style="text-align:left;"> tha </td>
+   <td style="text-align:left;"> thet </td>
+   <td style="text-align:left;"> ti </td>
+   <td style="text-align:left;"> ngim </td>
+   <td style="text-align:left;"> nani </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> _da_ </td>
+   <td style="text-align:left;"> _ta_ </td>
+   <td style="text-align:left;"> _the:k.ne:=athe:vama_ </td>
+   <td style="text-align:left;"> _chases-ta_ </td>
+   <td style="text-align:left;"> _va_ </td>
+   <td style="text-align:left;"> _ta_ </td>
+   <td style="text-align:left;"> _thet_ </td>
+   <td style="text-align:left;"> _ti_ </td>
+   <td style="text-align:left;"> _ngim_ </td>
+   <td style="text-align:left;"> _nani_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> and </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3h</span>.<span style="font-variant:small-caps;">pl</span> </td>
+   <td style="text-align:left;"> send.<span style="font-variant:small-caps;">npres</span>=<span style="font-variant:small-caps;">3h</span>.<span style="font-variant:small-caps;">pl</span>.<span style="font-variant:small-caps;">poss</span> </td>
+   <td style="text-align:left;"> spy-<span style="font-variant:small-caps;">h</span>.<span style="font-variant:small-caps;">pl</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">purp</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3h</span>.<span style="font-variant:small-caps;">pl</span> </td>
+   <td style="text-align:left;"> go.<span style="font-variant:small-caps;">fut</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3h</span>.<span style="font-variant:small-caps;">pl</span> </td>
+   <td style="text-align:left;"> look.<span style="font-variant:small-caps;">pres</span> </td>
+   <td style="text-align:left;"> for </td>
+  </tr>
+</tbody>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> chama </td>
+   <td style="text-align:left;"> arutha... </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> _kama_ </td>
+   <td style="text-align:left;"> _a=ru-ta_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">art</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">spec</span>=person-<span style="font-variant:small-caps;">h</span>.<span style="font-variant:small-caps;">pl</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'And they sent their spies... to go out and look for people...'</td></tr></tfoot>
 </table>
 
 ## Manam
@@ -107,30 +210,41 @@ Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
-> Citation [@source2001]
+> In our discussion of Manam sentence structures in this and the preceding chapters, we have encountered several constructions that exhibit an otherwise unusual characteristic: two verbs occur in sequence, and an argument of the second verb may precede the first verb, even though it is not an argument of that verb. [@lichtenberk1983, 560]
+
+> Two facts concerning the Manam constructions under discussion should now be noted: <br>
+1. The verbs in sequence may or may not be joined by *be* 'and': *be* is used in the vigorous action construction, it is not used in the ability constructions, and it is apparently optional in pseudo-purpose sentences. <br>
+2. The intonation patterns are those characteristic of complex sentences, i.e., a slight rise in intonation at the end of the first verb. [@lichtenberk1983, 563-564]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@manam1) @lichtenberk1983, 561
+
+```r
+gloss_example(transliteration = "waríge ŋe go-láʔo go-tótoʔ-i",
+             glosses = "rope this 2SG.IRR-go 2SG.IRR-cut-3SG.OBJ",
+             free_translation = "Go cut this rope!")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _waríge_ </td>
+   <td style="text-align:left;"> _&lt;U+014B&gt;e_ </td>
+   <td style="text-align:left;"> _go-lá&lt;U+0294&gt;o_ </td>
+   <td style="text-align:left;"> _go-tóto&lt;U+0294&gt;-i_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> rope </td>
+   <td style="text-align:left;"> this </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">irr</span>-go </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">irr</span>-cut-<span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">obj</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'Go cut this rope!'</td></tr></tfoot>
 </table>
 
 
@@ -150,6 +264,15 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@mandarin1) @wiedenhof2015, 136, example 5.34a
+
+```r
+gloss_example(transliteration = "wó gěi ta xiě xìn",
+             glosses = "1.SG give 3 write letter",
+             free_translation = "literally ‘I bestow on him and write a letter’ >",
+             comment = "(i) ‘I am writing him a letter’ (the letter being written to him)
+             (ii) ‘I am writing a letter for him’")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
 <tbody>
   <tr>
@@ -174,6 +297,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 </table>
 
 (@mandarin2) @wiedenhof2015, 136, example 5.34b
+
+```r
+gloss_example(transliteration = "wó xiě xìn gěi ta",
+             glosses = "1.SG write letter give 3",
+             free_translation = "literally ‘I write a letter and bestow on him’ >",
+             comment = "‘I am writing a letter to him’")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
 <tbody>
   <tr>
@@ -198,6 +329,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 </table>
 
 (@mandarin3) @wiedenhof2015, 130, example 5.27
+
+```r
+gloss_example(transliteration = "Suóyi dà bùfen de rén <m> dōu shi yòng xīshì jié hūn <oh>",
+             glosses = "therefore big part SUB person mm all be use western_style connect marriage oh",
+             free_translation = "Therefore most people <mm> have a Western-style wedding <oh>.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -260,6 +398,13 @@ An auxiliary verb always follows the main verb. The auxiliary verb (the final on
 ### Examples
 
 (@mangghuer1) @slater2005, 135, example 43
+
+```r
+gloss_example(transliteration = "nughuai pusa di ge-jiang.",
+             glosses = "dog another eat do-OBJ:PERF",
+             free_translation = "the dog also ate (it).")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -280,6 +425,13 @@ An auxiliary verb always follows the main verb. The auxiliary verb (the final on
 </table>
 
 (@mangghuer2) @slater2005, 244, example 50
+
+```r
+gloss_example(transliteration = "gan xi gan=ni bulai=ni liang-banjier cida danana gerdi kerla gher-gha-jiang.",
+             glosses = "3SG go 3SG=GEN child=ACC two-piece tear after roof throw go_out-CAUS-OBJ:PERF",
+             free_translation = "He (Monkey) went, tore his child into two pieces, (and) threw (the pieces) onto the roof.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -312,6 +464,13 @@ An auxiliary verb always follows the main verb. The auxiliary verb (the final on
 </table>
 
 (@mangghuer3) @slater2005, 259, example 81
+
+```r
+gloss_example(transliteration = "zaohuang=du xi shuer=ni bari gui-jiang.",
+             glosses = "kitchen=DAT go chopsticks=ACC take run-OBJ:PERF",
+             free_translation = "(she) went into the kitchen, took the chopsticks and ran.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -347,6 +506,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@smeets2008, 176; @zuniga2006, 10-11, 38]
 
 (@language1) Aiton 2016:200, example 27
+
+```r
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -367,9 +533,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 </table>
 
 
-
-
-
 ## Mawng
 ### Details
 Glottocode: maun1240 <br> 
@@ -384,6 +547,13 @@ Although there is some evidence for the serial verb construction forming a gramm
 ### Examples
 
 (@mawng1) @singer2006, 131, example 4-85
+
+```r
+gloss_example(transliteration = "Waka-pa k-i-wani-ø k-ani-mirlaju-n ja y-ara ja single.",
+             glosses = "DIST.LAND-EMPH PRS-3MASC-sit-NPST PRS-3MASC/3LAND-wait_for-NPST MASC MASC-other MASC single_man",
+             free_translation = "During that time he keeps on waiting (for a wife), the single man.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -417,6 +587,13 @@ Although there is some evidence for the serial verb construction forming a gramm
 </table>
 
 (@mawng2) @singer2006, 131, example 4-86
+
+```r
+gloss_example(transliteration = "K-a-wani-ø apu-la-ngung walij",
+             glosses = "PRS-3PL-sit-NPST 3PL/3EDIB-eat-PST.CONT food",
+             free_translation = "They were eating food.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -435,6 +612,13 @@ Although there is some evidence for the serial verb construction forming a gramm
 </table>
 
 (@mawng3) @singer2006, 132, example 4-87
+
+```r
+gloss_example(transliteration = "Nuka ja k-i-wani-ø k-ani-wurru-n.",
+             glosses = "PROX.MASC MASC PRS-3MASC-sit-NPST PRS-3MASC/3LAND-know-NPST",
+             free_translation = "He's the one who knows.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -461,64 +645,134 @@ Family: Isolate <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
-> Citation [@source2001]
+> Sequences involving these verbs are highly similar to the coordinating constructions described in §8.1. To begin with, they may be dominated by either a single intonation contour \ref(@maybrat1), or by an intonation contour over each verb plus its arguments, with a pause between the verbs \ref(@maybrat2), without effecting a marked semantic difference. ... <br> Secondly, all the verbs in sequences ... take an obligatory person prefix (whether overt or covert)... [@dol2007, 213-214]
 
-### Examples
+> All the constructions discussed so far in this section deviate from the coordinating sequence in one important respect: to a certain extent, they allow extraction of objects, or, in other words, they violate Ross’ CSC. [@dol2007, 215-216]
 
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
-
-## Mehek
-### Details
-Glottocode: mehe1243 <br> 
-Family: Sepik <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In other words, these constructions seem similar to two types of construction discussed before: they are similar to *coordinating constructions* from the point of view of intonation, and morphology, and they behave largely the same when placed in the interrogative mood. However, these forms violate the CSC. [@dol2007, 220]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+Note here that pauses are stylised as \</\>.
+
+(@maybrat1) @dol2007, 213, example 124a
+
+```r
+gloss_example(transliteration = "m-amo m-ate ayà /",
+             glosses = "3.UV-go 3.UV-go_under water {}",
+             free_translation = "She goes and bathes.")
+```
+
+```
+## Warning in matrix(for_matrix, nrow = nrow_matrix, byrow = TRUE): data length [7]
+## is not a sub-multiple or multiple of the number of rows [2]
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _m-amo_ </td>
+   <td style="text-align:left;"> _m-ate_ </td>
+   <td style="text-align:left;"> _ayà_ </td>
+   <td style="text-align:left;"> _/_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go_under </td>
+   <td style="text-align:left;"> water </td>
+   <td style="text-align:left;"> _m-amo_ </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'She goes and bathes.'</td></tr></tfoot>
 </table>
+
+(@maybrat2) @dol2007, 213, example 124b
+
+```r
+gloss_example(transliteration = "m-amo / m-ate ayà /",
+             glosses = "3.UV-go {} 3.UV-go_under water {}",
+             free_translation = "She goes, and bathes.")
+```
+
+```
+## Warning in matrix(for_matrix, nrow = nrow_matrix, byrow = TRUE): data length [9]
+## is not a sub-multiple or multiple of the number of rows [2]
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _m-amo_ </td>
+   <td style="text-align:left;"> _/_ </td>
+   <td style="text-align:left;"> _m-ate_ </td>
+   <td style="text-align:left;"> _ayà_ </td>
+   <td style="text-align:left;"> _/_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go_under </td>
+   <td style="text-align:left;"> water </td>
+   <td style="text-align:left;"> _m-amo_ </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'She goes, and bathes.'</td></tr></tfoot>
+</table>
+
+(@maybrat3) @dol2007, 216, example 140b
+
+```r
+gloss_example(transliteration = "aya ro m-amo m-ate m-hu e",
+             glosses = "water REL 3.UV-go 3.UV-go_under 3.UV-stay far",
+             free_translation = "The river that she goes and bathes in is far.")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _aya_ </td>
+   <td style="text-align:left;"> _ro_ </td>
+   <td style="text-align:left;"> _m-amo_ </td>
+   <td style="text-align:left;"> _m-ate_ </td>
+   <td style="text-align:left;"> _m-hu_ </td>
+   <td style="text-align:left;"> _e_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> water </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">rel</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-go_under </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>.<span style="font-variant:small-caps;">uv</span>-stay </td>
+   <td style="text-align:left;"> far </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The river that she goes and bathes in is far.'</td></tr></tfoot>
+</table>
+
+<!-- ## Mehek -->
+<!-- ### Details -->
+<!-- Glottocode: mehe1243 <br>  -->
+<!-- Family: Sepik <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 
 ## Menya!
@@ -535,6 +789,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Source [@whitehead2004, 29-30, 181-187]
 
 (@menya1) Aiton 2016:200, example 27
+
+```r
+gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
+             glosses = "downward NAME-DAT shout say-PST",
+             free_translation = "I shouted it down to Solo:bu.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -561,30 +822,60 @@ Family: Eastern Trans-Fly <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@meriam2) @piper1989, 100, example 3.65
+
+```r
+gloss_example(transliteration = "wi na-kasir weret-lare",
+             glosses = "3NSG.SBJ 3NSG.SBJ-go_along AUX.PL-NPRS.PL",
+             free_translation = "They were going along.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _wi_ </td>
+   <td style="text-align:left;"> _na-kasir_ </td>
+   <td style="text-align:left;"> _weret-lare_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3nsg</span>.<span style="font-variant:small-caps;">sbj</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3nsg</span>.<span style="font-variant:small-caps;">sbj</span>-go_along </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">aux</span>.<span style="font-variant:small-caps;">pl</span>-<span style="font-variant:small-caps;">nprs</span>.<span style="font-variant:small-caps;">pl</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'They were going along.'</td></tr></tfoot>
+</table>
+
+(@meriam1) @piper1989, 96, example 3.58
+
+```r
+gloss_example(transliteration = "ma ta-bakyamu-ø, ge ikedi-ø",
+             glosses = "2SG.SBJ DEIX-go.SG/DU.SBJ-2/3.FUT DEIX put_down.SG/DU.OBJ-2/3.FUT",
+             free_translation = "Come, put it down here.")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ma_ </td>
+   <td style="text-align:left;"> _ta-bakyamu-ø,_ </td>
+   <td style="text-align:left;"> _ge_ </td>
+   <td style="text-align:left;"> _ikedi-ø_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">sbj</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">deix</span>-go.<span style="font-variant:small-caps;">sg/du</span>.<span style="font-variant:small-caps;">sbj</span>-<span style="font-variant:small-caps;">2/3</span>.<span style="font-variant:small-caps;">fut</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">deix</span> </td>
+   <td style="text-align:left;"> put_down.<span style="font-variant:small-caps;">sg/du</span>.<span style="font-variant:small-caps;">obj</span>-<span style="font-variant:small-caps;">2/3</span>.<span style="font-variant:small-caps;">fut</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Come, put it down here.'</td></tr></tfoot>
 </table>
 
 ## Meyah
@@ -594,64 +885,95 @@ Family: East Bird's Head <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> With motion-action sequences the first verb is the motion verb, as would be expected with the temporal sequencing of sub-events. The second verb denotes an activity. This kind of sequence differs from asyndetic coordination in the following ways: a) only the motion verb can take an optional aspect or irrealis prefix; b) the second verb is only marked for subject, but it can receive an instrument prefix if it is a transitive verb; c) a distinct pause does not occur between the verbs. [@gravelle2004, 238]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
-
-## Mian
-### Details
-Glottocode: mian1256 <br> 
-Family: Nuclear Trans-New-Guinea <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In addition to the omission of conjunctions, Meyah also has a tendency to omit direct objects and prepositional phrases when they are established in the discourse. The omission of conjunctions and arguments results in juxtaposed verb constructions. A pause between verbs (indicated by a slant line) marks the clause boundary. [@gravelle2004, 236-237]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@meyah1) @gravelle2004, 238, example 238
+
+```r
+gloss_example(transliteration = "Rua ri-em-eja ri-agob rua ongga Morum",
+             glosses = "they 3PL-IRR-go 3PL-strike they REL Mpur",
+             free_translation = "They would go to fight those who were Mpur people.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _Rua_ </td>
+   <td style="text-align:left;"> _ri-em-eja_ </td>
+   <td style="text-align:left;"> _ri-agob_ </td>
+   <td style="text-align:left;"> _rua_ </td>
+   <td style="text-align:left;"> _ongga_ </td>
+   <td style="text-align:left;"> _Morum_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> they </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3pl</span>-<span style="font-variant:small-caps;">irr</span>-go </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3pl</span>-strike </td>
+   <td style="text-align:left;"> they </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">rel</span> </td>
+   <td style="text-align:left;"> Mpur </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'They would go to fight those who were Mpur people.'</td></tr></tfoot>
 </table>
+
+(@meyah1) @gravelle2004, 237, example 192
+
+```r
+gloss_example(transliteration = "ri-agob / ef marfeb / eij",
+             glosses = "3PL-strike {} hang rope {} throw",
+             free_translation = "They killed (a tree kangaroo, and then) he/she tied (it with a rope and) he/she threw (it over their back).")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ri-agob_ </td>
+   <td style="text-align:left;"> _/_ </td>
+   <td style="text-align:left;"> _ef_ </td>
+   <td style="text-align:left;"> _marfeb_ </td>
+   <td style="text-align:left;"> _/_ </td>
+   <td style="text-align:left;"> _eij_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3pl</span>-strike </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> hang </td>
+   <td style="text-align:left;"> rope </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> throw </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'They killed (a tree kangaroo, and then) he/she tied (it with a rope and) he/she threw (it over their back).'</td></tr></tfoot>
+</table>
+
+<!-- ## Mian -->
+<!-- ### Details -->
+<!-- Glottocode: mian1256 <br>  -->
+<!-- Family: Nuclear Trans-New-Guinea <br> -->
+<!-- Macroarea: Papunesia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Momu-Fas
 ### Details
@@ -660,64 +982,115 @@ Family: Baibai-Fas <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
-> Citation [@source2001]
+> Relevant diagnostic and classificatory criteria for SVCs in Momu include (1) concordant or shared subject marking and TAM marking; (2) the absence of marking of coordination or subordination, and the absence of sequence marking particles or expressions; (3) lexemic status; (4) the absence of participants (especially non-subject participants); and (5) the ordering of participants such that they precede verbs that do not license them. <br>
+Shared subject marking on the final verb indicates that the verbs or verb phrases are not coordinated. [@honeyman2016, 418]
 
-### Examples
-
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
-
-## Mon
-### Details
-Glottocode: monn1252 <br> 
-Family: Austroasiatic <br>
-Macroarea: Eurasia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+> In \ref(@momu1) three verbs combine in an SVC. Again, these verbs are tightly bound. The first two verbs *pwe(n)* ‘come’ and *pana(i)* ‘get one’ show a degree of predictable truncation (§2.5.3). As a further indication of the tightness of the combining verbs, the argument (*fyi* ‘water’) common to the second verb *pana(i)* ‘get one’ and third verb *kiy* ‘consume’ occurs before the first verb *pwe(n)* ‘come’. In \ref(@momu3) on the other hand, despite the shared subject, these are better considered coordinated clauses as reflected by the pause, the lack of truncation of *pi(n)* and to a lesser degree the position of the object argument adjacent to the verb that licenses it. [@honeyman2016, 420]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@momu1) @honeyman2016, 420, example 13.2a
+
+```r
+gloss_example(transliteration = "Fyi pwe=pana=kiye!",
+             glosses = "beer |one.|comes=get.one=consume:SG:IMP",
+             free_translation = "Come drink a beer!")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _Fyi_ </td>
+   <td style="text-align:left;"> _pwe=pana=kiye!_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> beer </td>
+   <td style="text-align:left;"> |one.|comes=get.one=consume:<span style="font-variant:small-caps;">sg</span>:<span style="font-variant:small-caps;">imp</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'Come drink a beer!'</td></tr></tfoot>
 </table>
+
+(@momu3) @honeyman2016, 420, example 13.2b
+
+```r
+gloss_example(transliteration = "Te pin, abe panai.",
+             glosses = "1SG one.goes|1/3SG.SBJ| axe get.one|1SG.SBJ|",
+             free_translation = "Come drink a beer!")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Te_ </td>
+   <td style="text-align:left;"> _pin,_ </td>
+   <td style="text-align:left;"> _abe_ </td>
+   <td style="text-align:left;"> _panai._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span> </td>
+   <td style="text-align:left;"> one.goes|1/3SG.<span style="font-variant:small-caps;">sbj|</span> </td>
+   <td style="text-align:left;"> axe </td>
+   <td style="text-align:left;"> get.one|1SG.<span style="font-variant:small-caps;">sbj|</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Come drink a beer!'</td></tr></tfoot>
+</table>
+
+(@momu2) @honeyman2016, 474, example 14.37
+
+```r
+gloss_example(transliteration = "Na fyi=m kuw mereke-ta fey=m ta-mu.",
+             glosses = "and beer=OBL consume_3SG.SBJ soft-INCH fight=OBL do_3SG.SBJ-VOL.FUT",
+             free_translation = "And then he became drunk and (he) wanted to fight.")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _Na_ </td>
+   <td style="text-align:left;"> _fyi=m_ </td>
+   <td style="text-align:left;"> _kuw_ </td>
+   <td style="text-align:left;"> _mereke-ta_ </td>
+   <td style="text-align:left;"> _fey=m_ </td>
+   <td style="text-align:left;"> _ta-mu._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> and </td>
+   <td style="text-align:left;"> beer=<span style="font-variant:small-caps;">obl</span> </td>
+   <td style="text-align:left;"> consume_3SG.<span style="font-variant:small-caps;">sbj</span> </td>
+   <td style="text-align:left;"> soft-<span style="font-variant:small-caps;">inch</span> </td>
+   <td style="text-align:left;"> fight=<span style="font-variant:small-caps;">obl</span> </td>
+   <td style="text-align:left;"> do_3SG.<span style="font-variant:small-caps;">sbj</span>-<span style="font-variant:small-caps;">vol</span>.<span style="font-variant:small-caps;">fut</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'And then he became drunk and (he) wanted to fight.'</td></tr></tfoot>
+</table>
+
+<!-- ## Mon -->
+<!-- ### Details -->
+<!-- Glottocode: monn1252 <br>  -->
+<!-- Family: Austroasiatic <br> -->
+<!-- Macroarea: Eurasia -->
+
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
+
+<!-- > Citation [@source2001] -->
+
+<!-- ### Examples -->
+
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Mundari
 ### Details
@@ -726,30 +1099,37 @@ Family: Austroasiatic <br>
 Macroarea: Eurasia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
-> Citation [@source2001]
+> We define the serial verb as one with a compound verb (ie., V+V) construction. ... The serial verbs in Mundari are classified into three types on the basis of their semantic functions. [@osada1992, 109]
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@mundari1) @osada1992, 110, example 70
+
+```r
+gloss_example(transliteration = "ne saan sarima-cetaN-te-bu dondo-rakah-e-a",
+             glosses = "this firewood roof-over-to-1PL.INCL lift-go_up-it-Prd",
+             free_translation = "We will lift this firewood and take it up to the roof.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _ne_ </td>
+   <td style="text-align:left;"> _saan_ </td>
+   <td style="text-align:left;"> _sarima-cetaN-te-bu_ </td>
+   <td style="text-align:left;"> _dondo-rakah-e-a_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> this </td>
+   <td style="text-align:left;"> firewood </td>
+   <td style="text-align:left;"> roof-over-to-<span style="font-variant:small-caps;">1pl</span>.<span style="font-variant:small-caps;">incl</span> </td>
+   <td style="text-align:left;"> lift-go_up-it-Prd </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'We will lift this firewood and take it up to the roof.'</td></tr></tfoot>
 </table>
 
 ## Mungbam
@@ -759,32 +1139,138 @@ Family: Bantoid <br>
 Macroarea: Africa
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 ### Examples
 
-(@language1) @source2001, pg, example 27
+(@mungbam1) @lovegren2013, 219, example 8.12
+
+```r
+gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
+             glosses = "CL1 hold.IPFV peel.IPFV off.IPFV exit.IPFV VENT.IPFV CL5-skin",
+             free_translation = "He is peeling off the [pig’s] skin [towards himself]...")
+```
+
+```
+## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
+## unlist(strsplit(glosses, : number of items to replace is not a multiple of
+## replacement length
+```
+
+```
+## Warning in matrix(for_matrix, nrow = nrow_matrix, byrow = TRUE): data length
+## [15] is not a sub-multiple or multiple of the number of rows [2]
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _ù_ </td>
+   <td style="text-align:left;"> _kwˆO_ </td>
+   <td style="text-align:left;"> _wˆil@_ </td>
+   <td style="text-align:left;"> _f@_ </td>
+   <td style="text-align:left;"> _`_ </td>
+   <td style="text-align:left;"> _bEˆhE_ </td>
+   <td style="text-align:left;"> _lO`_ </td>
+   <td style="text-align:left;"> _ì-wìl@_ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cl1</span> </td>
+   <td style="text-align:left;"> hold.<span style="font-variant:small-caps;">ipfv</span> </td>
+   <td style="text-align:left;"> peel.<span style="font-variant:small-caps;">ipfv</span> </td>
+   <td style="text-align:left;"> off.<span style="font-variant:small-caps;">ipfv</span> </td>
+   <td style="text-align:left;"> exit.<span style="font-variant:small-caps;">ipfv</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">vent</span>.<span style="font-variant:small-caps;">ipfv</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cl5</span>-skin </td>
+   <td style="text-align:left;"> _ù_ </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'He is peeling off the [pig’s] skin [towards himself]...'</td></tr></tfoot>
 </table>
 
+(@mungbam2) @lovegren2013, 247, example 8.122
+
+```r
+gloss_example(transliteration = "bú mà ú-tőm m@` dzoˆ kwàha",
+             glosses = "CL2 take CL3-village then call gather",
+             free_translation = "They took the village and called and gathered [them].")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _bú_ </td>
+   <td style="text-align:left;"> _mà_ </td>
+   <td style="text-align:left;"> _ú-to&lt;U+030B&gt;m_ </td>
+   <td style="text-align:left;"> _m@`_ </td>
+   <td style="text-align:left;"> _dzoˆ_ </td>
+   <td style="text-align:left;"> _kwàha_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cl2</span> </td>
+   <td style="text-align:left;"> take </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cl3</span>-village </td>
+   <td style="text-align:left;"> then </td>
+   <td style="text-align:left;"> call </td>
+   <td style="text-align:left;"> gather </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'They took the village and called and gathered [them].'</td></tr></tfoot>
+</table>
+
+(@mungbam3) @lovegren2013, 350, example 11.32
+
+```r
+gloss_example(transliteration = "Nk`E w`O wū à jÉl`@ kì fa̋-NkŹOn@, wà toŹ pıŹ tˆa m`-pıŹ-n`@",
+             glosses = "as CL1.child CL1.DET EXPL.SBJ ascend.IRR IPFV CL16-compound CL1.SBJ come.IRR die.IRR only CL1.INF-die-INF",
+             free_translation = "As the child came up into the compound, he would just come and *die*.")
+```
+
+```
+## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _Nk`E_ </td>
+##    <td style="text-align:left;"> _w`O_ </td>
+##    <td style="text-align:left;"> _wu¯_ </td>
+##    <td style="text-align:left;"> _à_ </td>
+##    <td style="text-align:left;"> _jÉl`@_ </td>
+##    <td style="text-align:left;"> _kì_ </td>
+##    <td style="text-align:left;"> _fa&lt;U+030B&gt;-NkZOn@,_ </td>
+##    <td style="text-align:left;"> _wà_ </td>
+##    <td style="text-align:left;"> _toZ_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> as </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cl1</span>.child </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cl1</span>.<span style="font-variant:small-caps;">det</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">expl</span>.<span style="font-variant:small-caps;">sbj</span> </td>
+##    <td style="text-align:left;"> ascend.<span style="font-variant:small-caps;">irr</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">ipfv</span> </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cl16</span>-compound </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cl1</span>.<span style="font-variant:small-caps;">sbj</span> </td>
+##    <td style="text-align:left;"> come.<span style="font-variant:small-caps;">irr</span> </td>
+##   </tr>
+## </tbody>
+## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+## <tbody>
+##   <tr>
+##    <td style="text-align:left;"> _piZ_ </td>
+##    <td style="text-align:left;"> _tˆa_ </td>
+##    <td style="text-align:left;"> _m`-piZ-n`@_ </td>
+##   </tr>
+##   <tr>
+##    <td style="text-align:left;"> die.<span style="font-variant:small-caps;">irr</span> </td>
+##    <td style="text-align:left;"> only </td>
+##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cl1</span>.<span style="font-variant:small-caps;">inf</span>-die-<span style="font-variant:small-caps;">inf</span> </td>
+##   </tr>
+## </tbody>
+## <tfoot><tr><td style="padding: 0; " colspan="100%">
+## <sup></sup> 'As the child came up into the compound, he would just come and *die*.'</td></tr></tfoot>
+## </table>
+```
 
 ## Murrinhpatha
 ### Details
@@ -798,6 +1284,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@murrinhpatha2) @blythe2009, 364, On the Flat line 103
+
+```r
+gloss_example(transliteration = "ngunu-murrk-nu=ngi",
+             glosses = "1SG.S.7go.FUT-eat-FUT=1SG.S.1sit.FUT",
+             free_translation = "I want to eat some.")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -812,6 +1305,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 (@murrinhpatha3) @blythe2009, 378, Ningbingi line 13
+
+```r
+gloss_example(transliteration = "me-nge-dha=pirri",
+             glosses = "3SG.S.say.PSTIMP-3SG.IO-PST=3SG.S.3stand.PSTIMP",
+             free_translation = "He was saying to her...")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -826,6 +1326,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 </table>
 
 (@murrinhpatha1) @blythe2009, 364, On the Flat line 87
+
+```r
+gloss_example(transliteration = "ku panda thanggugu thurdana-ngintha-yitj-tha=tjini ha ha",
+             glosses = "animate that.you.know what_animate? 2SG.S.30.PSTIMP-DU.F.NSIB-tell_story-PST=2SG.S.1sit.PSTIMP ha ha",
+             free_translation = "That thing of the 'ku' class, whatitsname. You two were telling that story. ")
+```
+
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -855,37 +1362,3 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 <tfoot><tr><td style="padding: 0; " colspan="100%">
 <sup></sup> 'That thing of the 'ku' class, whatitsname. You two were telling that story. '</td></tr></tfoot>
 </table>
-
-## Mwotlap
-### Details
-Glottocode: motl1237 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
-
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
-
-> Citation [@source2001]
-
-### Examples
-
-(@language1) @source2001, pg, example 27
-<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
-  </tr>
-</tbody>
-<tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
-</table>
-

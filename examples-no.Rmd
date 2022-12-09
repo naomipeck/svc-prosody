@@ -20,7 +20,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 > Citation [@collinsnamaseb2011, 53-56]
 
 (@nuu1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -63,15 +63,15 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@ncane1) @boutwell2020, 286, example 13.3
-```{r, echo=FALSE}
-gloss_example(transliteration = "wɔ́ gɛ̄ : à màŋ-kàlà mā-nē lē, wɔ́ ɲá wù lē",
+```{r}
+gloss_example(transliteration = "wɔ́ gɛ̄: à màŋ-kàlà mā-nē lē, wɔ́ ɲá wù lē",
              glosses = "2SG.FUT put in c6a-cassava.puff c6a-PROX APPL 2SG.FUT give 3SG APPL",
              free_translation = "...you put [it] (the poison) in this cassava puff and give [it] to him.")
 ```
 
 (@ncane2) @boutwell2020, 287, example 13.4
-```{r, echo=FALSE}
-gloss_example(transliteration = "mɛ́ ń-tú ŋ́-gɛ̰᷆́ : / ɲ̄ -jí bvū-lɛ̀ ̰́ : bɛ́ ɲàŋ yī shi",
+```{r}
+gloss_example(transliteration = "mɛ́ ń-tú ŋ́-gɛ̰᷆́: / ɲ̄-jí bvū-lɛ̰̀́: bɛ́ ɲàŋ yī shi",
              glosses = "1SG.PRO 1SG-then 1SG-go {} 1SG-eat c14-food with c9.meat c9AM c9.chicken",
              free_translation = "I then went and ate fufu with chicken...")
 ```
@@ -91,7 +91,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@bowernlotridge2002; @pellingpelling1974]
 
 (@ndebele1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -135,14 +135,14 @@ Note that there is no suffix associated with the Perfective Present [@kutschloje
 ### Examples
 
 (@ngiti1) @kutschlojenga1994, 224
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ma m-òzè m-ozò kÀpÙ",
              glosses = "1SG 1SG-want:PFV.PRS 1SG-plant:PFV.PRS bean",
              free_translation = "I want to plant beans.")
 ```
 
 (@ngiti1) @kutschlojenga1994, 380
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "k`-òzè ná nd`-ÒnyÙ tsìtsì",
              glosses = "3SG-want.PFV.PRS Q 3SG.LOG-eat:PFV.PRS banana",
              free_translation = "Does he want to eat a banana?",
@@ -184,19 +184,19 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@yuki1) @balodis2011, 666, example 83
-```{r, echo=FALSE}
-#gloss_example(transliteration = "sąmi ki-mas-i hąša hąp šuˀ kop-wok-tl=mil tat-k-il",
-#             glosses = "and:then DST-DSTR-ANIM again sing sit feather-dance-TR=FIN fix-PNCT-MPSV",
-#             free_translation = "And then in turn these others sing, sit, and dance the feather dance and fix themselves up.",
-#             annotation = "sámi: kimáse hąšáˀ hąp šú: kopwóktlmil tá:tkí:li.")
+```{r}
+gloss_example(transliteration = "sąmi ki-mas-i hąša hąp šuˀ kop-wok-tl=mil tat-k-il",
+             glosses = "and:then DST-DSTR-ANIM again sing sit feather-dance-TR=FIN fix-PNCT-MPSV",
+             free_translation = "And then in turn these others sing, sit, and dance the feather dance and fix themselves up.",
+             annotation = "sámi: kimáse hąšáˀ hąp šú: kopwóktlmil tá:tkí:li.")
 ```
 
 (@yuki2) @balodis2011, 667, example 84
-```{r, echo=FALSE}
-#gloss_example(transliteration = "siˀi lak-t nąw-k-il=mil ki ˀipsak",
-#             glosses = "then:HSAY go.out-INTR see-PNCT-MPSV=FIN DST boy",
-#             free_translation = "Then going out, the boy looked.",
-#             annotation = "seˀéy lákti nąwkílmil kí ˀipsák")
+```{r}
+gloss_example(transliteration = "siˀi lak-t nąw-k-il=mil ki ˀipsak",
+             glosses = "then:HSAY go.out-INTR see-PNCT-MPSV=FIN DST boy",
+             free_translation = "Then going out, the boy looked.",
+             annotation = "seˀéy lákti nąwkílmil kí ˀipsák")
 ```
 
 <!-- ## Nungon -->
@@ -234,7 +234,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@kandybowicz2008, 54-58]
 
 (@language1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -296,7 +296,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Citation [@staley2007, 37-41]
 
 (@olo1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")

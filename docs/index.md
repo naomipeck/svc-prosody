@@ -1,29 +1,32 @@
 --- 
-title: "Is there a \"One Intonation Unit\" constraint for serial verb constructions?"
+title: "Are all serial verb constructions realised in a single intonation unit?"
 author: "Naomi Peck"
-date: "2022-11-27"
+date: "2022-12-09"
 site: bookdown::bookdown_site
 documentclass: book
 mainfont: arial
 output:
   bookdown::gitbook:
     split_bib: false
+    split_by: section
+#    toc:
+#      collapse: section
 bibliography: [book.bib, packages.bib, references.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+url: https\://naomipeck.github.io/svc-prosody/
 # cover-image: path to the social sharing image like images/cover.jpg
 #description: |
 #  This is a minimal example of using the bookdown package to write a book.
 #  The HTML output format for this example is bookdown::gitbook,
 #  set in the _output.yml file.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+#github-repo: rstudio/bookdown-demo
 ---
 
 # Abstract {-}
 
 
 
-Serial verb constructions (SVCs) are commonly described as occurring within a single intonation unit (IU) following Givón 1991, leading to Himmelmann (2022) to assert that they are "IU-bounded constructions". However, as of yet, there is no empirical study exploring the prosodic realisation of SVCs. In this poster, I show results from a first study into the prosody of serial verb constructions, based on a sample of grammatical descriptions from 200 languages with verb serialisation, accompanied with examples from spoken corpora. I find that serial verb constructions do not necessarily need to obey a “One Intonation Unit” constraint.
+Serial verb constructions (SVCs) are commonly described as occurring within a single intonation unit (IU) following Givón 1991, leading to Himmelmann (2022) to assert that they are "IU-bounded constructions". However, as of yet, there is no empirical study exploring the prosodic realisation of SVCs. In this poster, I show results from a first study into the prosody of serial verb constructions, based on a sample of grammatical descriptions from 150 languages with verb serialisation, accompanied with examples from spoken corpora. I find that serial verb constructions do not necessarily need to obey a “One Intonation Unit” constraint.
 
 Initial evidence suggests that we cannot claim that all SVCs are IU-bounded. Himmelmann's claim presupposes that a) serial verb constructions are not grammatically robust, and that b) a serial verb construction will not be recognised as such when realised over multiple IUs. In fact, we find a mix of prosodically-dependent and prosodically-robust types across languages: while the majority of constructions appear to be IU-bounded, a number of constructions can be realised as prosodic groupings (prosodically-dependent constructions consisting of multiple IUs), and elsewhere SVCs can fulfil constituent tests typical of prosodically-robust, i.e. grammaticalised, constructions in other languages.
 
@@ -39,7 +42,6 @@ Himmelmann, Nikolaus P. 2022. Prosodic phrasing and the emergence of phrase stru
 <div class="alert alert-warning">
   <strong>Important!</strong><br> Please note that this site represents a work in progress and should not be cited without prior permission from the author.
 </div>
-
 
 
 

@@ -19,7 +19,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@enrico2003]
 
 (@haida1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              glosses = "downward NAME-DAT shout say-PST",
              free_translation = "I shouted it down to Solo:bu.")
@@ -29,7 +29,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 
 
 
-## Hakhun Tangsa!
+## Hakhun Tangsa
 ### Details
 Glottocode: noct1238 <br> 
 Family: Trans-Himalayan <br>
@@ -38,22 +38,32 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-There is a clear morphosyntactic template for verbs. 
+> When we have multiple verbs in a row it is hard to tell whether we have multiple predications, and if so, where one ends and the other begins. ... There are a few formal means that help us delimit a predication. This involves morphological elements marking the boundary of the verb stems on both sides in two constructions – the auxiliary construction and the prohibitive construction. In addition, the position of certain verbs and knowledge of the possible semantic relations between the verbs can help us infer whether there are multiple predications and where the boundary is.  [@boro2017, 278]
+
+> Thus, the checked stems occur in more nominalized constructions like the auxiliary construction, stand-alone nominalized sentences, or complement clauses. The open stems, on the other hand, function as finite verbs of finite clauses directly marked with the inflected operators (without an intervening auxiliary verb). [@boro2017, 276]
 
 ### Examples
 
-> Citation [@boro2017]
-
-(@hakhun1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@hakhun1) @boro2017, 276, example 511
+```{r}
+gloss_example(transliteration = "vàn nɤ́ twè heʔ keʔ kuʔ t-iʔ",
+             glosses = "fire LOC take keep go give PST-1PL",
+             free_translation = "(We) throw (it) in the fire.")
 ```
 
+(@hakhun2) @boro2017, 285, example 529
+```{r}
+gloss_example(transliteration = "pik ibə́ nâm ibə́ ŋé vù l-iʔ-mə",
+             glosses = "paddy.field that plant.type that finish cut NF-1PL-NF",
+             free_translation = "After finishing cutting the paddy field, the weeds...")
+```
 
-
-
+(@hakhun3) @boro2017, 289, example 533
+```{r}
+gloss_example(transliteration = "irə́kə́ bátənî mó rik nɤʔ t-ɤʔ",
+             glosses = "there perhaps by.mistake die tread PST-1SG",
+             free_translation = "There perhaps (I) trod (the ghost child) to death by mistake.")
+```
 
 <!-- ## Hano -->
 <!-- ### Details -->
@@ -92,14 +102,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@haruai1) @comrie1995, 28, example 11
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "An absö rag h-n-ng-a.",
              glosses = "we vegetables carry come-FUT-1PL-DECL",
              free_translation = "We will bring vegetables.")
 ```
 
 (@haruai2) @comrie1995, 29, example 14
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Nöb'-akw ögapm p?",
              glosses = "man-that what take:PRES:3SG",
              free_translation = "What has that man taken?")
@@ -121,14 +131,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@hatam1) @reesink1999, 97, example 4.95
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Munggwom de di-ma i-pim i-nggum lo ig-yem hum ngum.",
              glosses = "child POS REL-that 3PL-cry 3PL-hungry but 3PL-eat fire coal",
              free_translation = "Those children are crying from hunger but they are eating charcoal.")
 ```
 
 (@hatam2) @reesink1999, 97, example 4.97
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Lene i-ngot igy-o, i-com tut paku ni-kinei-o...",
              glosses = "then 3PL-tie house-or 3PL-throw along nail 3SG-bad-or",
              free_translation = "Then they built houses, they threw away nails that were bad...")
@@ -154,21 +164,21 @@ Note that the final verb in a clause *must* take an illocutionary suffix, which 
 ### Examples
 
 (@hidatsa1) @park2012, 540, example 111
-```{r, echo=FALSE}
-#gloss_example(transliteration = "miidí-Ø nuwí-Ø úˀsia-c",
-#             glosses = "crawl-CONT go.around-CONT arrive-DECL",
-#             free_translation = "He arrived by crawling.",
-#             annotation = "Miidá nuwá úˀsiaˀc.")
+```{r}
+gloss_example(transliteration = "miidí-Ø nuwí-Ø úˀsia-c",
+             glosses = "crawl-CONT go.around-CONT arrive-DECL",
+             free_translation = "He arrived by crawling.",
+             annotation = "Miidá nuwá úˀsiaˀc.")
 ```
 <!-- fix example -->
 
 
 (@hidatsa2) @park2012, 545, example 124
-```{r, echo=FALSE}
-#gloss_example(transliteration = "ma-iréˀ goowí-waa-c",
-#             glosses = "1POS-speak finish-1CAUS.DIR-DECL",
-#             free_translation = "I finished talking.",
-#             annotation = "Maréˀ goowíwaac.")
+```{r}
+gloss_example(transliteration = "ma-iréˀ goowí-waa-c",
+             glosses = "1POS-speak finish-1CAUS.DIR-DECL",
+             free_translation = "I finished talking.",
+             annotation = "Maréˀ goowíwaac.")
 ```
 <!-- fix example -->
 
@@ -186,7 +196,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@dejongboudreault2009, 672ff.]
 
 (@highland1) Aiton 2016:200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "a",
              glosses = "word",
              free_translation = "here")
@@ -212,18 +222,18 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@hinuq1) @forker2013, 699, example 1283a
-```{r, echo=FALSE}
-#gloss_example(transliteration = "hayɬoy ɣʷero-z t’oq hat͡ɬi-cat͡ɬi-š",
-#             glosses = "he.ERG cow-DAT knife bump-throw-PST",
-#             free_translation = "He repeatedly hit the cow with the knife.")
+```{r}
+gloss_example(transliteration = "hayɬoy ɣʷero-z t’oq hat͡ɬi-cat͡ɬi-š",
+             glosses = "he.ERG cow-DAT knife bump-throw-PST",
+             free_translation = "He repeatedly hit the cow with the knife.")
 ```
 <!-- fix example -->
 
 (@hinuq1) @forker2013, 700, example 1285b
-```{r, echo=FALSE}
-#gloss_example(transliteration = "hibayɬi kek-Ø-ece goɬi polnostyu kek-Ø-ece goɬi de",
-#             glosses = "there break-I-melt be.IRR completely break-I-melt be.IRR 1SG",
-#             free_translation = "There I (masc.) would be smashed off, completely smashed off.")
+```{r}
+gloss_example(transliteration = "hibayɬi kek-Ø-ece goɬi polnostyu kek-Ø-ece goɬi de",
+             glosses = "there break-I-melt be.IRR completely break-I-melt be.IRR 1SG",
+             free_translation = "There I (masc.) would be smashed off, completely smashed off.")
 ```
 <!-- fix example -->
 
@@ -243,18 +253,18 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@ho1) @pucilowski2013, 204, example 6.55
-```{r, echo=FALSE}
-#gloss_example(transliteration = "aɲ gaɽa-te iɖi-atu:-ɲ-pe",
-#             glosses = "1SG river-ALL take-leave-1SG-IMP.2PL",
-#             free_translation = "take me to the river and leave me")
+```{r}
+gloss_example(transliteration = "aɲ gaɽa-te iɖi-atu:-ɲ-pe",
+             glosses = "1SG river-ALL take-leave-1SG-IMP.2PL",
+             free_translation = "take me to the river and leave me")
 ```
 <!-- fix examples -->
 
 (@ho1) @pucilowski2013, 204, example 6.55
-```{r, echo=FALSE}
-#gloss_example(transliteration = "naʔ=do miyaɖ baru_daru baʈi-gur-ke-ɖ-a, maʔ-gur-ke-ɖ-a=eʔ",
-#             glosses = "now=FOC one.INAN kusum_tree overturn-fall-PFV-TR-FIN cut_swing-fall-PFV-TR-FIN=3SG",
-#             free_translation = "now he brought the kusum tree down, [he] chopped it down")
+```{r}
+gloss_example(transliteration = "naʔ=do miyaɖ baru_daru baʈi-gur-ke-ɖ-a, maʔ-gur-ke-ɖ-a=eʔ",
+             glosses = "now=FOC one.INAN kusum_tree overturn-fall-PFV-TR-FIN cut_swing-fall-PFV-TR-FIN=3SG",
+             free_translation = "now he brought the kusum tree down, [he] chopped it down")
 ```
 <!-- fix examples -->
 
@@ -296,27 +306,28 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@hup1) @epps2008, 396, example 9
-```{r, echo=FALSE}
-#gloss_example(transliteration = "ʔæ̌ytæn=yɨ́ʔ hɨd mæh-b’uy-d’əh-ham-yɨ́ʔ-ay-áh!",
-#             glosses = "together=TEL 3PL kill-throw-send-go-TEL-INCH-DECL",
-#             free_translation = "Together they killed them and threw them out!")
+```{r}
+gloss_example(transliteration = "ʔæ̌ytæn=yɨ́ʔ hɨd mæh-b’uy-d’əh-ham-yɨ́ʔ-ay-áh!",
+             glosses = "together=TEL 3PL kill-throw-send-go-TEL-INCH-DECL",
+             free_translation = "Together they killed them and threw them out!")
 ```
-<!-- fix examples -->
 
-(@hup2) @epps2008, 397, example 15
-```{r, echo=FALSE}
-#gloss_example(transliteration = "tɨ́h-ǎn kayǎk tɔ́ʔ hɨd g’ɔʔ-nɔ́ʔ-ɔ̃́y",
-#             glosses = "3SG-OBJ manioc tuber 3PL pull.up-give-DYNM",
-#             free_translation = "They’ve pulled up manioc and given it to her.")
-```
+
+<!-- (@hup2) @epps2008, 397, example 15 -->
+<!-- ```{r, echo=FALSE} -->
+<!-- gloss_example(transliteration = "tɨ́h-ǎn kayǎk tɔ́ʔ hɨd g’ɔʔ-nɔ́ʔ-ɔ̃́y", -->
+<!--              glosses = "3SG-OBJ manioc tuber 3PL pull_up-give-DYNM", -->
+<!--              free_translation = "They’ve pulled up manioc and given it to her.") -->
+<!-- ``` -->
+
 
 Please note that not all diacritics could be represented accurately in (@hup3); please consult original source for original example.
 
 (@hup3) @epps2008, 400, example 25
-```{r, echo=FALSE}
-#gloss_example(transliteration = "tɨh yok-d’əh-ham-yæh-kamí=mah",
-#             glosses = "3SG poke-send-go-FRUST-time_of=REP",
-#             free_translation = "At the moment when she poked (the knife) in...")
+```{r}
+gloss_example(transliteration = "tɨh yok-d’əh-ham-yæh-kamí=mah",
+             glosses = "3SG poke-send-go-FRUST-time_of=REP",
+             free_translation = "At the moment when she poked (the knife) in...")
 ```
 <!-- fix examples -->
 
@@ -332,7 +343,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@iatmul1) @jendraschek2012, 419, example 19.39
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "da'mage laavwi-di li'-ka-di'",
              glosses = "door open-3PL stay-PRS-3SG.MASC",
              free_translation = "They left the door open. (lit: 'they opened the door (and it) stays (open))")
@@ -382,10 +393,10 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@irabu1) @shimoji2008, 303, example 6-71
-```{r, echo=FALSE}
-#gloss_example(transliteration = "ibi-pazїmi-sїmi-tar",
-#             glosses = "plant-begin-CAUS-PST",
-#             free_translation = "ordered someone to begin planting")
+```{r}
+gloss_example(transliteration = "ibi-pazїmi-sїmi-tar",
+             glosses = "plant-begin-CAUS-PST",
+             free_translation = "ordered someone to begin planting")
 ```
 
 
@@ -405,28 +416,28 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@isaka2) @donohuesanroque2004, 89, example 291
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "A nuo k-aliè k-ele' ya.",
              glosses = "pig.MASC big 3SG.MASC-flee 3SG.MASC-go COMP",
              free_translation = "The big pig ran away.")
 ```
 
 (@isaka3) @donohuesanroque2004, 89, example 292
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Dakau onde akane wíysau.",
              glosses = "children go hide forest",
              free_translation = "The children went and hid in the bush.")
 ```
 
 (@isaka1) @donohuesanroque2004, 88, example 283
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Sù d-ai, n-òu.",
              glosses = "sago 1SG-get 1SG-eat",
              free_translation = "I got some sago, and ate (it).")
 ```
 
 (@isaka4) @donohuesanroque2004, 92, line 6
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Pùng dina' tù, di makaing wii.",
              glosses = "y.sibling 1SG.POSS 3SG.NMASC.come 1SG.ACC help 3SG.NMASC.do",
              free_translation = "My little sister comes, she helps me.")
@@ -448,21 +459,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@jcreole1) @hollington2015, 162, example 214
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Anansi iit kyari uom di pat",
              glosses = "Anansi eat carry home DEF pot",
              free_translation = "Anansi ate and carried the pot home.")
 ```
 
 (@jcreole2) @hollington2015, 164, example 223
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "A gi im bai di buk gi im",
              glosses = "COP give 3SG buy DEF book give 3SG",
              free_translation = "(S)he bought the book *for* him/her.")
 ```
 
 (@jcreole3) @hollington2015, 164, example 223
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "A bai im bai di buk gi im",
              glosses = "COP buy 3SG buy DEF book give 3SG",
              free_translation = "(S)he *bought* the book for him/her.")
