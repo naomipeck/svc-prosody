@@ -1,8 +1,8 @@
 # Discussion and Results
 
-# ```{r setup, include=FALSE}
-# knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
-# ```
+<!-- ```{r setup, include=FALSE} -->
+<!-- knitr::opts_chunk$set(echo = TRUE, cache = TRUE) -->
+<!-- ``` -->
 
 Here I'm going to include some discussion about what I can observe from the data.
 

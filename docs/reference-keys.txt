@@ -6,7 +6,6 @@ background
 overview-of-data
 grammatical-descriptions
 discussion-and-results
-r-setup-includefalse-knitropts_chunksetecho-true-cache-true
 abun
 details
 coding
@@ -19,6 +18,8 @@ ahamb
 details-2
 coding-2
 examples-2
+aimele
+details-3
 coding-3
 examples-3
 alamblak
@@ -63,7 +64,6 @@ awa-cuaiquer
 details-14
 coding-14
 examples-14
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa
 bafut
 details-15
 coding-15
@@ -120,7 +120,6 @@ buru
 details-28
 coding-28
 examples-28
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-1
 central-khmer
 details-29
 coding-29
@@ -177,7 +176,6 @@ dzongkha
 details-42
 coding-42
 examples-42
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-2
 east-ambae
 details-43
 coding-43
@@ -270,7 +268,6 @@ jamaican-creole-english
 details-65
 coding-65
 examples-65
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-3
 kaba
 details-66
 coding-66
@@ -343,7 +340,6 @@ lower-chehalis
 details-83
 coding-83
 examples-83
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-4
 maanyan
 details-84
 coding-84
@@ -405,7 +401,6 @@ murrinhpatha
 details-98
 coding-98
 examples-98
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-5
 nuuki
 details-99
 coding-99
@@ -434,7 +429,6 @@ olo
 details-105
 coding-105
 examples-105
-r-setup-includefalse-knitropts_chunksetecho-false-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-6
 pagibete
 details-106
 coding-106
@@ -503,7 +497,6 @@ suabo
 details-122
 coding-122
 examples-122
-r-setup-includefalse-knitropts_chunksetecho-true-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa
 tahitian
 details-123
 coding-123
@@ -556,7 +549,6 @@ vaeakau-taumako
 details-135
 coding-135
 examples-135
-r-setup-includefalse-knitropts_chunksetecho-true-cache-true-librarylingglosses-librarylinguisticsdown-linguisticsdownwriteipa-1
 waigeo
 details-136
 coding-136
@@ -645,5 +637,7 @@ coding-158
 murrinhpatha-1
 details-159
 coding-159
+tondano-1
+details-160
 coding-160
 implications

@@ -87,6 +87,7 @@ Macroarea: Australia
 
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
 ## Tondano
 ### Details
 Glottocode: tond1251 <br> 

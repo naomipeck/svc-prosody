@@ -108,6 +108,7 @@ gloss_example(transliteration = "Ta-gmay te-prag gasin.",
              glosses = "3PL-come 3PL.SEQ-do work",
              free_translation = "They come, they do the work.")
 ```
+
 ## Aimele
 ### Details
 Glottocode: aime1238 <br> 
