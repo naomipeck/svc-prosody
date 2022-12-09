@@ -25,7 +25,7 @@ link-citations: yes
 # Abstract {-}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
 #install.packages("remotes")
 #remotes::install_github("agricolamz/lingglosses")
 library(lingglosses)

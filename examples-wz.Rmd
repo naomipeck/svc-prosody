@@ -1,9 +1,9 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(lingglosses)
-#library(linguisticsdown)
-#linguisticsdown::writeIPA()
-```
+# ```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+# library(lingglosses)
+# #library(linguisticsdown)
+# #linguisticsdown::writeIPA()
+# ```
 
 
 ## Waigeo

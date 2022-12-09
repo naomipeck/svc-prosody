@@ -14,13 +14,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@eambae1) @hyslop2001, 275, example 3
-
-```r
-gloss_example(transliteration = "Mo vatu na veveo mo rovo, mo vai na hinaga...",
-             glosses = "RL weave ACC weaving RL finish RL make ACC food",
-             free_translation = "She finished weaving the weaving, and she made the food...")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -53,13 +46,6 @@ gloss_example(transliteration = "Mo vatu na veveo mo rovo, mo vai na hinaga...",
 </table>
 
 (@eambae1) @hyslop2001, 275, example 4
-
-```r
-gloss_example(transliteration = "Mo vatu na veveo, mo rovo, mo vai na hinaga...",
-             glosses = "RL weave ACC weaving RL finish RL make ACC food",
-             free_translation = "She did the weaving, and after that she made the food...")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -107,14 +93,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 Note that intonation contours for \ref(@taba1) and \ref(@taba2) are available in the original source.
 
 (@taba1) @bowden2001, 304, example 28
-
-```r
-gloss_example(transliteration = "t=han t=ronda po-pe Ploili",
-             glosses = "1PL.INCL=go 1PL.INCL=stroll down-ESS Peleri",
-             free_translation = "We went strlling in Peleri.",
-             annotation = "Than tronda pope ploili.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -141,14 +119,6 @@ gloss_example(transliteration = "t=han t=ronda po-pe Ploili",
 </table>
 
 (@taba2) @bowden2001, 304, example 29
-
-```r
-gloss_example(transliteration = "Motor n=wom n=bantu n=yol manusia",
-             glosses = "motor_boat 3SG=come 3SG=help 3SG=carry people",
-             free_translation = "Boats came... they helped... they took people away.",
-             annotation = "Motor nwom... nbantu... nyol manusia.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -191,13 +161,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@euvean1) @moyse-faurie2004, 205, example 9
-
-```r
-gloss_example(transliteration = "Ko te tama nei 'e hopo malimali i loto mala'e o te faleako",
-             glosses = "TOP DEF child DEIC NS jump smile OBL inside yard POSS DEF school",
-             free_translation = "This child jumps smiling in the school yard.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -252,13 +215,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > The process of compounding two verb stems seems to have been much more prevalent in earlier stages of Arrernte. Many of the aspectual and category of associated motions inflections can be seen to derive from the compounding of verb stems. [@wilkins1989, 265, Footnote 43]
 
 (@arrernte1) @wilkins1989, 508, line 14
-
-```r
-gloss_example(transliteration = "Kele arrpenhele tyarre-kng-irtne-ke.",
-             glosses = "okay other:ERG pull_out-take-REVERS-PST.IPFV",
-             free_translation = "So the other one pulled him along after him back towards home.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -277,13 +233,6 @@ gloss_example(transliteration = "Kele arrpenhele tyarre-kng-irtne-ke.",
 </table>
 
 (@arrernte2) @wilkins1989, 516, line 35
-
-```r
-gloss_example(transliteration = "Relhe mape-le ante ampe mape-le arrat-intye-me-le arrwekele-werne re-nhe, mpwepe-ke-rle tne-me-le ile-ke anteme, artange-perte-ke.",
-             glosses = "woman PL-ERG and child PL-ERG appear-DO.COMING-NPST.IPFV-SS front-ALL 3SG-ACC middle-DAT-REL stand-NPST.IPFV-SS tell-PST.PFV(REL) now cooperate-creep_up_on-PST.PFV",
-             free_translation = "The women and children came out and together they closed in on the man who was now standing in the middle talking.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -293,6 +242,8 @@ gloss_example(transliteration = "Relhe mape-le ante ampe mape-le arrat-intye-me-
    <td style="text-align:left;"> _ampe_ </td>
    <td style="text-align:left;"> _mape-le_ </td>
    <td style="text-align:left;"> _arrat-intye-me-le_ </td>
+   <td style="text-align:left;"> _arrwekele-werne_ </td>
+   <td style="text-align:left;"> _re-nhe,_ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> woman </td>
@@ -301,27 +252,11 @@ gloss_example(transliteration = "Relhe mape-le ante ampe mape-le arrat-intye-me-
    <td style="text-align:left;"> child </td>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">pl</span>-<span style="font-variant:small-caps;">erg</span> </td>
    <td style="text-align:left;"> appear-<span style="font-variant:small-caps;">do</span>.<span style="font-variant:small-caps;">coming</span>-<span style="font-variant:small-caps;">npst</span>.<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">ss</span> </td>
-  </tr>
-</tbody>
-</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _arrwekele-werne_ </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> front-<span style="font-variant:small-caps;">all</span> </td>
-  </tr>
-</tbody>
-</table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> _re-nhe,_ </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">3sg</span>-<span style="font-variant:small-caps;">acc</span> </td>
   </tr>
 </tbody>
-</table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
+</table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
    <td style="text-align:left;"> _mpwepe-ke-rle_ </td>
@@ -384,12 +319,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 > A link between catenative complementation and coordination is seen with *try* and *go* ... Go occurs with *and* in coordination, as in *Go and get yourself something to eat*, *I went and got myself something to eat*, but under restrictive conditions it appears without *and*, as in \ref(@english1). Both verbs must be in the plain form and as the construction is specific to *go* it is best treated as a special case of bare infinitival complementation. [@huddlestonpullum2002, 1225]
 
 (@english1) @huddlestonpullum2002, 1225, 50ii
-
-```r
-gloss_example(transliteration = "Go get yourself something to eat.",
-             glosses = "go.IMP get.IMP 2SG.REFL something INF eat")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -435,18 +364,11 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 ### Examples
 
 (@ewe1) @ameka2006, 130, example 8a
-
-```r
-gloss_example(transliteration = "é-yɔ́ ɗeví-á-wó fo fú-i",
-             glosses = "3SG-call child-DEF-PL hit bone-LK",
-             free_translation = "She called the children together.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _é-y&lt;U+0254&gt;´_ </td>
-   <td style="text-align:left;"> _&lt;U+0257&gt;eví-á-wó_ </td>
+   <td style="text-align:left;"> _é-yɔ́_ </td>
+   <td style="text-align:left;"> _ɗeví-á-wó_ </td>
    <td style="text-align:left;"> _fo_ </td>
    <td style="text-align:left;"> _fú-i_ </td>
   </tr>
@@ -462,13 +384,6 @@ gloss_example(transliteration = "é-yɔ́ ɗeví-á-wó fo fú-i",
 </table>
 
 (@ewe1) @ameka2006, 130, example 8a
-
-```r
-gloss_example(transliteration = "é-yÓ Deví-á-wó fo fú-i",
-             glosses = "3SG-call child-DEF-PL hit bone-LK",
-             free_translation = "She called the children together.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -502,24 +417,15 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@ftotonac1) @mcfarland2009, 201, example 252
-
-```r
-gloss_example(transliteration = "na-k-ta-yaa-aa na-k-malakčawa-aa",
-             glosses = "FUT-1SBJ-INC-stand-IPFV FUT-1SBJ-open-IPFV",
-             free_translation = "I will get up to close the door.",
-             annotation = "naktayáa nakmalakčawá")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> naktayáa </td>
-   <td style="text-align:left;"> nakmalakc<u>awá </u>
-</td>
+   <td style="text-align:left;"> nakmalakčawá </td>
   </tr>
   <tr>
    <td style="text-align:left;"> _na-k-ta-yaa-aa_ </td>
-   <td style="text-align:left;"> _na-k-malakc&lt;U+030C&gt;awa-aa_ </td>
+   <td style="text-align:left;"> _na-k-malakčawa-aa_ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">fut</span>-<span style="font-variant:small-caps;">1sbj</span>-<span style="font-variant:small-caps;">inc</span>-stand-<span style="font-variant:small-caps;">ipfv</span> </td>
@@ -533,26 +439,17 @@ gloss_example(transliteration = "na-k-ta-yaa-aa na-k-malakčawa-aa",
 
 
 (@ftotonac2) @mcfarland2009, 202, example 257
-
-```r
-gloss_example(transliteration = "ša-k-laqatí-aa ša-k-'an-aa k-qaɬtawaqá-aa",
-             glosses = "PST-1SBJ-like-IPFV PST-1SBJ-go-IPFV 1SBJ-study-IPFV",
-             free_translation = "I used to like to go to study.",
-             annotation = "šaklaqatí šak'an kqaɬtawaqá")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> šaklaqatí </td>
    <td style="text-align:left;"> šak'an </td>
-   <td style="text-align:left;"> kqa<u>tawaqá </u>
-</td>
+   <td style="text-align:left;"> kqaɬtawaqá </td>
   </tr>
   <tr>
    <td style="text-align:left;"> _ša-k-laqatí-aa_ </td>
    <td style="text-align:left;"> _ša-k-'an-aa_ </td>
-   <td style="text-align:left;"> _k-qa&lt;U+026C&gt;tawaqá-aa_ </td>
+   <td style="text-align:left;"> _k-qaɬtawaqá-aa_ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">pst</span>-<span style="font-variant:small-caps;">1sbj</span>-like-<span style="font-variant:small-caps;">ipfv</span> </td>
@@ -619,13 +516,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@gayo1) @eades2005, 138, example 6-96
-
-```r
-gloss_example(transliteration = "Wè kunul mongot.",
-             glosses = "3 sit AV:weep",
-             free_translation = "She sat weeping. / She sat and (then) wept.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -644,13 +534,6 @@ gloss_example(transliteration = "Wè kunul mongot.",
 </table>
 
 (@gayo1) @eades2005, 139, example 6-102
-
-```r
-gloss_example(transliteration = "Maté wè i-tuh-i atang.",
-             glosses = "die 3 UV-fall-LOC log",
-             free_translation = "He died (after having been) fallen on by a log.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -688,13 +571,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@goemai1) @hellwig2006, 91, example 2a
-
-```r
-gloss_example(transliteration = "sai su ru n-goede gado",
-             glosses = "then run.SG enter.SG LOC-bottom bed",
-             free_translation = "Then (he) ran (and) entered under the bed.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -717,13 +593,6 @@ gloss_example(transliteration = "sai su ru n-goede gado",
 </table>
 
 (@goemai2) @hellwig2006, 91, example 2e
-
-```r
-gloss_example(transliteration = "mûep swo / mûep rwo n-s'et",
-             glosses = "3PL run.PL {} 3PL enter.PL LOC-bush",
-             free_translation = "They ran, (and) they entered into the bush.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>

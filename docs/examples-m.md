@@ -14,13 +14,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Citation [@gudai1985, 284-286]
 
 (@maanyan1) Aiton 2016:200, example 27
-
-```r
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -78,13 +71,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 (@mali1) @stebbins2011, 213, example 13.19
 
-```r
-gloss_example(transliteration = "kama me:ng-ka sa ka=pe the:n.se:=ka i mali ka nangger",
-             glosses = "ART tree-MASC.SG NEF 3MASC.SG=be_there grow_well.FUT=3MASC.SG because earlier 3MASC.SG be_bent.NI",
-             free_translation = "The three is standing up where once (lit. 'because') it was bent.",
-             annotation = "Kama me:ngga sa chave re:n.se:cha i mali cha nangger.")
-```
-
 ```
 ## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
@@ -137,14 +123,6 @@ gloss_example(transliteration = "kama me:ng-ka sa ka=pe the:n.se:=ka i mali ka n
 ```
 
 (@mali2) @stebbins2011, 292, example 18.24
-
-```r
-gloss_example(transliteration = "da ta the:k.ne:=athe:vama chases-ta va ta thet ti ngim nani kama a=ru-ta",
-             glosses = "and 3H.PL send.NPRES=3H.PL.POSS spy-H.PL PURP 3H.PL go.FUT 3H.PL look.PRES for ART SPEC=person-H.PL",
-             free_translation = "And they sent their spies... to go out and look for people...",
-             annotation = "De: tha the:k.nathe:vama chasesta... va tha thet ti ngim nani chama arutha...")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -221,20 +199,13 @@ IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 ### Examples
 
 (@manam1) @lichtenberk1983, 561
-
-```r
-gloss_example(transliteration = "waríge ŋe go-láʔo go-tótoʔ-i",
-             glosses = "rope this 2SG.IRR-go 2SG.IRR-cut-3SG.OBJ",
-             free_translation = "Go cut this rope!")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> _waríge_ </td>
-   <td style="text-align:left;"> _&lt;U+014B&gt;e_ </td>
-   <td style="text-align:left;"> _go-lá&lt;U+0294&gt;o_ </td>
-   <td style="text-align:left;"> _go-tóto&lt;U+0294&gt;-i_ </td>
+   <td style="text-align:left;"> _ŋe_ </td>
+   <td style="text-align:left;"> _go-láʔo_ </td>
+   <td style="text-align:left;"> _go-tótoʔ-i_ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> rope </td>
@@ -264,22 +235,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@mandarin1) @wiedenhof2015, 136, example 5.34a
-
-```r
-gloss_example(transliteration = "wó gěi ta xiě xìn",
-             glosses = "1.SG give 3 write letter",
-             free_translation = "literally ‘I bestow on him and write a letter’ >",
-             comment = "(i) ‘I am writing him a letter’ (the letter being written to him)
-             (ii) ‘I am writing a letter for him’")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> _wó_ </td>
-   <td style="text-align:left;"> _gei_ </td>
+   <td style="text-align:left;"> _gěi_ </td>
    <td style="text-align:left;"> _ta_ </td>
-   <td style="text-align:left;"> _xie_ </td>
+   <td style="text-align:left;"> _xiě_ </td>
    <td style="text-align:left;"> _xìn_ </td>
   </tr>
   <tr>
@@ -297,21 +259,13 @@ gloss_example(transliteration = "wó gěi ta xiě xìn",
 </table>
 
 (@mandarin2) @wiedenhof2015, 136, example 5.34b
-
-```r
-gloss_example(transliteration = "wó xiě xìn gěi ta",
-             glosses = "1.SG write letter give 3",
-             free_translation = "literally ‘I write a letter and bestow on him’ >",
-             comment = "‘I am writing a letter to him’")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> _wó_ </td>
-   <td style="text-align:left;"> _xie_ </td>
+   <td style="text-align:left;"> _xiě_ </td>
    <td style="text-align:left;"> _xìn_ </td>
-   <td style="text-align:left;"> _gei_ </td>
+   <td style="text-align:left;"> _gěi_ </td>
    <td style="text-align:left;"> _ta_ </td>
   </tr>
   <tr>
@@ -329,13 +283,6 @@ gloss_example(transliteration = "wó xiě xìn gěi ta",
 </table>
 
 (@mandarin3) @wiedenhof2015, 130, example 5.27
-
-```r
-gloss_example(transliteration = "Suóyi dà bùfen de rén <m> dōu shi yòng xīshì jié hūn <oh>",
-             glosses = "therefore big part SUB person mm all be use western_style connect marriage oh",
-             free_translation = "Therefore most people <mm> have a Western-style wedding <oh>.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -345,12 +292,12 @@ gloss_example(transliteration = "Suóyi dà bùfen de rén <m> dōu shi yòng x�
    <td style="text-align:left;"> _de_ </td>
    <td style="text-align:left;"> _rén_ </td>
    <td style="text-align:left;"> _&lt;m&gt;_ </td>
-   <td style="text-align:left;"> _dou_ </td>
+   <td style="text-align:left;"> _dōu_ </td>
    <td style="text-align:left;"> _shi_ </td>
    <td style="text-align:left;"> _yòng_ </td>
-   <td style="text-align:left;"> _xishì_ </td>
+   <td style="text-align:left;"> _xīshì_ </td>
    <td style="text-align:left;"> _jié_ </td>
-   <td style="text-align:left;"> _hun_ </td>
+   <td style="text-align:left;"> _hūn_ </td>
    <td style="text-align:left;"> _&lt;oh&gt;_ </td>
   </tr>
   <tr>
@@ -398,13 +345,6 @@ An auxiliary verb always follows the main verb. The auxiliary verb (the final on
 ### Examples
 
 (@mangghuer1) @slater2005, 135, example 43
-
-```r
-gloss_example(transliteration = "nughuai pusa di ge-jiang.",
-             glosses = "dog another eat do-OBJ:PERF",
-             free_translation = "the dog also ate (it).")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -425,13 +365,6 @@ gloss_example(transliteration = "nughuai pusa di ge-jiang.",
 </table>
 
 (@mangghuer2) @slater2005, 244, example 50
-
-```r
-gloss_example(transliteration = "gan xi gan=ni bulai=ni liang-banjier cida danana gerdi kerla gher-gha-jiang.",
-             glosses = "3SG go 3SG=GEN child=ACC two-piece tear after roof throw go_out-CAUS-OBJ:PERF",
-             free_translation = "He (Monkey) went, tore his child into two pieces, (and) threw (the pieces) onto the roof.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -464,13 +397,6 @@ gloss_example(transliteration = "gan xi gan=ni bulai=ni liang-banjier cida danan
 </table>
 
 (@mangghuer3) @slater2005, 259, example 81
-
-```r
-gloss_example(transliteration = "zaohuang=du xi shuer=ni bari gui-jiang.",
-             glosses = "kitchen=DAT go chopsticks=ACC take run-OBJ:PERF",
-             free_translation = "(she) went into the kitchen, took the chopsticks and ran.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -506,13 +432,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 > Citation [@smeets2008, 176; @zuniga2006, 10-11, 38]
 
 (@language1) Aiton 2016:200, example 27
-
-```r
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -547,13 +466,6 @@ Although there is some evidence for the serial verb construction forming a gramm
 ### Examples
 
 (@mawng1) @singer2006, 131, example 4-85
-
-```r
-gloss_example(transliteration = "Waka-pa k-i-wani-ø k-ani-mirlaju-n ja y-ara ja single.",
-             glosses = "DIST.LAND-EMPH PRS-3MASC-sit-NPST PRS-3MASC/3LAND-wait_for-NPST MASC MASC-other MASC single_man",
-             free_translation = "During that time he keeps on waiting (for a wife), the single man.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>
@@ -587,13 +499,6 @@ gloss_example(transliteration = "Waka-pa k-i-wani-ø k-ani-mirlaju-n ja y-ara ja
 </table>
 
 (@mawng2) @singer2006, 131, example 4-86
-
-```r
-gloss_example(transliteration = "K-a-wani-ø apu-la-ngung walij",
-             glosses = "PRS-3PL-sit-NPST 3PL/3EDIB-eat-PST.CONT food",
-             free_translation = "They were eating food.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -612,13 +517,6 @@ gloss_example(transliteration = "K-a-wani-ø apu-la-ngung walij",
 </table>
 
 (@mawng3) @singer2006, 132, example 4-87
-
-```r
-gloss_example(transliteration = "Nuka ja k-i-wani-ø k-ani-wurru-n.",
-             glosses = "PROX.MASC MASC PRS-3MASC-sit-NPST PRS-3MASC/3LAND-know-NPST",
-             free_translation = "He's the one who knows.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -659,12 +557,6 @@ Note here that pauses are stylised as \</\>.
 
 (@maybrat1) @dol2007, 213, example 124a
 
-```r
-gloss_example(transliteration = "m-amo m-ate ayà /",
-             glosses = "3.UV-go 3.UV-go_under water {}",
-             free_translation = "She goes and bathes.")
-```
-
 ```
 ## Warning in matrix(for_matrix, nrow = nrow_matrix, byrow = TRUE): data length [7]
 ## is not a sub-multiple or multiple of the number of rows [2]
@@ -690,12 +582,6 @@ gloss_example(transliteration = "m-amo m-ate ayà /",
 </table>
 
 (@maybrat2) @dol2007, 213, example 124b
-
-```r
-gloss_example(transliteration = "m-amo / m-ate ayà /",
-             glosses = "3.UV-go {} 3.UV-go_under water {}",
-             free_translation = "She goes, and bathes.")
-```
 
 ```
 ## Warning in matrix(for_matrix, nrow = nrow_matrix, byrow = TRUE): data length [9]
@@ -724,13 +610,6 @@ gloss_example(transliteration = "m-amo / m-ate ayà /",
 </table>
 
 (@maybrat3) @dol2007, 216, example 140b
-
-```r
-gloss_example(transliteration = "aya ro m-amo m-ate m-hu e",
-             glosses = "water REL 3.UV-go 3.UV-go_under 3.UV-stay far",
-             free_translation = "The river that she goes and bathes in is far.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -789,13 +668,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 > Source [@whitehead2004, 29-30, 181-187]
 
 (@menya1) Aiton 2016:200, example 27
-
-```r
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -827,13 +699,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@meriam2) @piper1989, 100, example 3.65
-
-```r
-gloss_example(transliteration = "wi na-kasir weret-lare",
-             glosses = "3NSG.SBJ 3NSG.SBJ-go_along AUX.PL-NPRS.PL",
-             free_translation = "They were going along.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -852,13 +717,6 @@ gloss_example(transliteration = "wi na-kasir weret-lare",
 </table>
 
 (@meriam1) @piper1989, 96, example 3.58
-
-```r
-gloss_example(transliteration = "ma ta-bakyamu-ø, ge ikedi-ø",
-             glosses = "2SG.SBJ DEIX-go.SG/DU.SBJ-2/3.FUT DEIX put_down.SG/DU.OBJ-2/3.FUT",
-             free_translation = "Come, put it down here.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -894,13 +752,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@meyah1) @gravelle2004, 238, example 238
-
-```r
-gloss_example(transliteration = "Rua ri-em-eja ri-agob rua ongga Morum",
-             glosses = "they 3PL-IRR-go 3PL-strike they REL Mpur",
-             free_translation = "They would go to fight those who were Mpur people.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -925,13 +776,6 @@ gloss_example(transliteration = "Rua ri-em-eja ri-agob rua ongga Morum",
 </table>
 
 (@meyah1) @gravelle2004, 237, example 192
-
-```r
-gloss_example(transliteration = "ri-agob / ef marfeb / eij",
-             glosses = "3PL-strike {} hang rope {} throw",
-             free_translation = "They killed (a tree kangaroo, and then) he/she tied (it with a rope and) he/she threw (it over their back).")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -992,13 +836,6 @@ Shared subject marking on the final verb indicates that the verbs or verb phrase
 ### Examples
 
 (@momu1) @honeyman2016, 420, example 13.2a
-
-```r
-gloss_example(transliteration = "Fyi pwe=pana=kiye!",
-             glosses = "beer |one.|comes=get.one=consume:SG:IMP",
-             free_translation = "Come drink a beer!")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1015,13 +852,6 @@ gloss_example(transliteration = "Fyi pwe=pana=kiye!",
 </table>
 
 (@momu3) @honeyman2016, 420, example 13.2b
-
-```r
-gloss_example(transliteration = "Te pin, abe panai.",
-             glosses = "1SG one.goes|1/3SG.SBJ| axe get.one|1SG.SBJ|",
-             free_translation = "Come drink a beer!")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1042,13 +872,6 @@ gloss_example(transliteration = "Te pin, abe panai.",
 </table>
 
 (@momu2) @honeyman2016, 474, example 14.37
-
-```r
-gloss_example(transliteration = "Na fyi=m kuw mereke-ta fey=m ta-mu.",
-             glosses = "and beer=OBL consume_3SG.SBJ soft-INCH fight=OBL do_3SG.SBJ-VOL.FUT",
-             free_translation = "And then he became drunk and (he) wanted to fight.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1106,13 +929,6 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@mundari1) @osada1992, 110, example 70
-
-```r
-gloss_example(transliteration = "ne saan sarima-cetaN-te-bu dondo-rakah-e-a",
-             glosses = "this firewood roof-over-to-1PL.INCL lift-go_up-it-Prd",
-             free_translation = "We will lift this firewood and take it up to the roof.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1145,12 +961,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 (@mungbam1) @lovegren2013, 219, example 8.12
 
-```r
-gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
-             glosses = "CL1 hold.IPFV peel.IPFV off.IPFV exit.IPFV VENT.IPFV CL5-skin",
-             free_translation = "He is peeling off the [pig’s] skin [towards himself]...")
-```
-
 ```
 ## Warning in glosses_by_word[which(glosses_by_word != "PUNCT")] <-
 ## unlist(strsplit(glosses, : number of items to replace is not a multiple of
@@ -1167,7 +977,7 @@ gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
   <tr>
    <td style="text-align:left;"> _ù_ </td>
    <td style="text-align:left;"> _kwˆO_ </td>
-   <td style="text-align:left;"> _wˆil@_ </td>
+   <td style="text-align:left;"> _wˆıl@_ </td>
    <td style="text-align:left;"> _f@_ </td>
    <td style="text-align:left;"> _`_ </td>
    <td style="text-align:left;"> _bEˆhE_ </td>
@@ -1190,19 +1000,12 @@ gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
 </table>
 
 (@mungbam2) @lovegren2013, 247, example 8.122
-
-```r
-gloss_example(transliteration = "bú mà ú-tőm m@` dzoˆ kwàha",
-             glosses = "CL2 take CL3-village then call gather",
-             free_translation = "They took the village and called and gathered [them].")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
    <td style="text-align:left;"> _bú_ </td>
    <td style="text-align:left;"> _mà_ </td>
-   <td style="text-align:left;"> _ú-to&lt;U+030B&gt;m_ </td>
+   <td style="text-align:left;"> _ú-tőm_ </td>
    <td style="text-align:left;"> _m@`_ </td>
    <td style="text-align:left;"> _dzoˆ_ </td>
    <td style="text-align:left;"> _kwàha_ </td>
@@ -1222,25 +1025,19 @@ gloss_example(transliteration = "bú mà ú-tőm m@` dzoˆ kwàha",
 
 (@mungbam3) @lovegren2013, 350, example 11.32
 
-```r
-gloss_example(transliteration = "Nk`E w`O wū à jÉl`@ kì fa̋-NkŹOn@, wà toŹ pıŹ tˆa m`-pıŹ-n`@",
-             glosses = "as CL1.child CL1.DET EXPL.SBJ ascend.IRR IPFV CL16-compound CL1.SBJ come.IRR die.IRR only CL1.INF-die-INF",
-             free_translation = "As the child came up into the compound, he would just come and *die*.")
-```
-
 ```
 ## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 ## <tbody>
 ##   <tr>
 ##    <td style="text-align:left;"> _Nk`E_ </td>
 ##    <td style="text-align:left;"> _w`O_ </td>
-##    <td style="text-align:left;"> _wu¯_ </td>
+##    <td style="text-align:left;"> _wū_ </td>
 ##    <td style="text-align:left;"> _à_ </td>
 ##    <td style="text-align:left;"> _jÉl`@_ </td>
 ##    <td style="text-align:left;"> _kì_ </td>
-##    <td style="text-align:left;"> _fa&lt;U+030B&gt;-NkZOn@,_ </td>
+##    <td style="text-align:left;"> _fa̋-NkŹOn@,_ </td>
 ##    <td style="text-align:left;"> _wà_ </td>
-##    <td style="text-align:left;"> _toZ_ </td>
+##    <td style="text-align:left;"> _toŹ_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> as </td>
@@ -1257,9 +1054,9 @@ gloss_example(transliteration = "Nk`E w`O wū à jÉl`@ kì fa̋-NkŹOn@, wà t
 ## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 ## <tbody>
 ##   <tr>
-##    <td style="text-align:left;"> _piZ_ </td>
+##    <td style="text-align:left;"> _pıŹ_ </td>
 ##    <td style="text-align:left;"> _tˆa_ </td>
-##    <td style="text-align:left;"> _m`-piZ-n`@_ </td>
+##    <td style="text-align:left;"> _m`-pıŹ-n`@_ </td>
 ##   </tr>
 ##   <tr>
 ##    <td style="text-align:left;"> die.<span style="font-variant:small-caps;">irr</span> </td>
@@ -1284,13 +1081,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@murrinhpatha2) @blythe2009, 364, On the Flat line 103
-
-```r
-gloss_example(transliteration = "ngunu-murrk-nu=ngi",
-             glosses = "1SG.S.7go.FUT-eat-FUT=1SG.S.1sit.FUT",
-             free_translation = "I want to eat some.")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1305,13 +1095,6 @@ gloss_example(transliteration = "ngunu-murrk-nu=ngi",
 </table>
 
 (@murrinhpatha3) @blythe2009, 378, Ningbingi line 13
-
-```r
-gloss_example(transliteration = "me-nge-dha=pirri",
-             glosses = "3SG.S.say.PSTIMP-3SG.IO-PST=3SG.S.3stand.PSTIMP",
-             free_translation = "He was saying to her...")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
@@ -1326,13 +1109,6 @@ gloss_example(transliteration = "me-nge-dha=pirri",
 </table>
 
 (@murrinhpatha1) @blythe2009, 364, On the Flat line 87
-
-```r
-gloss_example(transliteration = "ku panda thanggugu thurdana-ngintha-yitj-tha=tjini ha ha",
-             glosses = "animate that.you.know what_animate? 2SG.S.30.PSTIMP-DU.F.NSIB-tell_story-PST=2SG.S.1sit.PSTIMP ha ha",
-             free_translation = "That thing of the 'ku' class, whatitsname. You two were telling that story. ")
-```
-
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
 <tbody>
   <tr>

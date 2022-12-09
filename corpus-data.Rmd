@@ -1,11 +1,11 @@
 # Corpus Data
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(lingglosses)
-#library(linguisticsdown)
-#linguisticsdown::writeIPA()
-```
+<!-- ```{r setup, include=FALSE} -->
+<!-- knitr::opts_chunk$set(echo = TRUE) -->
+<!-- library(lingglosses) -->
+<!-- #library(linguisticsdown) -->
+<!-- #linguisticsdown::writeIPA() -->
+<!-- ``` -->
 
 ## Aimele
 ### Details

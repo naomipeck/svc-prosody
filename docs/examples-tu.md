@@ -105,9 +105,9 @@ gloss_example(transliteration = "ɑ̀d n-ækš n-əsə́w",
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _&lt;U+0251&gt;`d_ </td>
-   <td style="text-align:left;"> _n-æks&lt;U+030C&gt;_ </td>
-   <td style="text-align:left;"> _n-&lt;U+0259&gt;s&lt;U+0259&gt;´w_ </td>
+   <td style="text-align:left;"> _ɑ̀d_ </td>
+   <td style="text-align:left;"> _n-ækš_ </td>
+   <td style="text-align:left;"> _n-əsə́w_ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">fut</span> </td>
@@ -129,47 +129,24 @@ gloss_example(transliteration = "ɑd ə̀wət-Aɤ t-è-hæle æ̀ŋɤ-æq-qæt",
              free_translation = "I will hit and kill the sheep.")
 ```
 
-```
-## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _&lt;U+0251&gt;d_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">fut</span> </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _&lt;U+0259&gt;`w&lt;U+0259&gt;t-A&lt;U+0264&gt;_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> hit.<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">sbj</span> </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _t-è-hæle_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">fem</span>-<span style="font-variant:small-caps;">sg</span>-sheep </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _æ`&lt;U+014B&gt;&lt;U+0264&gt;-æq-qæt_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> kill.<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">sbj</span>-<span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">fem</span>.<span style="font-variant:small-caps;">obj</span> </td>
-##   </tr>
-## </tbody>
-## <tfoot><tr><td style="padding: 0; " colspan="100%">
-## <sup></sup> 'I will hit and kill the sheep.'</td></tr></tfoot>
-## </table>
-```
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _ɑd_ </td>
+   <td style="text-align:left;"> _ə̀wət-Aɤ_ </td>
+   <td style="text-align:left;"> _t-è-hæle_ </td>
+   <td style="text-align:left;"> _æ̀ŋɤ-æq-qæt_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">fut</span> </td>
+   <td style="text-align:left;"> hit.<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">sbj</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">fem</span>-<span style="font-variant:small-caps;">sg</span>-sheep </td>
+   <td style="text-align:left;"> kill.<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">sbj</span>-<span style="font-variant:small-caps;">3sg</span>.<span style="font-variant:small-caps;">fem</span>.<span style="font-variant:small-caps;">obj</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'I will hit and kill the sheep.'</td></tr></tfoot>
+</table>
 
 ## Tariana!
 ### Details
@@ -253,60 +230,30 @@ gloss_example(transliteration = "mɛ̂ɛ cà pǐt fay nɔɔn lɛ́ɛw ná",
              free_translation = "Mother will turn off the light and go to bed, okay.")
 ```
 
-```
-## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _m&lt;U+025B&gt;^&lt;U+025B&gt;_ </td>
-##    <td style="text-align:left;"> _cà_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> mother.<span style="font-variant:small-caps;">1</span> </td>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">cm</span> </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _pi&lt;U+030C&gt;t_ </td>
-##    <td style="text-align:left;"> _fay_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> turn_off </td>
-##    <td style="text-align:left;"> light </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _l&lt;U+025B&gt;´&lt;U+025B&gt;w_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">asp</span> </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _ná_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">part</span> </td>
-##   </tr>
-## </tbody>
-## <tfoot><tr><td style="padding: 0; " colspan="100%">
-## <sup></sup> 'Mother will turn off the light and go to bed, okay.'</td></tr></tfoot>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _n&lt;U+0254&gt;&lt;U+0254&gt;n_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> sleep </td>
-##   </tr>
-## </tbody>
-## </table>
-```
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _mɛ̂ɛ_ </td>
+   <td style="text-align:left;"> _cà_ </td>
+   <td style="text-align:left;"> _pǐt_ </td>
+   <td style="text-align:left;"> _fay_ </td>
+   <td style="text-align:left;"> _nɔɔn_ </td>
+   <td style="text-align:left;"> _lɛ́ɛw_ </td>
+   <td style="text-align:left;"> _ná_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mother.<span style="font-variant:small-caps;">1</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cm</span> </td>
+   <td style="text-align:left;"> turn_off </td>
+   <td style="text-align:left;"> light </td>
+   <td style="text-align:left;"> sleep </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">asp</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">part</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'Mother will turn off the light and go to bed, okay.'</td></tr></tfoot>
+</table>
 
 (@thai2) @iwasakihorie2005, 234
 
@@ -353,7 +300,7 @@ gloss_example(transliteration = "nók nǎaw taay",
 <tbody>
   <tr>
    <td style="text-align:left;"> _nók_ </td>
-   <td style="text-align:left;"> _na&lt;U+030C&gt;aw_ </td>
+   <td style="text-align:left;"> _nǎaw_ </td>
    <td style="text-align:left;"> _taay_ </td>
   </tr>
   <tr>
@@ -482,9 +429,9 @@ gloss_example(transliteration = "Bíku=gɛ gòò-nd-áa ú=ɲ̀ òb-ì-m",
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _Bíku=g&lt;U+025B&gt;_ </td>
+   <td style="text-align:left;"> _Bíku=gɛ_ </td>
    <td style="text-align:left;"> _gòò-nd-áa_ </td>
-   <td style="text-align:left;"> _ú=&lt;U+0272&gt;`_ </td>
+   <td style="text-align:left;"> _ú=ɲ̀_ </td>
    <td style="text-align:left;"> _òb-ì-m_ </td>
   </tr>
   <tr>
@@ -783,7 +730,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 ```r
 gloss_example(transliteration = "Ne fakasiga tagi ki vae o tena maatua kee fakamaagalo ia.",
-             glosses = "PST CST+fall cry to foot of his mother SBJ forgive 3SG",
+             glosses = "PST CST:fall cry to foot of his mother SBJ forgive 3SG",
              free_translation = "[He] fell cry[ing] to his mother's feet [for her] to forgive him.")
 ```
 
@@ -804,7 +751,7 @@ gloss_example(transliteration = "Ne fakasiga tagi ki vae o tena maatua kee fakam
   </tr>
   <tr>
    <td style="text-align:left;"> <span style="font-variant:small-caps;">pst</span> </td>
-   <td style="text-align:left;"> CST+fall </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">cst</span>:fall </td>
    <td style="text-align:left;"> cry </td>
    <td style="text-align:left;"> to </td>
    <td style="text-align:left;"> foot </td>
@@ -841,74 +788,30 @@ gloss_example(transliteration = "wàthíʔ dǒsh-óʼd ì yà ʼdéʼk sh
              free_translation = "The man is standing and goes to lift a tire.")
 ```
 
-```
-## <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _i`_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> <span style="font-variant:small-caps;">lk</span> </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _ya`_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> go </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _'de´'k_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> lift </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _do&lt;U+030C&gt;sh-o´'d_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> stand:<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">3sg</span> </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _wa`thi´&lt;U+0294&gt;_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> man </td>
-##   </tr>
-## </tbody>
-## </table> <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _sho¯'k_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> foot </td>
-##   </tr>
-## </tbody>
-## </table><table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
-## <tbody>
-##   <tr>
-##    <td style="text-align:left;"> _a¯ra`bi´ya¯&lt;U+0294&gt;_ </td>
-##   </tr>
-##   <tr>
-##    <td style="text-align:left;"> vehicle </td>
-##   </tr>
-## </tbody>
-## <tfoot><tr><td style="padding: 0; " colspan="100%">
-## <sup></sup> 'The man is standing and goes to lift a tire.'</td></tr></tfoot>
-## </table>
-```
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _wàthíʔ_ </td>
+   <td style="text-align:left;"> _dǒsh-ó'd_ </td>
+   <td style="text-align:left;"> _ì_ </td>
+   <td style="text-align:left;"> _yà_ </td>
+   <td style="text-align:left;"> _'dé'k_ </td>
+   <td style="text-align:left;"> _shō'k_ </td>
+   <td style="text-align:left;"> _āràbíyāʔ_ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> man </td>
+   <td style="text-align:left;"> stand:<span style="font-variant:small-caps;">ipfv</span>-<span style="font-variant:small-caps;">3sg</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">lk</span> </td>
+   <td style="text-align:left;"> go </td>
+   <td style="text-align:left;"> lift </td>
+   <td style="text-align:left;"> foot </td>
+   <td style="text-align:left;"> vehicle </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'The man is standing and goes to lift a tire.'</td></tr></tfoot>
+</table>
 
 (@uduk2) @killian2015, 249, example 785
 
