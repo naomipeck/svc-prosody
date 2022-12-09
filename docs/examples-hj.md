@@ -1,6 +1,6 @@
 
 
-## Haida!
+## Haida
 ### Details
 Glottocode: nort2938 <br> 
 Family: Isolate <br>
@@ -11,38 +11,88 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@enrico2003]
+> It is necessary to carefully distinguish compound verbs from serial constructions (which do not occur in Haida) on the one hand, and from sequences of main verbs plus verb-complex elements (which are phrases rather than lexical items) on the other. Like all phrases and unlike verb-verb compounds, sequences of verb followed by verb-complex element(s) exhibit productivity limited only by semantic compatibility. ... In all languages with serial verbs, verb sequences describing acts of moving and then getting something have the verbs in that order (Durie 1997:304, 310, 335-336). Note, then, the order of verb and movement verb-complex element in \ref(@haida1) and \ref(@haida2), and also the order of the transient verb-complex elements vis a vis the head verb in \ref(@haida3). [@enrico2003, 1125-1126]
 
-(@haida1) Aiton 2016:200, example 27
+Note that I understand Enrico's argument for Haida not having SVCs to be that the order of verbal elements is unlike the SVCs discussed in @durie1997; however, this argument is orthogonal to the data that he presents.
+
+(@haida1) @enrico2003, 1125, example 36b
 
 ```r
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ya.aats' 'la tl'ak'a qaa-gya.ang-gang.",
+             glosses = "knife 3 whet walk-PROG-PRS",
+             free_translation = "He is walking along whetting a knife.")
 ```
 
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _ko:dulu_ </td>
-   <td style="text-align:left;"> _sulo:bo-mo:_ </td>
-   <td style="text-align:left;"> _wElE_ </td>
-   <td style="text-align:left;"> _sE:-ja:_ </td>
+   <td style="text-align:left;"> _ya.aats'_ </td>
+   <td style="text-align:left;"> _'la_ </td>
+   <td style="text-align:left;"> _tl'ak'a_ </td>
+   <td style="text-align:left;"> _qaa-gya.ang-gang._ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> downward </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">name</span>-<span style="font-variant:small-caps;">dat</span> </td>
-   <td style="text-align:left;"> shout </td>
-   <td style="text-align:left;"> say-<span style="font-variant:small-caps;">pst</span> </td>
+   <td style="text-align:left;"> knife </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span> </td>
+   <td style="text-align:left;"> whet </td>
+   <td style="text-align:left;"> walk-<span style="font-variant:small-caps;">prog</span>-<span style="font-variant:small-caps;">prs</span> </td>
   </tr>
 </tbody>
 <tfoot><tr><td style="padding: 0; " colspan="100%">
-<sup></sup> 'I shouted it down to Solo:bu.'</td></tr></tfoot>
+<sup></sup> 'He is walking along whetting a knife.'</td></tr></tfoot>
 </table>
 
+(@haida2) @enrico2003, 1126, example 39a
 
+```r
+gloss_example(transliteration = "'laa-ga 'la di.ing dluwii-gwaang-gang.",
+             glosses = "3-POSTP 3 search run-around-PRS",
+             free_translation = "He is running around searching for her.")
+```
 
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _'laa-ga_ </td>
+   <td style="text-align:left;"> _'la_ </td>
+   <td style="text-align:left;"> _di.ing_ </td>
+   <td style="text-align:left;"> _dluwii-gwaang-gang._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span>-<span style="font-variant:small-caps;">postp</span> </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span> </td>
+   <td style="text-align:left;"> search </td>
+   <td style="text-align:left;"> run-around-<span style="font-variant:small-caps;">prs</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He is running around searching for her.'</td></tr></tfoot>
+</table>
 
+(@haida3) @enrico2003, 1127, example 40b
+
+```r
+gloss_example(transliteration = "'la hlranggula 7in-gan.",
+             glosses = "3 work leave_to_do-PST",
+             free_translation = "He went to work (on a vehicle).")
+```
+
+<table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; border-bottom: 0;'>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> _'la_ </td>
+   <td style="text-align:left;"> _hlranggula_ </td>
+   <td style="text-align:left;"> _7in-gan._ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">3</span> </td>
+   <td style="text-align:left;"> work </td>
+   <td style="text-align:left;"> leave_to_do-<span style="font-variant:small-caps;">pst</span> </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> 'He went to work (on a vehicle).'</td></tr></tfoot>
+</table>
 
 ## Hakhun Tangsa
 ### Details
@@ -497,7 +547,6 @@ gloss_example(transliteration = "miidí-Ø nuwí-Ø úˀsia-c",
 <tfoot><tr><td style="padding: 0; " colspan="100%">
 <sup></sup> 'He arrived by crawling.'</td></tr></tfoot>
 </table>
-<!-- fix example -->
 
 
 (@hidatsa2) @park2012, 545, example 124
@@ -528,7 +577,6 @@ gloss_example(transliteration = "ma-iréˀ goowí-waa-c",
 <tfoot><tr><td style="padding: 0; " colspan="100%">
 <sup></sup> 'I finished talking.'</td></tr></tfoot>
 </table>
-<!-- fix example -->
 
 ## Highland Populuca!
 ### Details
@@ -541,7 +589,8 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@dejongboudreault2009, 672ff.]
+> Serial verb constructions, especially nuclear serial verbs, make up a unique type of multi-verb construction in that, as stated above, more than one verb forms a complex, tightly bound unit requiring no special linking morphology that denotes a single event such that they share arguments, aspect, tense and mood. Each of these properties are described here.
+ [@dejongboudreault2009, 674]
 
 (@highland1) Aiton 2016:200, example 27
 

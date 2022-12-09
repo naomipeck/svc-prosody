@@ -7,7 +7,7 @@ documentclass: book
 mainfont: arial
 output:
   bookdown::gitbook:
-    split_bib: false
+    split_bib: true
     split_by: section
 #    toc:
 #      collapse: section

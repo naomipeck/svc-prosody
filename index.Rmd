@@ -7,7 +7,7 @@ documentclass: book
 mainfont: arial
 output:
   bookdown::gitbook:
-    split_bib: false
+    split_bib: true
     split_by: section
 #    toc:
 #      collapse: section
@@ -25,7 +25,7 @@ link-citations: yes
 # Abstract {-}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 #install.packages("remotes")
 #remotes::install_github("agricolamz/lingglosses")
 library(lingglosses)

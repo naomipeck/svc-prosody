@@ -370,7 +370,7 @@ gloss_example(transliteration = "Relhe mape-le ante ampe mape-le arrat-intye-me-
 <!-- ``` -->
 
 
-## English!
+## English
 ### Details
 Glottocode: stan1293 <br> 
 Family: Indo-European <br>
@@ -381,13 +381,13 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 ### Examples
 
-> Citation [@huddlestonpullum2002]
+> A link between catenative complementation and coordination is seen with *try* and *go* ... Go occurs with *and* in coordination, as in *Go and get yourself something to eat*, *I went and got myself something to eat*, but under restrictive conditions it appears without *and*, as in \ref(@english1). Both verbs must be in the plain form and as the construction is specific to *go* it is best treated as a special case of bare infinitival complementation. [@huddlestonpullum2002, 1225]
 
-(@english1) Personal Knowledge
+(@english1) @huddlestonpullum2002, 1225, 50ii
 
 ```r
-gloss_example(transliteration = "Go get me some food!",
-             glosses = "go.IMP get.IMP 1SG.ACC some food")
+gloss_example(transliteration = "Go get yourself something to eat.",
+             glosses = "go.IMP get.IMP 2SG.REFL something INF eat")
 ```
 
 <table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; width: auto !important; '>
@@ -395,16 +395,18 @@ gloss_example(transliteration = "Go get me some food!",
   <tr>
    <td style="text-align:left;"> _Go_ </td>
    <td style="text-align:left;"> _get_ </td>
-   <td style="text-align:left;"> _me_ </td>
-   <td style="text-align:left;"> _some_ </td>
-   <td style="text-align:left;"> _food!_ </td>
+   <td style="text-align:left;"> _yourself_ </td>
+   <td style="text-align:left;"> _something_ </td>
+   <td style="text-align:left;"> _to_ </td>
+   <td style="text-align:left;"> _eat._ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> go.<span style="font-variant:small-caps;">imp</span> </td>
    <td style="text-align:left;"> get.<span style="font-variant:small-caps;">imp</span> </td>
-   <td style="text-align:left;"> <span style="font-variant:small-caps;">1sg</span>.<span style="font-variant:small-caps;">acc</span> </td>
-   <td style="text-align:left;"> some </td>
-   <td style="text-align:left;"> food </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">2sg</span>.<span style="font-variant:small-caps;">refl</span> </td>
+   <td style="text-align:left;"> something </td>
+   <td style="text-align:left;"> <span style="font-variant:small-caps;">inf</span> </td>
+   <td style="text-align:left;"> eat </td>
   </tr>
 </tbody>
 </table>

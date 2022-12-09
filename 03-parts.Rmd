@@ -11,7 +11,7 @@ library(tidyverse)
 
 Here I'm going to include an overview of what data this poster is based on, including information about my coding.
 
-```{r map, echo=FALSE}
+```{r map}
 
 full_glottolog <- lingtypology::glottolog
 svc_prosody <- read.csv("svc-prosody.csv")

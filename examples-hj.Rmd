@@ -5,7 +5,7 @@ library(lingglosses)
 #linguisticsdown::writeIPA()
 ```
 
-## Haida!
+## Haida
 ### Details
 Glottocode: nort2938 <br> 
 Family: Isolate <br>
@@ -16,18 +16,30 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@enrico2003]
+> It is necessary to carefully distinguish compound verbs from serial constructions (which do not occur in Haida) on the one hand, and from sequences of main verbs plus verb-complex elements (which are phrases rather than lexical items) on the other. Like all phrases and unlike verb-verb compounds, sequences of verb followed by verb-complex element(s) exhibit productivity limited only by semantic compatibility. ... In all languages with serial verbs, verb sequences describing acts of moving and then getting something have the verbs in that order (Durie 1997:304, 310, 335-336). Note, then, the order of verb and movement verb-complex element in \ref(@haida1) and \ref(@haida2), and also the order of the transient verb-complex elements vis a vis the head verb in \ref(@haida3). [@enrico2003, 1125-1126]
 
-(@haida1) Aiton 2016:200, example 27
+Note that I understand Enrico's argument for Haida not having SVCs to be that the order of verbal elements is unlike the SVCs discussed in @durie1997; however, this argument is orthogonal to the data that he presents.
+
+(@haida1) @enrico2003, 1125, example 36b
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ya.aats' 'la tl'ak'a qaa-gya.ang-gang.",
+             glosses = "knife 3 whet walk-PROG-PRS",
+             free_translation = "He is walking along whetting a knife.")
 ```
 
+(@haida2) @enrico2003, 1126, example 39a
+```{r}
+gloss_example(transliteration = "'laa-ga 'la di.ing dluwii-gwaang-gang.",
+             glosses = "3-POSTP 3 search run-around-PRS",
+             free_translation = "He is running around searching for her.")
+```
 
-
-
+(@haida3) @enrico2003, 1127, example 40b
+```{r}
+gloss_example(transliteration = "'la hlranggula 7in-gan.",
+             glosses = "3 work leave_to_do-PST",
+             free_translation = "He went to work (on a vehicle).")
+```
 
 ## Hakhun Tangsa
 ### Details
@@ -170,7 +182,6 @@ gloss_example(transliteration = "miidí-Ø nuwí-Ø úˀsia-c",
              free_translation = "He arrived by crawling.",
              annotation = "Miidá nuwá úˀsiaˀc.")
 ```
-<!-- fix example -->
 
 
 (@hidatsa2) @park2012, 545, example 124
@@ -180,7 +191,6 @@ gloss_example(transliteration = "ma-iréˀ goowí-waa-c",
              free_translation = "I finished talking.",
              annotation = "Maréˀ goowíwaac.")
 ```
-<!-- fix example -->
 
 ## Highland Populuca!
 ### Details
@@ -193,7 +203,8 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@dejongboudreault2009, 672ff.]
+> Serial verb constructions, especially nuclear serial verbs, make up a unique type of multi-verb construction in that, as stated above, more than one verb forms a complex, tightly bound unit requiring no special linking morphology that denotes a single event such that they share arguments, aspect, tense and mood. Each of these properties are described here.
+ [@dejongboudreault2009, 674]
 
 (@highland1) Aiton 2016:200, example 27
 ```{r}
