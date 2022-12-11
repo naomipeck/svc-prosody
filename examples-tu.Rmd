@@ -5,7 +5,7 @@
 <!-- # #linguisticsdown::writeIPA() -->
 <!-- # ``` -->
 
-## Tahitian!
+## Tahitian
 ### Details
 Glottocode: tahi1242 <br> 
 Family: Austronesian <br>
@@ -16,15 +16,23 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@lazardpeltzer2000, 31-33]
+> Les syntagmes verbaux comprennent souvent des qualificatifs. ... Certains lexèmes sont grammaticalisés pour marquer des nuances aspectuelles : ainsi *haere*, qui signifie proprement "aller", indique un procès qui se prolonge, ex. \ref(@tahitian1); tā'ue "jeter" marque la soudaineté, ex. \ref(@tahitian2). [@lazardpeltzer2000, 32]
 
-(@tahiti1) Aiton 2016:200, example 27
+Translation: Verb phrases often contain qualifiers. ... Certain lexemes have been grammaticalised to mark aspectual nuances: *haere*, which means 'go' as a main verb, encodes a prolonged process, as in \ref(@tahitian1); *tā'ue* 'throw' marks suddenness \ref(@tahitian2). 
+
+(@tahitian1) @lazardpeltzer2000, 33, example 2.38
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "tē māta'ita'i haere nei 'o Heimata i teie vāhi maere roa",
+             glosses = "ASP think go DEIX ID NP PP DEM place INT surprise",
+             free_translation = "Heimata thought about this marvellous place.")
 ```
 
+(@tahitian2) @lazardpeltzer2000, 33, example 2.39
+```{r}
+gloss_example(transliteration = "ara tā'ue noa a'e nei 'o Hiro",
+             glosses = "awaken throw RESTR DIR DEIX ID NP",
+             free_translation = "So Hiro awoke suddenly.")
+```
 
 <!-- ## Tajio -->
 <!-- ### Details -->

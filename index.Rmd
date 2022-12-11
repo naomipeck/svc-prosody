@@ -49,9 +49,9 @@ Himmelmann, Nikolaus P. 2022. Prosodic phrasing and the emergence of phrase stru
 </div>
 
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'lingglosses', 'lingtypology', 'tidyverse'
-), 'packages.bib')
-```
+<!-- ```{r include=FALSE} -->
+<!-- # automatically create a bib database for R packages -->
+<!-- knitr::write_bib(c( -->
+<!--   .packages(), 'bookdown', 'knitr', 'rmarkdown', 'lingglosses', 'lingtypology', 'tidyverse' -->
+<!-- ), 'packages.bib') -->
+<!-- ``` -->

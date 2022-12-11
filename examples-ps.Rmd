@@ -568,7 +568,7 @@ gloss_example(transliteration = "baj-e-m doku ponti-ka-k gera no-mo-je",
              free_translation = "The monkey was ascending on top of the house (away from the ground where the speaker was).")
 ```
 
-## Sheko!
+## Sheko
 ### Details
 Glottocode: shek1245 <br> 
 Family: Dizoid <br>
@@ -577,15 +577,22 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
+> [V]erb-verb sequences, by which I mean sequences of verb stems, of which the first stem does not carry switch reference marking ... have characteristics of serial verb constructions (Aikhenvald 2006): they act together as a single predicate without any overt marker of coordination, subordination or other dependency relation, they share TAM values and arguments, they present things as a single state of affairs, and furthermore, the verbs which are components of the sequence can stand on their own. The transitivity values of the verbs may be different. The subject clitic occurs maximally once (reflecting the status of the event as a single unit described in one clause). [@hellenthal2010, 334-335]
+
 ### Examples
 
-> Citation [@hellenthal2010, 334-341]
-
-(@language1) Aiton 2016:200, example 27
+(@sheko1) @hellenthal2010, 336, example 13
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ás-əra k'irk'u báákù-tà an-tə há=ʔan-àb-tà",
+             glosses = "3SG.MASC-ACC twist firestones-LOC put-SS 3SG.MASC=put-REL-LOC",
+             free_translation = "he tied him up above the fireplace and when he had put him there...")
+```
+
+(@sheko2) @hellenthal2010, 336, example 15
+```{r}
+gloss_example(transliteration = "nat dāwā ge bútà zììfm̀-tə géék'ù-ra īy-k'à an-kì-b",
+             glosses = "1SG deer say outside chase-SS goat-ACC house-IN put-exist-REL",
+             free_translation = "the one who calling [sic.] me deer chased me outside and put the goat inside the house...")
 ```
 
 ## Shilluk

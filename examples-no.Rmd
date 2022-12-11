@@ -6,7 +6,7 @@
 <!-- # ``` -->
 
 
-## N|uuki!
+## N|uuki
 ### Details
 Glottocode: nuuu1241 <br> 
 Family: Tuu <br>
@@ -15,15 +15,22 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
+> A serial verb construction in N|uuki is where one verb immediately follows another. Such a construction is aso referred to as a verbal compound. ... [N]othing can intervene between the two members of a serial verb construction. [@collinsnamaseb2011, 53]
+
 ### Examples
 
-> Citation [@collinsnamaseb2011, 53-56]
-
-(@nuu1) Aiton 2016:200, example 27
+(@nuu1) @collinsnamaseb2011, 53, example 4a
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "n-a si lʔama doŋki-si",
+             glosses = "1SG-DECL IRR buy donkey-SG",
+             free_translation = "I will buy the donkey.")
+```
+
+(@nuu2) @collinsnamaseb2011, 53, example 8c
+```{r}
+gloss_example(transliteration = "n-a kx'u-|x'õa-a ku",
+             glosses = "1SG-DECL make-hunt-PFV 3SG",
+             free_translation = "I made him hunt.")
 ```
 
 
@@ -77,7 +84,7 @@ gloss_example(transliteration = "mɛ́ ń-tú ŋ́-gɛ̰᷆́: / ɲ̄-jí bvu
 ```
 
 
-## Ndebele!
+## Ndebele
 ### Details
 Glottocode: nort2795 <br> 
 Family: Bantu <br>
@@ -86,15 +93,16 @@ Macroarea: Africa
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
+Question words must occur in second position. Verbs in serial verb constructions do not occur as a single unit in first position; rather, one verb precedes the question word and one follows (field notes).
+
 ### Examples
 
-> Citation [@bowernlotridge2002; @pellingpelling1974]
-
-(@ndebele1) Aiton 2016:200, example 27
-```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@ndebele1) @bowernlotridge2002, 82
+```{r, results='asis'}
+gloss_example(transliteration = "u-ngi-khangela-e u-bona-e e-ngi-ku-enza-yo lawa futhi u-ku-enza",
+             glosses = "2SG-1SG-look_at-SUBJ 2SG-watch-SUBJ REL-1SG-CL15-do-REL that.CL3 also 2SG-CL15-do",
+             free_translation = "Watch me,what what I do and you do it too.",
+             annotation = "Ungkhangele ubone enkwenzayo lawa futhi ukwenza.")
 ```
 
 <!-- ## Nese -->
@@ -220,7 +228,7 @@ gloss_example(transliteration = "siˀi lak-t nąw-k-il=mil ki ˀipsak",
 <!-- ``` -->
 
 
-## Nupe!
+## Nupe
 ### Details
 Glottocode: nupe1254 <br> 
 Family: Volta-Congo <br>
@@ -231,13 +239,36 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@kandybowicz2008, 54-58]
+> A second syntactic argument concerns the fact that in all Nupe SVCs, only the initial verbal occurrence may be repeated ... [@kandybowicz2008, 54]
 
-(@language1) Aiton 2016:200, example 27
+> Subject and object extraction from SVCs, for example, is permissible, as shown in \ref(@nupe3). [@kandybowicz2008, 56]
+
+(@nupe1) @kandybowicz2008, 54, example 6a
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Musa du eci du kún.",
+             glosses = "Musa cook yam cook sell",
+             free_translation = "Musa DID IN FACT cook a yam and (then) sell it.")
+```
+
+(@nupe2) @kandybowicz2008, 54, example 6b
+```{r}
+gloss_example(transliteration = "Musa è fo èwò fo li.",
+             glosses = "Musa PRS wash garment wash be_clean",
+             free_translation = "Musa IS IN FACT washing the garment clean.")
+```
+
+(@nupe3) @kandybowicz2008, 56, example 9a
+```{r}
+gloss_example(transliteration = "Musa du eci kún o.",
+             glosses = "Musa cook yam sell FOC",
+             free_translation = "MUSA cooked a yam and (then) sold it.")
+```
+
+(@nupe4) @kandybowicz2008, 54, example 9d
+```{r}
+gloss_example(transliteration = "Èwò Musa è fo li o.",
+             glosses = "garment Musa PRS wash be_clean FOC",
+             free_translation = "Musa is washing the GARMENT clean.")
 ```
 
 
@@ -282,7 +313,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
 <!-- ``` -->
 
 
-## Olo!
+## Olo
 ### Details
 Glottocode: oloo1241 <br> 
 Family: Nuclear Torricelli <br>
@@ -291,14 +322,20 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
+> Olo has a construction that contains more than one verb and for which the verbs are not in a grammatical dependency relationship. The verbs take their full morphological marking irrespective of their serial position. The construction is under a single intonation contour. [@staley2007, 37]
+
 ### Examples
 
-> Citation [@staley2007, 37-41]
-
-(@olo1) Aiton 2016:200, example 27
+(@olo1) @staley2007, 37, example 112
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Wamnei n-e kali tom n-ila n-au wa-iki",
+             glosses = "Wamnei 3FEM-go get.3MASC string_bag 3FEM-carry 3FEM-come give-1SG",
+             free_translation = "Wamnei went, got the string bag, and carrying it, she came and gave it to me.")
 ```
 
+(@olo2) @staley2007, 39, example 115a
+```{r}
+gloss_example(transliteration = "ne kapi yali n-ila-pe n-e uf",
+             glosses = "3FEM get.3PL firewood.PL 3FEM-lift-3PL 3FEM-go village",
+             free_translation = "She got the firewood, lifted it and went to the village.")
+```

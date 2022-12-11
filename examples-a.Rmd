@@ -20,26 +20,26 @@ In English the verbal particules 'up', 'down', and so on, may be continuous or d
 None of the Abun verbal particles appear to have been derived from adpositions. Instead, most of the verbal particles are derived from verbs such as *mu* 'go', *ma* 'come' and *kwop* 'die'.
 [@berryberry2000, 67]
 
-> In *simple juxtapositino*, there are no markers of conjunction. ... This strategy is permitted at all levels from sentence to noun phrase, as well as in verb phrases (verb phrases, incidentally, only allow this type of strategy to give what appear to be serial verb formations). [@berryberry2000, 94]
+> In *simple juxtaposition*, there are no markers of conjunction. ... This strategy is permitted at all levels from sentence to noun phrase, as well as in verb phrases (verb phrases, incidentally, only allow this type of strategy to give what appear to be serial verb formations). [@berryberry2000, 94]
 
 ### Examples
 
 (@abun1) @berry1995, 40, example 59
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Prisila ma sap Barbarina o ya",
              glosses = "Prisila come cut Barbarina again POSSIB",
              free_translation = "Prisila might come and cut Barbarina again.")
 ```
 
 (@abun2) @berryberry2000, 67, example 5.6.a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "An gwat buku ma mo nu.",
              glosses = "3SG carry book come LOC house",
              free_translation = "He brought the book to the house.")
 ```
 
 (@abun3) @berryberry2000, 95, example 5.166
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "An kas mu sem mo nden.",
              glosses = "3SG run go sleep LOC bush",
              free_translation = "He ran and went and slept in the bush.")
@@ -58,14 +58,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 ### Examples
 
 (@afar1) @kamil2015, 291, example 907
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "taamiit -íyye",
              glosses = "work.DIM say.3M.PFV",
              free_translation = "He worked a little.")
 ```
 
 (@afar2) @kamil2015, 292, example 909
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "boddiná mukuɖ -ítta",
              glosses = "tooth wobble say.3F.IPFV",
              free_translation = "The tooth moves.")
@@ -89,21 +89,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@ahamb1) @rangelov2020, 333, example 11.2a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Nga-ro-kar husür-i.",
              glosses = "3SG-IPFV-say follow-OBJ",
              free_translation = "He talks about it.")
 ```
 
 (@ahamb2) @rangelov2020, 344, example 11.14b
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ange nga-tams bbën hana na-r-maj.",
              glosses = "3SG 3SG-hit eliminate 1SG 1SG-SBQT-die",
              free_translation = "He beat me to death.")
 ```
 
 (@ahamb3) @rangelov2020, 370, example 13.19a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ta-gmay te-prag gasin.",
              glosses = "3PL-come 3PL.SEQ-do work",
              free_translation = "They come, they do the work.")
@@ -124,21 +124,21 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@aimele1) @aiton2016, 200, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example("ko:dulu sulo:bo -mo: wɛlɛ sɛ: -ja:",
              "downward {NAME} DAT shout say PST",
              "I shouted it down to Solo:bu.")
 ```
 
 (@aimele2) @aiton2016, 201, example 30
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "nɛ: ti:ɸɛ: o:ga: ɛja: o:gɛ: di a:nɛ:",
               glosses = "1:SG afterwards pandanus seedling:ABS carry_in_bilum take go:PST",
               free_translation = "I went after him, taking the pandanus seeds in a bilum.")
 ```
 
 (@aimele3) @aiton2016, 201, example 31
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "sugu:lu: ɛna: hɛna: do:ga: dijɛ:=bi: kɛi",
                glosses = "school that:ABS go house:ABS build=IMP ASSER",
                free_translation = "Go build that building for the school!")
@@ -158,21 +158,21 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 ### Examples
 
 (@alamblak1) @bruce1984, 160, example 233c
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "këfrat tu-hay-më-r-r",
              glosses = "spear throw-give-R.PST-3SG.MASC-3SG.MASC",
              free_translation = "He threw the spear to him for him.")
 ```
 
 (@alamblak2) @bruce1984, 163, example 238b
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "hohra-t kak-yirona-më-t-t",
              glosses = "thorn-3SG.FEM get-feel_pain-R.PST-3SG.FEM-3SG.FEM",
              free_translation = "She got/held the thorn and felt pain.")
 ```
 
 (@alamblak3) @bruce1984, 165, example 243
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "grha-nur-më-m",
              glosses = "dance-cry-R.PST-3PL",
              free_translation = "They danced and cried.")
@@ -192,7 +192,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@ami1) @ford1998, 316, example 8-54
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "gama vulhut gama",
              glosses = "3MIN.S.R.stand beeswax 3MIN.S.R.stand",
              free_translation = "The beeswax is standing up.",
@@ -200,7 +200,7 @@ gloss_example(transliteration = "gama vulhut gama",
 ```
 
 (@ami2) @ford1998, 316, example 8-55
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "guman-pitji gaya",
              glosses = "3MIN.A.R.poke-roll 3MIN.S.R.lie",
              free_translation = "He is still making fire.",
@@ -222,14 +222,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@amkoe1) @collinsgruber2014, 167, example 2a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ma ’a ǁhù ǀ’o ǰȍ kì kx’ù na",
              glosses = "1SG PROG pour put_in water LK pot in",
              free_translation = "I am pouring water into the pot.")
 ```
 
 (@amkoe2) @collinsgruber2014, 172, example 27
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ma ’a kígyè'o kíni Jefo",
              glosses = "1SG PROG call look_for Jeff",
              free_translation = "I am calling Jeff, looking for him.")
@@ -249,14 +249,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 The glosses are adapted from the original source.
 
 (@anem1) @thurston1982, 100, line 9
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "i-pik-îl i-gêx-îl",
              glosses = "3PL.SBJ.RL-jump-PL 3PL.SUBJ.RL-descend-PL",
              free_translation = "The two of them jumped down.")
 ```
 
 (@anem2) @thurston1982, 101, line 24
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "i-ki-u u-sêm",
              glosses = "3PL.SBJ.RL-hide-3SG.OBJ.MASC 3SG.MASC.SBJ.RL-lie",
              free_translation = "He was kept hidden.")
@@ -274,14 +274,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 ### Examples
 
 (@aou1) @lietal2014, 206, example 8
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ve13 jɔ33 i13na33 məɯ31 ta55 ta33",
              glosses = "3SG ask 1PL come cut tree",
              free_translation = "They asked us to come and cut trees.")
 ```
 
 (@aou2) @lietal2014, 142, example 11
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ve13 tai31 vlai31 səɯ31 təɯ33 vei31",
              glosses = "3SG beat die two CLF mosquito",
              free_translation = "He killed two mosquitos.")
@@ -304,22 +304,22 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: ?
 ### Examples
 
 (@apinaye2) @cunhadeoliveira2005, 162, example 106d
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Pa tẽ tẽm.",
              glosses = "RL go fall",
              free_translation = "I fell.")
 ```
 
 (@apinaye3) @cunhadeoliveira2005, 161, example 106a
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Kɔt paj arĩ ic-krĩ",
              glosses = "IRR 1.IRR stay 1-sit",
              free_translation = "I'll remain seated.")
 ```
 
 (@apinaye1) @cunhadeoliveira2005, 295, example 24a
-```{r, echo=FALSE}
-gloss_example(transliteration = "na pa kɔtm̃ə i-ɲ-õ pĩ katprɛ ɔ tẽ",
+```{r}
+gloss_example(transliteration = "na pa kɔtmə̃ i-ɲ-õ pĩ katprɛ ɔ tẽ",
              glosses = "RL 1 still 1-RP-GEN wood fasten do go",
              free_translation = "I'm still walking and fastening my wood.")
 ```

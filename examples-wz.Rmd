@@ -26,8 +26,7 @@ gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
              free_translation = "I shouted it down to Solo:bu.")
 ```
 
-
-## Waima'a!
+## Waima'a
 ### Details
 Glottocode: waim1252 <br> 
 Family: Austronesian <br>
@@ -36,18 +35,25 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: 1 <br> Grammatical: 0
 
+> When a modal verb and an ordinary verb are juxtaposed, no conjunction is normally needed. [@hull2002, 27]
+
 ### Examples
 
-> Citation Culhane p.c.
+Note that glossing is not provided in the original source.
 
-(@waimaa1) Aiton 2016:200, example 27
+(@waimaa2) @hull2002, 27
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Aku thaku na'a.",
+             glosses = "1SG fear go_out",
+             free_translation = "I'm afraid to go out.")
 ```
 
-
+(@waimaa1) Culhane p.c.
+```{r}
+gloss_example(transliteration = "buru / uko naga / uko manan / obo aku eh",
+             glosses = "monkey {} run CONT {} run win {} IRR 1SG eh",
+             free_translation = "the monkey ... keeps running ... he is about .. to beat me eh.")
+```
 
 ## Wambayan
 ### Details

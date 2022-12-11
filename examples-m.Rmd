@@ -5,24 +5,42 @@
 <!-- # #linguisticsdown::writeIPA() -->
 <!-- # ``` -->
 
-## Ma'anyan!
+## Ma'anyan
 ### Details
 Glottocode: maan1238 <br> 
 Family: Austronesian <br>
 Macroarea: Papunesia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: ?
+IU: 1 <br> Grouping: 0 <br> Grammatical: ?
+
+> Core cosubordinate nexus is found in constructions known as verb serialization, in which two verbs sharing a common core argument are merely juxtaposed with no element intervening between them. [@gudai1985, 284]
+
+> In \ref(@maanyan3) the two juncts are merely juxtaposed with no overt coordinator occuring in between. This is known as paratactic construction, following Noonan and Bavin-Wood (1978). Paratactic coordinate construction seems to occur freely to replace the construction conjoined by the conjunction *anri* 'and'. This conjunction is the least marked in the sense that it merely functions to conjoin two or more juncts. Coordinate constructions conjoined by *anri* or arranged paratactically may consist of more than two juncts as long as a pause (identical to a comma in written language) is provided between each two juncts. [@gudai1985, 269-270]
 
 ### Examples
 
-> Citation [@gudai1985, 284-286]
+Note that morpheme boundaries were not given in the original source.
 
-(@maanyan1) Aiton 2016:200, example 27
+(@maanyan1) @gudai1985, 284, example 42
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "here maharung kuman",
+             glosses = "3PL sit eat",
+             free_translation = "They sat eating.")
+```
+
+(@maanyan2) @gudai1985, 284, example 44
+```{r}
+gloss_example(transliteration = "kequni aku nganruq nuwen ma taruweh",
+             glosses = "tomorrow 1SG TR:cook TR:make_dish for 1DU.INCL",
+             free_translation = "I will cook and make a dish for both of us.")
+```
+
+(@maanyan3) @gudai1985, 269, example 7
+```{r}
+gloss_example(transliteration = "alap-nu punsi yiti, aku haut uyuh",
+             glosses = "bring-2SG banana this 1SG already tired",
+             free_translation = "Bring these bananas, I am tired.")
 ```
 
 <!-- ## Mafea -->
@@ -185,7 +203,7 @@ gloss_example(transliteration = "zaohuang=du xi shuer=ni bari gui-jiang.",
              free_translation = "(she) went into the kitchen, took the chopsticks and ran.")
 ```
 
-## Mapudungun!
+## Mapudungun
 ### Details
 Glottocode: mapu1245 <br> 
 Family: Araucanian <br>
@@ -196,15 +214,39 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 ### Examples
 
-> Citation [@smeets2008, 176; @zuniga2006, 10-11, 38]
+> An auxiliary is an uninflected verb stem which immediately precedes the verb with which it is combined. [@smeets2008, 175]
 
-(@language1) Aiton 2016:200, example 27
+> Between *kim* and *tuku-fi-n* in \ref(@mapuche2) a pause can be heard which is lacking in \ref(@mapuche3). In a few compound verbs the verb *tuku-* adds aspectual value. [@smeets2008, 176]
+
+> ...the modifying element V0 [is] negated or modified by the TAM-morphology at the right-hand end of the complex, and the last syllable of V0 is stressed. The verb *ngilla-* 'buy' can be found preceding other verbal roots to derive a compound meaning 'have X V-ed for someone'. [@zuniga2006, 38]
+
+(@mapuche1) @smeets2008, 175-176, example 94
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "pichi shingé amu-mün",
+             glosses = "little move_up go-IMP.2PL",
+             free_translation = "Move up a little, you!")
 ```
 
+(@mapuche2) @smeets2008, 175, example 93
+```{r}
+gloss_example(transliteration = "kim tuku-fi-n",
+             glosses = "know put_at-DIR-IND.1SG",
+             free_translation = "I know how to put it.")
+```
+
+(@mapuche3) @smeets2008, 176, example 96
+```{r}
+gloss_example(transliteration = "kim-tuku-fi-n",
+             glosses = "know-put_at-DIR-IND.1SG",
+             free_translation = "I gradually got to understand/know it.")
+```
+
+(@mapuche4) @zuniga2000, 38, example 23
+```{r}
+gloss_example(transliteration = "ngilla-dewma-l-fi-ñ pantalon",
+             glosses = "buy-make-APPL-DIR-IND.1SG pants",
+             free_translation = "I had pants made for him/her.")
+```
 
 ## Mawng
 ### Details
@@ -301,7 +343,7 @@ gloss_example(transliteration = "aya ro m-amo m-ate m-hu e",
 <!-- ``` -->
 
 
-## Menya!
+## Menya
 ### Details
 Glottocode: meny1245 <br> 
 Family: Angan <br>
@@ -312,13 +354,14 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Source [@whitehead2004, 29-30, 181-187]
+> ...verb serialization in Menya typically involves the juxtaposition of two verbs, one that is stripped of all the suffixation normally associated with verbs and the other an inflected verb of motion. [@whitehead2004, 181]
 
-(@menya1) Aiton 2016:200, example 27
-```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@menya1) @whitehead2004, 182, example 431
+```{r, results='asis'}
+gloss_example(transliteration = "ye ä-p-wä-ayi qänakä=i ä-ma-ät-a ä-ma ä-p-y-ayi",
+             glosses = "1DU ASS-come-go_down-1DU.SS pandanus=DEF ASS-get-SS-1DU.SS ASS-get ASS-come-go_up-1DU.SS",
+             free_translation = "...we went down, got the pandanus nuts and brought them up, then...", 
+             annotation = "...ye äpäweyi, qänaki ämeta äma äpäyayi...")
 ```
 
 ## Meriam
