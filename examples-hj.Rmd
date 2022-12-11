@@ -193,29 +193,34 @@ gloss_example(transliteration = "ma-iréˀ goowí-waa-c",
              annotation = "Maréˀ goowíwaac.")
 ```
 
-## Highland Populuca!
+## Highland Populuca
 ### Details
 Glottocode: high1276 <br> 
 Family: Mixe-Zoque <br>
 Macroarea: North America
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 ### Examples
 
-> Serial verb constructions, especially nuclear serial verbs, make up a unique type of multi-verb construction in that, as stated above, more than one verb forms a complex, tightly bound unit requiring no special linking morphology that denotes a single event such that they share arguments, aspect, tense and mood. Each of these properties are described here.
- [@dejongboudreault2009, 674]
+> Serial verb constructions, especially nuclear serial verbs, make up a unique type of multi-verb construction in that, as stated above, more than one verb forms a complex, tightly bound unit requiring no special linking morphology that denotes a single event such that they share arguments, aspect, tense and mood. [@dejongboudreault2009, 674]
 
-(@highland1) Aiton 2016:200, example 27
+> The stress patterns that occur on complex predicates formed with two or more verbs show that these forms make up a single phonological word. [@dejongboudreault2009, 676] 
+
+(@highland1) @dejongboudreault2009, 673, example 21.2
 ```{r}
-gloss_example(transliteration = "a",
-             glosses = "word",
-             free_translation = "here")
+gloss_example(transliteration = "ʔi=jetz tɨɨm-pa jeʔm ʔi=way",
+             glosses = "3ERG=brush stretch_out-INC that 3PSR=hair",
+             free_translation = "She untangles her hair.")
 ```
 
-
-
+(@highland2) @dejongboudreault2009, 681, example 21.15
+```{r}
+gloss_example(transliteration = "ʔi=ʔak=jiʔp kaʔ-W ʔi=karreta jeʔm chimpa",
+             glosses = "3ERG=CAUS=squash die-COMP 3PSR=cart that dog",
+             free_translation = "The cart squashed and killed the dog.")
+```
 
 
 ## Hinuq
@@ -239,7 +244,6 @@ gloss_example(transliteration = "hayɬoy ɣʷero-z t’oq hat͡ɬi-cat͡ɬi-š",
              glosses = "he.ERG cow-DAT knife bump-throw-PST",
              free_translation = "He repeatedly hit the cow with the knife.")
 ```
-<!-- fix example -->
 
 (@hinuq1) @forker2013, 700, example 1285b
 ```{r}
@@ -247,7 +251,6 @@ gloss_example(transliteration = "hibayɬi kek-Ø-ece goɬi polnostyu kek-Ø-ece 
              glosses = "there break-I-melt be.IRR completely break-I-melt be.IRR 1SG",
              free_translation = "There I (masc.) would be smashed off, completely smashed off.")
 ```
-<!-- fix example -->
 
 ## Ho
 ### Details
@@ -270,7 +273,6 @@ gloss_example(transliteration = "aɲ gaɽa-te iɖi-atu:-ɲ-pe",
              glosses = "1SG river-ALL take-leave-1SG-IMP.2PL",
              free_translation = "take me to the river and leave me")
 ```
-<!-- fix examples -->
 
 (@ho1) @pucilowski2013, 204, example 6.55
 ```{r}
@@ -278,7 +280,6 @@ gloss_example(transliteration = "naʔ=do miyaɖ baru_daru baʈi-gur-ke-ɖ-a, ma�
              glosses = "now=FOC one.INAN kusum_tree overturn-fall-PFV-TR-FIN cut_swing-fall-PFV-TR-FIN=3SG",
              free_translation = "now he brought the kusum tree down, [he] chopped it down")
 ```
-<!-- fix examples -->
 
 <!-- ## Huli -->
 <!-- ### Details -->
@@ -325,12 +326,12 @@ gloss_example(transliteration = "ʔæ̌ytæn=yɨ́ʔ hɨd mæh-b’uy-d’əh-ha
 ```
 
 
-<!-- (@hup2) @epps2008, 397, example 15 -->
-<!-- ```{r, echo=FALSE} -->
-<!-- gloss_example(transliteration = "tɨ́h-ǎn kayǎk tɔ́ʔ hɨd g’ɔʔ-nɔ́ʔ-ɔ̃́y", -->
-<!--              glosses = "3SG-OBJ manioc tuber 3PL pull_up-give-DYNM", -->
-<!--              free_translation = "They’ve pulled up manioc and given it to her.") -->
-<!-- ``` -->
+(@hup2) @epps2008, 397, example 15
+```{r, echo=FALSE}
+gloss_example(transliteration = "tɨ́h-ǎn kayǎk tɔ́ʔ hɨd g’ɔʔ-nɔ́ʔ-ɔ̃́y",
+             glosses = "3SG-OBJ manioc tuber 3PL pull_up-give-DYNM",
+             free_translation = "They’ve pulled up manioc and given it to her.")
+```
 
 
 Please note that not all diacritics could be represented accurately in (@hup3); please consult original source for original example.
@@ -341,7 +342,6 @@ gloss_example(transliteration = "tɨh yok-d’əh-ham-yæh-kamí=mah",
              glosses = "3SG poke-send-go-FRUST-time_of=REP",
              free_translation = "At the moment when she poked (the knife) in...")
 ```
-<!-- fix examples -->
 
 ## Iatmul
 ### Details

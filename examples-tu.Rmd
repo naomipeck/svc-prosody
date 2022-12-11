@@ -337,19 +337,19 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-<!-- (@tsixa1) @fehn2014, 181, example 243b -->
-<!-- ```{r} -->
-<!-- gloss_example(transliteration = "tí kò kama-nà kũ̀ũ̀", -->
-<!--              glosses = "1SG IPFV track-LK go", -->
-<!--              free_translation = "I walk tracking.") -->
-<!-- ``` -->
+(@tsixa1) @fehn2014, 181, example 243b
+```{r}
+gloss_example(transliteration = "tí kò kama-nà kũ̀ũ̀",
+             glosses = "1SG IPFV track-LK go",
+             free_translation = "I walk tracking.")
+```
 
-<!-- (@tsixa2) @fehn2014, 185, example 253b -->
-<!-- ```{r} -->
-<!-- gloss_example(transliteration = "ʔabá='m kòrè gǁóé=sì xàè kyeé.kyeè kùè ʔé.sérà nyũ̀u-a k'uì=xù.", -->
-<!--              glosses = "dog=SG.MASC CONJ tortoise=SG.FEM CONJ listen IPFV 3DU.FEM sit-LK talk=NMLZ", -->
-<!--              free_translation = "The dog and the tortoise are listening to them talking in a sitting position.") -->
-<!-- ``` -->
+(@tsixa2) @fehn2014, 185, example 253b
+```{r}
+gloss_example(transliteration = "ʔabá='m kòrè gǁóé=sì xàè kyeé.kyeè kùè ʔé.sérà nyũ̀u-a k'uì=xù.",
+             glosses = "dog=SG.MASC CONJ tortoise=SG.FEM CONJ listen IPFV 3DU.FEM sit-LK talk=NMLZ",
+             free_translation = "The dog and the tortoise are listening to them talking in a sitting position.")
+```
 
 <!-- ## Tukang Besi -->
 <!-- ### Details -->

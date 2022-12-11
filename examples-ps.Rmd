@@ -95,12 +95,12 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 Note that glossing was not provided in the original source.
 
-<!-- (@pech1) @holt1999, 68 -->
-<!-- ```{r} -->
-<!-- gloss_example(transliteration = "mángoh kúh-ẽ̀ʔ-pẽ́ʔ", -->
-<!--              glosses = "mango buy-eat-FUT:EMPH", -->
-<!--              free_translation = "He will buy and eat a mango.") -->
-<!-- ``` -->
+(@pech1) @holt1999, 68
+```{r}
+gloss_example(transliteration = "mángoh kúh-ẽ̀ʔ-pẽ́ʔ",
+             glosses = "mango buy-eat-FUT:EMPH",
+             free_translation = "He will buy and eat a mango.")
+```
 
 (@pech2) @holt1999, 68
 ```{r}

@@ -95,7 +95,7 @@ gloss_example(transliteration = "...kti am kmn pak dad ap-l nb okok...",
 <!-- ``` -->
 
 
-## Karbi!
+## Karbi
 ### Details
 Glottocode: karb1241 <br> 
 Family: Trans-Himalayan <br>
@@ -106,18 +106,13 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 ### Examples
 
-> Citation [@konnerth2017, 250-258]
-
-(@karbi1) Aiton 2016:200, example 27
-```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+(@karbi1) @konnerthtisso2018, 129, line 10
+```{r, results='asis'}
+gloss_example(transliteration = "lasì <fs> juja’ē hòm-tekáng-si hálasō a-pé a-rī ke-che-chōk-dām-jí pu-lò amātsi lasō osō-mār bàng-hiní a-phān juja’ē hòm-tekáng-si thàp-tekáng-lò",
+             glosses = "therefore <fs> cradle fix_by_tying-leaving-NF.RL that POSS-cloth POSS-cloth NMLZ-RR-wash_clothes-go-IRR QUOT-RL and_then this child-PL CLF-two POSS-NSUBJ  cradle fix_by_tying-leaving-NF.RL put_inside-leaving-RL",
+             free_translation = "so (the mother) fixed the cradle, and went to wash clothes, and then, she fixed the cradle for the two children, and put them inside",
+             annotation = "lasi <ling> juja’e homtekangsi halaso ape ari kechechokdamji pulo amatsi laso osomar banghini aphan juja’e homtekangsi thaptekanglo")
 ```
-
-
-
-
 
 ## Karitiâna
 ### Details
@@ -271,17 +266,23 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@lai2017, 608-610]
+> Les constructions à verbe sériel en khroskyabs de Wobzi sont des prédicats complexes composés de deux verbes partageant les mêmes catégories de TAM. Les deux composantes d’un verbe sériel partagent donc aussi la transitivité (Jacques 2016a : 253). [@lai2017, 608-609]
 
-(@khroskyabs1) Aiton 2016:200, example 27
+Translation: Serial verb constructions in Khroskyabs are complex predicates consisting of two verbs which share the same TAM categories. The two verbal components in the serialisation thus also share their transitivity value.
+
+(@khroskyabs1) @lai2017, 609, example 824
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "cə̂ hǎiguī=tə=ɟi=rə Lóngbóguó pâ u-vɣə́r r-u-zə́m=si",
+             glosses = "DEM turtle=DEF=PL=TOP Longbo_country all PST.INV-carry_on_back PST-INV-bring=IFR",
+             free_translation = "The turtles carried them on their backs and brought them to Longbo country.")
 ```
 
-
-
+(@khroskyabs2) @lai2017, 610, example 826b
+```{r}
+gloss_example(transliteration = "χtəlû=tə n-u-zə́m n-u-jî=si",
+             glosses = "hat=DEF PST-INV-bring PST-INV-return=IFR",
+             free_translation = "He took the hat and returned it to him.")
+```
 
 
 ## Konai
@@ -414,12 +415,12 @@ gloss_example(transliteration = "brō ūn-ī pēna muẓgit.",
              free_translation = "Go sit beside the mosque.")
 ```
 
-<!-- (@kumzari2) @walanonby2015, 122, example 273 -->
-<!-- ```{r} -->
-<!-- gloss_example(transliteration = "č-im tkard–im ba xō kō-ō", -->
-<!--              glosses = "go:IMPF-1PL cultivate:IMPF-1PL for REFL mountain-the", -->
-<!--              free_translation = "We will go cultivate for ourselves on the mountain.") -->
-<!-- ``` -->
+(@kumzari2) @walanonby2015, 122, example 273
+```{r}
+gloss_example(transliteration = "č-im tkard-im ba xō kō-ō",
+             glosses = "go:IMPF-1PL cultivate:IMPF-1PL for REFL mountain-the",
+             free_translation = "We will go cultivate for ourselves on the mountain.")
+```
 
 ## Kuot
 ### Details
@@ -484,29 +485,32 @@ gloss_example(transliteration = "khu43 ŋwi22 m0paN43 ta0qɑ45 fu43 fɑN43 qɑ0t
 <!--              free_translation = "I shouted it down to Solo:bu.") -->
 <!-- ``` -->
 
-
-
-## Lamkang!
+## Lamkang
 ### Details
 Glottocode: lamk1238 <br> 
 Family: Trans-Himalayan <br>
 Macroarea: Eurasia
 
 ### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 0
+IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> Citation [@thounaojamchelliah2007, 65-66]
-
-(@lamkang1) Aiton 2016:200, example 27
+(@lamkang1) @thounaojamchelliah2007, 66, example 79b
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "waŋ=kV-r-do-ləm-də",
+             glosses = "go=1.AGR-R-method-MD.PROB-PFV",
+             free_translation = "likely to have gone and joined",
+             annotation = "wākarrdolamdā")
 ```
 
-
+(@lamkang1) @thounaojamchelliah2007, 103, line 5
+```{r}
+gloss_example(transliteration = "ni-khət-i the-də ə-naw-pá hə-wa ə-éʔyəw di-də",
+             glosses = "day-one-CVB.ST say-PFV 2-young-male PROX-DEM 2.AGR-kill die-PFV",
+             free_translation = "One day she said (to her husband), 'Kill your younger brother.'",
+             annotation = "nikhətti thedə ənawpá həwa əʔéʔyəw didə")
+```
 
 ## Lao
 ### Details
