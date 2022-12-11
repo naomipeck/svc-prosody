@@ -5,7 +5,6 @@ one-intonation-unit-constraint
 background
 overview-of-data
 grammatical-descriptions
-discussion-and-results
 abun
 details
 coding
@@ -640,4 +639,5 @@ coding-159
 tondano-1
 details-160
 coding-160
+discussion-and-results
 implications
