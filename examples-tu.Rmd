@@ -104,15 +104,27 @@ Macroarea: South America
 ### Coding
 IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
+> Serial verb constructions are known to be able to include up to seven simple verbs. Serial constructions are strictly contiguous, i.e. no other constituent can intervene between their components. There is just one general restriction: a serial verb construction cannot consist of stative (So) verbs only. <br>
+Each component of a serial verb construction is an independent phonological word: it has an independent stress and enclitics can attach to it. All the components of a serial verb require the same subject (cross-referenced on transitive and active intransitive verbs); this means the same inflection for person, number and gender of subject (A/Sa), as in \ref(@tariana1). [@aikhenvald1999, 475]
+
+> All the components of a serial construction are separate phonological words, since they have independent stress. They have the prosodic properties of a monoverbal clause (cf. Givón 1991). A characteristic property of a prosodic phrase in the Arawak languages of the Upper Rio Negro is the "nasal pause" marker — a phrase final syllable *-hã* — used as a boundary signal (Aikhenvald 1996b). This marker cannot be inserted between the components of serial constructions; it can only appear on the last component. In \ref(@tariana2), *-hã* 'pause marker' appears on the last component of a serial construction marking a boundary between two predicates which belong to adjacent clauses. <br>
+... The insertion of the boundary marker between the two components of a serial construction would be ungrammatical (?**haɾia di-swa-hã di-a* (dawn 3SGNF-stay-PAUS 3SGNF-go)). When predicates or clauses are coordinated, there is a characteristic "enumerating" intonation. (The phrase-final syllable is lengthened and the pitch of the phrase final syllable falls.) This intonation pattern is not used with components of a serial construction. [@aikhenvald1999, 477-478]
+
 ### Examples
 
-> Citation [@aikhenvald1999]
+(@tariana1) @aikhenvald1999, 475, example 2
+```{r, results='asis'}
+gloss_example(transliteration = "wadu di-asa di-musu di-nu di-uka di-hwa-pidana",
+             glosses = "bucura.bird 3SGNF-fly 3SGNF-go.out 3SGNF-come 3SGNF-arrive 3SGNF-stay-REM.P.INFR",
+             free_translation = "The bucura-bird arrived here (from there).",
+             comment="lit. he flew — he went — he came — he arrived — he stayed")
+```
 
-(@language1) Aiton 2016:200, example 27
+(@tariana2) @aikhenvald1999, 477, example 7
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "ne-pidana haɾia di-swa di-a-hã haria-ka di-swa",
+             glosses = "then-REM.P.INFR dawn 3SGNF-stay 3SGNF-go-PAUS dawn-SUB 3SGNF-stay",
+             free_translation = "Then it was dawning (PAUSE). When it had dawned (she got off a tree)...")
 ```
 
 <!-- ## Teop -->

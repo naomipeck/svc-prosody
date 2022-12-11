@@ -147,7 +147,7 @@ gloss_example(transliteration = "ne=i=tɛ jeɲ laj li-lor ɔ",
              annotation = "neitæ yeñ lai liloor o")
 ```
 
-## Polish!
+## Polish
 ### Details
 Glottocode: poli1269 <br> 
 Family: Indo-European <br>
@@ -158,13 +158,35 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 0
 
 ### Examples
 
-> Citation [@andrason2018]
+> The evidence demonstrates that the WZIĄĆ gram can be regarded as a SVC, relatively close to the cross-linguistic prototype postulated by Aikhenvald and Dixon (2006) and Bisang (2009). To be exact, the gram complies with the definitional characteristics of the prototype of a SVC – in each such case, it does so to a high extent: <br>
+1) The WZIĄĆ gram does not exhibit markers of syntactic dependency: subordination, embedding, and nominalization.<br>
+2) The WZIĄĆ gram does not exhibit markers of clause coordination.<br>
+3) The components (especially the minor verb wziąć) cannot be questioned, answered or replied separately.<br>
+4) The WZIĄĆ gram exhibits prosodic properties typical of a single clause rather than a sequence of clauses. The construction constitutes a single phrasal group with no intonation break between its components.<br>
+5) The WZIĄĆ gram exhibits a single polarity value.<br>
+6) The WZIĄĆ gram has a unitary TAM value and, consequently, the individual components cannot select TAM categories separately.<br>
+7) The WZIĄĆ gram is not limited to a few verbal categories of tense, aspect, mood, or voice. <br>
+8) Operators of time, space, manner, and instrument extend over the entire construction rather than individual components. The use of such operators for the two verbs separately is ungrammatical.<br>
+9) The components of the WZIĄĆ gram invariably and compulsorily share the subject argument. More generally, the WZIĄĆ gram disallows duplicate roles, be they core and peripheral arguments, or adjuncts. The total argument structure is never more complex than the argument structure of V2.<br>
+10) Outside the WZIĄĆ gram, the components of this construction are able to occur separately as independent verbs in their own clauses. [@andrason2018, 618-619]
 
-(@polish1) Aiton 2016:200, example 27
+> The WZIĄĆ gram fully complies with the phonological property of SVCs – namely, a fully audible pause comparable to a break that separates coordinated clauses (both syndetically and asyndetically) is absent in the WZIĄĆ gram (Góralczyk 2010: 100, 103; Gębka-Wolak 2012: 54). For example, in \ref(@polish1), V1 and V2 are pronounced with no pause but rather as a single phonological phrase. In fact, the pause is absent even if some elements intervene between V1 and V2. [@andrason2018, 587-588]
+
+> The PÓJŚĆ gram is a bi-verbal construction whose components are finite; neither of these verbal components is syntactically dependent on the other; the formative verbs are not connected by a coordinator but rather form a single clause; the PÓJŚĆ gram exhibits a mono-clausal intonation with no pause separating V1 and V2; it also exhibits a single TAM value and a single polarity value; the components of the PÓJŚĆ gram are not marked by incompatible TAM categories; the gram is not restricted to a particular temporal or modal category, but appears in various TAM categories available in Polish; V1 and V2 share their subject argument and duplicate roles are disallowed; lastly, both verbs may occur on their own, thus exhibiting their respective lexical meanings. [@andrason2018a, 40]
+
+(@polish1) @andrason2018, 588, example 9a
 ```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
+gloss_example(transliteration = "Weź *[,] skończ ględzić",
+             glosses = "take.PF.2SG.IMPR PAUSE stop.PF.2SG.IMPR complain",
+             free_translation = "Stop complaining!")
+```
+
+(@polish2) @andrason2018a, 26, example 2a
+```{r}
+gloss_example(transliteration = "Poszedł się=powiesił",
+             glosses = "walk.3SG.PST REFL=hang.3SG.PST",
+             free_translation = "He hanged himself.",
+             comment="The reflexive pronoun encliticises to the preceding word: [pɔs̠̱ɛdɕɛ pɔvʲɛɕiw]")
 ```
 
 ## Punjabi
@@ -257,7 +279,7 @@ gloss_example(transliteration = "ó ro ditt-ii",
 <!-- ``` -->
 
 
-## Sabanê!
+## Sabanê
 ### Details
 Glottocode: saba1268 <br> 
 Family: Nambiquaran <br>
