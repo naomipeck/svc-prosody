@@ -18,9 +18,9 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 > The other modifying component of Abun verb phrases is *verbal particles*. These particles are attached to certain verbs like 'up' in the English, 'He *looked up* the words', which may, in English, also be in the form, 'He *looked* the words *up*'. ...
 In English the verbal particules 'up', 'down', and so on, may be continuous or discontinuous with the verb. In Abun, however, the particle is discontinuous when there is a direct object ...
 None of the Abun verbal particles appear to have been derived from adpositions. Instead, most of the verbal particles are derived from verbs such as *mu* 'go', *ma* 'come' and *kwop* 'die'.
-[@berryberry2000, 67]
+[@berryberry1999, 67]
 
-> In *simple juxtaposition*, there are no markers of conjunction. ... This strategy is permitted at all levels from sentence to noun phrase, as well as in verb phrases (verb phrases, incidentally, only allow this type of strategy to give what appear to be serial verb formations). [@berryberry2000, 94]
+> In *simple juxtaposition*, there are no markers of conjunction. ... This strategy is permitted at all levels from sentence to noun phrase, as well as in verb phrases (verb phrases, incidentally, only allow this type of strategy to give what appear to be serial verb formations). [@berryberry1999, 94]
 
 ### Examples
 
@@ -31,14 +31,14 @@ gloss_example(transliteration = "Prisila ma sap Barbarina o ya",
              free_translation = "Prisila might come and cut Barbarina again.")
 ```
 
-(@abun2) @berryberry2000, 67, example 5.6.a
+(@abun2) @berryberry1999, 67, example 5.6.a
 ```{r}
 gloss_example(transliteration = "An gwat buku ma mo nu.",
              glosses = "3SG carry book come LOC house",
              free_translation = "He brought the book to the house.")
 ```
 
-(@abun3) @berryberry2000, 95, example 5.166
+(@abun3) @berryberry1999, 95, example 5.166
 ```{r}
 gloss_example(transliteration = "An kas mu sem mo nden.",
              glosses = "3SG run go sleep LOC bush",
@@ -355,6 +355,7 @@ gloss_example(transliteration = "P<in>idut=di tidi bunga na ayu=y n-i-lugun=di t
              glosses = "<PST>pick_up=3PL.GEN PL.ABS.DEF fruit GEN.INDF tree=SPC PST-TR-container=3PL.GEN again SG.OBL.DEF basket=SPC",
              free_translation = "They picked up the fruits and put it into the basket again.")
 ```
+
 ## Ashéninka Perené
 ### Details
 Glottocode: ashe1272 <br> 
@@ -444,11 +445,11 @@ gloss_example(transliteration = "wo-trutru ò-pupu=lò dra",
              free_translation = "You pushed the door open.")
 ```
 
-(@avatime2) @defina2016, 666, example 56
+(@avatime2) @defina2016, 673, example 74a
 ```{r}
-gloss_example(transliteration = "lɛ̌ a-ya=lɛ e-dù=i",
-             glosses = "then C1SG.PFV-divide=C3.SG.OBJ SV.C1SG.PFV-put=CM",
-             free_translation = "Then she divided it (the porridge) and put it down.")
+gloss_example(transliteration = "ma-tsà tomatoes=ye a-kpɛ mí kè-zi=a mɛ̀",
+             glosses = "1SG.PFV-cut tomatoes=DEF SV.1SG.PFV-put LOC C6S-bowl=DEF inside",
+             free_translation = "I cut tomatoes and put them in the bowl.")
 ```
 
 ## Awa-Cuaiquer

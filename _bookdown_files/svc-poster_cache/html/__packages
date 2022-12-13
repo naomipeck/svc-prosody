@@ -9,3 +9,9 @@ purrr
 dplyr
 stringr
 forcats
+lingtypR
+sf
+rnaturalearth
+rnaturalearthdata
+sp
+rgeos

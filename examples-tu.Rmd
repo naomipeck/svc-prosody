@@ -428,13 +428,13 @@ Macroarea: Papunesia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> The existence of verb serialization, or verb chains, is well attested among Oceanic languages other than members of the Polynesian family (e.g., Foley and Olson 1985, Harrison 1984a). In contrast, no Polynesian language has so far been described as having structures of this type, although Hooper (1993:239) suggests that they exist in Tokelauan. No Tuvaluan structure can be unequivocally identified as verb chains, but certain strings of verbs resemble verb chains. Such is the case, for example, of the verbs *fakasiga* ‘[make oneself] fall’ and *tagi* ‘cry’ in \ref(@tuvalu1). [@besnier2000, 538]
+> The existence of verb serialization, or verb chains, is well attested among Oceanic languages other than members of the Polynesian family (e.g., Foley and Olson 1985, Harrison 1984a). In contrast, no Polynesian language has so far been described as having structures of this type, although Hooper (1993:239) suggests that they exist in Tokelauan. No Tuvaluan structure can be unequivocally identified as verb chains, but certain strings of verbs resemble verb chains. Such is the case, for example, of the verbs *fakasiga* ‘[make oneself] fall’ and *tagi* ‘cry’ in \ref(@tuvalu1). [@besnier2002, 538]
 
-> Verbs in series cannot be separated by anything, and share the same tense-aspect-mood marker. However, they need not share the same argument structure and need not agree in valency. [@besnier2000, 538]
+> Verbs in series cannot be separated by anything, and share the same tense-aspect-mood marker. However, they need not share the same argument structure and need not agree in valency. [@besnier2002, 538]
 
 ### Examples
 
-(@tuvalu1) @besnier2000, 538, example 2781
+(@tuvalu1) @besnier2002, 538, example 2781
 ```{r}
 gloss_example(transliteration = "Ne fakasiga tagi ki vae o tena maatua kee fakamaagalo ia.",
              glosses = "PST CST:fall cry to foot of his mother SBJ forgive 3SG",

@@ -27,7 +27,7 @@ gloss_example(transliteration = "E-ddèe e-dda are kùla lè-í ngàa uwa éngr�
 
 (@kaba2) @moser2004, 334, example 9
 ```{r}
-gloss_example(transliteration = "T`@j`@ á e-tàa-i X-Óyn e-túwa-je né màann lé",
+gloss_example(transliteration = "Tə̀jə̀ á e-tàa-i Ø-ɔ́yn e-túwa-je né màann lé",
              glosses = "honey FOC 2SG-take-IRR 2SG-suck 2SG-evacuate-HON ANA water DET",
              free_translation = "Here is the honey, you take, you suck, and you evacuate that water with it!")
 ```
@@ -106,7 +106,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
 ### Examples
 
-(@karbi1) @konnerthtisso2018, 129, line 10
+(@karbi1) @konnerthtisso2019, 129, line 10
 ```{r, results='asis'}
 gloss_example(transliteration = "lasì <fs> juja’ē hòm-tekáng-si hálasō a-pé a-rī ke-che-chōk-dām-jí pu-lò amātsi lasō osō-mār bàng-hiní a-phān juja’ē hòm-tekáng-si thàp-tekáng-lò",
              glosses = "therefore <fs> cradle fix_by_tying-leaving-NF.RL that POSS-cloth POSS-cloth NMLZ-RR-wash_clothes-go-IRR QUOT-RL and_then this child-PL CLF-two POSS-NSUBJ  cradle fix_by_tying-leaving-NF.RL put_inside-leaving-RL",

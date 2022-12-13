@@ -129,13 +129,13 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 0
 
-> Indeed, the notion of coverb itself can be conceived of as a construction or recurring pattern rather than a part of speech or word class. In the coverbial construction, a verb forms a compound predicate together with the next verb, or MAIN VERB, which means that they share a subject, and that the coverbial phrase provides additional details about the event expressed by the main verb. [@wiedenhof2015, 134]
+> Indeed, the notion of coverb itself can be conceived of as a construction or recurring pattern rather than a part of speech or word class. In the coverbial construction, a verb forms a compound predicate together with the next verb, or MAIN VERB, which means that they share a subject, and that the coverbial phrase provides additional details about the event expressed by the main verb. [@wiedenhof2015a, 134]
 
-> Sentence (@mandarin2) will not be taken to mean (2) my writing of a letter on his behalf (‘I am writing a letter for him’) unless realized with a intonational break signaling an afterthought construction (§3.4): *Wó xiě xìn, gěi ta.* ‘I am writing a letter; for him, that is.’ But like (@mandarin1), this special prosodic pattern also allows for reading (1) ‘I am writing a letter; to him, that is.’. [@wiedenhof2015, 137]
+> Sentence \ref(@mandarin2) will not be taken to mean (2) my writing of a letter on his behalf (‘I am writing a letter for him’) unless realized with a intonational break signaling an afterthought construction (§3.4): *Wó xiě xìn, gěi ta.* ‘I am writing a letter; for him, that is.’ But like \ref(@mandarin1), this special prosodic pattern also allows for reading (1) ‘I am writing a letter; to him, that is.’. [@wiedenhof2015a, 137]
 
 ### Examples
 
-(@mandarin1) @wiedenhof2015, 136, example 5.34a
+(@mandarin1) @wiedenhof2015a, 136, example 5.34a
 ```{r}
 gloss_example(transliteration = "wó gěi ta xiě xìn",
              glosses = "1.SG give 3 write letter",
@@ -144,7 +144,7 @@ gloss_example(transliteration = "wó gěi ta xiě xìn",
              (ii) ‘I am writing a letter for him’")
 ```
 
-(@mandarin2) @wiedenhof2015, 136, example 5.34b
+(@mandarin2) @wiedenhof2015a, 136, example 5.34b
 ```{r}
 gloss_example(transliteration = "wó xiě xìn gěi ta",
              glosses = "1.SG write letter give 3",
@@ -152,17 +152,13 @@ gloss_example(transliteration = "wó xiě xìn gěi ta",
              comment = "‘I am writing a letter to him’")
 ```
 
-(@mandarin3) @wiedenhof2015, 130, example 5.27
+(@mandarin3) @wiedenhof2015a, 130, example 5.27
 ```{r, results='asis'}
 gloss_example(transliteration = "Suóyi dà bùfen de rén <m> dōu shi yòng xīshì jié hūn <oh>",
              glosses = "therefore big part SUB person mm all be use western_style connect marriage oh",
              free_translation = "Therefore most people <mm> have a Western-style wedding <oh>.")
 ```
 
-
-
-
-### Corpus Examples
 
 ## Mangghuer
 ### Details
@@ -218,7 +214,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
 > Between *kim* and *tuku-fi-n* in \ref(@mapuche2) a pause can be heard which is lacking in \ref(@mapuche3). In a few compound verbs the verb *tuku-* adds aspectual value. [@smeets2008, 176]
 
-> ...the modifying element V0 [is] negated or modified by the TAM-morphology at the right-hand end of the complex, and the last syllable of V0 is stressed. The verb *ngilla-* 'buy' can be found preceding other verbal roots to derive a compound meaning 'have X V-ed for someone'. [@zuniga2006, 38]
+> ...the modifying element V0 [is] negated or modified by the TAM-morphology at the right-hand end of the complex, and the last syllable of V0 is stressed. The verb *ngilla-* 'buy' can be found preceding other verbal roots to derive a compound meaning 'have X V-ed for someone'. [@zuniga2000, 38]
 
 (@mapuche1) @smeets2008, 175-176, example 94
 ```{r}
@@ -354,9 +350,9 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 ### Examples
 
-> ...verb serialization in Menya typically involves the juxtaposition of two verbs, one that is stripped of all the suffixation normally associated with verbs and the other an inflected verb of motion. [@whitehead2004, 181]
+> ...verb serialization in Menya typically involves the juxtaposition of two verbs, one that is stripped of all the suffixation normally associated with verbs and the other an inflected verb of motion. [@whitehead2005, 181]
 
-(@menya1) @whitehead2004, 182, example 431
+(@menya1) @whitehead2005, 182, example 431
 ```{r, results='asis'}
 gloss_example(transliteration = "ye ä-p-wä-ayi qänakä=i ä-ma-ät-a ä-ma ä-p-y-ayi",
              glosses = "1DU ASS-come-go_down-1DU.SS pandanus=DEF ASS-get-SS-1DU.SS ASS-get ASS-come-go_up-1DU.SS",
@@ -526,23 +522,25 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 ### Examples
 
+Please note that all diacritics may not be encoded properly and that the original source should be consulted for the correct examples.
+
 (@mungbam1) @lovegren2013, 219, example 8.12
 ```{r}
-gloss_example(transliteration = "ù kwˆO wˆıl@ f@ ` bEˆhE lO` ì-wìl@",
+gloss_example(transliteration = "ù kwɔ̂ wîlə fə̀ bɛ̂hɛ lɔ̀ ì-wìlə",
              glosses = "CL1 hold.IPFV peel.IPFV off.IPFV exit.IPFV VENT.IPFV CL5-skin",
              free_translation = "He is peeling off the [pig’s] skin [towards himself]...")
 ```
 
 (@mungbam2) @lovegren2013, 247, example 8.122
 ```{r}
-gloss_example(transliteration = "bú mà ú-tőm m@` dzoˆ kwàha",
+gloss_example(transliteration = "bú mà ú-tőm ə̀` dô kwàha",
              glosses = "CL2 take CL3-village then call gather",
              free_translation = "They took the village and called and gathered [them].")
 ```
 
 (@mungbam3) @lovegren2013, 350, example 11.32
 ```{r}
-gloss_example(transliteration = "Nk`E w`O wū à jÉl`@ kì fa̋-NkŹOn@, wà toŹ pıŹ tˆa m`-pıŹ-n`@",
+gloss_example(transliteration = "ŋ́kɛ̀ wɔ̀ wū à jɛ́lə̀ kì fa̋-ŋkɔ̀nə, wà tò pì tâ m̀-pì-nə̀",
              glosses = "as CL1.child CL1.DET EXPL.SBJ ascend.IRR IPFV CL16-compound CL1.SBJ come.IRR die.IRR only CL1.INF-die-INF",
              free_translation = "As the child came up into the compound, he would just come and *die*.")
 ```

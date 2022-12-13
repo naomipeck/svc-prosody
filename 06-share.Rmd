@@ -1,3 +1,7 @@
 # Acknowledgements {-}
 
-Here I'm going to write in funding acknowledgements and acknowledgements for those who have discussed this topic with me.
+Thank you to those who have engaged with me on this topic, notably Uta Reinöhl, Bernd Kortmann, Laura Becker and Nikolaus Himmelmann. 
+
+Thank you also to those who have helped me refine my poster and my presentation over the past few months: the HPSL Day organising team, Kirsten Culhane, Matías Guzmán Naranjo, and George Moroz.
+
+This research was supported by Deutsche Forschungsgemeinschaft (DFG) Project number 406074683, Emmy Noether-Gruppe "Non-hierarchicality in grammar: Construction formation without word class distinction across categories and languages".

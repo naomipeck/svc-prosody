@@ -1,26 +1,30 @@
 # Definitions
 
-Here I'm going to include some discussion of the definitions that I use in this poster.
+> Defining serial verb constructions is a sticky business. [@lord1993, 1]
 
 ## Serial Verb Construction
 
 A serial verb construction (SVC) is a grammatical unit which consists of two or more verbs which are juxtaposed without any marking of coordination or subordination. This construction has the same distribution as single verbs in the same language, and can be grammatically defined using the same criteria (although construction-specific criteria may also apply). The verbs within the construction should be able to be used as standalone predicates (i.e., as single verbs), albeit with a different but related meaning.
 
+Note that I do not operationalise a prototype approach to serial verb constructions like @aikhenvald2006, nor do I use an 'event-first' understanding to serial verb constructions pace @bisang2009. In this study, I rely on morphosyntactic characteristics such as agreement indexing and distribution of verbs and markers to identify potential serial verb constructions. 
+
 ## Intonation Unit
 
-An intonation unit can be defined both as a phonetic and as a phonological unit. As a phonetic unit, intonation units can be universally defined as units of speech (and potentially sign) which commence with a 'pitch reset' [@himmelmannetal2018]. These units are often bounded by other cues, such as pauses, changes in tempo (lags/rushes), changes in voice quality (creaky/breathy), as well as intonational contour cues, such as boundary tones. Intonation units are the minimal unit in conversation, i.e. turns minimally consist of a single intonation unit [@selting1996], and are hypothesised to be the minimal unit of information packaging in human language [@chafe1996].
+An intonation unit can be defined both as a phonetic and as a phonological unit. As a phonetic unit, intonation units can be universally defined as units of speech (and potentially sign) which commence with a 'pitch reset' [@himmelmannetal2018]. These units are often bounded by other cues, such as pauses, changes in tempo (lags/rushes), changes in voice quality (creaky/breathy), as well as intonational contour cues, such as boundary tones. Intonation units are the minimal unit in conversation, i.e. turns minimally consist of a single intonation unit [@selting1996], and are hypothesised to be the minimal unit of information packaging in human language [@chafe1994].
 As a phonological unit, intonation units must be defined on a language-specific basis with reference to lower phonological units within a language. Typically, intonation units can be the domain for (morpho-)phonological rules, and feature a unit-level accent and boundary tones.
 Given the universality of phonetic intonation units, as well as the universality of functions related to intonation unit-like units in speech, I assume that all languages have a phonological unit which corresponds to the phonetic intonation unit.
 
-It is important to additionally distinguish between intonation *units* and intonation *contours*. Intonation units create chunks of language, while intonation contours encode additional information (and contribute to the ability of the intonation unit to chunk). Contours are language-specific and can extend over multiple intonation units [reference]. As such, we cannot take discussions of intonation contours to equal discussions of intonation units.
+It is important to additionally distinguish between intonation *units* and intonation *contours*. Intonation units create chunks of language, while intonation contours encode additional information (and contribute to the ability of the intonation unit to chunk). Contours are language-specific and can extend over multiple intonation units **[reference]**. As such, we cannot take discussions of intonation contours to equal discussions of intonation units.
+
+<!-- to do: find contour reference -->
 
 ## "One Intonation Unit" constraint
 
-The "One Intonation Unit" constraint refers more broadly to the hypothesis that all serial verb constructions must be realised within a single intonation unit. This constraint is a hypothesis which relies on a number of hypotheses and assumptions within functional-typological literature. 
+The "One Intonation Unit" constraint refers to the hypothesis that all serial verb constructions must be realised within a single intonation unit. This constraint is a hypothesis which relies on a number of hypotheses and assumptions within functional-typological literature. 
 
 Firstly, serial verb constructions are commonly assumed to encode a single event, due to their similar distribution to single verbs [e.g. @aikhenvald2006; @bisang2009].
-@pawley1985 suggested that serial verb constructions actually can encode more than one event.
-@givon1991 tested this hypothesis by using the proxy of breath groups for events, and found that the large majority of SVCs were realised within a single breath group. This finding was then taken more broadly to mean that all SVCs were realised in either a single intonation unit, or under a single intonation contour.
-However, @chafe1996 hypothesised that no more than "one new idea" can be realised in a given intonation unit at a time, which would suggest that serial verb constructions - which realise 'one event' - should be realised within a single intonation unit. It additionally suggests, however, that discourse plays a role in how events are construed.
+@pawley1987 suggested that serial verb constructions actually can encode more than one event.
+@givon1991 tested this hypothesis by using the proxy of breath groups (stretches of speech between pauses) for events, and found that the large majority of SVCs were realised within a single breath group. This finding was then taken more broadly to mean that all SVCs were realised in either a single intonation unit, or under a single intonation contour.
+However, @chafe1994 hypothesised that no more than "one new idea" can be realised in a given intonation unit at a time, which would suggest that serial verb constructions - if they realise only 'one event' - could be realised within a single intonation unit, but that it would be possible for SVCs to be encoded over multiple intonation units if more new information is to be encoded. It additionally suggests that discourse plays a role in how events are construed.
 
-The constraint as it is tested in this work takes the form of @himmelmann2022's assertion that SVCs are "IU-bounded constructions", i.e. the construction is only recogniseable as an SVC when it is realised within the same intonation unit.
+The constraint as it is tested in this work takes the form of @himmelmann2022's assertion that SVCs are "IU-bounded constructions", i.e. a construction is only recognisable as an SVC when it is realised within the same intonation unit. 

@@ -20,7 +20,7 @@ IU: 1 <br> Grouping: ? <br> Grammatical: 1
 ### Examples
 
 (@bafut1) @tamanji2010, 183, example 28c
-```{r}
+```{r, results='asis'}
 gloss_example(transliteration = "n-ó j-á=ɨ̀ kɨ̀ kóŋnə̂ N-ʒÎ N-lóô ǹ-dɨ̀ɨ̀ w-á",
              glosses = "9-snake 9-the=SM P2 silently N-come N-bite 1-witch 1-the",
              free_translation = "The snake silently came up and bit the witch.",

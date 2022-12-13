@@ -23,7 +23,7 @@
 <meta name="author" content="Naomi Peck" />
 
 
-<meta name="date" content="2022-12-11" />
+<meta name="date" content="2022-12-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,74 +52,20 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
-<style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -160,15 +106,16 @@ div.csl-indent {
 <li><a href="./">Are all serial verbs realised in a single intonation unit?</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> toc:</a></li>
-<li class="chapter" data-level="2" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>2</b> Definitions</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="1" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>1</b> Definitions</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>2.1</b> Serial Verb Construction</a></li>
-<li class="chapter" data-level="2.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>2.2</b> Intonation Unit</a></li>
-<li class="chapter" data-level="2.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>2.3</b> “One Intonation Unit” constraint</a></li>
+<li class="chapter" data-level="1.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>1.1</b> Serial Verb Construction</a></li>
+<li class="chapter" data-level="1.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>1.2</b> Intonation Unit</a></li>
+<li class="chapter" data-level="1.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>1.3</b> “One Intonation Unit” constraint</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>3</b> Background</a></li>
-<li class="chapter" data-level="4" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>4</b> Overview of Data</a>
+<li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> Background</a></li>
+<li class="chapter" data-level="3" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>3</b> Overview of Data</a></li>
+<li class="chapter" data-level="4" data-path="grammatical-descriptions.html"><a href="grammatical-descriptions.html"><i class="fa fa-check"></i><b>4</b> Grammatical Descriptions</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="abun.html"><a href="abun.html"><i class="fa fa-check"></i><b>4.1</b> Abun</a>
 <ul>
@@ -674,7 +621,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.84.2" data-path="lower-chehalis.html"><a href="lower-chehalis.html#coding-83"><i class="fa fa-check"></i><b>4.84.2</b> Coding</a></li>
 <li class="chapter" data-level="4.84.3" data-path="lower-chehalis.html"><a href="lower-chehalis.html#examples-83"><i class="fa fa-check"></i><b>4.84.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.85" data-path="maanyan.html"><a href="maanyan.html"><i class="fa fa-check"></i><b>4.85</b> Ma’anyan!</a>
+<li class="chapter" data-level="4.85" data-path="maanyan.html"><a href="maanyan.html"><i class="fa fa-check"></i><b>4.85</b> Ma’anyan</a>
 <ul>
 <li class="chapter" data-level="4.85.1" data-path="maanyan.html"><a href="maanyan.html#details-84"><i class="fa fa-check"></i><b>4.85.1</b> Details</a></li>
 <li class="chapter" data-level="4.85.2" data-path="maanyan.html"><a href="maanyan.html#coding-84"><i class="fa fa-check"></i><b>4.85.2</b> Coding</a></li>
@@ -697,7 +644,6 @@ div.csl-indent {
 <li class="chapter" data-level="4.88.1" data-path="mandarin-chinese.html"><a href="mandarin-chinese.html#details-87"><i class="fa fa-check"></i><b>4.88.1</b> Details</a></li>
 <li class="chapter" data-level="4.88.2" data-path="mandarin-chinese.html"><a href="mandarin-chinese.html#coding-87"><i class="fa fa-check"></i><b>4.88.2</b> Coding</a></li>
 <li class="chapter" data-level="4.88.3" data-path="mandarin-chinese.html"><a href="mandarin-chinese.html#examples-87"><i class="fa fa-check"></i><b>4.88.3</b> Examples</a></li>
-<li class="chapter" data-level="4.88.4" data-path="mandarin-chinese.html"><a href="mandarin-chinese.html#corpus-examples"><i class="fa fa-check"></i><b>4.88.4</b> Corpus Examples</a></li>
 </ul></li>
 <li class="chapter" data-level="4.89" data-path="mangghuer.html"><a href="mangghuer.html"><i class="fa fa-check"></i><b>4.89</b> Mangghuer</a>
 <ul>
@@ -705,7 +651,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.89.2" data-path="mangghuer.html"><a href="mangghuer.html#coding-88"><i class="fa fa-check"></i><b>4.89.2</b> Coding</a></li>
 <li class="chapter" data-level="4.89.3" data-path="mangghuer.html"><a href="mangghuer.html#examples-88"><i class="fa fa-check"></i><b>4.89.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.90" data-path="mapudungun.html"><a href="mapudungun.html"><i class="fa fa-check"></i><b>4.90</b> Mapudungun!</a>
+<li class="chapter" data-level="4.90" data-path="mapudungun.html"><a href="mapudungun.html"><i class="fa fa-check"></i><b>4.90</b> Mapudungun</a>
 <ul>
 <li class="chapter" data-level="4.90.1" data-path="mapudungun.html"><a href="mapudungun.html#details-89"><i class="fa fa-check"></i><b>4.90.1</b> Details</a></li>
 <li class="chapter" data-level="4.90.2" data-path="mapudungun.html"><a href="mapudungun.html#coding-89"><i class="fa fa-check"></i><b>4.90.2</b> Coding</a></li>
@@ -723,7 +669,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.92.2" data-path="maybrat-karon.html"><a href="maybrat-karon.html#coding-91"><i class="fa fa-check"></i><b>4.92.2</b> Coding</a></li>
 <li class="chapter" data-level="4.92.3" data-path="maybrat-karon.html"><a href="maybrat-karon.html#examples-91"><i class="fa fa-check"></i><b>4.92.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.93" data-path="menya.html"><a href="menya.html"><i class="fa fa-check"></i><b>4.93</b> Menya!</a>
+<li class="chapter" data-level="4.93" data-path="menya.html"><a href="menya.html"><i class="fa fa-check"></i><b>4.93</b> Menya</a>
 <ul>
 <li class="chapter" data-level="4.93.1" data-path="menya.html"><a href="menya.html#details-92"><i class="fa fa-check"></i><b>4.93.1</b> Details</a></li>
 <li class="chapter" data-level="4.93.2" data-path="menya.html"><a href="menya.html#coding-92"><i class="fa fa-check"></i><b>4.93.2</b> Coding</a></li>
@@ -765,7 +711,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.99.2" data-path="murrinhpatha.html"><a href="murrinhpatha.html#coding-98"><i class="fa fa-check"></i><b>4.99.2</b> Coding</a></li>
 <li class="chapter" data-level="4.99.3" data-path="murrinhpatha.html"><a href="murrinhpatha.html#examples-98"><i class="fa fa-check"></i><b>4.99.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.100" data-path="nuuki.html"><a href="nuuki.html"><i class="fa fa-check"></i><b>4.100</b> N|uuki!</a>
+<li class="chapter" data-level="4.100" data-path="nuuki.html"><a href="nuuki.html"><i class="fa fa-check"></i><b>4.100</b> N|uuki</a>
 <ul>
 <li class="chapter" data-level="4.100.1" data-path="nuuki.html"><a href="nuuki.html#details-99"><i class="fa fa-check"></i><b>4.100.1</b> Details</a></li>
 <li class="chapter" data-level="4.100.2" data-path="nuuki.html"><a href="nuuki.html#coding-99"><i class="fa fa-check"></i><b>4.100.2</b> Coding</a></li>
@@ -777,7 +723,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.101.2" data-path="ncane-mungong.html"><a href="ncane-mungong.html#coding-100"><i class="fa fa-check"></i><b>4.101.2</b> Coding</a></li>
 <li class="chapter" data-level="4.101.3" data-path="ncane-mungong.html"><a href="ncane-mungong.html#examples-100"><i class="fa fa-check"></i><b>4.101.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.102" data-path="ndebele.html"><a href="ndebele.html"><i class="fa fa-check"></i><b>4.102</b> Ndebele!</a>
+<li class="chapter" data-level="4.102" data-path="ndebele.html"><a href="ndebele.html"><i class="fa fa-check"></i><b>4.102</b> Ndebele</a>
 <ul>
 <li class="chapter" data-level="4.102.1" data-path="ndebele.html"><a href="ndebele.html#details-101"><i class="fa fa-check"></i><b>4.102.1</b> Details</a></li>
 <li class="chapter" data-level="4.102.2" data-path="ndebele.html"><a href="ndebele.html#coding-101"><i class="fa fa-check"></i><b>4.102.2</b> Coding</a></li>
@@ -795,13 +741,13 @@ div.csl-indent {
 <li class="chapter" data-level="4.104.2" data-path="northern-yukian.html"><a href="northern-yukian.html#coding-103"><i class="fa fa-check"></i><b>4.104.2</b> Coding</a></li>
 <li class="chapter" data-level="4.104.3" data-path="northern-yukian.html"><a href="northern-yukian.html#examples-103"><i class="fa fa-check"></i><b>4.104.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.105" data-path="nupe.html"><a href="nupe.html"><i class="fa fa-check"></i><b>4.105</b> Nupe!</a>
+<li class="chapter" data-level="4.105" data-path="nupe.html"><a href="nupe.html"><i class="fa fa-check"></i><b>4.105</b> Nupe</a>
 <ul>
 <li class="chapter" data-level="4.105.1" data-path="nupe.html"><a href="nupe.html#details-104"><i class="fa fa-check"></i><b>4.105.1</b> Details</a></li>
 <li class="chapter" data-level="4.105.2" data-path="nupe.html"><a href="nupe.html#coding-104"><i class="fa fa-check"></i><b>4.105.2</b> Coding</a></li>
 <li class="chapter" data-level="4.105.3" data-path="nupe.html"><a href="nupe.html#examples-104"><i class="fa fa-check"></i><b>4.105.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.106" data-path="olo.html"><a href="olo.html"><i class="fa fa-check"></i><b>4.106</b> Olo!</a>
+<li class="chapter" data-level="4.106" data-path="olo.html"><a href="olo.html"><i class="fa fa-check"></i><b>4.106</b> Olo</a>
 <ul>
 <li class="chapter" data-level="4.106.1" data-path="olo.html"><a href="olo.html#details-105"><i class="fa fa-check"></i><b>4.106.1</b> Details</a></li>
 <li class="chapter" data-level="4.106.2" data-path="olo.html"><a href="olo.html#coding-105"><i class="fa fa-check"></i><b>4.106.2</b> Coding</a></li>
@@ -885,7 +831,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.119.2" data-path="shabo.html"><a href="shabo.html#coding-118"><i class="fa fa-check"></i><b>4.119.2</b> Coding</a></li>
 <li class="chapter" data-level="4.119.3" data-path="shabo.html"><a href="shabo.html#examples-118"><i class="fa fa-check"></i><b>4.119.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.120" data-path="sheko.html"><a href="sheko.html"><i class="fa fa-check"></i><b>4.120</b> Sheko!</a>
+<li class="chapter" data-level="4.120" data-path="sheko.html"><a href="sheko.html"><i class="fa fa-check"></i><b>4.120</b> Sheko</a>
 <ul>
 <li class="chapter" data-level="4.120.1" data-path="sheko.html"><a href="sheko.html#details-119"><i class="fa fa-check"></i><b>4.120.1</b> Details</a></li>
 <li class="chapter" data-level="4.120.2" data-path="sheko.html"><a href="sheko.html#coding-119"><i class="fa fa-check"></i><b>4.120.2</b> Coding</a></li>
@@ -909,7 +855,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.123.2" data-path="suabo.html"><a href="suabo.html#coding-122"><i class="fa fa-check"></i><b>4.123.2</b> Coding</a></li>
 <li class="chapter" data-level="4.123.3" data-path="suabo.html"><a href="suabo.html#examples-122"><i class="fa fa-check"></i><b>4.123.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.124" data-path="tahitian.html"><a href="tahitian.html"><i class="fa fa-check"></i><b>4.124</b> Tahitian!</a>
+<li class="chapter" data-level="4.124" data-path="tahitian.html"><a href="tahitian.html"><i class="fa fa-check"></i><b>4.124</b> Tahitian</a>
 <ul>
 <li class="chapter" data-level="4.124.1" data-path="tahitian.html"><a href="tahitian.html#details-123"><i class="fa fa-check"></i><b>4.124.1</b> Details</a></li>
 <li class="chapter" data-level="4.124.2" data-path="tahitian.html"><a href="tahitian.html#coding-123"><i class="fa fa-check"></i><b>4.124.2</b> Coding</a></li>
@@ -987,152 +933,93 @@ div.csl-indent {
 <li class="chapter" data-level="4.136.2" data-path="vaeakau-taumako.html"><a href="vaeakau-taumako.html#coding-135"><i class="fa fa-check"></i><b>4.136.2</b> Coding</a></li>
 <li class="chapter" data-level="4.136.3" data-path="vaeakau-taumako.html"><a href="vaeakau-taumako.html#examples-135"><i class="fa fa-check"></i><b>4.136.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.137" data-path="waigeo.html"><a href="waigeo.html"><i class="fa fa-check"></i><b>4.137</b> Waigeo</a>
+<li class="chapter" data-level="4.137" data-path="waimaa.html"><a href="waimaa.html"><i class="fa fa-check"></i><b>4.137</b> Waima’a</a>
 <ul>
-<li class="chapter" data-level="4.137.1" data-path="waigeo.html"><a href="waigeo.html#details-136"><i class="fa fa-check"></i><b>4.137.1</b> Details</a></li>
-<li class="chapter" data-level="4.137.2" data-path="waigeo.html"><a href="waigeo.html#coding-136"><i class="fa fa-check"></i><b>4.137.2</b> Coding</a></li>
-<li class="chapter" data-level="4.137.3" data-path="waigeo.html"><a href="waigeo.html#examples-136"><i class="fa fa-check"></i><b>4.137.3</b> Examples</a></li>
+<li class="chapter" data-level="4.137.1" data-path="waimaa.html"><a href="waimaa.html#details-136"><i class="fa fa-check"></i><b>4.137.1</b> Details</a></li>
+<li class="chapter" data-level="4.137.2" data-path="waimaa.html"><a href="waimaa.html#coding-136"><i class="fa fa-check"></i><b>4.137.2</b> Coding</a></li>
+<li class="chapter" data-level="4.137.3" data-path="waimaa.html"><a href="waimaa.html#examples-136"><i class="fa fa-check"></i><b>4.137.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.138" data-path="waimaa.html"><a href="waimaa.html"><i class="fa fa-check"></i><b>4.138</b> Waima’a!</a>
+<li class="chapter" data-level="4.138" data-path="wambayan.html"><a href="wambayan.html"><i class="fa fa-check"></i><b>4.138</b> Wambayan</a>
 <ul>
-<li class="chapter" data-level="4.138.1" data-path="waimaa.html"><a href="waimaa.html#details-137"><i class="fa fa-check"></i><b>4.138.1</b> Details</a></li>
-<li class="chapter" data-level="4.138.2" data-path="waimaa.html"><a href="waimaa.html#coding-137"><i class="fa fa-check"></i><b>4.138.2</b> Coding</a></li>
-<li class="chapter" data-level="4.138.3" data-path="waimaa.html"><a href="waimaa.html#examples-137"><i class="fa fa-check"></i><b>4.138.3</b> Examples</a></li>
+<li class="chapter" data-level="4.138.1" data-path="wambayan.html"><a href="wambayan.html#details-137"><i class="fa fa-check"></i><b>4.138.1</b> Details</a></li>
+<li class="chapter" data-level="4.138.2" data-path="wambayan.html"><a href="wambayan.html#coding-137"><i class="fa fa-check"></i><b>4.138.2</b> Coding</a></li>
+<li class="chapter" data-level="4.138.3" data-path="wambayan.html"><a href="wambayan.html#examples-137"><i class="fa fa-check"></i><b>4.138.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.139" data-path="wambayan.html"><a href="wambayan.html"><i class="fa fa-check"></i><b>4.139</b> Wambayan</a>
+<li class="chapter" data-level="4.139" data-path="wandala.html"><a href="wandala.html"><i class="fa fa-check"></i><b>4.139</b> Wandala</a>
 <ul>
-<li class="chapter" data-level="4.139.1" data-path="wambayan.html"><a href="wambayan.html#details-138"><i class="fa fa-check"></i><b>4.139.1</b> Details</a></li>
-<li class="chapter" data-level="4.139.2" data-path="wambayan.html"><a href="wambayan.html#coding-138"><i class="fa fa-check"></i><b>4.139.2</b> Coding</a></li>
-<li class="chapter" data-level="4.139.3" data-path="wambayan.html"><a href="wambayan.html#examples-138"><i class="fa fa-check"></i><b>4.139.3</b> Examples</a></li>
+<li class="chapter" data-level="4.139.1" data-path="wandala.html"><a href="wandala.html#details-138"><i class="fa fa-check"></i><b>4.139.1</b> Details</a></li>
+<li class="chapter" data-level="4.139.2" data-path="wandala.html"><a href="wandala.html#coding-138"><i class="fa fa-check"></i><b>4.139.2</b> Coding</a></li>
+<li class="chapter" data-level="4.139.3" data-path="wandala.html"><a href="wandala.html#examples-138"><i class="fa fa-check"></i><b>4.139.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.140" data-path="wandala.html"><a href="wandala.html"><i class="fa fa-check"></i><b>4.140</b> Wandala</a>
+<li class="chapter" data-level="4.140" data-path="west-subanon.html"><a href="west-subanon.html"><i class="fa fa-check"></i><b>4.140</b> West Subanon</a>
 <ul>
-<li class="chapter" data-level="4.140.1" data-path="wandala.html"><a href="wandala.html#details-139"><i class="fa fa-check"></i><b>4.140.1</b> Details</a></li>
-<li class="chapter" data-level="4.140.2" data-path="wandala.html"><a href="wandala.html#coding-139"><i class="fa fa-check"></i><b>4.140.2</b> Coding</a></li>
-<li class="chapter" data-level="4.140.3" data-path="wandala.html"><a href="wandala.html#examples-139"><i class="fa fa-check"></i><b>4.140.3</b> Examples</a></li>
+<li class="chapter" data-level="4.140.1" data-path="west-subanon.html"><a href="west-subanon.html#details-139"><i class="fa fa-check"></i><b>4.140.1</b> Details</a></li>
+<li class="chapter" data-level="4.140.2" data-path="west-subanon.html"><a href="west-subanon.html#coding-139"><i class="fa fa-check"></i><b>4.140.2</b> Coding</a></li>
+<li class="chapter" data-level="4.140.3" data-path="west-subanon.html"><a href="west-subanon.html#examples-139"><i class="fa fa-check"></i><b>4.140.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.141" data-path="west-subanon.html"><a href="west-subanon.html"><i class="fa fa-check"></i><b>4.141</b> West Subanon</a>
+<li class="chapter" data-level="4.141" data-path="western-magar.html"><a href="western-magar.html"><i class="fa fa-check"></i><b>4.141</b> Western Magar</a>
 <ul>
-<li class="chapter" data-level="4.141.1" data-path="west-subanon.html"><a href="west-subanon.html#details-140"><i class="fa fa-check"></i><b>4.141.1</b> Details</a></li>
-<li class="chapter" data-level="4.141.2" data-path="west-subanon.html"><a href="west-subanon.html#coding-140"><i class="fa fa-check"></i><b>4.141.2</b> Coding</a></li>
-<li class="chapter" data-level="4.141.3" data-path="west-subanon.html"><a href="west-subanon.html#examples-140"><i class="fa fa-check"></i><b>4.141.3</b> Examples</a></li>
+<li class="chapter" data-level="4.141.1" data-path="western-magar.html"><a href="western-magar.html#details-140"><i class="fa fa-check"></i><b>4.141.1</b> Details</a></li>
+<li class="chapter" data-level="4.141.2" data-path="western-magar.html"><a href="western-magar.html#coding-140"><i class="fa fa-check"></i><b>4.141.2</b> Coding</a></li>
+<li class="chapter" data-level="4.141.3" data-path="western-magar.html"><a href="western-magar.html#examples-140"><i class="fa fa-check"></i><b>4.141.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.142" data-path="western-magar.html"><a href="western-magar.html"><i class="fa fa-check"></i><b>4.142</b> Western Magar</a>
+<li class="chapter" data-level="4.142" data-path="western-tamang.html"><a href="western-tamang.html"><i class="fa fa-check"></i><b>4.142</b> Western Tamang</a>
 <ul>
-<li class="chapter" data-level="4.142.1" data-path="western-magar.html"><a href="western-magar.html#details-141"><i class="fa fa-check"></i><b>4.142.1</b> Details</a></li>
-<li class="chapter" data-level="4.142.2" data-path="western-magar.html"><a href="western-magar.html#coding-141"><i class="fa fa-check"></i><b>4.142.2</b> Coding</a></li>
-<li class="chapter" data-level="4.142.3" data-path="western-magar.html"><a href="western-magar.html#examples-141"><i class="fa fa-check"></i><b>4.142.3</b> Examples</a></li>
+<li class="chapter" data-level="4.142.1" data-path="western-tamang.html"><a href="western-tamang.html#details-141"><i class="fa fa-check"></i><b>4.142.1</b> Details</a></li>
+<li class="chapter" data-level="4.142.2" data-path="western-tamang.html"><a href="western-tamang.html#coding-141"><i class="fa fa-check"></i><b>4.142.2</b> Coding</a></li>
+<li class="chapter" data-level="4.142.3" data-path="western-tamang.html"><a href="western-tamang.html#examples-141"><i class="fa fa-check"></i><b>4.142.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.143" data-path="western-tamang.html"><a href="western-tamang.html"><i class="fa fa-check"></i><b>4.143</b> Western Tamang</a>
+<li class="chapter" data-level="4.143" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html"><i class="fa fa-check"></i><b>4.143</b> Western Xiangxi Miao</a>
 <ul>
-<li class="chapter" data-level="4.143.1" data-path="western-tamang.html"><a href="western-tamang.html#details-142"><i class="fa fa-check"></i><b>4.143.1</b> Details</a></li>
-<li class="chapter" data-level="4.143.2" data-path="western-tamang.html"><a href="western-tamang.html#coding-142"><i class="fa fa-check"></i><b>4.143.2</b> Coding</a></li>
-<li class="chapter" data-level="4.143.3" data-path="western-tamang.html"><a href="western-tamang.html#examples-142"><i class="fa fa-check"></i><b>4.143.3</b> Examples</a></li>
+<li class="chapter" data-level="4.143.1" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#details-142"><i class="fa fa-check"></i><b>4.143.1</b> Details</a></li>
+<li class="chapter" data-level="4.143.2" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#coding-142"><i class="fa fa-check"></i><b>4.143.2</b> Coding</a></li>
+<li class="chapter" data-level="4.143.3" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#examples-142"><i class="fa fa-check"></i><b>4.143.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.144" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html"><i class="fa fa-check"></i><b>4.144</b> Western Xiangxi Miao</a>
+<li class="chapter" data-level="4.144" data-path="yimas.html"><a href="yimas.html"><i class="fa fa-check"></i><b>4.144</b> Yimas</a>
 <ul>
-<li class="chapter" data-level="4.144.1" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#details-143"><i class="fa fa-check"></i><b>4.144.1</b> Details</a></li>
-<li class="chapter" data-level="4.144.2" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#coding-143"><i class="fa fa-check"></i><b>4.144.2</b> Coding</a></li>
-<li class="chapter" data-level="4.144.3" data-path="western-xiangxi-miao.html"><a href="western-xiangxi-miao.html#examples-143"><i class="fa fa-check"></i><b>4.144.3</b> Examples</a></li>
+<li class="chapter" data-level="4.144.1" data-path="yimas.html"><a href="yimas.html#details-143"><i class="fa fa-check"></i><b>4.144.1</b> Details</a></li>
+<li class="chapter" data-level="4.144.2" data-path="yimas.html"><a href="yimas.html#coding-143"><i class="fa fa-check"></i><b>4.144.2</b> Coding</a></li>
+<li class="chapter" data-level="4.144.3" data-path="yimas.html"><a href="yimas.html#examples-143"><i class="fa fa-check"></i><b>4.144.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.145" data-path="yimas.html"><a href="yimas.html"><i class="fa fa-check"></i><b>4.145</b> Yimas</a>
+<li class="chapter" data-level="4.145" data-path="yongning-na.html"><a href="yongning-na.html"><i class="fa fa-check"></i><b>4.145</b> Yongning Na</a>
 <ul>
-<li class="chapter" data-level="4.145.1" data-path="yimas.html"><a href="yimas.html#details-144"><i class="fa fa-check"></i><b>4.145.1</b> Details</a></li>
-<li class="chapter" data-level="4.145.2" data-path="yimas.html"><a href="yimas.html#coding-144"><i class="fa fa-check"></i><b>4.145.2</b> Coding</a></li>
-<li class="chapter" data-level="4.145.3" data-path="yimas.html"><a href="yimas.html#examples-144"><i class="fa fa-check"></i><b>4.145.3</b> Examples</a></li>
+<li class="chapter" data-level="4.145.1" data-path="yongning-na.html"><a href="yongning-na.html#details-144"><i class="fa fa-check"></i><b>4.145.1</b> Details</a></li>
+<li class="chapter" data-level="4.145.2" data-path="yongning-na.html"><a href="yongning-na.html#coding-144"><i class="fa fa-check"></i><b>4.145.2</b> Coding</a></li>
+<li class="chapter" data-level="4.145.3" data-path="yongning-na.html"><a href="yongning-na.html#examples-144"><i class="fa fa-check"></i><b>4.145.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.146" data-path="yongning-na.html"><a href="yongning-na.html"><i class="fa fa-check"></i><b>4.146</b> Yongning Na</a>
+<li class="chapter" data-level="4.146" data-path="yoruba.html"><a href="yoruba.html"><i class="fa fa-check"></i><b>4.146</b> Yoruba</a>
 <ul>
-<li class="chapter" data-level="4.146.1" data-path="yongning-na.html"><a href="yongning-na.html#details-145"><i class="fa fa-check"></i><b>4.146.1</b> Details</a></li>
-<li class="chapter" data-level="4.146.2" data-path="yongning-na.html"><a href="yongning-na.html#coding-145"><i class="fa fa-check"></i><b>4.146.2</b> Coding</a></li>
-<li class="chapter" data-level="4.146.3" data-path="yongning-na.html"><a href="yongning-na.html#examples-145"><i class="fa fa-check"></i><b>4.146.3</b> Examples</a></li>
+<li class="chapter" data-level="4.146.1" data-path="yoruba.html"><a href="yoruba.html#details-145"><i class="fa fa-check"></i><b>4.146.1</b> Details</a></li>
+<li class="chapter" data-level="4.146.2" data-path="yoruba.html"><a href="yoruba.html#coding-145"><i class="fa fa-check"></i><b>4.146.2</b> Coding</a></li>
+<li class="chapter" data-level="4.146.3" data-path="yoruba.html"><a href="yoruba.html#examples-145"><i class="fa fa-check"></i><b>4.146.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.147" data-path="yoruba.html"><a href="yoruba.html"><i class="fa fa-check"></i><b>4.147</b> Yoruba</a>
+<li class="chapter" data-level="4.147" data-path="yucatec-maya.html"><a href="yucatec-maya.html"><i class="fa fa-check"></i><b>4.147</b> Yucatec Maya</a>
 <ul>
-<li class="chapter" data-level="4.147.1" data-path="yoruba.html"><a href="yoruba.html#details-146"><i class="fa fa-check"></i><b>4.147.1</b> Details</a></li>
-<li class="chapter" data-level="4.147.2" data-path="yoruba.html"><a href="yoruba.html#coding-146"><i class="fa fa-check"></i><b>4.147.2</b> Coding</a></li>
-<li class="chapter" data-level="4.147.3" data-path="yoruba.html"><a href="yoruba.html#examples-146"><i class="fa fa-check"></i><b>4.147.3</b> Examples</a></li>
+<li class="chapter" data-level="4.147.1" data-path="yucatec-maya.html"><a href="yucatec-maya.html#details-146"><i class="fa fa-check"></i><b>4.147.1</b> Details</a></li>
+<li class="chapter" data-level="4.147.2" data-path="yucatec-maya.html"><a href="yucatec-maya.html#coding-146"><i class="fa fa-check"></i><b>4.147.2</b> Coding</a></li>
+<li class="chapter" data-level="4.147.3" data-path="yucatec-maya.html"><a href="yucatec-maya.html#examples-146"><i class="fa fa-check"></i><b>4.147.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.148" data-path="yucatec-maya.html"><a href="yucatec-maya.html"><i class="fa fa-check"></i><b>4.148</b> Yucatec Maya</a>
+<li class="chapter" data-level="4.148" data-path="yuchi.html"><a href="yuchi.html"><i class="fa fa-check"></i><b>4.148</b> Yuchi</a>
 <ul>
-<li class="chapter" data-level="4.148.1" data-path="yucatec-maya.html"><a href="yucatec-maya.html#details-147"><i class="fa fa-check"></i><b>4.148.1</b> Details</a></li>
-<li class="chapter" data-level="4.148.2" data-path="yucatec-maya.html"><a href="yucatec-maya.html#coding-147"><i class="fa fa-check"></i><b>4.148.2</b> Coding</a></li>
-<li class="chapter" data-level="4.148.3" data-path="yucatec-maya.html"><a href="yucatec-maya.html#examples-147"><i class="fa fa-check"></i><b>4.148.3</b> Examples</a></li>
+<li class="chapter" data-level="4.148.1" data-path="yuchi.html"><a href="yuchi.html#details-147"><i class="fa fa-check"></i><b>4.148.1</b> Details</a></li>
+<li class="chapter" data-level="4.148.2" data-path="yuchi.html"><a href="yuchi.html#coding-147"><i class="fa fa-check"></i><b>4.148.2</b> Coding</a></li>
+<li class="chapter" data-level="4.148.3" data-path="yuchi.html"><a href="yuchi.html#examples-147"><i class="fa fa-check"></i><b>4.148.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.149" data-path="yuchi.html"><a href="yuchi.html"><i class="fa fa-check"></i><b>4.149</b> Yuchi</a>
+<li class="chapter" data-level="4.149" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html"><i class="fa fa-check"></i><b>4.149</b> Zaniza Zapotec</a>
 <ul>
-<li class="chapter" data-level="4.149.1" data-path="yuchi.html"><a href="yuchi.html#details-148"><i class="fa fa-check"></i><b>4.149.1</b> Details</a></li>
-<li class="chapter" data-level="4.149.2" data-path="yuchi.html"><a href="yuchi.html#coding-148"><i class="fa fa-check"></i><b>4.149.2</b> Coding</a></li>
-<li class="chapter" data-level="4.149.3" data-path="yuchi.html"><a href="yuchi.html#examples-148"><i class="fa fa-check"></i><b>4.149.3</b> Examples</a></li>
+<li class="chapter" data-level="4.149.1" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#details-148"><i class="fa fa-check"></i><b>4.149.1</b> Details</a></li>
+<li class="chapter" data-level="4.149.2" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#coding-148"><i class="fa fa-check"></i><b>4.149.2</b> Coding</a></li>
+<li class="chapter" data-level="4.149.3" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#examples-148"><i class="fa fa-check"></i><b>4.149.3</b> Examples</a></li>
 </ul></li>
-<li class="chapter" data-level="4.150" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html"><i class="fa fa-check"></i><b>4.150</b> Zaniza Zapotec</a>
+<li class="chapter" data-level="4.150" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html"><i class="fa fa-check"></i><b>4.150</b> Zayse-Zergulla</a>
 <ul>
-<li class="chapter" data-level="4.150.1" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#details-149"><i class="fa fa-check"></i><b>4.150.1</b> Details</a></li>
-<li class="chapter" data-level="4.150.2" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#coding-149"><i class="fa fa-check"></i><b>4.150.2</b> Coding</a></li>
-<li class="chapter" data-level="4.150.3" data-path="zaniza-zapotec.html"><a href="zaniza-zapotec.html#examples-149"><i class="fa fa-check"></i><b>4.150.3</b> Examples</a></li>
-</ul></li>
-<li class="chapter" data-level="4.151" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html"><i class="fa fa-check"></i><b>4.151</b> Zayse-Zergulla</a>
-<ul>
-<li class="chapter" data-level="4.151.1" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#details-150"><i class="fa fa-check"></i><b>4.151.1</b> Details</a></li>
-<li class="chapter" data-level="4.151.2" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#coding-150"><i class="fa fa-check"></i><b>4.151.2</b> Coding</a></li>
-<li class="chapter" data-level="4.151.3" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#examples-150"><i class="fa fa-check"></i><b>4.151.3</b> Examples</a></li>
+<li class="chapter" data-level="4.150.1" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#details-149"><i class="fa fa-check"></i><b>4.150.1</b> Details</a></li>
+<li class="chapter" data-level="4.150.2" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#coding-149"><i class="fa fa-check"></i><b>4.150.2</b> Coding</a></li>
+<li class="chapter" data-level="4.150.3" data-path="zayse-zergulla.html"><a href="zayse-zergulla.html#examples-149"><i class="fa fa-check"></i><b>4.150.3</b> Examples</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="corpus-data.html"><a href="corpus-data.html"><i class="fa fa-check"></i><b>5</b> Corpus Data</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="aimele-1.html"><a href="aimele-1.html"><i class="fa fa-check"></i><b>5.1</b> Aimele</a>
-<ul>
-<li class="chapter" data-level="5.1.1" data-path="aimele-1.html"><a href="aimele-1.html#details-151"><i class="fa fa-check"></i><b>5.1.1</b> Details</a></li>
-<li class="chapter" data-level="5.1.2" data-path="aimele-1.html"><a href="aimele-1.html#coding-151"><i class="fa fa-check"></i><b>5.1.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.2" data-path="avatime-1.html"><a href="avatime-1.html"><i class="fa fa-check"></i><b>5.2</b> Avatime</a>
-<ul>
-<li class="chapter" data-level="5.2.1" data-path="avatime-1.html"><a href="avatime-1.html#details-152"><i class="fa fa-check"></i><b>5.2.1</b> Details</a></li>
-<li class="chapter" data-level="5.2.2" data-path="avatime-1.html"><a href="avatime-1.html#coding-152"><i class="fa fa-check"></i><b>5.2.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.3" data-path="daakaka-1.html"><a href="daakaka-1.html"><i class="fa fa-check"></i><b>5.3</b> Daakaka</a>
-<ul>
-<li class="chapter" data-level="5.3.1" data-path="daakaka-1.html"><a href="daakaka-1.html#details-153"><i class="fa fa-check"></i><b>5.3.1</b> Details</a></li>
-<li class="chapter" data-level="5.3.2" data-path="daakaka-1.html"><a href="daakaka-1.html#coding-153"><i class="fa fa-check"></i><b>5.3.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.4" data-path="duhumbi-1.html"><a href="duhumbi-1.html"><i class="fa fa-check"></i><b>5.4</b> Duhumbi</a>
-<ul>
-<li class="chapter" data-level="5.4.1" data-path="duhumbi-1.html"><a href="duhumbi-1.html#details-154"><i class="fa fa-check"></i><b>5.4.1</b> Details</a></li>
-<li class="chapter" data-level="5.4.2" data-path="duhumbi-1.html"><a href="duhumbi-1.html#coding-154"><i class="fa fa-check"></i><b>5.4.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.5" data-path="goemai-1.html"><a href="goemai-1.html"><i class="fa fa-check"></i><b>5.5</b> Goemai</a>
-<ul>
-<li class="chapter" data-level="5.5.1" data-path="goemai-1.html"><a href="goemai-1.html#details-155"><i class="fa fa-check"></i><b>5.5.1</b> Details</a></li>
-<li class="chapter" data-level="5.5.2" data-path="goemai-1.html"><a href="goemai-1.html#coding-155"><i class="fa fa-check"></i><b>5.5.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.6" data-path="highland-populuca-1.html"><a href="highland-populuca-1.html"><i class="fa fa-check"></i><b>5.6</b> Highland Populuca</a>
-<ul>
-<li class="chapter" data-level="5.6.1" data-path="highland-populuca-1.html"><a href="highland-populuca-1.html#details-156"><i class="fa fa-check"></i><b>5.6.1</b> Details</a></li>
-<li class="chapter" data-level="5.6.2" data-path="highland-populuca-1.html"><a href="highland-populuca-1.html#coding-156"><i class="fa fa-check"></i><b>5.6.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.7" data-path="mandarin-chinese-1.html"><a href="mandarin-chinese-1.html"><i class="fa fa-check"></i><b>5.7</b> Mandarin Chinese</a>
-<ul>
-<li class="chapter" data-level="5.7.1" data-path="mandarin-chinese-1.html"><a href="mandarin-chinese-1.html#details-157"><i class="fa fa-check"></i><b>5.7.1</b> Details</a></li>
-<li class="chapter" data-level="5.7.2" data-path="mandarin-chinese-1.html"><a href="mandarin-chinese-1.html#coding-157"><i class="fa fa-check"></i><b>5.7.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.8" data-path="mapudungun-1.html"><a href="mapudungun-1.html"><i class="fa fa-check"></i><b>5.8</b> Mapudungun</a>
-<ul>
-<li class="chapter" data-level="5.8.1" data-path="mapudungun-1.html"><a href="mapudungun-1.html#details-158"><i class="fa fa-check"></i><b>5.8.1</b> Details</a></li>
-<li class="chapter" data-level="5.8.2" data-path="mapudungun-1.html"><a href="mapudungun-1.html#coding-158"><i class="fa fa-check"></i><b>5.8.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.9" data-path="murrinhpatha-1.html"><a href="murrinhpatha-1.html"><i class="fa fa-check"></i><b>5.9</b> Murrinhpatha</a>
-<ul>
-<li class="chapter" data-level="5.9.1" data-path="murrinhpatha-1.html"><a href="murrinhpatha-1.html#details-159"><i class="fa fa-check"></i><b>5.9.1</b> Details</a></li>
-<li class="chapter" data-level="5.9.2" data-path="murrinhpatha-1.html"><a href="murrinhpatha-1.html#coding-159"><i class="fa fa-check"></i><b>5.9.2</b> Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="5.10" data-path="tondano-1.html"><a href="tondano-1.html"><i class="fa fa-check"></i><b>5.10</b> Tondano</a>
-<ul>
-<li class="chapter" data-level="5.10.1" data-path="tondano-1.html"><a href="tondano-1.html#details-160"><i class="fa fa-check"></i><b>5.10.1</b> Details</a></li>
-<li class="chapter" data-level="5.10.2" data-path="tondano-1.html"><a href="tondano-1.html#coding-160"><i class="fa fa-check"></i><b>5.10.2</b> Coding</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="discussion-and-results.html"><a href="discussion-and-results.html"><i class="fa fa-check"></i><b>6</b> Discussion and Results</a></li>
-<li class="chapter" data-level="7" data-path="implications.html"><a href="implications.html"><i class="fa fa-check"></i><b>7</b> Implications</a></li>
+<li class="chapter" data-level="5" data-path="discussion-and-results.html"><a href="discussion-and-results.html"><i class="fa fa-check"></i><b>5</b> Discussion and Results</a></li>
+<li class="chapter" data-level="6" data-path="implications.html"><a href="implications.html"><i class="fa fa-check"></i><b>6</b> Implications</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -1173,13 +1060,8 @@ In the case of SVCs without a clear head, neither verb root receives affixation,
 </div>
 <div id="examples-109" class="section level3 hasAnchor" number="4.110.3">
 <h3><span class="header-section-number">4.110.3</span> Examples<a href="pnar.html#examples-109" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ol start="6" class="example" style="list-style-type: decimal">
-<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 442, example 1090</li>
-</ol>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="pnar.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gloss_example</span>(<span class="at">transliteration =</span> <span class="st">&quot;he=i=pɔr daŋ ja-tʃɔŋ ha ka= palɔŋ kʰian ka= palɔŋ tdut aʔ kɔ ha ka=ni ka kdʒat ɔ&quot;</span>,</span>
-<span id="cb6-2"><a href="pnar.html#cb6-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">glosses =</span> <span class="st">&quot;LOC=NEUT=time PROG PLURACT-sit LOC FEM= bed be_small FEM= bed break cut NOM LOC FEM=PROX FEM= leg 1SG.NOM&quot;</span>,</span>
-<span id="cb6-3"><a href="pnar.html#cb6-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">free_translation =</span> <span class="st">&quot;once, while we were sitting on the small bed, suddenly the bed broke, cutting my leg&quot;</span>,</span>
-<span id="cb6-4"><a href="pnar.html#cb6-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">annotation =</span> <span class="st">&quot;heipor dang ya-chong ha ka palong khian ka palong tdut ah ko ha kani ka kjat o&quot;</span>)</span></code></pre></div>
+<ol start="224" class="example" style="list-style-type: decimal">
+<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 442, example 1090
 <table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
 <tbody>
 <tr>
@@ -1359,14 +1241,8 @@ leg
 </td>
 </tr>
 </tfoot>
-</table>
-<ol start="7" class="example" style="list-style-type: decimal">
-<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 445, example 1100</li>
-</ol>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="pnar.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gloss_example</span>(<span class="at">transliteration =</span> <span class="st">&quot;tɛ sɲiaw rɛm keʔ i ka= tʃɔŋ ka= tʰaw ŋut&quot;</span>,</span>
-<span id="cb7-2"><a href="pnar.html#cb7-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">glosses =</span> <span class="st">&quot;NVIS sense lose cry 1PL FEM= village FEM= place CL.HUM&quot;</span>,</span>
-<span id="cb7-3"><a href="pnar.html#cb7-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">free_translation =</span> <span class="st">&quot;so we felt disgraced, the people of the village&quot;</span>,</span>
-<span id="cb7-4"><a href="pnar.html#cb7-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">annotation =</span> <span class="st">&quot;tæ sñiaw ræm keih i ka chnong ka thaw ngut&quot;</span>)</span></code></pre></div>
+</table></li>
+<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 445, example 1100
 <table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
 <tbody>
 <tr>
@@ -1473,14 +1349,8 @@ place
 </td>
 </tr>
 </tfoot>
-</table>
-<ol start="8" class="example" style="list-style-type: decimal">
-<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 469, example 1171</li>
-</ol>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="pnar.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gloss_example</span>(<span class="at">transliteration =</span> <span class="st">&quot;ne=i=tɛ jeɲ laj li-lor ɔ&quot;</span>,</span>
-<span id="cb8-2"><a href="pnar.html#cb8-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">glosses =</span> <span class="st">&quot;ABL=NEUT=NVIS stand go DUR-plow 1SG.NOM&quot;</span>,</span>
-<span id="cb8-3"><a href="pnar.html#cb8-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">free_translation =</span> <span class="st">&quot;then I would stand and continue/begin plowing again&quot;</span>,</span>
-<span id="cb8-4"><a href="pnar.html#cb8-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">annotation =</span> <span class="st">&quot;neitæ yeñ lai liloor o&quot;</span>)</span></code></pre></div>
+</table></li>
+<li><span class="citation">Ring (<a href="#ref-ring2015" role="doc-biblioref">2015</a>)</span>, 469, example 1171
 <table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
 <tbody>
 <tr>
@@ -1542,7 +1412,8 @@ go
 </td>
 </tr>
 </tfoot>
-</table>
+</table></li>
+</ol>
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -1602,6 +1473,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

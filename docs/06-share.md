@@ -1,3 +1,0 @@
-# Acknowledgements {-}
-
-Here I'm going to write in funding acknowledgements and acknowledgements for those who have discussed this topic with me.

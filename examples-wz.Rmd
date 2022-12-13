@@ -6,25 +6,25 @@
 <!-- # ``` -->
 
 
-## Waigeo
-### Details
-Glottocode: waig1244 <br> 
-Family: Austronesian <br>
-Macroarea: Papunesia
+<!-- ## Waigeo -->
+<!-- ### Details -->
+<!-- Glottocode: waig1244 <br>  -->
+<!-- Family: Austronesian <br> -->
+<!-- Macroarea: Papunesia -->
 
-### Coding
-IU: 1 <br> Grouping: ? <br> Grammatical: 1
+<!-- ### Coding -->
+<!-- IU: 1 <br> Grouping: ? <br> Grammatical: 1 -->
 
-> Citation [@source2001]
+<!-- > Citation [@source2001] -->
 
-### Examples
+<!-- ### Examples -->
 
-(@language1) @source2001, pg, example 27
-```{r}
-gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:",
-             glosses = "downward NAME-DAT shout say-PST",
-             free_translation = "I shouted it down to Solo:bu.")
-```
+<!-- (@language1) @source2001, pg, example 27 -->
+<!-- ```{r} -->
+<!-- gloss_example(transliteration = "ko:dulu sulo:bo-mo: wElE sE:-ja:", -->
+<!--              glosses = "downward NAME-DAT shout say-PST", -->
+<!--              free_translation = "I shouted it down to Solo:bu.") -->
+<!-- ``` -->
 
 ## Waima'a
 ### Details
@@ -243,11 +243,11 @@ Macroarea: Eurasia
 ### Coding
 IU: 1 <br> Grouping: ? <br> Grammatical: 1
 
-> Modal and serial verb constructions are generally formed from the bare predicate root (although sometimes the root is nominalized) followed by an inflected verb which provides either modal information, or information about the manner of an action (which may be aspectual). ... Serial and modal constructions can be distinguished by the fact that modal constructions can be used in negative and interrogative clauses (see example 3.15 below), whereas serial verbs cannot (the simple inflectional form is used instead). [@owen-smith2015, 86]
+> Modal and serial verb constructions are generally formed from the bare predicate root (although sometimes the root is nominalized) followed by an inflected verb which provides either modal information, or information about the manner of an action (which may be aspectual). ... Serial and modal constructions can be distinguished by the fact that modal constructions can be used in negative and interrogative clauses (see example 3.15 below), whereas serial verbs cannot (the simple inflectional form is used instead). [@owen-smith2014, 86]
 
 ### Examples
 
-(@wtamang1) @owen-smith2015, 89, example 3.18
+(@wtamang1) @owen-smith2014, 89, example 3.18
 ```{r}
 gloss_example(transliteration = "2kon-na=no 3to: 1yu-cim",
              glosses = "nephew-PL=FOC arrive come_down-EXPER",

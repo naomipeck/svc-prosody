@@ -31,17 +31,12 @@ knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
 library(lingglosses)
 ```
 
-Serial verb constructions (SVCs) are commonly described as occurring within a single intonation unit (IU) following Givón 1991, leading to Himmelmann (2022) to assert that they are "IU-bounded constructions". However, as of yet, there is no empirical study exploring the prosodic realisation of SVCs. In this poster, I show results from a first study into the prosody of serial verb constructions, based on a sample of grammatical descriptions from 150 languages with verb serialisation, accompanied with examples from spoken corpora. I find that serial verb constructions do not necessarily need to obey a “One Intonation Unit” constraint.
+Serial verb constructions (SVCs) are commonly described as occurring within a single intonation unit (IU) following @givon1991, leading to @himmelmann2022 to assert that they are "IU-bounded constructions". However, as of yet, there is no empirical study exploring the prosodic realisation of SVCs. In this poster, I show results from a first study into the prosody of serial verb constructions, based on a sample of grammatical descriptions from 150 languages with verb serialisation, accompanied with examples from spoken corpora. I find that serial verb constructions do not necessarily need to obey a “One Intonation Unit” constraint.
 
 Initial evidence suggests that we cannot claim that all SVCs are IU-bounded. Himmelmann's claim presupposes that a) serial verb constructions are not grammatically robust, and that b) a serial verb construction will not be recognised as such when realised over multiple IUs. In fact, we find a mix of prosodically-dependent and prosodically-robust types across languages: while the majority of constructions appear to be IU-bounded, a number of constructions can be realised as prosodic groupings (prosodically-dependent constructions consisting of multiple IUs), and elsewhere SVCs can fulfil constituent tests typical of prosodically-robust, i.e. grammaticalised, constructions in other languages.
 
-It has been recognised for a while that the label of serial verb construction is used as an umbrella term for many different constructional subtypes (Foley 2010). My empirical investigation of the prosody of serial verb constructions shows similarly that the “single IU constraint” is not one-size-fits-all. 
+It has been recognised for a while that the label of serial verb construction is used as an umbrella term for many different constructional subtypes [@foley2010]. My empirical investigation of the prosody of serial verb constructions shows similarly that the “single IU constraint” is not one-size-fits-all. 
 
-Foley, William A. 2010. Events and serial verb constructions. In Mengistu Amberber, Brett Baker & Mark Harvey (eds.), Complex Predicates, 79–109. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9780511712234.005.
-
-Givón, Talmy. 1991. Some substantive issues concerning verb serialization: grammatical vs. cognitive packaging. In Claire Lefebvre (ed.), Serial Verbs: Grammatical, Comparative and Cognitive Approaches, 137–184. Amsterdam: John Benjamins.
-
-Himmelmann, Nikolaus P. 2022. Prosodic phrasing and the emergence of phrase structure. Linguistics. https://doi.org/10.1515/ling-2020-0135.
 
 <br><br>
 <div class="alert alert-warning">
@@ -49,9 +44,9 @@ Himmelmann, Nikolaus P. 2022. Prosodic phrasing and the emergence of phrase stru
 </div>
 
 
-<!-- ```{r include=FALSE} -->
-<!-- # automatically create a bib database for R packages -->
-<!-- knitr::write_bib(c( -->
-<!--   .packages(), 'bookdown', 'knitr', 'rmarkdown', 'lingglosses', 'lingtypology', 'tidyverse' -->
-<!-- ), 'packages.bib') -->
-<!-- ``` -->
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'lingglosses', 'lingtypology', 'tidyverse'
+), 'packages.bib')
+```

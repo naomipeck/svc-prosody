@@ -1,4 +1,4 @@
-# Discussion and Results
+# Discussion
 
 <!-- ```{r setup, include=FALSE} -->
 <!-- knitr::opts_chunk$set(echo = TRUE, cache = TRUE) -->
@@ -6,3 +6,26 @@
 
 Here I'm going to include some discussion about what I can observe from the data.
 
+Overall distribution
+-   IU > gram > group
+
+Gram Areal Patterns
+- W Africa
+- Near Oceania
+- N/S America?
+    - creoles with W African substrates
+
+Group Areal patterns
+- all in N Oceania
+- linked to clause-demarcating use of boundary tones? (cf. Matukar Panau)
+
+Structural patterns
+- grouping with 'core' level SVCs
+    - two IUs condensing into one?
+- different gram patterns in different areas
+    - constructional profile in N Oceania
+    - tests in W Africa
+- metatypy for gram?
+- narrative SVCs/juxtaposition as source construction
+- productivity varies between languages
+- prosodic word vs. prosodic phrase

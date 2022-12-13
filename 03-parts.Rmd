@@ -7,7 +7,15 @@ library(lingtypology)
 library(tidyverse)
 ```
 
-Here I'm going to include an overview of what data this poster is based on, including information about my coding.
+I manually coded 150 languages with serial verb constructions for the presence or absence of the three different construction types posed by @himmelmann2022: IU-bounded, prosodic groupings, and grammatical (prosodically-robust). This information was taken from grammatical descriptions, with additional inspection of audio data when available.
+
+All languages were assumed to be able to realise SVCs within single intonation units, due to the nature of an IU being the smallest realisation of a turn in interaction [@selting1996].
+
+Languages were judged to have prosodically-grouped SVCs if a serial verb construction was realised over two adjacent intonation units with a robust language-specific contour.
+
+Languages were judged to have prosodically robust SVCs based on a few kinds of evidence. The first set of evidence comes from grammatical diagnostic tests. If arguments could be extracted out of the SVC, the construction was considered as grammaticalised. Similarly, if separate verbs could be focussed, the construction was considered grammaticalised. The other type of evidence is constructional templates. For a SVC to be considered prosodically-robust under this condition, the SVC must have a distinct construction type in a given language which could not be construed as a different construction if a pause were to occur mid-construction.
+
+The distribution of construction possibilities across the data set can be seen in Figure (\@map).
 
 ```{r map}
 
@@ -30,6 +38,3 @@ map.feature(languages = mapping$language.y, features = mapping$coding)
 ```
 
 # Grammatical Descriptions
-
-
-

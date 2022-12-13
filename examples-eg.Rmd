@@ -25,7 +25,7 @@ gloss_example(transliteration = "Mo vatu na veveo mo rovo, mo vai na hinaga...",
              free_translation = "She finished weaving the weaving, and she made the food...")
 ```
 
-(@eambae1) @hyslop2001, 275, example 4
+(@eambae2) @hyslop2001, 275, example 4
 ```{r}
 gloss_example(transliteration = "Mo vatu na veveo, mo rovo, mo vai na hinaga...",
              glosses = "RL weave ACC weaving RL finish RL make ACC food",

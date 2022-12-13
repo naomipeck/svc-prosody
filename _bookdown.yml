@@ -16,7 +16,6 @@ rmd_files:
 - examples-ps.Rmd
 - examples-tu.Rmd
 - examples-wz.Rmd
-- corpus-data.Rmd
 - 04-citations.Rmd
 - 05-blocks.Rmd
 - 06-share.Rmd
