@@ -18,6 +18,11 @@ url: https\://naomipeck.github.io/svc-prosody/
 #  set in the _output.yml file.
 link-citations: yes
 #github-repo: rstudio/bookdown-demo
+nocite: |
+  @R-base
+  @R-lingglosses
+  @R-lingtypology
+  @R-lingtypR
 ---
 
 # Abstract {-}

@@ -15,7 +15,7 @@ Languages were judged to have prosodically-grouped SVCs if a serial verb constru
 
 Languages were judged to have prosodically robust SVCs based on a few kinds of evidence. The first set of evidence comes from grammatical diagnostic tests. If arguments could be extracted out of the SVC, the construction was considered as grammaticalised. Similarly, if separate verbs could be focussed, the construction was considered grammaticalised. The other type of evidence is constructional templates. For a SVC to be considered prosodically-robust under this condition, the SVC must have a distinct construction type in a given language which could not be construed as a different construction if a pause were to occur mid-construction.
 
-The distribution of construction possibilities across the data set can be seen in Figure \@(#map).
+The distribution of construction possibilities across the data set can be seen in Figure \@(fig:map).
 
 ```{r map}
 

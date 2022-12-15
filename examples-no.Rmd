@@ -142,16 +142,18 @@ Note that there is no suffix associated with the Perfective Present [@kutschloje
 
 ### Examples
 
+Please note that not all diacritics could be rendered faithfully and that the original source should be consulted.
+
 (@ngiti1) @kutschlojenga1994, 224
 ```{r}
-gloss_example(transliteration = "ma m-òzè m-ozò kÀpÙ",
+gloss_example(transliteration = "ma m-òzè m-ozò kapʉ̀",
              glosses = "1SG 1SG-want:PFV.PRS 1SG-plant:PFV.PRS bean",
              free_translation = "I want to plant beans.")
 ```
 
 (@ngiti1) @kutschlojenga1994, 380
 ```{r}
-gloss_example(transliteration = "k`-òzè ná nd`-ÒnyÙ tsìtsì",
+gloss_example(transliteration = "k-òzè ná nd-ɔ̀nyʉ̀ tsìtsì",
              glosses = "3SG-want.PFV.PRS Q 3SG.LOG-eat:PFV.PRS banana",
              free_translation = "Does he want to eat a banana?",
              annotation = "kòzè ná ndÒnyÙ tsìtsì?")

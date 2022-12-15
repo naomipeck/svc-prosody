@@ -307,9 +307,9 @@ gloss_example(transliteration = "Ke=nou=si o dia hiyou=ye ha i.",
 
 (@konai2) @arsjo2016, 143, example 763
 ```{r}
-gloss_example(transliteration = "awa dio ... mou-ma hagua=sige fele-ga-i.",
+gloss_example(transliteration = "awa dio... mou-ma hagua=sige fele-ga-i.",
              glosses = "black_palm bone get-put come-DU/PL come_up-DU/PL-NFUT",
-             free_translation = "plenty of people ... brought lots of black palm strips")
+             free_translation = "plenty of people... brought lots of black palm strips")
 ```
 
 <!-- ## Korowai -->

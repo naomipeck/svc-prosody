@@ -8,7 +8,7 @@ The overall tendencies seen in the results of this study align with the hypothes
 No language description mentioned that serial verb constructions could not be realised in a single intonation unit.^[The data here is obviously influenced by the original assumption made in the literature. I would hazard that information packaging also plays a large role here [cf. @himmelmann2013].] 
 As such, we can conclude that all serial verb constructions *can* be realised in a single intonation unit.
 
-My original question, however, was whether *all* serial verb constructions are realised in a single intonation unit. 
+However, the following question still remains: are *all* serial verb constructions are realised in a single intonation unit? 
 The hypothesis made by @himmelmann2022 was that serial verb constructions are IU-bounded constructions, i.e. that they *must* be realised in a single intonation unit as a prosody-dependent construction.
 The data suggest that this is not the case in every language.
 29 languages out of the 150 languages surveyed (~19.3%) had constructions which meet Himmelmann's definition of a prosodically-robust construction.
@@ -23,7 +23,7 @@ The distribution of grammatical constructions has clear areal tendencies. The ma
 
 Western African languages such as [Yoruba](\@(#yoruba)) or [Ewe](\@(#ewe)) pass constituency tests typical of grammatical constructions, such as focussing or extraction. 
 Notably, two of the languages in Central America with grammatical SVCs are creoles (Saramaccan and Jamaican Creole English) which also allow for separate focussing of verbs through predicate clefting. 
-Both of these languages have documented West African substrates with grammatical serial verb constructions  [@kramer2002; @patrick 2008].
+Both of these languages have documented West African substrates with grammatical serial verb constructions  [@kramer2002; @patrick2008].
 
 In Near Oceania, prosodically-robust serial verb constructions typically shared a similar constructional template. 
 This template consists of concatenated bare verb roots followed by a verb root which carries all relevant marking.
@@ -32,7 +32,7 @@ Some descriptions mention the possibility of pauses between roots (e.g. [Kalam](
 ### Prosodically Grouped SVCs
 
 All examples of prosodically-grouped serial verb constructions come from Near Oceania. It is unclear whether this reflects a true areal pattern or simply a descriptive bias.
-It is also unclear if this distribution could be tied to areal intonation patterns, largely due to a lack of documentation and comparative work [@himmelmannkaufmann2020].^[A number of language-specific descriptions posit H% boundary tones, which could form an areal pattern, e.g. in Matukar Panau [@mansfieldbarth2021], Daakaka [@vonprince2012] and Kéo [@baird2002].]
+It is also unclear if this distribution could be tied to areal intonation patterns, largely due to a lack of documentation and comparative work [@himmelmannkaufman2020].^[A number of language-specific descriptions posit H% boundary tones, which could form an areal pattern, e.g. in Matukar Panau [@mansfieldbarth2021], Daakaka [@vonprince2012] and Kéo [@baird2002].]
 
 ### Single Word SVCs
 
@@ -50,4 +50,4 @@ No nuclear serial verb constructions were used in the explication of multi-IU co
 
 ### Juxtaposition as Source Construction
 
-Data from a number of languages show links between clausal juxtaposition and serial verb constructions. This link may explain the use of SVCs as a discourse-summarising device, particularly the 'narrative' SVC type [@pawley1987; @vanstadenreesink2004]. Further investigation into the potential correlation of formal marking strategies or information packaging tendencies with this type would help to ascertain whether this is a robust grammaticalisation pathway.
+Data from a number of languages show links between clausal juxtaposition and serial verb constructions. This link may explain the use of SVCs as a discourse-summarising device, particularly the 'narrative' SVC type [@pawley1987; @vanstadenreesink2008]. Further investigation into the potential correlation of formal marking strategies or information packaging tendencies with this type would help to ascertain whether this is a robust grammaticalisation pathway.

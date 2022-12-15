@@ -23,7 +23,7 @@
 <meta name="author" content="Naomi Peck" />
 
 
-<meta name="date" content="2022-12-13" />
+<meta name="date" content="2022-12-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,18 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -94,15 +106,16 @@ div.csl-indent {
 <li><a href="./">Are all serial verbs realised in a single intonation unit?</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> cover-image: path to the social sharing image like images/cover.jpg</a></li>
-<li class="chapter" data-level="2" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>2</b> Definitions</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="1" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>1</b> Definitions</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>2.1</b> Serial Verb Construction</a></li>
-<li class="chapter" data-level="2.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>2.2</b> Intonation Unit</a></li>
-<li class="chapter" data-level="2.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>2.3</b> “One Intonation Unit” constraint</a></li>
+<li class="chapter" data-level="1.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>1.1</b> Serial Verb Construction</a></li>
+<li class="chapter" data-level="1.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>1.2</b> Intonation Unit</a></li>
+<li class="chapter" data-level="1.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>1.3</b> “One Intonation Unit” constraint</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>3</b> Background</a></li>
-<li class="chapter" data-level="4" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>4</b> Overview of Data</a>
+<li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> Background</a></li>
+<li class="chapter" data-level="3" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>3</b> Overview of Data</a></li>
+<li class="chapter" data-level="4" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>4</b> Data</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="abun.html"><a href="abun.html"><i class="fa fa-check"></i><b>4.1</b> Abun</a>
 <ul>
@@ -1011,12 +1024,16 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="5.1.1" data-path="areal-patterns.html"><a href="areal-patterns.html#prosodically-robust-grammatical-svcs"><i class="fa fa-check"></i><b>5.1.1</b> Prosodically Robust (Grammatical) SVCs</a></li>
 <li class="chapter" data-level="5.1.2" data-path="areal-patterns.html"><a href="areal-patterns.html#prosodically-grouped-svcs"><i class="fa fa-check"></i><b>5.1.2</b> Prosodically Grouped SVCs</a></li>
+<li class="chapter" data-level="5.1.3" data-path="areal-patterns.html"><a href="areal-patterns.html#single-word-svcs"><i class="fa fa-check"></i><b>5.1.3</b> Single Word SVCs</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="structural-patterns.html"><a href="structural-patterns.html"><i class="fa fa-check"></i><b>5.2</b> Structural Patterns</a></li>
+<li class="chapter" data-level="5.2" data-path="structural-patterns.html"><a href="structural-patterns.html"><i class="fa fa-check"></i><b>5.2</b> Structural Patterns</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="structural-patterns.html"><a href="structural-patterns.html#prosodically-grouped-svcs-1"><i class="fa fa-check"></i><b>5.2.1</b> Prosodically Grouped SVCs</a></li>
+<li class="chapter" data-level="5.2.2" data-path="structural-patterns.html"><a href="structural-patterns.html#juxtaposition-as-source-construction"><i class="fa fa-check"></i><b>5.2.2</b> Juxtaposition as Source Construction</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="implications.html"><a href="implications.html"><i class="fa fa-check"></i><b>6</b> Implications</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>6</b> Conclusions</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
-<li class="chapter" data-level="" data-path="abbreviations.html"><a href="abbreviations.html"><i class="fa fa-check"></i>Abbreviations</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -1042,26 +1059,52 @@ div.csl-indent {
 <h2><span class="header-section-number">5.1</span> Areal Patterns<a href="areal-patterns.html#areal-patterns" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="prosodically-robust-grammatical-svcs" class="section level3 hasAnchor" number="5.1.1">
 <h3><span class="header-section-number">5.1.1</span> Prosodically Robust (Grammatical) SVCs<a href="areal-patterns.html#prosodically-robust-grammatical-svcs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The distribution of grammatical constructions has clear areal tendencies. The majority of languages with this type of construction are found in West Africa or Near Oceania, with a number also found in Central America and other parts of Africa. Notably, the reasons for which a construction was classified as grammatical differ between these areas.</p>
+<p>The distribution of grammatical constructions has clear areal tendencies. The majority of languages with this type of construction are found in West Africa or Near Oceania, with a number also found in Central America and other parts of Africa. The reasons for which a construction was classified as grammatical differ between these areas.</p>
 <p>Western African languages such as <a href="@(#yoruba)">Yoruba</a> or <a href="@(#ewe)">Ewe</a> pass constituency tests typical of grammatical constructions, such as focussing or extraction.
 Notably, two of the languages in Central America with grammatical SVCs are creoles (Saramaccan and Jamaican Creole English) which also allow for separate focussing of verbs through predicate clefting.
-Both of these languages have documented substrates from West Africa with grammatical serial verb constructions <span class="citation">(<a href="#ref-kramer2002" role="doc-biblioref"><strong>kramer2002?</strong></a>; <a href="#ref-patrick2008" role="doc-biblioref">Patrick 2008</a>)</span>.</p>
-<p>In Near Oceania, prosodically-robust serial verb constructions typically conformed to a similar constructional template.
-This template consists of concatenated bare verb roots followed by a verb root which takes all relevant marking.
-Some descriptions mention the possibility of pauses between roots (e.g. <a href="@(#kalam)">Kalam</a> and ), which evidence the prosodically-robust nature of these constructions.</p>
+Both of these languages have documented West African substrates with grammatical serial verb constructions <span class="citation">(<a href="#ref-kramer2002" role="doc-biblioref">Kramer 2002</a>; <a href="#ref-patrick2008" role="doc-biblioref">Patrick 2008</a>)</span>.</p>
+<p>In Near Oceania, prosodically-robust serial verb constructions typically shared a similar constructional template.
+This template consists of concatenated bare verb roots followed by a verb root which carries all relevant marking.
+Some descriptions mention the possibility of pauses between roots (e.g. <a href="@(#kalam)">Kalam</a> and <a href="@(#maybrat-karon)">Maybrat-Karon</a>, which help support the analysis of these constructions as prosodically robust.</p>
 </div>
 <div id="prosodically-grouped-svcs" class="section level3 hasAnchor" number="5.1.2">
 <h3><span class="header-section-number">5.1.2</span> Prosodically Grouped SVCs<a href="areal-patterns.html#prosodically-grouped-svcs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Group Areal patterns
-- all in N Oceania
-- linked to clause-demarcating use of boundary tones? (cf. Matukar Panau)</p>
+<p>All examples of prosodically-grouped serial verb constructions come from Near Oceania. It is unclear whether this reflects a true areal pattern or simply a descriptive bias.
+It is also unclear if this distribution could be tied to areal intonation patterns, largely due to a lack of documentation and comparative work <span class="citation">(<a href="#ref-himmelmannkaufman2020" role="doc-biblioref">Nikolaus P. Himmelmann and Kaufman 2020</a>)</span>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+</div>
+<div id="single-word-svcs" class="section level3 hasAnchor" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Single Word SVCs<a href="areal-patterns.html#single-word-svcs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A potentially important areal generalisation the tendency for SVCs to be realised as single words in the Americas.
+In many cases, the word features both left- and right-edge phenomena, thus making these constructions good candidates to be prosodically-robust. However, it is yet unclear to what extent these are treated as words in discourse with regards to e.g. repair processes.
+If repair processes result most often in the restart of the whole word, then these SVCs would also be classified as IU-bounded construction type despite a distinct constructional profile.</p>
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-baird2002" class="csl-entry">
+Baird, Louise. 2002. <span>“A Grammar of <span>Kéo</span>: <span>An Austronesian</span> Language of <span>East Nusantara</span>.”</span> PhD thesis, <span>Canberra</span>: The Australian National University.
+</div>
+<div id="ref-himmelmannkaufman2020" class="csl-entry">
+Himmelmann, Nikolaus P, and Daniel Kaufman. 2020. <span>“Prosodic Systems: <span>Austronesian</span>.”</span> In <em>The <span>Oxford Handbook</span> of <span>Language Prosody</span></em>, edited by Carlos Gussenhoven and Aoju Chen, 369–80. <span>Oxford</span>: <span>Oxford University Press</span>.
+</div>
+<div id="ref-kramer2002" class="csl-entry">
+Kramer, Marvin. 2002. <span>“Substrate Transfer in <span>Saramaccan Creole</span>.”</span> PhD thesis, <span>Berkeley</span>: University of California, Berkeley.
+</div>
+<div id="ref-mansfieldbarth2021" class="csl-entry">
+Mansfield, John, and Danielle Barth. 2021. <span>“Clause Chaining and the Utterance Phrase: <span>Syntax</span>prosody Mapping in <span>Matukar Panau</span>.”</span> <em>Open Linguistics</em> 7 (1): 423–47. <a href="https://doi.org/gmbg5z">https://doi.org/gmbg5z</a>.
+</div>
 <div id="ref-patrick2008" class="csl-entry">
 Patrick, Peter L. 2008. <span>“Jamaican <span>Creole</span>: Morphology and Syntax.”</span> In <em>The <span>Americas</span> and the <span>Caribbean</span></em>, edited by Bernd Kortmann and Edgar W. Schneider, 609–44. <span>Mouton de Gruyter</span>. <a href="https://doi.org/10.1515/9783110208405.2.609">https://doi.org/10.1515/9783110208405.2.609</a>.
 </div>
+<div id="ref-vonprince2012" class="csl-entry">
+von Prince, Kilu. 2012. <span>“A <span>Grammar</span> of <span>Daakaka</span>.”</span> PhD thesis, <span>Berlin</span>: Humboldt-Universität zu Berlin.
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="3">
+<li id="fn3"><p>A number of language-specific descriptions posit H% boundary tones, which could form an areal pattern, e.g. in Matukar Panau <span class="citation">(<a href="#ref-mansfieldbarth2021" role="doc-biblioref">Mansfield and Barth 2021</a>)</span>, Daakaka <span class="citation">(<a href="#ref-vonprince2012" role="doc-biblioref">von Prince 2012</a>)</span> and Kéo <span class="citation">(<a href="#ref-baird2002" role="doc-biblioref">Baird 2002</a>)</span>.<a href="areal-patterns.html#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
@@ -1114,6 +1157,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

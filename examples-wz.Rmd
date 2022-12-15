@@ -459,7 +459,7 @@ Note that the glosses were not originally provided by the authors of the text.
 (@ymaya1) @bollesbolles2014, 113, section 108
 ```{r}
 gloss_example(transliteration = "Yan in hokol in caxte in uooch.",
-             glosses = "have_to 1SG go_out 1SG gather 1SG ",
+             glosses = "have_to 1SG go_out 1SG gather 1SG food",
              free_translation = "I have to go out to gather my food.")
 ```
 

@@ -295,8 +295,6 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 
 ### Examples
 
-Note here that pauses are stylised as \</\>.
-
 (@maybrat1) @dol2007, 213, example 124a
 ```{r}
 gloss_example(transliteration = "m-amo m-ate ayà /",
@@ -539,7 +537,7 @@ gloss_example(transliteration = "bú mà ú-tőm ə̀` dô kwàha",
 ```
 
 (@mungbam3) @lovegren2013, 350, example 11.32
-```{r}
+```{r, results='asis'}
 gloss_example(transliteration = "ŋ́kɛ̀ wɔ̀ wū à jɛ́lə̀ kì fa̋-ŋkɔ̀nə, wà tò pì tâ m̀-pì-nə̀",
              glosses = "as CL1.child CL1.DET EXPL.SBJ ascend.IRR IPFV CL16-compound CL1.SBJ come.IRR die.IRR only CL1.INF-die-INF",
              free_translation = "As the child came up into the compound, he would just come and *die*.")

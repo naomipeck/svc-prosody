@@ -23,7 +23,7 @@
 <meta name="author" content="Naomi Peck" />
 
 
-<meta name="date" content="2022-12-13" />
+<meta name="date" content="2022-12-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,18 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -94,15 +106,16 @@ div.csl-indent {
 <li><a href="./">Are all serial verbs realised in a single intonation unit?</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> cover-image: path to the social sharing image like images/cover.jpg</a></li>
-<li class="chapter" data-level="2" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>2</b> Definitions</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="1" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>1</b> Definitions</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>2.1</b> Serial Verb Construction</a></li>
-<li class="chapter" data-level="2.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>2.2</b> Intonation Unit</a></li>
-<li class="chapter" data-level="2.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>2.3</b> “One Intonation Unit” constraint</a></li>
+<li class="chapter" data-level="1.1" data-path="serial-verb-construction.html"><a href="serial-verb-construction.html"><i class="fa fa-check"></i><b>1.1</b> Serial Verb Construction</a></li>
+<li class="chapter" data-level="1.2" data-path="intonation-unit.html"><a href="intonation-unit.html"><i class="fa fa-check"></i><b>1.2</b> Intonation Unit</a></li>
+<li class="chapter" data-level="1.3" data-path="one-intonation-unit-constraint.html"><a href="one-intonation-unit-constraint.html"><i class="fa fa-check"></i><b>1.3</b> “One Intonation Unit” constraint</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>3</b> Background</a></li>
-<li class="chapter" data-level="4" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>4</b> Overview of Data</a>
+<li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> Background</a></li>
+<li class="chapter" data-level="3" data-path="overview-of-data.html"><a href="overview-of-data.html"><i class="fa fa-check"></i><b>3</b> Overview of Data</a></li>
+<li class="chapter" data-level="4" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>4</b> Data</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="abun.html"><a href="abun.html"><i class="fa fa-check"></i><b>4.1</b> Abun</a>
 <ul>
@@ -1011,12 +1024,16 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="5.1.1" data-path="areal-patterns.html"><a href="areal-patterns.html#prosodically-robust-grammatical-svcs"><i class="fa fa-check"></i><b>5.1.1</b> Prosodically Robust (Grammatical) SVCs</a></li>
 <li class="chapter" data-level="5.1.2" data-path="areal-patterns.html"><a href="areal-patterns.html#prosodically-grouped-svcs"><i class="fa fa-check"></i><b>5.1.2</b> Prosodically Grouped SVCs</a></li>
+<li class="chapter" data-level="5.1.3" data-path="areal-patterns.html"><a href="areal-patterns.html#single-word-svcs"><i class="fa fa-check"></i><b>5.1.3</b> Single Word SVCs</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="structural-patterns.html"><a href="structural-patterns.html"><i class="fa fa-check"></i><b>5.2</b> Structural Patterns</a></li>
+<li class="chapter" data-level="5.2" data-path="structural-patterns.html"><a href="structural-patterns.html"><i class="fa fa-check"></i><b>5.2</b> Structural Patterns</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="structural-patterns.html"><a href="structural-patterns.html#prosodically-grouped-svcs-1"><i class="fa fa-check"></i><b>5.2.1</b> Prosodically Grouped SVCs</a></li>
+<li class="chapter" data-level="5.2.2" data-path="structural-patterns.html"><a href="structural-patterns.html#juxtaposition-as-source-construction"><i class="fa fa-check"></i><b>5.2.2</b> Juxtaposition as Source Construction</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="implications.html"><a href="implications.html"><i class="fa fa-check"></i><b>6</b> Implications</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>6</b> Conclusions</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
-<li class="chapter" data-level="" data-path="abbreviations.html"><a href="abbreviations.html"><i class="fa fa-check"></i>Abbreviations</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -1043,11 +1060,11 @@ div.csl-indent {
 <!-- ```{r setup, include=FALSE} -->
 <!-- knitr::opts_chunk$set(echo = TRUE, cache = TRUE) -->
 <!-- ``` -->
-<p>The overall tendencies seen in the results of this study align with the hypotheses made in <span class="citation">Givón (<a href="#ref-givon1991" role="doc-biblioref">1991</a>)</span> and <span class="citation">Himmelmann (<a href="#ref-himmelmann2022" role="doc-biblioref">2022</a>)</span>.
-No language description mentioned that serial verb constructions could not be realised in a single intonation unit.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+<p>The overall tendencies seen in the results of this study align with the hypotheses made in <span class="citation">Givón (<a href="#ref-givon1991" role="doc-biblioref">1991</a>)</span> and <span class="citation">Nikolaus P. Himmelmann (<a href="#ref-himmelmann2022" role="doc-biblioref">2022</a>)</span>.
+No language description mentioned that serial verb constructions could not be realised in a single intonation unit.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
 As such, we can conclude that all serial verb constructions <em>can</em> be realised in a single intonation unit.</p>
-<p>My original question, however, was whether <em>all</em> serial verb constructions are realised in a single intonation unit.
-The hypothesis made by <span class="citation">Himmelmann (<a href="#ref-himmelmann2022" role="doc-biblioref">2022</a>)</span> was that serial verb constructions are IU-bounded constructions, i.e. that they <em>must</em> be realised in a single intonation unit as a prosody-dependent construction.
+<p>However, the following question still remains: are <em>all</em> serial verb constructions are realised in a single intonation unit?
+The hypothesis made by <span class="citation">Nikolaus P. Himmelmann (<a href="#ref-himmelmann2022" role="doc-biblioref">2022</a>)</span> was that serial verb constructions are IU-bounded constructions, i.e. that they <em>must</em> be realised in a single intonation unit as a prosody-dependent construction.
 The data suggest that this is not the case in every language.
 29 languages out of the 150 languages surveyed (~19.3%) had constructions which meet Himmelmann’s definition of a prosodically-robust construction.
 A further 4 languages (~2.7%) had prosodically-dependent constructions which are realised over multiple intonation units, i.e. prosodic groupings.
@@ -1067,8 +1084,8 @@ Himmelmann, Nikolaus P. 2013. <span>“Some Observations on Clausehood and Event
 </div>
 <div class="footnotes">
 <hr />
-<ol start="1">
-<li id="fn1"><p>The data here is obviously influenced by the original assumption made in the literature. I would hazard that information packaging also plays a large role here <span class="citation">(cf. <a href="#ref-himmelmann2013" role="doc-biblioref">Himmelmann 2013</a>)</span>.<a href="discussion.html#fnref1" class="footnote-back">↩︎</a></p></li>
+<ol start="2">
+<li id="fn2"><p>The data here is obviously influenced by the original assumption made in the literature. I would hazard that information packaging also plays a large role here <span class="citation">(cf. <a href="#ref-himmelmann2013" role="doc-biblioref">Nikolaus P. Himmelmann 2013</a>)</span>.<a href="discussion.html#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -1122,6 +1139,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
