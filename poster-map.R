@@ -23,7 +23,7 @@ distinct <- countries %>%
   group_by(macroarea.x)
 
 typr_mapping <- typr_full %>%
-  subset(select = c(language, glottocode, iu, grouping, grammatical, latitude, longitude))
+  subset(select = c(language.y, glottocode, iu, grouping, grammatical, latitude, longitude))
 summary(typr_mapping)
 
 make_map(data = typr_mapping, feature = "grouping", legend = TRUE)

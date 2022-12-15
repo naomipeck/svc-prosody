@@ -75,16 +75,16 @@ IU: 1 <br> Grouping: ? <br> Grammatical: ?
 
 (@bangime1) @hantgan2013, 370, line 1
 ```{r}
-gloss_example(transliteration = "bàráá-mi=ndÈ wò jàg-ú-H nààmàà=jàà=ndÉ ng kí náà-H",
+gloss_example(transliteration = "bàráá-mi=ndɛ̀ wò jàg-ú-H nààmàà=jàà=ndɛ́ ng kí náà-H",
              glosses = "Baraa-people=PL go cut-PRF-3 1PL.POSS=child=PL 1/3 ADP wilderness-3",
              free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
 ```
 
 (@bangime2) @hantgan2013, 367, line 3
 ```{r}
-gloss_example(transliteration = "níì kóÓ n wó ng káárà-L péVÉ-rè bíé níì ng káràà-L",
+gloss_example(transliteration = "níì kóɔ́ n wó ŋ káárà-L péʋɛ́-rè bíé níì ŋ káràà-L",
              glosses = "3PL COMPL 1/3 go TR find-3 wind-LNK NEG 3PL TR obtain-3",
-             free_translation = "The people of Baraa went [and] attacked our children [in the] wilderness.")
+             free_translation = "They went [and] they found [the] wind does not get them (the place was not breezy enough).")
 ```
 
 

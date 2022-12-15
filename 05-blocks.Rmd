@@ -1,23 +1,8 @@
-# Implications
+# Conclusions
 
-Here I'm going to write about what the outcomes of my study are and what this means more broadly for the field.
+This first exploratory study shows that while all SVCs can be realised in single intonation units, this is a tendency rather than a rule. Serial verb constructions in certain languages can be realised over multiple intonation units, either as a prosodically-dependent construction (a prosodic grouping) or as a prosodically-robust construction (grammatical).
+The distribution of multiple-IU SVCs appears to be areal, with prosodically robust constructions present in Western Africa and Near Oceania, each with a distinct constructional profile. Prosodic groupings only occurred in Near Oceania and appear to be limited to core SVCs.
 
-- not all SVCs need to be realised in single intonation units
-    - tendency rather than a rule
-    - bc many constructions are discourse-dependent
-- different profiles of SVCs in different areas of the world
-    - robust constructions in W Africa
-    - templatic construction in N Oceania
-    - prosodic groupings in N Oceania
-    - word-level constructions in Americas
-- difference between nuclear and core constructions?
-    - grouping only for core
+A number of questions remain in relation to the prosodic realisation of serial verb constructions. Firstly, it is not clear how discourse-dependent serial verb constructions are. Further investigation into how information packaging patterns map with regards to serial verb constructions would help to elucidate if SVCs are IU-bounded on a language-specific level. It is also not clear what role pausing and intonation play in signalling the presence or absence of a serial verb construction, and what this means in terms of how 'eventhood' is construed. Finally, understanding how features of spontaneous discourse such as hesitation or repairs interact with the realisation of serial verb constructions will help in the further classification of verb serialisation as prosodically-dependent or not.
 
-yet unclear
-- how pausing/hesitation/repairs interact with word-level phenomena
-- how much pausing can be tolerated - gradient?
-- role of intonation (contours) in signalling a construction
-- to what extent are constructions discourse-dependent
-- corpus searches
-- psychological reality
-- role of areality/contact
+This study will be further extended in the near future to cover a number of other open issues. A qualitative investigation of open access corpora for serial verb constructions will provide a first perspective on how discourse dependent serial verb constructions may be. Increased coverage of serial verb constructions in Africa and Papunesia in particular will lead to further insights about the potential role of areality and contact for the prosodic status of serial verb constructions.

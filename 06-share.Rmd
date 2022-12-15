@@ -5,3 +5,9 @@ Thank you to those who have engaged with me on this topic, notably Uta Reinöhl,
 Thank you also to those who have helped me refine my poster and my presentation over the past few months: the HPSL Day organising team, Kirsten Culhane, Matías Guzmán Naranjo, and George Moroz.
 
 This research was supported by Deutsche Forschungsgemeinschaft (DFG) Project number 406074683, Emmy Noether-Gruppe "Non-hierarchicality in grammar: Construction formation without word class distinction across categories and languages".
+
+# Abbreviations {-}
+
+```{r}
+make_gloss_list(all_possible_variants = TRUE)
+```

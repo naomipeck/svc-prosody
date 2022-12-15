@@ -300,14 +300,14 @@ Note here that pauses are stylised as \</\>.
 (@maybrat1) @dol2007, 213, example 124a
 ```{r}
 gloss_example(transliteration = "m-amo m-ate ayà /",
-             glosses = "3.UV-go 3.UV-go_under water {}",
+             glosses = "3.UV-go 3.UV-go_under water (pause)",
              free_translation = "She goes and bathes.")
 ```
 
 (@maybrat2) @dol2007, 213, example 124b
 ```{r}
 gloss_example(transliteration = "m-amo / m-ate ayà /",
-             glosses = "3.UV-go {} 3.UV-go_under water {}",
+             glosses = "3.UV-go (pause) 3.UV-go_under water (pause)",
              free_translation = "She goes, and bathes.")
 ```
 

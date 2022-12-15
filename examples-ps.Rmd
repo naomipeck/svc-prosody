@@ -447,7 +447,7 @@ IU: 1 <br> Grouping: 0 <br> Grammatical: 1
 ### Examples
 
 (@savosavo1) @wegener2012, 187, example 359
-```{r}
+```{r, results='asis'}
 gloss_example(transliteration = "Kati=ze ata lo japani=gha=na l-olomi bo bomu-li ta-i.",
              glosses = "CERT=3PL here 3SG.MASC Japanese=PL=NOM 3SG.MASC.OBJ-know go bomb-3SG.MASC.OBJ FUT-FIN",
              free_translation = "Later the Japanese here will know it, go, and bomb it.")

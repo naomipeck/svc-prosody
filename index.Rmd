@@ -9,8 +9,6 @@ output:
   bookdown::gitbook:
     split_bib: true
     split_by: section
-#    toc:
-#      collapse: section
 bibliography: [book.bib, packages.bib, references.bib]
 url: https\://naomipeck.github.io/svc-prosody/
 # cover-image: path to the social sharing image like images/cover.jpg
